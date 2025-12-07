@@ -187,32 +187,32 @@
 
 ---
 
-## Phase 6: User Story 4 - Learn About Greco Concept (Priority: P4)
+## Phase 6: User Story 4 - Learn About Greco Concept (Priority: P4) ✅
 
 **Goal**: Provide educational content explaining the Greco unit, basket composition, data sources, and methodology
 
 **Independent Test**: Navigate to /about page → Verify Tom Greco's concept explained with citations → Navigate to /about/methodology → Verify 32 commodities listed with categories and weights → View calculation examples → Navigate to /about/sources → Verify complete data source citations with links
 
-### US4 Content Creation
+### US4 Content Creation ✅
 
-- [ ] T079 [P] [US4] Write about page content explaining Greco unit concept (Tom Greco's theory, basket of goods approach, purchasing power measurement)
-- [ ] T080 [P] [US4] Write methodology page content (32 commodities list, weighting rationale, calculation steps with examples)
-- [ ] T081 [P] [US4] Write data sources page content (complete citations for all sources, links to primary sources)
+- [x] T079 [P] [US4] Write about page content explaining Greco unit concept (Tom Greco's theory, basket of goods approach, purchasing power measurement)
+- [x] T080 [P] [US4] Write methodology page content (32 commodities list organized by 6 categories, weighting rationale, calculation steps with examples)
+- [x] T081 [P] [US4] Write data sources page content (complete citations for all sources, links to primary sources: USGS, FRED, USDA, etc.)
 
-### US4 Pages
+### US4 Pages ✅
 
-- [ ] T082 [US4] Create about page in `src/app/about/page.tsx` with Greco unit explanation and citations to "The End of Money and the Future of Civilization" (2009)
-- [ ] T083 [US4] Create methodology page in `src/app/about/methodology/page.tsx` with basket composition table (32 commodities organized by 6 categories)
-- [ ] T084 [US4] Create data sources page in `src/app/about/sources/page.tsx` with complete bibliographic citations
-- [ ] T085 [US4] Add visual aids: basket composition chart/diagram showing 32 items grouped by category
+- [x] T082 [US4] Create about page in `src/app/about/page.tsx` with Greco unit explanation and citations to "The End of Money and the Future of Civilization" (2009)
+- [x] T083 [US4] Create methodology page in `src/app/about/methodology/page.tsx` with basket composition table (32 commodities organized by 6 categories, calculation steps)
+- [x] T084 [US4] Create data sources page in `src/app/about/sources/page.tsx` with complete bibliographic citations and data quality indicators
+- [x] T085 [US4] Add visual aids: basket composition tables showing 32 items grouped by 6 categories with percentages
 
-### US4 Integration
+### US4 Integration ✅
 
-- [ ] T086 [US4] Update navigation in Header component with "About" dropdown menu (About Greco Unit, Methodology, Data Sources)
-- [ ] T087 [US4] Add contextual help tooltips throughout the app linking to relevant about pages
-- [ ] T088 [US4] Implement "Learn More" links in chart explanatory text (US1) pointing to /about pages
+- [x] T086 [US4] Update navigation in Header component with hover dropdown menu (About Greco Unit, Methodology, Data Sources) with descriptions
+- [x] T087 [US4] Add contextual help via title attributes on navigation links describing what each page offers
+- [x] T088 [US4] Implement "Learn More" links in about pages pointing to related sections (methodology ↔ sources ↔ data page)
 
-**Checkpoint**: User Story 4 complete - users can understand the Greco unit concept, basket composition, and data provenance
+**Checkpoint**: ✅ User Story 4 complete - users can understand the Greco unit concept, basket composition, and data provenance
 
 ---
 
@@ -392,9 +392,9 @@ Task T048: "Optimize chart performance for <500ms interaction"
 | Phase 3: US1 (P1) | 13 | 3 [P] | 1-2 days | ✅ Complete |
 | Phase 4: US2 (P2) | 12 | 3 [P] | 1-1.5 days | ✅ Complete |
 | Phase 5: US3 (P3) | 18 | 6 [P] | 2 days | ✅ Complete |
-| Phase 6: US4 (P4) | 10 | 5 [P] | 1 day | 🔄 Ready |
+| Phase 6: US4 (P4) | 10 | 5 [P] | 1 day | ✅ Complete |
 | Phase 7: Polish | 20 | 16 [P] | 2-3 days | 🔄 Ready |
-| **TOTAL** | **108 tasks** | **59 parallelizable** | **10-13 days** | **78/108 complete (72%)** |
+| **TOTAL** | **108 tasks** | **59 parallelizable** | **10-13 days** | **88/108 complete (81%)** |
 
 ---
 
