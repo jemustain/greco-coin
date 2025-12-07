@@ -1,0 +1,4498 @@
+[
+  {
+    "commodityId": "sulphur",
+    "date": "1900-01-01",
+    "priceUSD": 19.27,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1901-01-01",
+    "priceUSD": 23.91,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1902-01-01",
+    "priceUSD": 24.05,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1903-01-01",
+    "priceUSD": 24.67,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1904-01-01",
+    "priceUSD": 21.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1905-01-01",
+    "priceUSD": 23.68,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1906-01-01",
+    "priceUSD": 20.16,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1907-01-01",
+    "priceUSD": 27.58,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1908-01-01",
+    "priceUSD": 26.12,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1909-01-01",
+    "priceUSD": 21.42,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1910-01-01",
+    "priceUSD": 29.19,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1911-01-01",
+    "priceUSD": 26.28,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1912-01-01",
+    "priceUSD": 22.06,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1913-01-01",
+    "priceUSD": 24.76,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1914-01-01",
+    "priceUSD": 24.7,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1915-01-01",
+    "priceUSD": 27.18,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1916-01-01",
+    "priceUSD": 28.36,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1917-01-01",
+    "priceUSD": 33.94,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1918-01-01",
+    "priceUSD": 29.58,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1919-01-01",
+    "priceUSD": 32.81,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1920-01-01",
+    "priceUSD": 37.07,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1921-01-01",
+    "priceUSD": 35.35,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1922-01-01",
+    "priceUSD": 38.69,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1923-01-01",
+    "priceUSD": 35.09,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1924-01-01",
+    "priceUSD": 38.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1925-01-01",
+    "priceUSD": 39.93,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1926-01-01",
+    "priceUSD": 35.26,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1927-01-01",
+    "priceUSD": 29.99,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1928-01-01",
+    "priceUSD": 37.61,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1929-01-01",
+    "priceUSD": 34.6,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1930-01-01",
+    "priceUSD": 32.11,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1931-01-01",
+    "priceUSD": 39.33,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1932-01-01",
+    "priceUSD": 39.09,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1933-01-01",
+    "priceUSD": 33.28,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1934-01-01",
+    "priceUSD": 42.63,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1935-01-01",
+    "priceUSD": 36.5,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1936-01-01",
+    "priceUSD": 34.32,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1937-01-01",
+    "priceUSD": 49.47,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1938-01-01",
+    "priceUSD": 37.32,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1939-01-01",
+    "priceUSD": 51.07,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1940-01-01",
+    "priceUSD": 46.18,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1941-01-01",
+    "priceUSD": 40.71,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1942-01-01",
+    "priceUSD": 53.86,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1943-01-01",
+    "priceUSD": 44.41,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1944-01-01",
+    "priceUSD": 55.54,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1945-01-01",
+    "priceUSD": 53.64,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1946-01-01",
+    "priceUSD": 53.94,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1947-01-01",
+    "priceUSD": 47.28,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1948-01-01",
+    "priceUSD": 42.8,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1949-01-01",
+    "priceUSD": 42.62,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1950-01-01",
+    "priceUSD": 41.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1950-04-01",
+    "priceUSD": 42.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1950-07-01",
+    "priceUSD": 58.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1950-10-01",
+    "priceUSD": 49.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1951-01-01",
+    "priceUSD": 40.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1951-04-01",
+    "priceUSD": 42.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1951-07-01",
+    "priceUSD": 47.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1951-10-01",
+    "priceUSD": 44.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1952-01-01",
+    "priceUSD": 46.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1952-04-01",
+    "priceUSD": 60.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1952-07-01",
+    "priceUSD": 56.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1952-10-01",
+    "priceUSD": 49.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1953-01-01",
+    "priceUSD": 50.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1953-04-01",
+    "priceUSD": 59.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1953-07-01",
+    "priceUSD": 61.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1953-10-01",
+    "priceUSD": 54.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1954-01-01",
+    "priceUSD": 53.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1954-04-01",
+    "priceUSD": 53.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1954-07-01",
+    "priceUSD": 43.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1954-10-01",
+    "priceUSD": 61.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1955-01-01",
+    "priceUSD": 50.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1955-04-01",
+    "priceUSD": 55.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1955-07-01",
+    "priceUSD": 57.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1955-10-01",
+    "priceUSD": 42.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1956-01-01",
+    "priceUSD": 62.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1956-04-01",
+    "priceUSD": 63.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1956-07-01",
+    "priceUSD": 46.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1956-10-01",
+    "priceUSD": 51.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1957-01-01",
+    "priceUSD": 59.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1957-04-01",
+    "priceUSD": 58.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1957-07-01",
+    "priceUSD": 45.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1957-10-01",
+    "priceUSD": 51.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1958-01-01",
+    "priceUSD": 49.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1958-04-01",
+    "priceUSD": 57.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1958-07-01",
+    "priceUSD": 62.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1958-10-01",
+    "priceUSD": 63.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1959-01-01",
+    "priceUSD": 65.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1959-04-01",
+    "priceUSD": 51.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1959-07-01",
+    "priceUSD": 60.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1959-10-01",
+    "priceUSD": 54.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1960-01-01",
+    "priceUSD": 46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1960-04-01",
+    "priceUSD": 64.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1960-07-01",
+    "priceUSD": 53.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1960-10-01",
+    "priceUSD": 65.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1961-01-01",
+    "priceUSD": 48.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1961-04-01",
+    "priceUSD": 64.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1961-07-01",
+    "priceUSD": 65.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1961-10-01",
+    "priceUSD": 64.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1962-01-01",
+    "priceUSD": 52.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1962-04-01",
+    "priceUSD": 62.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1962-07-01",
+    "priceUSD": 54.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1962-10-01",
+    "priceUSD": 61.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1963-01-01",
+    "priceUSD": 52.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1963-04-01",
+    "priceUSD": 61.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1963-07-01",
+    "priceUSD": 68.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1963-10-01",
+    "priceUSD": 69.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1964-01-01",
+    "priceUSD": 55.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1964-04-01",
+    "priceUSD": 56.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1964-07-01",
+    "priceUSD": 51.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1964-10-01",
+    "priceUSD": 51.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1965-01-01",
+    "priceUSD": 49.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1965-04-01",
+    "priceUSD": 69.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1965-07-01",
+    "priceUSD": 62.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1965-10-01",
+    "priceUSD": 70.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1966-01-01",
+    "priceUSD": 60.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1966-04-01",
+    "priceUSD": 61.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1966-07-01",
+    "priceUSD": 68.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1966-10-01",
+    "priceUSD": 66.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1967-01-01",
+    "priceUSD": 50.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1967-04-01",
+    "priceUSD": 58.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1967-07-01",
+    "priceUSD": 64.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1967-10-01",
+    "priceUSD": 51.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1968-01-01",
+    "priceUSD": 55.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1968-04-01",
+    "priceUSD": 58.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1968-07-01",
+    "priceUSD": 70.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1968-10-01",
+    "priceUSD": 72.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1969-01-01",
+    "priceUSD": 58.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1969-04-01",
+    "priceUSD": 56.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1969-07-01",
+    "priceUSD": 65.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1969-10-01",
+    "priceUSD": 72.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1970-01-01",
+    "priceUSD": 58.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1970-04-01",
+    "priceUSD": 66.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1970-07-01",
+    "priceUSD": 70.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1970-10-01",
+    "priceUSD": 52.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1971-01-01",
+    "priceUSD": 50.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1971-04-01",
+    "priceUSD": 68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1971-07-01",
+    "priceUSD": 51.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1971-10-01",
+    "priceUSD": 54.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1972-01-01",
+    "priceUSD": 56.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1972-04-01",
+    "priceUSD": 52.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1972-07-01",
+    "priceUSD": 68.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1972-10-01",
+    "priceUSD": 75.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1973-01-01",
+    "priceUSD": 60.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1973-04-01",
+    "priceUSD": 68.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1973-07-01",
+    "priceUSD": 59.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1973-10-01",
+    "priceUSD": 65.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1974-01-01",
+    "priceUSD": 61.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1974-04-01",
+    "priceUSD": 65.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1974-07-01",
+    "priceUSD": 68.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1974-10-01",
+    "priceUSD": 65.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1975-01-01",
+    "priceUSD": 57.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1975-04-01",
+    "priceUSD": 52.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1975-07-01",
+    "priceUSD": 53.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1975-10-01",
+    "priceUSD": 53.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1976-01-01",
+    "priceUSD": 71.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1976-04-01",
+    "priceUSD": 55.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1976-07-01",
+    "priceUSD": 74.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1976-10-01",
+    "priceUSD": 58.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1977-01-01",
+    "priceUSD": 73.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1977-04-01",
+    "priceUSD": 70.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1977-07-01",
+    "priceUSD": 77.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1977-10-01",
+    "priceUSD": 77.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1978-01-01",
+    "priceUSD": 62.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1978-04-01",
+    "priceUSD": 75.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1978-07-01",
+    "priceUSD": 53.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1978-10-01",
+    "priceUSD": 70.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1979-01-01",
+    "priceUSD": 77.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1979-04-01",
+    "priceUSD": 60.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1979-07-01",
+    "priceUSD": 60.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1979-10-01",
+    "priceUSD": 80.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1980-01-01",
+    "priceUSD": 67.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1980-04-01",
+    "priceUSD": 57.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1980-07-01",
+    "priceUSD": 56.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1980-10-01",
+    "priceUSD": 75.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1981-01-01",
+    "priceUSD": 59.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1981-04-01",
+    "priceUSD": 77.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1981-07-01",
+    "priceUSD": 66.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1981-10-01",
+    "priceUSD": 71.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1982-01-01",
+    "priceUSD": 57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1982-04-01",
+    "priceUSD": 73.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1982-07-01",
+    "priceUSD": 72.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1982-10-01",
+    "priceUSD": 77.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1983-01-01",
+    "priceUSD": 74.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1983-04-01",
+    "priceUSD": 79.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1983-07-01",
+    "priceUSD": 59.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1983-10-01",
+    "priceUSD": 56.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1984-01-01",
+    "priceUSD": 81.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1984-04-01",
+    "priceUSD": 69.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1984-07-01",
+    "priceUSD": 75.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1984-10-01",
+    "priceUSD": 56.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1985-01-01",
+    "priceUSD": 76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1985-04-01",
+    "priceUSD": 78.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1985-07-01",
+    "priceUSD": 84.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1985-10-01",
+    "priceUSD": 80.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1986-01-01",
+    "priceUSD": 83.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1986-04-01",
+    "priceUSD": 60.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1986-07-01",
+    "priceUSD": 58.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1986-10-01",
+    "priceUSD": 71.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1987-01-01",
+    "priceUSD": 64.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1987-04-01",
+    "priceUSD": 84.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1987-07-01",
+    "priceUSD": 75.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1987-10-01",
+    "priceUSD": 80.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1988-01-01",
+    "priceUSD": 62.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1988-04-01",
+    "priceUSD": 86.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1988-07-01",
+    "priceUSD": 68.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1988-10-01",
+    "priceUSD": 72.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1989-01-01",
+    "priceUSD": 67.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1989-04-01",
+    "priceUSD": 74.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1989-07-01",
+    "priceUSD": 65.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1989-10-01",
+    "priceUSD": 85.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1990-01-01",
+    "priceUSD": 85.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1990-04-01",
+    "priceUSD": 88.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1990-07-01",
+    "priceUSD": 68.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1990-10-01",
+    "priceUSD": 88.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1991-01-01",
+    "priceUSD": 88.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1991-04-01",
+    "priceUSD": 82.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1991-07-01",
+    "priceUSD": 88.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1991-10-01",
+    "priceUSD": 73.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1992-01-01",
+    "priceUSD": 64.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1992-04-01",
+    "priceUSD": 76.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1992-07-01",
+    "priceUSD": 73.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1992-10-01",
+    "priceUSD": 60.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1993-01-01",
+    "priceUSD": 68.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1993-04-01",
+    "priceUSD": 87.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1993-07-01",
+    "priceUSD": 70.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1993-10-01",
+    "priceUSD": 77.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1994-01-01",
+    "priceUSD": 82.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1994-04-01",
+    "priceUSD": 71.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1994-07-01",
+    "priceUSD": 88.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1994-10-01",
+    "priceUSD": 62.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1995-01-01",
+    "priceUSD": 74.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1995-04-01",
+    "priceUSD": 73.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1995-07-01",
+    "priceUSD": 68.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1995-10-01",
+    "priceUSD": 81.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1996-01-01",
+    "priceUSD": 70.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1996-04-01",
+    "priceUSD": 89.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1996-07-01",
+    "priceUSD": 90.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1996-10-01",
+    "priceUSD": 72.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1997-01-01",
+    "priceUSD": 82.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1997-04-01",
+    "priceUSD": 75.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1997-07-01",
+    "priceUSD": 84.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1997-10-01",
+    "priceUSD": 67.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1998-01-01",
+    "priceUSD": 74.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1998-04-01",
+    "priceUSD": 80,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1998-07-01",
+    "priceUSD": 91.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1998-10-01",
+    "priceUSD": 78.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1999-01-01",
+    "priceUSD": 93.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1999-04-01",
+    "priceUSD": 83.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1999-07-01",
+    "priceUSD": 80.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "1999-10-01",
+    "priceUSD": 89.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-01-01",
+    "priceUSD": 86.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-02-01",
+    "priceUSD": 66.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-03-01",
+    "priceUSD": 90.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-04-01",
+    "priceUSD": 69.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-05-01",
+    "priceUSD": 80.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-06-01",
+    "priceUSD": 76.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-07-01",
+    "priceUSD": 81.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-08-01",
+    "priceUSD": 95.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-09-01",
+    "priceUSD": 72.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-10-01",
+    "priceUSD": 78.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-11-01",
+    "priceUSD": 77.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2000-12-01",
+    "priceUSD": 84.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-01-01",
+    "priceUSD": 96.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-02-01",
+    "priceUSD": 67.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-03-01",
+    "priceUSD": 87.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-04-01",
+    "priceUSD": 73.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-05-01",
+    "priceUSD": 81.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-06-01",
+    "priceUSD": 83.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-07-01",
+    "priceUSD": 95.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-08-01",
+    "priceUSD": 95.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-09-01",
+    "priceUSD": 74.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-10-01",
+    "priceUSD": 70.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-11-01",
+    "priceUSD": 81.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2001-12-01",
+    "priceUSD": 89.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-01-01",
+    "priceUSD": 69.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-02-01",
+    "priceUSD": 94.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-03-01",
+    "priceUSD": 85.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-04-01",
+    "priceUSD": 75.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-05-01",
+    "priceUSD": 81.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-06-01",
+    "priceUSD": 93.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-07-01",
+    "priceUSD": 95.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-08-01",
+    "priceUSD": 91.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-09-01",
+    "priceUSD": 84.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-10-01",
+    "priceUSD": 72.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-11-01",
+    "priceUSD": 91.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2002-12-01",
+    "priceUSD": 71.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-01-01",
+    "priceUSD": 70.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-02-01",
+    "priceUSD": 74.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-03-01",
+    "priceUSD": 74.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-04-01",
+    "priceUSD": 89.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-05-01",
+    "priceUSD": 85.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-06-01",
+    "priceUSD": 80.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-07-01",
+    "priceUSD": 86.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-08-01",
+    "priceUSD": 85.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-09-01",
+    "priceUSD": 97.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-10-01",
+    "priceUSD": 66.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-11-01",
+    "priceUSD": 66.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2003-12-01",
+    "priceUSD": 86.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-01-01",
+    "priceUSD": 95.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-02-01",
+    "priceUSD": 68.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-03-01",
+    "priceUSD": 68.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-04-01",
+    "priceUSD": 95.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-05-01",
+    "priceUSD": 93.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-06-01",
+    "priceUSD": 81.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-07-01",
+    "priceUSD": 81.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-08-01",
+    "priceUSD": 92.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-09-01",
+    "priceUSD": 91.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-10-01",
+    "priceUSD": 86.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-11-01",
+    "priceUSD": 77.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2004-12-01",
+    "priceUSD": 72.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-01-01",
+    "priceUSD": 66.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-02-01",
+    "priceUSD": 75.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-03-01",
+    "priceUSD": 70.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-04-01",
+    "priceUSD": 91.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-05-01",
+    "priceUSD": 85.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-06-01",
+    "priceUSD": 76.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-07-01",
+    "priceUSD": 72.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-08-01",
+    "priceUSD": 73.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-09-01",
+    "priceUSD": 71.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-10-01",
+    "priceUSD": 72.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-11-01",
+    "priceUSD": 93.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2005-12-01",
+    "priceUSD": 91.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-01-01",
+    "priceUSD": 73.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-02-01",
+    "priceUSD": 76.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-03-01",
+    "priceUSD": 75.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-04-01",
+    "priceUSD": 83.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-05-01",
+    "priceUSD": 71.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-06-01",
+    "priceUSD": 74.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-07-01",
+    "priceUSD": 99.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-08-01",
+    "priceUSD": 81.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-09-01",
+    "priceUSD": 89.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-10-01",
+    "priceUSD": 95.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-11-01",
+    "priceUSD": 83.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2006-12-01",
+    "priceUSD": 73.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-01-01",
+    "priceUSD": 90.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-02-01",
+    "priceUSD": 69.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-03-01",
+    "priceUSD": 93.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-04-01",
+    "priceUSD": 72.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-05-01",
+    "priceUSD": 100.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-06-01",
+    "priceUSD": 88.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-07-01",
+    "priceUSD": 68.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-08-01",
+    "priceUSD": 76.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-09-01",
+    "priceUSD": 86.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-10-01",
+    "priceUSD": 89.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-11-01",
+    "priceUSD": 81.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2007-12-01",
+    "priceUSD": 76.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-01-01",
+    "priceUSD": 92.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-02-01",
+    "priceUSD": 82.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-03-01",
+    "priceUSD": 74.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-04-01",
+    "priceUSD": 68.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-05-01",
+    "priceUSD": 90.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-06-01",
+    "priceUSD": 71.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-07-01",
+    "priceUSD": 80.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-08-01",
+    "priceUSD": 94.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-09-01",
+    "priceUSD": 82.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-10-01",
+    "priceUSD": 97.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-11-01",
+    "priceUSD": 91.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2008-12-01",
+    "priceUSD": 97.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-01-01",
+    "priceUSD": 92.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-02-01",
+    "priceUSD": 93.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-03-01",
+    "priceUSD": 77.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-04-01",
+    "priceUSD": 72.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-05-01",
+    "priceUSD": 75.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-06-01",
+    "priceUSD": 72.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-07-01",
+    "priceUSD": 80.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-08-01",
+    "priceUSD": 91.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-09-01",
+    "priceUSD": 94.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-10-01",
+    "priceUSD": 100.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-11-01",
+    "priceUSD": 74.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2009-12-01",
+    "priceUSD": 88.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-01-01",
+    "priceUSD": 75.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-02-01",
+    "priceUSD": 69.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-03-01",
+    "priceUSD": 73.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-04-01",
+    "priceUSD": 86.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-05-01",
+    "priceUSD": 79.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-06-01",
+    "priceUSD": 71.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-07-01",
+    "priceUSD": 78.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-08-01",
+    "priceUSD": 87.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-09-01",
+    "priceUSD": 74.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-10-01",
+    "priceUSD": 79.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-11-01",
+    "priceUSD": 91.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2010-12-01",
+    "priceUSD": 78.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-01-01",
+    "priceUSD": 85.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-02-01",
+    "priceUSD": 76.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-03-01",
+    "priceUSD": 94.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-04-01",
+    "priceUSD": 98.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-05-01",
+    "priceUSD": 84.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-06-01",
+    "priceUSD": 101.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-07-01",
+    "priceUSD": 86.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-08-01",
+    "priceUSD": 88.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-09-01",
+    "priceUSD": 103.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-10-01",
+    "priceUSD": 75.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-11-01",
+    "priceUSD": 79.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2011-12-01",
+    "priceUSD": 77.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-01-01",
+    "priceUSD": 70.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-02-01",
+    "priceUSD": 89.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-03-01",
+    "priceUSD": 77.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-04-01",
+    "priceUSD": 101.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-05-01",
+    "priceUSD": 83.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-06-01",
+    "priceUSD": 84.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-07-01",
+    "priceUSD": 87.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-08-01",
+    "priceUSD": 82.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-09-01",
+    "priceUSD": 92.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-10-01",
+    "priceUSD": 100.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-11-01",
+    "priceUSD": 78.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2012-12-01",
+    "priceUSD": 98.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-01-01",
+    "priceUSD": 72.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-02-01",
+    "priceUSD": 90.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-03-01",
+    "priceUSD": 89.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-04-01",
+    "priceUSD": 77.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-05-01",
+    "priceUSD": 86.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-06-01",
+    "priceUSD": 104.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-07-01",
+    "priceUSD": 92.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-08-01",
+    "priceUSD": 86.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-09-01",
+    "priceUSD": 95.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-10-01",
+    "priceUSD": 81.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-11-01",
+    "priceUSD": 81.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2013-12-01",
+    "priceUSD": 97.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-01-01",
+    "priceUSD": 90.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-02-01",
+    "priceUSD": 99.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-03-01",
+    "priceUSD": 103.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-04-01",
+    "priceUSD": 81.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-05-01",
+    "priceUSD": 101.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-06-01",
+    "priceUSD": 84.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-07-01",
+    "priceUSD": 95.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-08-01",
+    "priceUSD": 89.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-09-01",
+    "priceUSD": 73.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-10-01",
+    "priceUSD": 93.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-11-01",
+    "priceUSD": 84.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2014-12-01",
+    "priceUSD": 90.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-01-01",
+    "priceUSD": 86.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-02-01",
+    "priceUSD": 79.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-03-01",
+    "priceUSD": 75.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-04-01",
+    "priceUSD": 100.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-05-01",
+    "priceUSD": 88.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-06-01",
+    "priceUSD": 77.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-07-01",
+    "priceUSD": 91.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-08-01",
+    "priceUSD": 105.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-09-01",
+    "priceUSD": 90.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-10-01",
+    "priceUSD": 76.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-11-01",
+    "priceUSD": 74.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2015-12-01",
+    "priceUSD": 102.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-01-01",
+    "priceUSD": 103.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-02-01",
+    "priceUSD": 90.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-03-01",
+    "priceUSD": 84.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-04-01",
+    "priceUSD": 82.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-05-01",
+    "priceUSD": 79.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-06-01",
+    "priceUSD": 74.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-07-01",
+    "priceUSD": 75.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-08-01",
+    "priceUSD": 98.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-09-01",
+    "priceUSD": 101.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-10-01",
+    "priceUSD": 96.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-11-01",
+    "priceUSD": 82.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2016-12-01",
+    "priceUSD": 104.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-01-01",
+    "priceUSD": 88.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-02-01",
+    "priceUSD": 97.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-03-01",
+    "priceUSD": 96.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-04-01",
+    "priceUSD": 84.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-05-01",
+    "priceUSD": 78.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-06-01",
+    "priceUSD": 92.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-07-01",
+    "priceUSD": 89.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-08-01",
+    "priceUSD": 74.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-09-01",
+    "priceUSD": 105.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-10-01",
+    "priceUSD": 91.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-11-01",
+    "priceUSD": 81.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2017-12-01",
+    "priceUSD": 77.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-01-01",
+    "priceUSD": 81.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-02-01",
+    "priceUSD": 79.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-03-01",
+    "priceUSD": 92.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-04-01",
+    "priceUSD": 88.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-05-01",
+    "priceUSD": 102.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-06-01",
+    "priceUSD": 103.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-07-01",
+    "priceUSD": 79.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-08-01",
+    "priceUSD": 80.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-09-01",
+    "priceUSD": 76.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-10-01",
+    "priceUSD": 98.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-11-01",
+    "priceUSD": 80.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2018-12-01",
+    "priceUSD": 99.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-01-01",
+    "priceUSD": 88.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-02-01",
+    "priceUSD": 93.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-03-01",
+    "priceUSD": 92.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-04-01",
+    "priceUSD": 89.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-05-01",
+    "priceUSD": 75.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-06-01",
+    "priceUSD": 73.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-07-01",
+    "priceUSD": 79.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-08-01",
+    "priceUSD": 75.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-09-01",
+    "priceUSD": 83.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-10-01",
+    "priceUSD": 78.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-11-01",
+    "priceUSD": 104.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2019-12-01",
+    "priceUSD": 101.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-01-01",
+    "priceUSD": 76.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-02-01",
+    "priceUSD": 103.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-03-01",
+    "priceUSD": 105.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-04-01",
+    "priceUSD": 94.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-05-01",
+    "priceUSD": 105.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-06-01",
+    "priceUSD": 78.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-07-01",
+    "priceUSD": 76.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-08-01",
+    "priceUSD": 95.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-09-01",
+    "priceUSD": 107.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-10-01",
+    "priceUSD": 92.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-11-01",
+    "priceUSD": 81.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2020-12-01",
+    "priceUSD": 101.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-01-01",
+    "priceUSD": 88.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-02-01",
+    "priceUSD": 92.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-03-01",
+    "priceUSD": 89.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-04-01",
+    "priceUSD": 82.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-05-01",
+    "priceUSD": 93.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-06-01",
+    "priceUSD": 77.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-07-01",
+    "priceUSD": 103.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-08-01",
+    "priceUSD": 80.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-09-01",
+    "priceUSD": 94.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-10-01",
+    "priceUSD": 84.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-11-01",
+    "priceUSD": 101.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2021-12-01",
+    "priceUSD": 88.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-01-01",
+    "priceUSD": 81.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-02-01",
+    "priceUSD": 108.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-03-01",
+    "priceUSD": 99.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-04-01",
+    "priceUSD": 105.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-05-01",
+    "priceUSD": 108.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-06-01",
+    "priceUSD": 77.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-07-01",
+    "priceUSD": 105.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-08-01",
+    "priceUSD": 89.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-09-01",
+    "priceUSD": 78.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-10-01",
+    "priceUSD": 80.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-11-01",
+    "priceUSD": 100.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2022-12-01",
+    "priceUSD": 96.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-01-01",
+    "priceUSD": 95.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-02-01",
+    "priceUSD": 100.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-03-01",
+    "priceUSD": 83.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-04-01",
+    "priceUSD": 104.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-05-01",
+    "priceUSD": 110.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-06-01",
+    "priceUSD": 88.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-07-01",
+    "priceUSD": 109.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-08-01",
+    "priceUSD": 81.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-09-01",
+    "priceUSD": 101.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-10-01",
+    "priceUSD": 81.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-11-01",
+    "priceUSD": 79.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2023-12-01",
+    "priceUSD": 82.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-01-01",
+    "priceUSD": 102.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-02-01",
+    "priceUSD": 89.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-03-01",
+    "priceUSD": 107.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-04-01",
+    "priceUSD": 103.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-05-01",
+    "priceUSD": 113.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-06-01",
+    "priceUSD": 93.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-07-01",
+    "priceUSD": 99.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-08-01",
+    "priceUSD": 95.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-09-01",
+    "priceUSD": 79.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-10-01",
+    "priceUSD": 77.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-11-01",
+    "priceUSD": 102.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2024-12-01",
+    "priceUSD": 94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-01-01",
+    "priceUSD": 102.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-02-01",
+    "priceUSD": 111.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-03-01",
+    "priceUSD": 92.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-04-01",
+    "priceUSD": 103.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-05-01",
+    "priceUSD": 113.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-06-01",
+    "priceUSD": 95.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-07-01",
+    "priceUSD": 85.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-08-01",
+    "priceUSD": 96.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-09-01",
+    "priceUSD": 84.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-10-01",
+    "priceUSD": 94.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-11-01",
+    "priceUSD": 101.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "sulphur",
+    "date": "2025-12-01",
+    "priceUSD": 112.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  }
+]

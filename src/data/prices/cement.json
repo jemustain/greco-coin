@@ -1,0 +1,4498 @@
+[
+  {
+    "commodityId": "cement",
+    "date": "1900-01-01",
+    "priceUSD": 1.77,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1901-01-01",
+    "priceUSD": 1.61,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1902-01-01",
+    "priceUSD": 1.85,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1903-01-01",
+    "priceUSD": 1.33,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1904-01-01",
+    "priceUSD": 1.4,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1905-01-01",
+    "priceUSD": 1.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1906-01-01",
+    "priceUSD": 1.93,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1907-01-01",
+    "priceUSD": 1.54,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1908-01-01",
+    "priceUSD": 2.18,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1909-01-01",
+    "priceUSD": 2.15,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1910-01-01",
+    "priceUSD": 1.66,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1911-01-01",
+    "priceUSD": 2.2,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1912-01-01",
+    "priceUSD": 2.37,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1913-01-01",
+    "priceUSD": 2.46,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1914-01-01",
+    "priceUSD": 2.26,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1915-01-01",
+    "priceUSD": 2.57,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1916-01-01",
+    "priceUSD": 1.9,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1917-01-01",
+    "priceUSD": 2.17,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1918-01-01",
+    "priceUSD": 2.68,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1919-01-01",
+    "priceUSD": 2.5,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1920-01-01",
+    "priceUSD": 2.35,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1921-01-01",
+    "priceUSD": 2.57,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1922-01-01",
+    "priceUSD": 2.52,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1923-01-01",
+    "priceUSD": 3,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1924-01-01",
+    "priceUSD": 2.53,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1925-01-01",
+    "priceUSD": 2.79,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1926-01-01",
+    "priceUSD": 2.26,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1927-01-01",
+    "priceUSD": 3.17,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1928-01-01",
+    "priceUSD": 2.79,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1929-01-01",
+    "priceUSD": 3.24,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1930-01-01",
+    "priceUSD": 2.38,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1931-01-01",
+    "priceUSD": 2.86,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1932-01-01",
+    "priceUSD": 3.4,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1933-01-01",
+    "priceUSD": 2.65,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1934-01-01",
+    "priceUSD": 3.57,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1935-01-01",
+    "priceUSD": 3.02,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1936-01-01",
+    "priceUSD": 3.39,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1937-01-01",
+    "priceUSD": 3.19,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1938-01-01",
+    "priceUSD": 3.53,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1939-01-01",
+    "priceUSD": 2.96,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1940-01-01",
+    "priceUSD": 3.93,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1941-01-01",
+    "priceUSD": 3.39,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1942-01-01",
+    "priceUSD": 3.69,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1943-01-01",
+    "priceUSD": 3.93,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1944-01-01",
+    "priceUSD": 3.51,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1945-01-01",
+    "priceUSD": 3.72,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1946-01-01",
+    "priceUSD": 3.08,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1947-01-01",
+    "priceUSD": 3.5,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1948-01-01",
+    "priceUSD": 3.18,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1949-01-01",
+    "priceUSD": 4.03,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1950-01-01",
+    "priceUSD": 4.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1950-04-01",
+    "priceUSD": 3.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1950-07-01",
+    "priceUSD": 3.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1950-10-01",
+    "priceUSD": 3.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1951-01-01",
+    "priceUSD": 3.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1951-04-01",
+    "priceUSD": 3.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1951-07-01",
+    "priceUSD": 4.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1951-10-01",
+    "priceUSD": 3.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1952-01-01",
+    "priceUSD": 3.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1952-04-01",
+    "priceUSD": 3.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1952-07-01",
+    "priceUSD": 3.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1952-10-01",
+    "priceUSD": 4.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1953-01-01",
+    "priceUSD": 3.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1953-04-01",
+    "priceUSD": 3.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1953-07-01",
+    "priceUSD": 3.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1953-10-01",
+    "priceUSD": 3.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1954-01-01",
+    "priceUSD": 3.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1954-04-01",
+    "priceUSD": 3.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1954-07-01",
+    "priceUSD": 4.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1954-10-01",
+    "priceUSD": 3.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1955-01-01",
+    "priceUSD": 3.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1955-04-01",
+    "priceUSD": 3.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1955-07-01",
+    "priceUSD": 3.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1955-10-01",
+    "priceUSD": 3.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1956-01-01",
+    "priceUSD": 3.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1956-04-01",
+    "priceUSD": 3.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1956-07-01",
+    "priceUSD": 3.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1956-10-01",
+    "priceUSD": 4.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1957-01-01",
+    "priceUSD": 3.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1957-04-01",
+    "priceUSD": 4.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1957-07-01",
+    "priceUSD": 3.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1957-10-01",
+    "priceUSD": 3.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1958-01-01",
+    "priceUSD": 4.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1958-04-01",
+    "priceUSD": 3.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1958-07-01",
+    "priceUSD": 4.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1958-10-01",
+    "priceUSD": 4.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1959-01-01",
+    "priceUSD": 3.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1959-04-01",
+    "priceUSD": 4.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1959-07-01",
+    "priceUSD": 4.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1959-10-01",
+    "priceUSD": 4.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1960-01-01",
+    "priceUSD": 4.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1960-04-01",
+    "priceUSD": 3.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1960-07-01",
+    "priceUSD": 3.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1960-10-01",
+    "priceUSD": 3.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1961-01-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1961-04-01",
+    "priceUSD": 3.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1961-07-01",
+    "priceUSD": 4.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1961-10-01",
+    "priceUSD": 4.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1962-01-01",
+    "priceUSD": 3.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1962-04-01",
+    "priceUSD": 4.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1962-07-01",
+    "priceUSD": 4.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1962-10-01",
+    "priceUSD": 3.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1963-01-01",
+    "priceUSD": 4.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1963-04-01",
+    "priceUSD": 4.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1963-07-01",
+    "priceUSD": 3.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1963-10-01",
+    "priceUSD": 4.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1964-01-01",
+    "priceUSD": 3.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1964-04-01",
+    "priceUSD": 5.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1964-07-01",
+    "priceUSD": 4.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1964-10-01",
+    "priceUSD": 5.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1965-01-01",
+    "priceUSD": 4.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1965-04-01",
+    "priceUSD": 4.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1965-07-01",
+    "priceUSD": 4.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1965-10-01",
+    "priceUSD": 5.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1966-01-01",
+    "priceUSD": 4.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1966-04-01",
+    "priceUSD": 4.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1966-07-01",
+    "priceUSD": 3.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1966-10-01",
+    "priceUSD": 4.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1967-01-01",
+    "priceUSD": 4.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1967-04-01",
+    "priceUSD": 4.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1967-07-01",
+    "priceUSD": 4.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1967-10-01",
+    "priceUSD": 5.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1968-01-01",
+    "priceUSD": 5.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1968-04-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1968-07-01",
+    "priceUSD": 4.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1968-10-01",
+    "priceUSD": 4.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1969-01-01",
+    "priceUSD": 4.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1969-04-01",
+    "priceUSD": 5.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1969-07-01",
+    "priceUSD": 4.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1969-10-01",
+    "priceUSD": 5.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1970-01-01",
+    "priceUSD": 5.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1970-04-01",
+    "priceUSD": 5.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1970-07-01",
+    "priceUSD": 5.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1970-10-01",
+    "priceUSD": 4.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1971-01-01",
+    "priceUSD": 4.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1971-04-01",
+    "priceUSD": 4.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1971-07-01",
+    "priceUSD": 4.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1971-10-01",
+    "priceUSD": 4.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1972-01-01",
+    "priceUSD": 5.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1972-04-01",
+    "priceUSD": 3.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1972-07-01",
+    "priceUSD": 5.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1972-10-01",
+    "priceUSD": 5.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1973-01-01",
+    "priceUSD": 3.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1973-04-01",
+    "priceUSD": 4.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1973-07-01",
+    "priceUSD": 4.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1973-10-01",
+    "priceUSD": 5.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1974-01-01",
+    "priceUSD": 4.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1974-04-01",
+    "priceUSD": 4.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1974-07-01",
+    "priceUSD": 4.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1974-10-01",
+    "priceUSD": 5.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1975-01-01",
+    "priceUSD": 5.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1975-04-01",
+    "priceUSD": 5.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1975-07-01",
+    "priceUSD": 5.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1975-10-01",
+    "priceUSD": 4.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1976-01-01",
+    "priceUSD": 5.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1976-04-01",
+    "priceUSD": 5.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1976-07-01",
+    "priceUSD": 4.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1976-10-01",
+    "priceUSD": 5.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1977-01-01",
+    "priceUSD": 3.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1977-04-01",
+    "priceUSD": 5.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1977-07-01",
+    "priceUSD": 5.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1977-10-01",
+    "priceUSD": 5.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1978-01-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1978-04-01",
+    "priceUSD": 5.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1978-07-01",
+    "priceUSD": 4.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1978-10-01",
+    "priceUSD": 4.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1979-01-01",
+    "priceUSD": 4.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1979-04-01",
+    "priceUSD": 4.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1979-07-01",
+    "priceUSD": 5.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1979-10-01",
+    "priceUSD": 5.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1980-01-01",
+    "priceUSD": 4.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1980-04-01",
+    "priceUSD": 4.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1980-07-01",
+    "priceUSD": 5.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1980-10-01",
+    "priceUSD": 4.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1981-01-01",
+    "priceUSD": 5.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1981-04-01",
+    "priceUSD": 4.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1981-07-01",
+    "priceUSD": 4.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1981-10-01",
+    "priceUSD": 4.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1982-01-01",
+    "priceUSD": 5.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1982-04-01",
+    "priceUSD": 5.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1982-07-01",
+    "priceUSD": 4.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1982-10-01",
+    "priceUSD": 5.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1983-01-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1983-04-01",
+    "priceUSD": 4.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1983-07-01",
+    "priceUSD": 4.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1983-10-01",
+    "priceUSD": 4.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1984-01-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1984-04-01",
+    "priceUSD": 4.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1984-07-01",
+    "priceUSD": 4.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1984-10-01",
+    "priceUSD": 4.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1985-01-01",
+    "priceUSD": 4.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1985-04-01",
+    "priceUSD": 5.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1985-07-01",
+    "priceUSD": 5.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1985-10-01",
+    "priceUSD": 5.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1986-01-01",
+    "priceUSD": 5.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1986-04-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1986-07-01",
+    "priceUSD": 4.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1986-10-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1987-01-01",
+    "priceUSD": 6.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1987-04-01",
+    "priceUSD": 4.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1987-07-01",
+    "priceUSD": 5.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1987-10-01",
+    "priceUSD": 4.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1988-01-01",
+    "priceUSD": 4.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1988-04-01",
+    "priceUSD": 5.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1988-07-01",
+    "priceUSD": 4.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1988-10-01",
+    "priceUSD": 5.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1989-01-01",
+    "priceUSD": 5.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1989-04-01",
+    "priceUSD": 6.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1989-07-01",
+    "priceUSD": 5.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1989-10-01",
+    "priceUSD": 5.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1990-01-01",
+    "priceUSD": 5.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1990-04-01",
+    "priceUSD": 6.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1990-07-01",
+    "priceUSD": 6.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1990-10-01",
+    "priceUSD": 5.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1991-01-01",
+    "priceUSD": 6.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1991-04-01",
+    "priceUSD": 4.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1991-07-01",
+    "priceUSD": 4.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1991-10-01",
+    "priceUSD": 5.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1992-01-01",
+    "priceUSD": 5.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1992-04-01",
+    "priceUSD": 4.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1992-07-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1992-10-01",
+    "priceUSD": 5.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1993-01-01",
+    "priceUSD": 6.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1993-04-01",
+    "priceUSD": 6.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1993-07-01",
+    "priceUSD": 4.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1993-10-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1994-01-01",
+    "priceUSD": 5.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1994-04-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1994-07-01",
+    "priceUSD": 6.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1994-10-01",
+    "priceUSD": 4.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1995-01-01",
+    "priceUSD": 5.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1995-04-01",
+    "priceUSD": 4.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1995-07-01",
+    "priceUSD": 6.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1995-10-01",
+    "priceUSD": 6.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1996-01-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1996-04-01",
+    "priceUSD": 6.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1996-07-01",
+    "priceUSD": 5.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1996-10-01",
+    "priceUSD": 5.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1997-01-01",
+    "priceUSD": 5.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1997-04-01",
+    "priceUSD": 5.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1997-07-01",
+    "priceUSD": 5.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1997-10-01",
+    "priceUSD": 6.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1998-01-01",
+    "priceUSD": 5.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1998-04-01",
+    "priceUSD": 6.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1998-07-01",
+    "priceUSD": 5.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1998-10-01",
+    "priceUSD": 6.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1999-01-01",
+    "priceUSD": 6.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1999-04-01",
+    "priceUSD": 6.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1999-07-01",
+    "priceUSD": 5.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "1999-10-01",
+    "priceUSD": 6.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-01-01",
+    "priceUSD": 5.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-02-01",
+    "priceUSD": 6.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-03-01",
+    "priceUSD": 6.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-04-01",
+    "priceUSD": 6.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-05-01",
+    "priceUSD": 5.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-06-01",
+    "priceUSD": 5.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-07-01",
+    "priceUSD": 7.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-08-01",
+    "priceUSD": 6.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-09-01",
+    "priceUSD": 6.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-10-01",
+    "priceUSD": 5.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-11-01",
+    "priceUSD": 4.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2000-12-01",
+    "priceUSD": 5.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-01-01",
+    "priceUSD": 5.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-02-01",
+    "priceUSD": 6.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-03-01",
+    "priceUSD": 5.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-04-01",
+    "priceUSD": 6.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-05-01",
+    "priceUSD": 7.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-06-01",
+    "priceUSD": 6.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-07-01",
+    "priceUSD": 6.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-08-01",
+    "priceUSD": 5.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-09-01",
+    "priceUSD": 6.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-10-01",
+    "priceUSD": 4.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-11-01",
+    "priceUSD": 5.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2001-12-01",
+    "priceUSD": 6.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-01-01",
+    "priceUSD": 5.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-02-01",
+    "priceUSD": 5.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-03-01",
+    "priceUSD": 6.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-04-01",
+    "priceUSD": 7.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-05-01",
+    "priceUSD": 5.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-06-01",
+    "priceUSD": 6.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-07-01",
+    "priceUSD": 5.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-08-01",
+    "priceUSD": 5.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-09-01",
+    "priceUSD": 6.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-10-01",
+    "priceUSD": 7.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-11-01",
+    "priceUSD": 6.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2002-12-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-01-01",
+    "priceUSD": 6.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-02-01",
+    "priceUSD": 5.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-03-01",
+    "priceUSD": 5.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-04-01",
+    "priceUSD": 6.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-05-01",
+    "priceUSD": 4.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-06-01",
+    "priceUSD": 6.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-07-01",
+    "priceUSD": 7.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-08-01",
+    "priceUSD": 6.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-09-01",
+    "priceUSD": 5.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-10-01",
+    "priceUSD": 7.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-11-01",
+    "priceUSD": 5.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2003-12-01",
+    "priceUSD": 5.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-01-01",
+    "priceUSD": 7.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-02-01",
+    "priceUSD": 7.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-03-01",
+    "priceUSD": 7.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-04-01",
+    "priceUSD": 7.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-05-01",
+    "priceUSD": 5.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-06-01",
+    "priceUSD": 5.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-07-01",
+    "priceUSD": 7.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-08-01",
+    "priceUSD": 6.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-09-01",
+    "priceUSD": 7.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-10-01",
+    "priceUSD": 6.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-11-01",
+    "priceUSD": 6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2004-12-01",
+    "priceUSD": 6.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-01-01",
+    "priceUSD": 6.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-02-01",
+    "priceUSD": 5.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-03-01",
+    "priceUSD": 6.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-04-01",
+    "priceUSD": 6.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-05-01",
+    "priceUSD": 5.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-06-01",
+    "priceUSD": 6.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-07-01",
+    "priceUSD": 7.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-08-01",
+    "priceUSD": 6.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-09-01",
+    "priceUSD": 7.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-10-01",
+    "priceUSD": 5.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-11-01",
+    "priceUSD": 5.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2005-12-01",
+    "priceUSD": 5.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-01-01",
+    "priceUSD": 6.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-02-01",
+    "priceUSD": 7.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-03-01",
+    "priceUSD": 5.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-04-01",
+    "priceUSD": 5.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-05-01",
+    "priceUSD": 5.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-06-01",
+    "priceUSD": 6.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-07-01",
+    "priceUSD": 5.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-08-01",
+    "priceUSD": 5.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-09-01",
+    "priceUSD": 7.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-10-01",
+    "priceUSD": 5.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-11-01",
+    "priceUSD": 7.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2006-12-01",
+    "priceUSD": 5.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-01-01",
+    "priceUSD": 5.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-02-01",
+    "priceUSD": 5.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-03-01",
+    "priceUSD": 6.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-04-01",
+    "priceUSD": 7.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-05-01",
+    "priceUSD": 6.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-06-01",
+    "priceUSD": 6.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-07-01",
+    "priceUSD": 6.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-08-01",
+    "priceUSD": 6.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-09-01",
+    "priceUSD": 6.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-10-01",
+    "priceUSD": 7.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-11-01",
+    "priceUSD": 5.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2007-12-01",
+    "priceUSD": 6.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-01-01",
+    "priceUSD": 5.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-02-01",
+    "priceUSD": 5.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-03-01",
+    "priceUSD": 6.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-04-01",
+    "priceUSD": 5.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-05-01",
+    "priceUSD": 7.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-06-01",
+    "priceUSD": 6.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-07-01",
+    "priceUSD": 7.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-08-01",
+    "priceUSD": 5.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-09-01",
+    "priceUSD": 6.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-10-01",
+    "priceUSD": 7.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-11-01",
+    "priceUSD": 5.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2008-12-01",
+    "priceUSD": 7.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-01-01",
+    "priceUSD": 6.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-02-01",
+    "priceUSD": 7.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-03-01",
+    "priceUSD": 5.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-04-01",
+    "priceUSD": 5.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-05-01",
+    "priceUSD": 6.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-06-01",
+    "priceUSD": 7.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-07-01",
+    "priceUSD": 5.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-08-01",
+    "priceUSD": 5.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-09-01",
+    "priceUSD": 5.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-10-01",
+    "priceUSD": 7.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-11-01",
+    "priceUSD": 6.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2009-12-01",
+    "priceUSD": 7.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-01-01",
+    "priceUSD": 6.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-02-01",
+    "priceUSD": 5.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-03-01",
+    "priceUSD": 6.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-04-01",
+    "priceUSD": 6.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-05-01",
+    "priceUSD": 5.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-06-01",
+    "priceUSD": 5.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-07-01",
+    "priceUSD": 7.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-08-01",
+    "priceUSD": 6.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-09-01",
+    "priceUSD": 5.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-10-01",
+    "priceUSD": 5.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-11-01",
+    "priceUSD": 7.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2010-12-01",
+    "priceUSD": 5.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-01-01",
+    "priceUSD": 5.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-02-01",
+    "priceUSD": 6.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-03-01",
+    "priceUSD": 5.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-04-01",
+    "priceUSD": 6.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-05-01",
+    "priceUSD": 5.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-06-01",
+    "priceUSD": 5.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-07-01",
+    "priceUSD": 7.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-08-01",
+    "priceUSD": 7.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-09-01",
+    "priceUSD": 5.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-10-01",
+    "priceUSD": 7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-11-01",
+    "priceUSD": 7.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2011-12-01",
+    "priceUSD": 7.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-01-01",
+    "priceUSD": 6.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-02-01",
+    "priceUSD": 6.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-03-01",
+    "priceUSD": 6.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-04-01",
+    "priceUSD": 6.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-05-01",
+    "priceUSD": 5.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-06-01",
+    "priceUSD": 6.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-07-01",
+    "priceUSD": 7.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-08-01",
+    "priceUSD": 6.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-09-01",
+    "priceUSD": 5.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-10-01",
+    "priceUSD": 7.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-11-01",
+    "priceUSD": 6.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2012-12-01",
+    "priceUSD": 5.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-01-01",
+    "priceUSD": 6.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-02-01",
+    "priceUSD": 6.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-03-01",
+    "priceUSD": 7.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-04-01",
+    "priceUSD": 6.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-05-01",
+    "priceUSD": 7.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-06-01",
+    "priceUSD": 7.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-07-01",
+    "priceUSD": 6.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-08-01",
+    "priceUSD": 6.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-09-01",
+    "priceUSD": 6.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-10-01",
+    "priceUSD": 6.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-11-01",
+    "priceUSD": 7.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2013-12-01",
+    "priceUSD": 5.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-01-01",
+    "priceUSD": 6.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-02-01",
+    "priceUSD": 6.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-03-01",
+    "priceUSD": 6.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-04-01",
+    "priceUSD": 6.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-05-01",
+    "priceUSD": 6.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-06-01",
+    "priceUSD": 5.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-07-01",
+    "priceUSD": 7.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-08-01",
+    "priceUSD": 6.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-09-01",
+    "priceUSD": 6.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-10-01",
+    "priceUSD": 7.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-11-01",
+    "priceUSD": 6.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2014-12-01",
+    "priceUSD": 6.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-01-01",
+    "priceUSD": 7.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-02-01",
+    "priceUSD": 7.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-03-01",
+    "priceUSD": 6.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-04-01",
+    "priceUSD": 5.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-05-01",
+    "priceUSD": 6.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-06-01",
+    "priceUSD": 7.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-07-01",
+    "priceUSD": 6.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-08-01",
+    "priceUSD": 7.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-09-01",
+    "priceUSD": 6.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-10-01",
+    "priceUSD": 6.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-11-01",
+    "priceUSD": 6.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2015-12-01",
+    "priceUSD": 6.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-01-01",
+    "priceUSD": 6.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-02-01",
+    "priceUSD": 7.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-03-01",
+    "priceUSD": 6.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-04-01",
+    "priceUSD": 8.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-05-01",
+    "priceUSD": 7.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-06-01",
+    "priceUSD": 6.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-07-01",
+    "priceUSD": 5.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-08-01",
+    "priceUSD": 7.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-09-01",
+    "priceUSD": 7.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-10-01",
+    "priceUSD": 7.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-11-01",
+    "priceUSD": 6.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2016-12-01",
+    "priceUSD": 5.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-01-01",
+    "priceUSD": 6.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-02-01",
+    "priceUSD": 6.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-03-01",
+    "priceUSD": 8.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-04-01",
+    "priceUSD": 8.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-05-01",
+    "priceUSD": 7.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-06-01",
+    "priceUSD": 6.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-07-01",
+    "priceUSD": 6.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-08-01",
+    "priceUSD": 6.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-09-01",
+    "priceUSD": 5.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-10-01",
+    "priceUSD": 5.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-11-01",
+    "priceUSD": 7.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2017-12-01",
+    "priceUSD": 5.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-01-01",
+    "priceUSD": 8.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-02-01",
+    "priceUSD": 5.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-03-01",
+    "priceUSD": 5.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-04-01",
+    "priceUSD": 7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-05-01",
+    "priceUSD": 7.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-06-01",
+    "priceUSD": 7.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-07-01",
+    "priceUSD": 6.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-08-01",
+    "priceUSD": 6.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-09-01",
+    "priceUSD": 8.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-10-01",
+    "priceUSD": 6.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-11-01",
+    "priceUSD": 5.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2018-12-01",
+    "priceUSD": 7.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-01-01",
+    "priceUSD": 6.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-02-01",
+    "priceUSD": 7.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-03-01",
+    "priceUSD": 5.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-04-01",
+    "priceUSD": 7.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-05-01",
+    "priceUSD": 7.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-06-01",
+    "priceUSD": 6.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-07-01",
+    "priceUSD": 6.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-08-01",
+    "priceUSD": 8.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-09-01",
+    "priceUSD": 6.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-10-01",
+    "priceUSD": 7.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-11-01",
+    "priceUSD": 5.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2019-12-01",
+    "priceUSD": 6.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-01-01",
+    "priceUSD": 5.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-02-01",
+    "priceUSD": 6.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-03-01",
+    "priceUSD": 5.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-04-01",
+    "priceUSD": 6.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-05-01",
+    "priceUSD": 6.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-06-01",
+    "priceUSD": 7.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-07-01",
+    "priceUSD": 6.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-08-01",
+    "priceUSD": 7.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-09-01",
+    "priceUSD": 5.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-10-01",
+    "priceUSD": 6.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-11-01",
+    "priceUSD": 7.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2020-12-01",
+    "priceUSD": 7.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-01-01",
+    "priceUSD": 6.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-02-01",
+    "priceUSD": 6.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-03-01",
+    "priceUSD": 5.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-04-01",
+    "priceUSD": 6.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-05-01",
+    "priceUSD": 6.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-06-01",
+    "priceUSD": 6.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-07-01",
+    "priceUSD": 6.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-08-01",
+    "priceUSD": 8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-09-01",
+    "priceUSD": 5.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-10-01",
+    "priceUSD": 7.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-11-01",
+    "priceUSD": 7.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2021-12-01",
+    "priceUSD": 5.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-01-01",
+    "priceUSD": 6.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-02-01",
+    "priceUSD": 7.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-03-01",
+    "priceUSD": 8.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-04-01",
+    "priceUSD": 8.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-05-01",
+    "priceUSD": 5.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-06-01",
+    "priceUSD": 5.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-07-01",
+    "priceUSD": 7.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-08-01",
+    "priceUSD": 7.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-09-01",
+    "priceUSD": 8.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-10-01",
+    "priceUSD": 6.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-11-01",
+    "priceUSD": 7.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2022-12-01",
+    "priceUSD": 6.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-01-01",
+    "priceUSD": 7.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-02-01",
+    "priceUSD": 8.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-03-01",
+    "priceUSD": 5.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-04-01",
+    "priceUSD": 5.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-05-01",
+    "priceUSD": 8.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-06-01",
+    "priceUSD": 6.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-07-01",
+    "priceUSD": 7.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-08-01",
+    "priceUSD": 5.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-09-01",
+    "priceUSD": 7.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-10-01",
+    "priceUSD": 5.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-11-01",
+    "priceUSD": 7.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2023-12-01",
+    "priceUSD": 8.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-01-01",
+    "priceUSD": 7.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-02-01",
+    "priceUSD": 7.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-03-01",
+    "priceUSD": 8.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-04-01",
+    "priceUSD": 5.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-05-01",
+    "priceUSD": 7.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-06-01",
+    "priceUSD": 6.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-07-01",
+    "priceUSD": 6.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-08-01",
+    "priceUSD": 5.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-09-01",
+    "priceUSD": 6.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-10-01",
+    "priceUSD": 7.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-11-01",
+    "priceUSD": 6.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2024-12-01",
+    "priceUSD": 7.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-01-01",
+    "priceUSD": 7.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-02-01",
+    "priceUSD": 6.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-03-01",
+    "priceUSD": 6.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-04-01",
+    "priceUSD": 6.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-05-01",
+    "priceUSD": 6.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-06-01",
+    "priceUSD": 7.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-07-01",
+    "priceUSD": 8.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-08-01",
+    "priceUSD": 7.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-09-01",
+    "priceUSD": 6.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-10-01",
+    "priceUSD": 7.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-11-01",
+    "priceUSD": 8.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "cement",
+    "date": "2025-12-01",
+    "priceUSD": 5.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  }
+]
