@@ -197,43 +197,73 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
       {/* Table - Desktop View */}
       <div className="hidden md:block bg-white rounded-lg shadow overflow-hidden">
         <div className="overflow-x-auto">
-          <table className="w-full">
+          <table className="w-full" aria-label="Greco values data table">
             <thead className="bg-gray-50 border-b border-gray-200">
               <tr>
                 <th
-                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                   onClick={() => handleSort('date')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      handleSort('date')
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`Sort by date ${sortField === 'date' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
+                  aria-sort={sortField === 'date' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
                   <div className="flex items-center space-x-1">
                     <span>Date</span>
                     {sortField === 'date' && (
-                      <span className="text-blue-600">
+                      <span className="text-blue-600" aria-hidden="true">
                         {sortDirection === 'asc' ? '↑' : '↓'}
                       </span>
                     )}
                   </div>
                 </th>
                 <th
-                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                   onClick={() => handleSort('currency')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      handleSort('currency')
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`Sort by currency ${sortField === 'currency' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
+                  aria-sort={sortField === 'currency' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
                   <div className="flex items-center space-x-1">
                     <span>Currency</span>
                     {sortField === 'currency' && (
-                      <span className="text-blue-600">
+                      <span className="text-blue-600" aria-hidden="true">
                         {sortDirection === 'asc' ? '↑' : '↓'}
                       </span>
                     )}
                   </div>
                 </th>
                 <th
-                  className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                  className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                   onClick={() => handleSort('value')}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      handleSort('value')
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`Sort by value ${sortField === 'value' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
+                  aria-sort={sortField === 'value' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
                   <div className="flex items-center justify-end space-x-1">
                     <span>Greco Value</span>
                     {sortField === 'value' && (
-                      <span className="text-blue-600">
+                      <span className="text-blue-600" aria-hidden="true">
                         {sortDirection === 'asc' ? '↑' : '↓'}
                       </span>
                     )}
@@ -324,39 +354,43 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
           </div>
 
           {/* Page navigation */}
-          <div className="flex items-center space-x-2">
+          <nav className="flex items-center space-x-2" aria-label="Table pagination">
             <button
               onClick={() => handlePageChange(1)}
               disabled={currentPage === 1}
-              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              aria-label="Go to first page"
             >
               First
             </button>
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              aria-label="Go to previous page"
             >
               Previous
             </button>
-            <span className="px-3 py-1 text-sm text-gray-700">
+            <span className="px-3 py-1 text-sm text-gray-700" aria-live="polite" aria-atomic="true">
               Page {currentPage} of {totalPages}
             </span>
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              aria-label="Go to next page"
             >
               Next
             </button>
             <button
               onClick={() => handlePageChange(totalPages)}
               disabled={currentPage === totalPages}
-              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+              className="px-3 py-1 border border-gray-300 rounded-lg text-sm disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              aria-label="Go to last page"
             >
               Last
             </button>
-          </div>
+          </nav>
         </div>
       </div>
     </div>
