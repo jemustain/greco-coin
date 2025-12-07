@@ -1,0 +1,33 @@
+Commodity,Category,Unit,Unit_Abbrev,Notes
+Gold,Metals,Troy Ounce,oz t,Precious metal
+Silver,Metals,Troy Ounce,oz t,Precious metal
+Iron,Metals,Metric Ton,tonne,Industrial metal
+Copper,Metals,Metric Ton,tonne,Industrial metal
+Aluminum,Metals,Metric Ton,tonne,Industrial metal
+Tin,Metals,Metric Ton,tonne,Industrial metal
+Lead,Metals,Metric Ton,tonne,Industrial metal
+Zinc,Metals,Metric Ton,tonne,Industrial metal
+Nickel,Metals,Metric Ton,tonne,Industrial metal
+Platinum,Metals,Metric Ton,tonne,Precious/Industrial metal
+Petroleum,Energy_Materials,Metric Ton,tonne,Energy commodity
+Cement,Energy_Materials,Troy Ounce,oz t,Unusual unit - verify source
+Rubber,Energy_Materials,Pound,lb,May vary by source
+Sulphur,Energy_Materials,Metric Ton,tonne,Industrial material
+Rice,Agricultural_Grains,Metric Ton,tonne,Food staple
+Wheat,Agricultural_Grains,Hundredweight or Ton,cwt/ton,Dual unit - select primary
+Corn,Agricultural_Grains,Bushel,bu,Food/feed staple
+Barley,Agricultural_Grains,Bushel,bu,Food/feed grain
+Oats,Agricultural_Grains,Bushel,bu,Food/feed grain
+Rye,Agricultural_Grains,Bushel,bu,Food grain
+Peanuts,Agricultural_Products,Bushel,bu,Oil seed/food
+Soy Beans,Agricultural_Products,Metric Ton,tonne,Oil seed/protein
+Coffee,Agricultural_Products,Bushel,bu,Cash crop
+Cocoa,Agricultural_Products,Pound or Ton,lb/ton,Dual unit - select primary
+Sugar,Agricultural_Products,Metric Ton,tonne,Food commodity
+Cotton Seed,Agricultural_Products,Pound or Ton,lb/ton,Dual unit - select primary
+Cotton,Fibers,Barrel,bbl,Textile fiber
+Wool,Fibers,Metric Ton,tonne,Textile fiber
+Jute,Fibers,Kilogram,kg,Textile fiber
+Hides,Animal_Products,Metric Ton,tonne,Leather source
+Copra,Animal_Products,Piece or Kilogram,piece/kg,Dual unit - select primary
+Tallow,Animal_Products,Metric Ton,tonne,Animal fat
