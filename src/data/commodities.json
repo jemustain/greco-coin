@@ -1,0 +1,444 @@
+[
+  {
+    "id": "gold",
+    "name": "Gold",
+    "category": "Metals",
+    "unit": "troy-ounce",
+    "symbol": "oz t",
+    "description": "Precious metal used as monetary standard and jewelry",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-57-5",
+      "alternateNames": ["Au", "Fine Gold"],
+      "physicalProperties": {
+        "density": 19.32,
+        "meltingPoint": 1064
+      }
+    }
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "category": "Metals",
+    "unit": "troy-ounce",
+    "symbol": "oz t",
+    "description": "Precious metal with industrial and monetary applications",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-22-4",
+      "alternateNames": ["Ag", "Fine Silver"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Base metal used in construction and manufacturing",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7439-89-6",
+      "alternateNames": ["Fe", "Steel (primary component)"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Industrial metal with electrical and construction applications",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-50-8",
+      "alternateNames": ["Cu"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "aluminum",
+    "name": "Aluminum",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Lightweight metal used in transportation and packaging",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7429-90-5",
+      "alternateNames": ["Al", "Aluminium"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "tin",
+    "name": "Tin",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Metal used in plating and alloys",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-31-5",
+      "alternateNames": ["Sn"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "lead",
+    "name": "Lead",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Dense metal used in batteries and construction",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7439-92-1",
+      "alternateNames": ["Pb"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Metal used for galvanizing and alloys",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-66-6",
+      "alternateNames": ["Zn"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "nickel",
+    "name": "Nickel",
+    "category": "Metals",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Corrosion-resistant metal used in stainless steel",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-02-0",
+      "alternateNames": ["Ni"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "platinum",
+    "name": "Platinum",
+    "category": "Metals",
+    "unit": "troy-ounce",
+    "symbol": "oz t",
+    "description": "Precious metal used in catalysts and jewelry",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7440-06-4",
+      "alternateNames": ["Pt"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "petroleum",
+    "name": "Petroleum",
+    "category": "Energy_Materials",
+    "unit": "barrel",
+    "symbol": "bbl",
+    "description": "Crude oil used for energy and petrochemicals",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Crude Oil", "Oil"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "cement",
+    "name": "Cement",
+    "category": "Energy_Materials",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Building material for construction",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Portland Cement"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "rubber",
+    "name": "Rubber",
+    "category": "Energy_Materials",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Natural and synthetic rubber for tires and industrial uses",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Natural Rubber", "Latex"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "sulphur",
+    "name": "Sulphur",
+    "category": "Energy_Materials",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Chemical element used in fertilizers and industrial processes",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "casNumber": "7704-34-9",
+      "alternateNames": ["Sulfur", "S"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "category": "Agricultural_Grains",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Staple grain crop",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Paddy Rice", "Milled Rice"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "category": "Agricultural_Grains",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Major grain crop for bread and flour",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Hard Wheat", "Soft Wheat"],
+      "physicalProperties": {
+        "bushelWeight": 60
+      }
+    }
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "category": "Agricultural_Grains",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Grain crop used for food, feed, and ethanol",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Maize"],
+      "physicalProperties": {
+        "bushelWeight": 56
+      }
+    }
+  },
+  {
+    "id": "barley",
+    "name": "Barley",
+    "category": "Agricultural_Grains",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Grain crop used for malt and animal feed",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Malting Barley"],
+      "physicalProperties": {
+        "bushelWeight": 48
+      }
+    }
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "category": "Agricultural_Grains",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Grain crop used for cereal and animal feed",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": [],
+      "physicalProperties": {
+        "bushelWeight": 32
+      }
+    }
+  },
+  {
+    "id": "rye",
+    "name": "Rye",
+    "category": "Agricultural_Grains",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Grain crop used for bread and whiskey",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": [],
+      "physicalProperties": {
+        "bushelWeight": 56
+      }
+    }
+  },
+  {
+    "id": "peanuts",
+    "name": "Peanuts",
+    "category": "Agricultural_Products",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Legume crop used for oil and food",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Groundnuts"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "soy-beans",
+    "name": "Soy Beans",
+    "category": "Agricultural_Products",
+    "unit": "bushel",
+    "symbol": "bu",
+    "description": "Oilseed crop used for oil, meal, and food products",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Soybeans", "Soya Beans"],
+      "physicalProperties": {
+        "bushelWeight": 60
+      }
+    }
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "category": "Agricultural_Products",
+    "unit": "pound",
+    "symbol": "lb",
+    "description": "Beverage crop",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Arabica Coffee", "Robusta Coffee"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "cocoa",
+    "name": "Cocoa",
+    "category": "Agricultural_Products",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Crop used for chocolate production",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Cacao"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "sugar",
+    "name": "Sugar",
+    "category": "Agricultural_Products",
+    "unit": "pound",
+    "symbol": "lb",
+    "description": "Sweetener from sugar cane or beets",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Cane Sugar", "Beet Sugar"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "cotton-seed",
+    "name": "Cotton Seed",
+    "category": "Agricultural_Products",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Oilseed from cotton production",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Cottonseed"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "category": "Fibers",
+    "unit": "pound",
+    "symbol": "lb",
+    "description": "Natural fiber for textiles",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Cotton Fiber", "Raw Cotton"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "wool",
+    "name": "Wool",
+    "category": "Fibers",
+    "unit": "kilogram",
+    "symbol": "kg",
+    "description": "Natural fiber from sheep",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Sheep Wool", "Greasy Wool"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "jute",
+    "name": "Jute",
+    "category": "Fibers",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Natural fiber for burlap and rope",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": [],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "hides",
+    "name": "Hides",
+    "category": "Animal_Products",
+    "unit": "kilogram",
+    "symbol": "kg",
+    "description": "Animal leather material",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Cattle Hides", "Leather Hides"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "copra",
+    "name": "Copra",
+    "category": "Animal_Products",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Dried coconut meat used for oil production",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Dried Coconut"],
+      "physicalProperties": {}
+    }
+  },
+  {
+    "id": "tallow",
+    "name": "Tallow",
+    "category": "Animal_Products",
+    "unit": "metric-ton",
+    "symbol": "tonne",
+    "description": "Rendered animal fat used in soap and candles",
+    "inceptionDate": "1900-01-01",
+    "metadata": {
+      "alternateNames": ["Beef Tallow"],
+      "physicalProperties": {}
+    }
+  }
+]

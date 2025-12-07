@@ -1,0 +1,352 @@
+[
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1900-01-01",
+    "rate": 0.808036,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1900-01-01",
+    "rate": 72.766919,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1900-01-01",
+    "rate": 71.578604,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1900-01-01",
+    "rate": 0.000026,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1900-01-01",
+    "rate": 0.000433,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1901-01-01",
+    "rate": 0.805714,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1901-01-01",
+    "rate": 72.824446,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1901-01-01",
+    "rate": 76.688785,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1901-01-01",
+    "rate": 0.000026,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1901-01-01",
+    "rate": 0.000429,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1902-01-01",
+    "rate": 0.778649,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1902-01-01",
+    "rate": 77.005707,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1902-01-01",
+    "rate": 76.210774,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1902-01-01",
+    "rate": 0.000025,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1902-01-01",
+    "rate": 0.000412,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1903-01-01",
+    "rate": 0.743453,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1903-01-01",
+    "rate": 78.409776,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1903-01-01",
+    "rate": 76.143045,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1903-01-01",
+    "rate": 0.000025,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1903-01-01",
+    "rate": 0.000431,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1904-01-01",
+    "rate": 0.746296,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1904-01-01",
+    "rate": 77.071185,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1904-01-01",
+    "rate": 74.135597,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1904-01-01",
+    "rate": 0.000026,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1904-01-01",
+    "rate": 0.000401,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1905-01-01",
+    "rate": 0.743741,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1905-01-01",
+    "rate": 71.517959,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1905-01-01",
+    "rate": 70.777499,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1905-01-01",
+    "rate": 0.000025,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1905-01-01",
+    "rate": 0.000424,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1906-01-01",
+    "rate": 0.766656,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1906-01-01",
+    "rate": 74.101962,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1906-01-01",
+    "rate": 72.805924,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1906-01-01",
+    "rate": 0.000026,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1906-01-01",
+    "rate": 0.000423,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1907-01-01",
+    "rate": 0.734484,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1907-01-01",
+    "rate": 73.719806,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1907-01-01",
+    "rate": 75.103673,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1907-01-01",
+    "rate": 0.000025,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1907-01-01",
+    "rate": 0.000428,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1908-01-01",
+    "rate": 0.74265,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1908-01-01",
+    "rate": 72.4551,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1908-01-01",
+    "rate": 70.473876,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1908-01-01",
+    "rate": 0.000024,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1908-01-01",
+    "rate": 0.000408,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GBP",
+    "date": "1909-01-01",
+    "rate": 0.791664,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "RUB",
+    "date": "1909-01-01",
+    "rate": 73.045031,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "INR",
+    "date": "1909-01-01",
+    "rate": 74.923663,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "GOLD",
+    "date": "1909-01-01",
+    "rate": 0.000024,
+    "sourceId": "historical-estimate"
+  },
+  {
+    "baseCurrency": "USD",
+    "targetCurrency": "SILVER",
+    "date": "1909-01-01",
+    "rate": 0.000403,
+    "sourceId": "historical-estimate"
+  }
+]

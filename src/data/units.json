@@ -1,0 +1,73 @@
+[
+  {
+    "id": "troy-ounce",
+    "name": "Troy Ounce",
+    "symbol": "oz t",
+    "type": "mass",
+    "baseConversion": {
+      "toMetricTon": 0.00003110348
+    },
+    "aliases": ["ozt", "troy oz"]
+  },
+  {
+    "id": "metric-ton",
+    "name": "Metric Ton",
+    "symbol": "tonne",
+    "type": "mass",
+    "baseConversion": {
+      "toMetricTon": 1.0
+    },
+    "aliases": ["MT", "metric tonne", "t"]
+  },
+  {
+    "id": "bushel",
+    "name": "Bushel",
+    "symbol": "bu",
+    "type": "volume",
+    "baseConversion": {
+      "formula": "Commodity-specific weight per bushel required"
+    },
+    "aliases": ["US bushel"]
+  },
+  {
+    "id": "pound",
+    "name": "Pound",
+    "symbol": "lb",
+    "type": "mass",
+    "baseConversion": {
+      "toMetricTon": 0.00045359237
+    },
+    "aliases": ["lbs", "pound mass"]
+  },
+  {
+    "id": "kilogram",
+    "name": "Kilogram",
+    "symbol": "kg",
+    "type": "mass",
+    "baseConversion": {
+      "toMetricTon": 0.001
+    },
+    "aliases": ["kilo"]
+  },
+  {
+    "id": "barrel",
+    "name": "Barrel",
+    "symbol": "bbl",
+    "type": "volume",
+    "baseConversion": {
+      "formula": "42 US gallons for petroleum, ~0.136 metric tons"
+    },
+    "aliases": ["oil barrel"]
+  },
+  {
+    "id": "hundredweight",
+    "name": "Hundredweight",
+    "symbol": "cwt",
+    "type": "mass",
+    "baseConversion": {
+      "toMetricTon": 0.0508023454,
+      "formula": "US hundredweight = 100 lbs"
+    },
+    "aliases": ["US cwt", "short hundredweight"]
+  }
+]
