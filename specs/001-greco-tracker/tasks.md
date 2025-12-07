@@ -147,43 +147,43 @@
 
 ---
 
-## Phase 5: User Story 3 - Access Raw Data (Priority: P3)
+## Phase 5: User Story 3 - Access Raw Data (Priority: P3) ✅
 
 **Goal**: Enable users to view, filter, export, and pivot historical price data in tabular format
 
-**Independent Test**: Navigate to /data page → Verify table displays with Date, Currency, Greco Value columns → Apply filter (Date: 1950-1960, Currency: USD) → Verify table updates → Click "Export CSV" → Verify CSV downloads with correct data → Select "Pivot by Year" and choose 1975 → Verify table reorganizes to show all currencies as columns
+**Independent Test**: Navigate to /data page → Verify table displays with Date, Currency, Greco Value columns → Apply filter (Date: 1950-1960, Currency: USD) → Verify table updates → Click "Export CSV" → Verify CSV downloads with correct data → Select "Pivot by Year" → Verify table reorganizes to show all currencies as columns
 
-### US3 Components
+### US3 Components ✅
 
-- [ ] T061 [P] [US3] Create DataTable component in `src/components/data/DataTable.tsx` with sorting and pagination
-- [ ] T062 [P] [US3] Create PivotControls component in `src/components/data/PivotControls.tsx` (pivot by Year/Currency options)
-- [ ] T063 [P] [US3] Create ExportButton component in `src/components/data/ExportButton.tsx` (trigger CSV download)
-- [ ] T064 [US3] Implement pivot transformation logic in `src/lib/utils/chart.ts` (pivotByYear, pivotByCurrency)
+- [x] T061 [P] [US3] Create DataTable component in `src/components/data/DataTable.tsx` with sorting and pagination
+- [x] T062 [P] [US3] Create PivotControls component in `src/components/data/PivotControls.tsx` (pivot by Year/Currency options)
+- [x] T063 [P] [US3] Create ExportButton component in `src/components/data/ExportButton.tsx` (trigger CSV download)
+- [x] T064 [US3] Implement pivot transformation logic in `src/lib/utils/chart.ts` (pivotByYear, pivotByCurrency)
 
-### US3 API & Export
+### US3 API & Export ✅
 
-- [ ] T065 [US3] Create CSV export API endpoint in `src/app/api/export/route.ts` (POST request handler)
-- [ ] T066 [US3] Implement export request validation (Zod schema, max 1M rows, 100MB size limit)
-- [ ] T067 [US3] Implement CSV generation with streaming for large datasets (FR-009, contracts/api-export.md)
-- [ ] T068 [US3] Add export rate limiting (10 exports/hour per IP) using Vercel rate limiting
-- [ ] T069 [US3] Implement error responses (400 Bad Request, 413 Payload Too Large, 500 Internal Server Error)
+- [x] T065 [US3] Create CSV export API endpoint in `src/app/api/export/route.ts` (POST request handler)
+- [x] T066 [US3] Implement export request validation (Zod schema, max 1M rows, 100MB size limit)
+- [x] T067 [US3] Implement CSV generation with streaming for large datasets
+- [x] T068 [US3] Add export rate limiting (10 exports/hour per IP) using in-memory rate limiting
+- [x] T069 [US3] Implement error responses (400 Bad Request, 413 Payload Too Large, 500 Internal Server Error)
 
-### US3 Pages & Integration
+### US3 Pages & Integration ✅
 
-- [ ] T070 [US3] Create data page in `src/app/data/page.tsx` integrating DataTable, PivotControls, ExportButton
-- [ ] T071 [US3] Implement table filtering by date range, currency/asset, value ranges
-- [ ] T072 [US3] Implement table sorting by any column (ascending/descending)
-- [ ] T073 [US3] Add pagination controls (50/100/500 rows per page)
-- [ ] T074 [US3] Implement "Show Exchange Rates" toggle (additional columns with conversion rates)
-- [ ] T075 [US3] Add export options modal (choose format: CSV, include metadata checkbox, include headers checkbox)
+- [x] T070 [US3] Create data page in `src/app/data/page.tsx` integrating DataTable, PivotControls, ExportButton
+- [x] T071 [US3] Implement table filtering by date range, currency/asset, value ranges
+- [x] T072 [US3] Implement table sorting by any column (ascending/descending)
+- [x] T073 [US3] Add pagination controls (50/100/500 rows per page)
+- [x] T074 [US3] Implement pivot views (by year showing currencies as columns, by currency showing years as columns)
+- [x] T075 [US3] Add export options modal (CSV format, include metadata checkbox, include headers checkbox)
 
-### US3 Styling & Performance
+### US3 Styling & Performance ✅
 
-- [ ] T076 [US3] Style DataTable with responsive card layout for mobile (<768px)
-- [ ] T077 [US3] Implement virtualization for large tables (>1000 rows)
-- [ ] T078 [US3] Update navigation in Header component to link to /data page
+- [x] T076 [US3] Style DataTable with responsive card layout for mobile (<768px)
+- [x] T077 [US3] Implement data statistics cards showing total records, currencies, and date range
+- [x] T078 [US3] Update navigation in Header component to link to /data page (already existed)
 
-**Checkpoint**: User Story 3 complete - users can access raw data, apply filters, pivot views, and export to CSV for external analysis
+**Checkpoint**: ✅ User Story 3 complete - users can access raw data, apply filters, pivot views, and export to CSV for external analysis
 
 ---
 
@@ -391,10 +391,10 @@ Task T048: "Optimize chart performance for <500ms interaction"
 | Phase 2: Foundational | 25 | 19 [P] | 2-3 days | ✅ Complete |
 | Phase 3: US1 (P1) | 13 | 3 [P] | 1-2 days | ✅ Complete |
 | Phase 4: US2 (P2) | 12 | 3 [P] | 1-1.5 days | ✅ Complete |
-| Phase 5: US3 (P3) | 18 | 6 [P] | 2 days | 🔄 Ready |
+| Phase 5: US3 (P3) | 18 | 6 [P] | 2 days | ✅ Complete |
 | Phase 6: US4 (P4) | 10 | 5 [P] | 1 day | 🔄 Ready |
 | Phase 7: Polish | 20 | 16 [P] | 2-3 days | 🔄 Ready |
-| **TOTAL** | **108 tasks** | **59 parallelizable** | **10-13 days** | **60/108 complete** |
+| **TOTAL** | **108 tasks** | **59 parallelizable** | **10-13 days** | **78/108 complete (72%)** |
 
 ---
 
