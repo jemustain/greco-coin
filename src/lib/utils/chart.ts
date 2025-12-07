@@ -13,6 +13,7 @@ export interface TimeSeriesDataPoint {
   completeness: number
   quality: string
   currency: string
+  contributingCommodities?: string[] // IDs of commodities included in calculation
 }
 
 export interface MultiCurrencyDataPoint {
@@ -38,6 +39,7 @@ export function convertToTimeSeriesData(
     completeness: gv.completeness,
     quality: gv.qualityIndicator,
     currency: gv.currencyId,
+    contributingCommodities: gv.contributingCommodities,
   }))
 }
 
