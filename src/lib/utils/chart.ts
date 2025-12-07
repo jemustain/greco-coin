@@ -194,3 +194,101 @@ export function calculateChartDomain(
 
   return [paddedMin, paddedMax]
 }
+
+/**
+ * Pivot data by year - show currencies as columns
+ * @param data - Greco values
+ * @param currencyIds - Array of currency IDs to include
+ * @returns Array of pivoted data with year as row and currencies as columns
+ */
+export function pivotByYear(
+  data: GrecoValue[],
+  currencyIds: string[]
+): Record<string, unknown>[] {
+  // Group by year
+  const yearMap = new Map<string, Map<string, number>>()
+
+  data.forEach((gv) => {
+    const year = gv.date.getFullYear().toString()
+    
+    if (!yearMap.has(year)) {
+      yearMap.set(year, new Map())
+    }
+    
+    const yearData = yearMap.get(year)!
+    
+    // Average values for the same currency in the same year
+    if (yearData.has(gv.currencyId)) {
+      const existingValue = yearData.get(gv.currencyId)!
+      yearData.set(gv.currencyId, (existingValue + gv.value) / 2)
+    } else {
+      yearData.set(gv.currencyId, gv.value)
+    }
+  })
+
+  // Convert to array format
+  const result: Record<string, unknown>[] = []
+  
+  Array.from(yearMap.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .forEach(([year, currencies]) => {
+      const row: Record<string, unknown> = { year }
+      
+      currencyIds.forEach((currencyId) => {
+        row[currencyId] = currencies.get(currencyId) || null
+      })
+      
+      result.push(row)
+    })
+
+  return result
+}
+
+/**
+ * Pivot data by currency - show years as columns
+ * @param data - Greco values
+ * @param years - Array of years to include
+ * @returns Array of pivoted data with currency as row and years as columns
+ */
+export function pivotByCurrency(
+  data: GrecoValue[],
+  years: number[]
+): Record<string, unknown>[] {
+  // Group by currency
+  const currencyMap = new Map<string, Map<number, number>>()
+
+  data.forEach((gv) => {
+    const year = gv.date.getFullYear()
+    
+    if (!currencyMap.has(gv.currencyId)) {
+      currencyMap.set(gv.currencyId, new Map())
+    }
+    
+    const currencyData = currencyMap.get(gv.currencyId)!
+    
+    // Average values for the same year
+    if (currencyData.has(year)) {
+      const existingValue = currencyData.get(year)!
+      currencyData.set(year, (existingValue + gv.value) / 2)
+    } else {
+      currencyData.set(year, gv.value)
+    }
+  })
+
+  // Convert to array format
+  const result: Record<string, unknown>[] = []
+  
+  Array.from(currencyMap.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
+    .forEach(([currencyId, yearValues]) => {
+      const row: Record<string, unknown> = { currency: currencyId }
+      
+      years.forEach((year) => {
+        row[year.toString()] = yearValues.get(year) || null
+      })
+      
+      result.push(row)
+    })
+
+  return result
+}
