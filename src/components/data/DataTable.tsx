@@ -244,7 +244,7 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
                     {getCurrencyName(item.currencyId)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right font-mono">
-                    {formatCurrency(item.grecoValue, 4)}
+                    {formatCurrency(item.grecoValue)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-right">
                     <span className={`inline-flex px-2 py-1 text-xs font-medium rounded-full ${
@@ -284,7 +284,7 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
               </span>
             </div>
             <div className="text-lg font-semibold text-gray-900 font-mono">
-              {formatCurrency(item.grecoValue, 4)} Greco
+              {formatCurrency(item.grecoValue)} Greco
             </div>
           </div>
         ))}
