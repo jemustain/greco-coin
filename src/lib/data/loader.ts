@@ -20,8 +20,40 @@ import unitsData from '../../data/units.json'
 import basketWeightsData from '../../data/metadata/basket-weights.json'
 import sourcesData from '../../data/metadata/sources.json'
 import exchangeRatesData from '../../data/exchange-rates.json'
+
+// Import all 32 commodity price files
 import goldPricesData from '../../data/prices/gold.json'
+import silverPricesData from '../../data/prices/silver.json'
+import ironPricesData from '../../data/prices/iron.json'
+import copperPricesData from '../../data/prices/copper.json'
+import aluminumPricesData from '../../data/prices/aluminum.json'
+import tinPricesData from '../../data/prices/tin.json'
+import leadPricesData from '../../data/prices/lead.json'
+import zincPricesData from '../../data/prices/zinc.json'
+import nickelPricesData from '../../data/prices/nickel.json'
+import platinumPricesData from '../../data/prices/platinum.json'
+import petroleumPricesData from '../../data/prices/petroleum.json'
+import cementPricesData from '../../data/prices/cement.json'
+import rubberPricesData from '../../data/prices/rubber.json'
+import sulphurPricesData from '../../data/prices/sulphur.json'
+import ricePricesData from '../../data/prices/rice.json'
 import wheatPricesData from '../../data/prices/wheat.json'
+import cornPricesData from '../../data/prices/corn.json'
+import barleyPricesData from '../../data/prices/barley.json'
+import oatsPricesData from '../../data/prices/oats.json'
+import ryePricesData from '../../data/prices/rye.json'
+import peanutsPricesData from '../../data/prices/peanuts.json'
+import soyBeansPricesData from '../../data/prices/soy-beans.json'
+import coffeePricesData from '../../data/prices/coffee.json'
+import cocoaPricesData from '../../data/prices/cocoa.json'
+import sugarPricesData from '../../data/prices/sugar.json'
+import cottonSeedPricesData from '../../data/prices/cotton-seed.json'
+import cottonPricesData from '../../data/prices/cotton.json'
+import woolPricesData from '../../data/prices/wool.json'
+import jutePricesData from '../../data/prices/jute.json'
+import hidesPricesData from '../../data/prices/hides.json'
+import copraPricesData from '../../data/prices/copra.json'
+import tallowPricesData from '../../data/prices/tallow.json'
 
 /**
  * Load all 32 commodities
@@ -101,8 +133,37 @@ export async function loadPrices(commodityId: string) {
   // Map commodity IDs to their data files
   const priceDataMap: Record<string, unknown> = {
     gold: goldPricesData,
+    silver: silverPricesData,
+    iron: ironPricesData,
+    copper: copperPricesData,
+    aluminum: aluminumPricesData,
+    tin: tinPricesData,
+    lead: leadPricesData,
+    zinc: zincPricesData,
+    nickel: nickelPricesData,
+    platinum: platinumPricesData,
+    petroleum: petroleumPricesData,
+    cement: cementPricesData,
+    rubber: rubberPricesData,
+    sulphur: sulphurPricesData,
+    rice: ricePricesData,
     wheat: wheatPricesData,
-    // Additional commodities would be loaded here
+    corn: cornPricesData,
+    barley: barleyPricesData,
+    oats: oatsPricesData,
+    rye: ryePricesData,
+    peanuts: peanutsPricesData,
+    'soy-beans': soyBeansPricesData,
+    coffee: coffeePricesData,
+    cocoa: cocoaPricesData,
+    sugar: sugarPricesData,
+    'cotton-seed': cottonSeedPricesData,
+    cotton: cottonPricesData,
+    wool: woolPricesData,
+    jute: jutePricesData,
+    hides: hidesPricesData,
+    copra: copraPricesData,
+    tallow: tallowPricesData,
   }
 
   const data = priceDataMap[commodityId]

@@ -1,0 +1,4498 @@
+[
+  {
+    "commodityId": "iron",
+    "date": "1900-01-01",
+    "priceUSD": 29.29,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1901-01-01",
+    "priceUSD": 27.05,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1902-01-01",
+    "priceUSD": 27.6,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1903-01-01",
+    "priceUSD": 28.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1904-01-01",
+    "priceUSD": 26.15,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1905-01-01",
+    "priceUSD": 31.31,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1906-01-01",
+    "priceUSD": 34.65,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1907-01-01",
+    "priceUSD": 30.44,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1908-01-01",
+    "priceUSD": 24.99,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1909-01-01",
+    "priceUSD": 33.87,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1910-01-01",
+    "priceUSD": 38.2,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1911-01-01",
+    "priceUSD": 30.28,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1912-01-01",
+    "priceUSD": 34.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1913-01-01",
+    "priceUSD": 29.94,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1914-01-01",
+    "priceUSD": 36.16,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1915-01-01",
+    "priceUSD": 41.8,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1916-01-01",
+    "priceUSD": 42.69,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1917-01-01",
+    "priceUSD": 35.75,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1918-01-01",
+    "priceUSD": 32.73,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1919-01-01",
+    "priceUSD": 39.63,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1920-01-01",
+    "priceUSD": 36.48,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1921-01-01",
+    "priceUSD": 33.44,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1922-01-01",
+    "priceUSD": 41.8,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1923-01-01",
+    "priceUSD": 44.84,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1924-01-01",
+    "priceUSD": 36.51,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1925-01-01",
+    "priceUSD": 44.51,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1926-01-01",
+    "priceUSD": 41.91,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1927-01-01",
+    "priceUSD": 40.18,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1928-01-01",
+    "priceUSD": 52.55,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1929-01-01",
+    "priceUSD": 38.77,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1930-01-01",
+    "priceUSD": 53.14,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1931-01-01",
+    "priceUSD": 45.64,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1932-01-01",
+    "priceUSD": 39.98,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1933-01-01",
+    "priceUSD": 46.16,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1934-01-01",
+    "priceUSD": 56.64,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1935-01-01",
+    "priceUSD": 51.93,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1936-01-01",
+    "priceUSD": 54.57,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1937-01-01",
+    "priceUSD": 57.46,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1938-01-01",
+    "priceUSD": 48.34,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1939-01-01",
+    "priceUSD": 59.31,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1940-01-01",
+    "priceUSD": 50.19,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1941-01-01",
+    "priceUSD": 60.66,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1942-01-01",
+    "priceUSD": 67.37,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1943-01-01",
+    "priceUSD": 56.17,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1944-01-01",
+    "priceUSD": 49.44,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1945-01-01",
+    "priceUSD": 57.92,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1946-01-01",
+    "priceUSD": 64.29,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1947-01-01",
+    "priceUSD": 58.52,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1948-01-01",
+    "priceUSD": 56.12,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1949-01-01",
+    "priceUSD": 59.19,
+    "unit": "metric-ton",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1950-01-01",
+    "priceUSD": 51.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1950-04-01",
+    "priceUSD": 61.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1950-07-01",
+    "priceUSD": 52.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1950-10-01",
+    "priceUSD": 66.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1951-01-01",
+    "priceUSD": 69.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1951-04-01",
+    "priceUSD": 61.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1951-07-01",
+    "priceUSD": 65.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1951-10-01",
+    "priceUSD": 58.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1952-01-01",
+    "priceUSD": 76.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1952-04-01",
+    "priceUSD": 55.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1952-07-01",
+    "priceUSD": 64.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1952-10-01",
+    "priceUSD": 60.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1953-01-01",
+    "priceUSD": 64.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1953-04-01",
+    "priceUSD": 71.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1953-07-01",
+    "priceUSD": 65.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1953-10-01",
+    "priceUSD": 58.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1954-01-01",
+    "priceUSD": 61.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1954-04-01",
+    "priceUSD": 62.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1954-07-01",
+    "priceUSD": 71.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1954-10-01",
+    "priceUSD": 56.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1955-01-01",
+    "priceUSD": 72.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1955-04-01",
+    "priceUSD": 58.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1955-07-01",
+    "priceUSD": 78.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1955-10-01",
+    "priceUSD": 71.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1956-01-01",
+    "priceUSD": 71.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1956-04-01",
+    "priceUSD": 56.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1956-07-01",
+    "priceUSD": 62.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1956-10-01",
+    "priceUSD": 69.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1957-01-01",
+    "priceUSD": 62.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1957-04-01",
+    "priceUSD": 55.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1957-07-01",
+    "priceUSD": 61.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1957-10-01",
+    "priceUSD": 70.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1958-01-01",
+    "priceUSD": 62.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1958-04-01",
+    "priceUSD": 77.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1958-07-01",
+    "priceUSD": 67.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1958-10-01",
+    "priceUSD": 64.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1959-01-01",
+    "priceUSD": 74.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1959-04-01",
+    "priceUSD": 56.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1959-07-01",
+    "priceUSD": 66.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1959-10-01",
+    "priceUSD": 57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1960-01-01",
+    "priceUSD": 58.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1960-04-01",
+    "priceUSD": 62.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1960-07-01",
+    "priceUSD": 72.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1960-10-01",
+    "priceUSD": 67.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1961-01-01",
+    "priceUSD": 67.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1961-04-01",
+    "priceUSD": 70.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1961-07-01",
+    "priceUSD": 70.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1961-10-01",
+    "priceUSD": 77.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1962-01-01",
+    "priceUSD": 76.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1962-04-01",
+    "priceUSD": 77.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1962-07-01",
+    "priceUSD": 71.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1962-10-01",
+    "priceUSD": 79.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1963-01-01",
+    "priceUSD": 66.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1963-04-01",
+    "priceUSD": 66.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1963-07-01",
+    "priceUSD": 86.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1963-10-01",
+    "priceUSD": 78.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1964-01-01",
+    "priceUSD": 77.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1964-04-01",
+    "priceUSD": 86.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1964-07-01",
+    "priceUSD": 83.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1964-10-01",
+    "priceUSD": 82.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1965-01-01",
+    "priceUSD": 62.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1965-04-01",
+    "priceUSD": 60.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1965-07-01",
+    "priceUSD": 63.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1965-10-01",
+    "priceUSD": 85.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1966-01-01",
+    "priceUSD": 70.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1966-04-01",
+    "priceUSD": 77.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1966-07-01",
+    "priceUSD": 71.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1966-10-01",
+    "priceUSD": 81.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1967-01-01",
+    "priceUSD": 82.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1967-04-01",
+    "priceUSD": 78.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1967-07-01",
+    "priceUSD": 79.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1967-10-01",
+    "priceUSD": 74.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1968-01-01",
+    "priceUSD": 86.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1968-04-01",
+    "priceUSD": 84.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1968-07-01",
+    "priceUSD": 86.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1968-10-01",
+    "priceUSD": 84.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1969-01-01",
+    "priceUSD": 86.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1969-04-01",
+    "priceUSD": 73.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1969-07-01",
+    "priceUSD": 81.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1969-10-01",
+    "priceUSD": 80.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1970-01-01",
+    "priceUSD": 63.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1970-04-01",
+    "priceUSD": 90.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1970-07-01",
+    "priceUSD": 62.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1970-10-01",
+    "priceUSD": 69.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1971-01-01",
+    "priceUSD": 79.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1971-04-01",
+    "priceUSD": 77.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1971-07-01",
+    "priceUSD": 88.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1971-10-01",
+    "priceUSD": 69.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1972-01-01",
+    "priceUSD": 67.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1972-04-01",
+    "priceUSD": 85.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1972-07-01",
+    "priceUSD": 75.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1972-10-01",
+    "priceUSD": 90.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1973-01-01",
+    "priceUSD": 93.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1973-04-01",
+    "priceUSD": 81.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1973-07-01",
+    "priceUSD": 77.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1973-10-01",
+    "priceUSD": 70.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1974-01-01",
+    "priceUSD": 67.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1974-04-01",
+    "priceUSD": 75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1974-07-01",
+    "priceUSD": 96.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1974-10-01",
+    "priceUSD": 90.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1975-01-01",
+    "priceUSD": 78.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1975-04-01",
+    "priceUSD": 79.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1975-07-01",
+    "priceUSD": 95.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1975-10-01",
+    "priceUSD": 90.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1976-01-01",
+    "priceUSD": 70.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1976-04-01",
+    "priceUSD": 82.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1976-07-01",
+    "priceUSD": 96.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1976-10-01",
+    "priceUSD": 85.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1977-01-01",
+    "priceUSD": 71.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1977-04-01",
+    "priceUSD": 83.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1977-07-01",
+    "priceUSD": 66.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1977-10-01",
+    "priceUSD": 92.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1978-01-01",
+    "priceUSD": 93.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1978-04-01",
+    "priceUSD": 87.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1978-07-01",
+    "priceUSD": 91.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1978-10-01",
+    "priceUSD": 99.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1979-01-01",
+    "priceUSD": 83.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1979-04-01",
+    "priceUSD": 83.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1979-07-01",
+    "priceUSD": 97.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1979-10-01",
+    "priceUSD": 72.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1980-01-01",
+    "priceUSD": 88.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1980-04-01",
+    "priceUSD": 90.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1980-07-01",
+    "priceUSD": 72.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1980-10-01",
+    "priceUSD": 90.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1981-01-01",
+    "priceUSD": 71.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1981-04-01",
+    "priceUSD": 100.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1981-07-01",
+    "priceUSD": 83.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1981-10-01",
+    "priceUSD": 81.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1982-01-01",
+    "priceUSD": 70.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1982-04-01",
+    "priceUSD": 90.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1982-07-01",
+    "priceUSD": 91.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1982-10-01",
+    "priceUSD": 99.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1983-01-01",
+    "priceUSD": 85.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1983-04-01",
+    "priceUSD": 80.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1983-07-01",
+    "priceUSD": 78.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1983-10-01",
+    "priceUSD": 93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1984-01-01",
+    "priceUSD": 81.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1984-04-01",
+    "priceUSD": 95.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1984-07-01",
+    "priceUSD": 94.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1984-10-01",
+    "priceUSD": 81.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1985-01-01",
+    "priceUSD": 85.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1985-04-01",
+    "priceUSD": 77.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1985-07-01",
+    "priceUSD": 88.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1985-10-01",
+    "priceUSD": 89.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1986-01-01",
+    "priceUSD": 88.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1986-04-01",
+    "priceUSD": 75.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1986-07-01",
+    "priceUSD": 82.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1986-10-01",
+    "priceUSD": 78.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1987-01-01",
+    "priceUSD": 97.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1987-04-01",
+    "priceUSD": 106.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1987-07-01",
+    "priceUSD": 72.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1987-10-01",
+    "priceUSD": 101.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1988-01-01",
+    "priceUSD": 89.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1988-04-01",
+    "priceUSD": 99.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1988-07-01",
+    "priceUSD": 96.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1988-10-01",
+    "priceUSD": 74.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1989-01-01",
+    "priceUSD": 100.99,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1989-04-01",
+    "priceUSD": 100.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1989-07-01",
+    "priceUSD": 80.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1989-10-01",
+    "priceUSD": 93.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1990-01-01",
+    "priceUSD": 95.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1990-04-01",
+    "priceUSD": 107.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1990-07-01",
+    "priceUSD": 84.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1990-10-01",
+    "priceUSD": 109.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1991-01-01",
+    "priceUSD": 81.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1991-04-01",
+    "priceUSD": 86.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1991-07-01",
+    "priceUSD": 76.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1991-10-01",
+    "priceUSD": 104.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1992-01-01",
+    "priceUSD": 88.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1992-04-01",
+    "priceUSD": 112.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1992-07-01",
+    "priceUSD": 103.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1992-10-01",
+    "priceUSD": 90.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1993-01-01",
+    "priceUSD": 91.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1993-04-01",
+    "priceUSD": 86.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1993-07-01",
+    "priceUSD": 84.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1993-10-01",
+    "priceUSD": 95.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1994-01-01",
+    "priceUSD": 101.37,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1994-04-01",
+    "priceUSD": 98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1994-07-01",
+    "priceUSD": 111.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1994-10-01",
+    "priceUSD": 103.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1995-01-01",
+    "priceUSD": 111.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1995-04-01",
+    "priceUSD": 82.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1995-07-01",
+    "priceUSD": 85.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1995-10-01",
+    "priceUSD": 80.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1996-01-01",
+    "priceUSD": 107.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1996-04-01",
+    "priceUSD": 99.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1996-07-01",
+    "priceUSD": 112.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1996-10-01",
+    "priceUSD": 90.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1997-01-01",
+    "priceUSD": 115.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1997-04-01",
+    "priceUSD": 103.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1997-07-01",
+    "priceUSD": 81.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1997-10-01",
+    "priceUSD": 90.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1998-01-01",
+    "priceUSD": 87.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1998-04-01",
+    "priceUSD": 78.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1998-07-01",
+    "priceUSD": 97.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1998-10-01",
+    "priceUSD": 92.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1999-01-01",
+    "priceUSD": 96.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1999-04-01",
+    "priceUSD": 118.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1999-07-01",
+    "priceUSD": 107.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "1999-10-01",
+    "priceUSD": 101.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-01-01",
+    "priceUSD": 106.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-02-01",
+    "priceUSD": 101.02,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-03-01",
+    "priceUSD": 104.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-04-01",
+    "priceUSD": 109.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-05-01",
+    "priceUSD": 104.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-06-01",
+    "priceUSD": 98.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-07-01",
+    "priceUSD": 95.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-08-01",
+    "priceUSD": 93.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-09-01",
+    "priceUSD": 87.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-10-01",
+    "priceUSD": 80.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-11-01",
+    "priceUSD": 101.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2000-12-01",
+    "priceUSD": 98.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-01-01",
+    "priceUSD": 82.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-02-01",
+    "priceUSD": 90.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-03-01",
+    "priceUSD": 110.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-04-01",
+    "priceUSD": 92.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-05-01",
+    "priceUSD": 96.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-06-01",
+    "priceUSD": 89.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-07-01",
+    "priceUSD": 88.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-08-01",
+    "priceUSD": 81.57,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-09-01",
+    "priceUSD": 105.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-10-01",
+    "priceUSD": 106.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-11-01",
+    "priceUSD": 87.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2001-12-01",
+    "priceUSD": 84.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-01-01",
+    "priceUSD": 109.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-02-01",
+    "priceUSD": 102.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-03-01",
+    "priceUSD": 89.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-04-01",
+    "priceUSD": 93.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-05-01",
+    "priceUSD": 103.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-06-01",
+    "priceUSD": 87.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-07-01",
+    "priceUSD": 114.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-08-01",
+    "priceUSD": 111.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-09-01",
+    "priceUSD": 91.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-10-01",
+    "priceUSD": 108.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-11-01",
+    "priceUSD": 91.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2002-12-01",
+    "priceUSD": 121.14,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-01-01",
+    "priceUSD": 116.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-02-01",
+    "priceUSD": 90.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-03-01",
+    "priceUSD": 91.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-04-01",
+    "priceUSD": 94.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-05-01",
+    "priceUSD": 93.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-06-01",
+    "priceUSD": 101.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-07-01",
+    "priceUSD": 102.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-08-01",
+    "priceUSD": 106.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-09-01",
+    "priceUSD": 86.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-10-01",
+    "priceUSD": 114.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-11-01",
+    "priceUSD": 103.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2003-12-01",
+    "priceUSD": 110.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-01-01",
+    "priceUSD": 119.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-02-01",
+    "priceUSD": 95.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-03-01",
+    "priceUSD": 92.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-04-01",
+    "priceUSD": 105.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-05-01",
+    "priceUSD": 87.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-06-01",
+    "priceUSD": 86.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-07-01",
+    "priceUSD": 107.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-08-01",
+    "priceUSD": 107.62,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-09-01",
+    "priceUSD": 120.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-10-01",
+    "priceUSD": 110.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-11-01",
+    "priceUSD": 89.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2004-12-01",
+    "priceUSD": 113.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-01-01",
+    "priceUSD": 100.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-02-01",
+    "priceUSD": 100.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-03-01",
+    "priceUSD": 105.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-04-01",
+    "priceUSD": 91.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-05-01",
+    "priceUSD": 122.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-06-01",
+    "priceUSD": 110.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-07-01",
+    "priceUSD": 84.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-08-01",
+    "priceUSD": 97.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-09-01",
+    "priceUSD": 89.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-10-01",
+    "priceUSD": 108.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-11-01",
+    "priceUSD": 106.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2005-12-01",
+    "priceUSD": 117.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-01-01",
+    "priceUSD": 91.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-02-01",
+    "priceUSD": 125.12,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-03-01",
+    "priceUSD": 84.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-04-01",
+    "priceUSD": 109.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-05-01",
+    "priceUSD": 98.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-06-01",
+    "priceUSD": 94.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-07-01",
+    "priceUSD": 102.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-08-01",
+    "priceUSD": 121,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-09-01",
+    "priceUSD": 95.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-10-01",
+    "priceUSD": 124.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-11-01",
+    "priceUSD": 92.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2006-12-01",
+    "priceUSD": 93.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-01-01",
+    "priceUSD": 106.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-02-01",
+    "priceUSD": 117.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-03-01",
+    "priceUSD": 122.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-04-01",
+    "priceUSD": 100.85,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-05-01",
+    "priceUSD": 111.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-06-01",
+    "priceUSD": 95.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-07-01",
+    "priceUSD": 109.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-08-01",
+    "priceUSD": 126.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-09-01",
+    "priceUSD": 120.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-10-01",
+    "priceUSD": 124.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-11-01",
+    "priceUSD": 94.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2007-12-01",
+    "priceUSD": 104.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-01-01",
+    "priceUSD": 115.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-02-01",
+    "priceUSD": 125.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-03-01",
+    "priceUSD": 114.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-04-01",
+    "priceUSD": 119.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-05-01",
+    "priceUSD": 90.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-06-01",
+    "priceUSD": 91.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-07-01",
+    "priceUSD": 89.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-08-01",
+    "priceUSD": 109.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-09-01",
+    "priceUSD": 111.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-10-01",
+    "priceUSD": 104.73,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-11-01",
+    "priceUSD": 85.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2008-12-01",
+    "priceUSD": 113.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-01-01",
+    "priceUSD": 106.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-02-01",
+    "priceUSD": 88.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-03-01",
+    "priceUSD": 88.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-04-01",
+    "priceUSD": 86.93,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-05-01",
+    "priceUSD": 92.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-06-01",
+    "priceUSD": 99.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-07-01",
+    "priceUSD": 101.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-08-01",
+    "priceUSD": 119.86,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-09-01",
+    "priceUSD": 120.13,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-10-01",
+    "priceUSD": 115.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-11-01",
+    "priceUSD": 119.74,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2009-12-01",
+    "priceUSD": 101.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-01-01",
+    "priceUSD": 102.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-02-01",
+    "priceUSD": 125.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-03-01",
+    "priceUSD": 125.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-04-01",
+    "priceUSD": 95.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-05-01",
+    "priceUSD": 127.19,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-06-01",
+    "priceUSD": 103.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-07-01",
+    "priceUSD": 117.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-08-01",
+    "priceUSD": 91.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-09-01",
+    "priceUSD": 120.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-10-01",
+    "priceUSD": 88.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-11-01",
+    "priceUSD": 95.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2010-12-01",
+    "priceUSD": 127.83,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-01-01",
+    "priceUSD": 105.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-02-01",
+    "priceUSD": 106.15,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-03-01",
+    "priceUSD": 97.52,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-04-01",
+    "priceUSD": 107.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-05-01",
+    "priceUSD": 112.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-06-01",
+    "priceUSD": 123.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-07-01",
+    "priceUSD": 118.2,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-08-01",
+    "priceUSD": 112.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-09-01",
+    "priceUSD": 114.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-10-01",
+    "priceUSD": 110.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-11-01",
+    "priceUSD": 94.76,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2011-12-01",
+    "priceUSD": 105.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-01-01",
+    "priceUSD": 121.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-02-01",
+    "priceUSD": 110.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-03-01",
+    "priceUSD": 97.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-04-01",
+    "priceUSD": 93.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-05-01",
+    "priceUSD": 97.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-06-01",
+    "priceUSD": 97.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-07-01",
+    "priceUSD": 118.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-08-01",
+    "priceUSD": 92.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-09-01",
+    "priceUSD": 120.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-10-01",
+    "priceUSD": 100.77,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-11-01",
+    "priceUSD": 93.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2012-12-01",
+    "priceUSD": 126.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-01-01",
+    "priceUSD": 108.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-02-01",
+    "priceUSD": 125.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-03-01",
+    "priceUSD": 123.53,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-04-01",
+    "priceUSD": 127.5,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-05-01",
+    "priceUSD": 88.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-06-01",
+    "priceUSD": 88.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-07-01",
+    "priceUSD": 93.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-08-01",
+    "priceUSD": 105.78,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-09-01",
+    "priceUSD": 109.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-10-01",
+    "priceUSD": 102.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-11-01",
+    "priceUSD": 130.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2013-12-01",
+    "priceUSD": 116.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-01-01",
+    "priceUSD": 110.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-02-01",
+    "priceUSD": 101.61,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-03-01",
+    "priceUSD": 117.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-04-01",
+    "priceUSD": 123.36,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-05-01",
+    "priceUSD": 120,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-06-01",
+    "priceUSD": 111.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-07-01",
+    "priceUSD": 99.34,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-08-01",
+    "priceUSD": 118.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-09-01",
+    "priceUSD": 99.63,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-10-01",
+    "priceUSD": 122.64,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-11-01",
+    "priceUSD": 92.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2014-12-01",
+    "priceUSD": 90.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-01-01",
+    "priceUSD": 125.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-02-01",
+    "priceUSD": 96.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-03-01",
+    "priceUSD": 127.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-04-01",
+    "priceUSD": 123.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-05-01",
+    "priceUSD": 132.1,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-06-01",
+    "priceUSD": 107.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-07-01",
+    "priceUSD": 89.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-08-01",
+    "priceUSD": 118.35,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-09-01",
+    "priceUSD": 114.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-10-01",
+    "priceUSD": 130.66,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-11-01",
+    "priceUSD": 124.33,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2015-12-01",
+    "priceUSD": 109.82,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-01-01",
+    "priceUSD": 133.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-02-01",
+    "priceUSD": 125.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-03-01",
+    "priceUSD": 118.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-04-01",
+    "priceUSD": 98.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-05-01",
+    "priceUSD": 94.67,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-06-01",
+    "priceUSD": 120.28,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-07-01",
+    "priceUSD": 134.11,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-08-01",
+    "priceUSD": 100.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-09-01",
+    "priceUSD": 129.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-10-01",
+    "priceUSD": 132.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-11-01",
+    "priceUSD": 92.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2016-12-01",
+    "priceUSD": 103.7,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-01-01",
+    "priceUSD": 116.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-02-01",
+    "priceUSD": 119.8,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-03-01",
+    "priceUSD": 134.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-04-01",
+    "priceUSD": 112.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-05-01",
+    "priceUSD": 126.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-06-01",
+    "priceUSD": 118.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-07-01",
+    "priceUSD": 96.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-08-01",
+    "priceUSD": 121.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-09-01",
+    "priceUSD": 117.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-10-01",
+    "priceUSD": 127.24,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-11-01",
+    "priceUSD": 119.68,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2017-12-01",
+    "priceUSD": 126,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-01-01",
+    "priceUSD": 135.03,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-02-01",
+    "priceUSD": 94.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-03-01",
+    "priceUSD": 106.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-04-01",
+    "priceUSD": 90.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-05-01",
+    "priceUSD": 93.84,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-06-01",
+    "priceUSD": 92.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-07-01",
+    "priceUSD": 99.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-08-01",
+    "priceUSD": 101.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-09-01",
+    "priceUSD": 121.72,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-10-01",
+    "priceUSD": 121.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-11-01",
+    "priceUSD": 132.55,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2018-12-01",
+    "priceUSD": 105.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-01-01",
+    "priceUSD": 110.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-02-01",
+    "priceUSD": 126.01,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-03-01",
+    "priceUSD": 97.16,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-04-01",
+    "priceUSD": 127.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-05-01",
+    "priceUSD": 99.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-06-01",
+    "priceUSD": 94.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-07-01",
+    "priceUSD": 133.17,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-08-01",
+    "priceUSD": 129.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-09-01",
+    "priceUSD": 108.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-10-01",
+    "priceUSD": 109.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-11-01",
+    "priceUSD": 99.81,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2019-12-01",
+    "priceUSD": 103.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-01-01",
+    "priceUSD": 105.71,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-02-01",
+    "priceUSD": 133.04,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-03-01",
+    "priceUSD": 112.21,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-04-01",
+    "priceUSD": 116.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-05-01",
+    "priceUSD": 132.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-06-01",
+    "priceUSD": 114.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-07-01",
+    "priceUSD": 92.51,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-08-01",
+    "priceUSD": 126.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-09-01",
+    "priceUSD": 132.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-10-01",
+    "priceUSD": 126.9,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-11-01",
+    "priceUSD": 131.54,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2020-12-01",
+    "priceUSD": 92.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-01-01",
+    "priceUSD": 112.94,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-02-01",
+    "priceUSD": 118.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-03-01",
+    "priceUSD": 138.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-04-01",
+    "priceUSD": 104.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-05-01",
+    "priceUSD": 118.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-06-01",
+    "priceUSD": 127.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-07-01",
+    "priceUSD": 133.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-08-01",
+    "priceUSD": 116.32,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-09-01",
+    "priceUSD": 122.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-10-01",
+    "priceUSD": 125.27,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-11-01",
+    "priceUSD": 111.38,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2021-12-01",
+    "priceUSD": 108.05,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-01-01",
+    "priceUSD": 138.58,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-02-01",
+    "priceUSD": 114.31,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-03-01",
+    "priceUSD": 131.46,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-04-01",
+    "priceUSD": 126.45,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-05-01",
+    "priceUSD": 96.43,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-06-01",
+    "priceUSD": 138.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-07-01",
+    "priceUSD": 125.39,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-08-01",
+    "priceUSD": 129.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-09-01",
+    "priceUSD": 105.96,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-10-01",
+    "priceUSD": 115.41,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-11-01",
+    "priceUSD": 124.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2022-12-01",
+    "priceUSD": 98.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-01-01",
+    "priceUSD": 110.18,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-02-01",
+    "priceUSD": 138.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-03-01",
+    "priceUSD": 104.91,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-04-01",
+    "priceUSD": 113.08,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-05-01",
+    "priceUSD": 128.75,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-06-01",
+    "priceUSD": 99.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-07-01",
+    "priceUSD": 117.42,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-08-01",
+    "priceUSD": 133.49,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-09-01",
+    "priceUSD": 116.97,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-10-01",
+    "priceUSD": 124.06,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-11-01",
+    "priceUSD": 117.65,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2023-12-01",
+    "priceUSD": 133.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-01-01",
+    "priceUSD": 114.09,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-02-01",
+    "priceUSD": 109.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-03-01",
+    "priceUSD": 118.26,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-04-01",
+    "priceUSD": 134.98,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-05-01",
+    "priceUSD": 119.87,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-06-01",
+    "priceUSD": 140.6,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-07-01",
+    "priceUSD": 128.59,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-08-01",
+    "priceUSD": 129.47,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-09-01",
+    "priceUSD": 119.3,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-10-01",
+    "priceUSD": 136.29,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-11-01",
+    "priceUSD": 122.48,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2024-12-01",
+    "priceUSD": 130.89,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-01-01",
+    "priceUSD": 124.25,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-02-01",
+    "priceUSD": 137.07,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-03-01",
+    "priceUSD": 141.44,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-04-01",
+    "priceUSD": 100.95,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-05-01",
+    "priceUSD": 127.92,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-06-01",
+    "priceUSD": 106.69,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-07-01",
+    "priceUSD": 141.23,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-08-01",
+    "priceUSD": 128.56,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-09-01",
+    "priceUSD": 98.79,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-10-01",
+    "priceUSD": 127.88,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-11-01",
+    "priceUSD": 98.22,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "iron",
+    "date": "2025-12-01",
+    "priceUSD": 109.4,
+    "unit": "metric-ton",
+    "sourceId": "usgs-metals",
+    "qualityIndicator": "high"
+  }
+]

@@ -101,18 +101,18 @@
 - [x] T039 [US1] Create homepage in `src/app/page.tsx` integrating TimeSeriesChart and ChartControls
 - [x] T040 [US1] Implement data loading logic for homepage (load currencies, load prices, calculate Greco values)
 - [x] T041 [US1] Add date range filtering functionality (custom ranges, preset ranges: 1900-2025, 1950-2025, 2000-2025)
-- [ ] T042 [US1] Implement tooltip with basket composition summary (show 32 commodities contribution)
-- [ ] T043 [US1] Add explanatory text about Greco unit concept below chart (FR-013)
-- [ ] T044 [US1] Implement data gap handling with annotations in chart (FR-016)
-- [ ] T045 [US1] Add currency inception date validation (show only valid dates for EUR 1999+, BTC 2009+)
+- [x] T042 [US1] Implement tooltip with basket composition summary (show 32 commodities contribution)
+- [x] T043 [US1] Add explanatory text about Greco unit concept below chart (FR-013)
+- [x] T044 [US1] Implement data gap handling with annotations in chart (FR-016)
+- [x] T045 [US1] Add currency inception date validation (show only valid dates for EUR 1999+, BTC 2009+)
 
-### US1 Styling & Responsiveness
+### US1 Styling & Responsiveness ✅
 
-- [ ] T046 [US1] Implement responsive chart sizing in `src/styles/globals.css` (320px mobile to 4K desktop)
-- [ ] T047 [US1] Add loading states and error boundaries for data fetching
-- [ ] T048 [US1] Optimize chart performance for <500ms interaction (implement data sampling if needed)
+- [x] T046 [US1] Implement responsive chart sizing in `src/styles/globals.css` (320px mobile to 4K desktop)
+- [x] T047 [US1] Add loading states and error boundaries for data fetching
+- [x] T048 [US1] Optimize chart performance for <500ms interaction (implement data sampling if needed)
 
-**Checkpoint**: User Story 1 complete - users can view Greco trends for any currency with interactive time-series chart. This is the MVP!
+**Checkpoint**: ✅ User Story 1 complete - users can view Greco trends for any currency with interactive time-series chart. This is the MVP!
 
 ---
 

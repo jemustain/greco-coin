@@ -34,6 +34,66 @@
   .container-page {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
   }
+
+  /* Responsive chart container */
+  .chart-container {
+    @apply w-full overflow-hidden;
+  }
+
+  /* Chart height responsiveness (320px mobile to 4K desktop) */
+  .chart-container .recharts-wrapper {
+    /* Mobile (320px - 640px): Shorter chart for better scrolling */
+    @media (max-width: 640px) {
+      min-height: 300px !important;
+      max-height: 350px !important;
+    }
+    
+    /* Tablet (641px - 1024px): Medium height */
+    @media (min-width: 641px) and (max-width: 1024px) {
+      min-height: 350px !important;
+      max-height: 450px !important;
+    }
+    
+    /* Desktop (1025px - 1920px): Standard height */
+    @media (min-width: 1025px) and (max-width: 1920px) {
+      min-height: 400px !important;
+      max-height: 500px !important;
+    }
+    
+    /* Large Desktop (1921px - 2560px): Larger height */
+    @media (min-width: 1921px) and (max-width: 2560px) {
+      min-height: 500px !important;
+      max-height: 600px !important;
+    }
+    
+    /* 4K (2561px+): Maximum height */
+    @media (min-width: 2561px) {
+      min-height: 600px !important;
+      max-height: 800px !important;
+    }
+  }
+
+  /* Responsive text sizing for chart labels */
+  .chart-container text {
+    @media (max-width: 640px) {
+      font-size: 0.625rem !important; /* 10px */
+    }
+    
+    @media (min-width: 641px) and (max-width: 1024px) {
+      font-size: 0.75rem !important; /* 12px */
+    }
+    
+    @media (min-width: 1025px) {
+      font-size: 0.875rem !important; /* 14px */
+    }
+  }
+
+  /* Ensure chart is centered and properly sized */
+  .chart-container svg {
+    @apply mx-auto;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @layer utilities {
