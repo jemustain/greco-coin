@@ -1,5 +1,6 @@
 /**
  * ChartControls - Currency selector and date range inputs
+ * Supports both single-select (dropdown) and multi-select (checkbox) modes
  */
 
 'use client'
@@ -12,8 +13,14 @@ import { Currency } from '@/lib/types/currency'
 
 interface ChartControlsProps {
   currencies: Currency[]
-  selectedCurrency: string
-  onCurrencyChange: (currencyId: string) => void
+  // Single-select mode (for main charts)
+  selectedCurrency?: string
+  onCurrencyChange?: (currencyId: string) => void
+  // Multi-select mode (for comparison charts)
+  selectedCurrencies?: string[]
+  onCurrenciesChange?: (currencyIds: string[]) => void
+  maxSelections?: number
+  // Common props
   startDate: Date
   endDate: Date
   onDateRangeChange: (start: Date, end: Date) => void
@@ -23,28 +30,38 @@ export default function ChartControls({
   currencies,
   selectedCurrency,
   onCurrencyChange,
+  selectedCurrencies = [],
+  onCurrenciesChange,
+  maxSelections = 9,
   startDate,
   endDate,
   onDateRangeChange,
 }: ChartControlsProps) {
-  // Get the selected currency's inception date
-  const selectedCurrencyData = useMemo(
-    () => currencies.find((c) => c.id === selectedCurrency),
-    [currencies, selectedCurrency]
-  )
+  // Determine which mode we're in
+  const isMultiSelect = selectedCurrencies.length > 0 || onCurrenciesChange !== undefined
+  
+  // Get the earliest inception date from selected currencies
+  const earliestInceptionDate = useMemo(() => {
+    const activeCurrencies = isMultiSelect
+      ? currencies.filter((c) => selectedCurrencies.includes(c.id))
+      : currencies.filter((c) => c.id === selectedCurrency)
 
-  const currencyInceptionDate = useMemo(() => {
-    if (!selectedCurrencyData?.inceptionDate) return new Date('1900-01-01')
-    return new Date(selectedCurrencyData.inceptionDate)
-  }, [selectedCurrencyData])
+    if (activeCurrencies.length === 0) return new Date('1900-01-01')
+
+    const dates = activeCurrencies
+      .map((c) => (c.inceptionDate ? new Date(c.inceptionDate) : new Date('1900-01-01')))
+      .filter((d) => !isNaN(d.getTime()))
+
+    return dates.length > 0 ? new Date(Math.min(...dates.map((d) => d.getTime()))) : new Date('1900-01-01')
+  }, [currencies, selectedCurrency, selectedCurrencies, isMultiSelect])
 
   // Validate and adjust date range if it's before currency inception
   const validateDateRange = (start: Date, end: Date) => {
     let validStart = start
     
-    // If start date is before currency inception, adjust it
-    if (validStart < currencyInceptionDate) {
-      validStart = currencyInceptionDate
+    // If start date is before earliest currency inception, adjust it
+    if (validStart < earliestInceptionDate) {
+      validStart = earliestInceptionDate
     }
     
     onDateRangeChange(validStart, end)
@@ -52,10 +69,10 @@ export default function ChartControls({
 
   // Auto-adjust date range when currency changes
   useEffect(() => {
-    if (startDate < currencyInceptionDate) {
+    if (startDate < earliestInceptionDate) {
       validateDateRange(startDate, endDate)
     }
-  }, [selectedCurrency, currencyInceptionDate]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [selectedCurrency, selectedCurrencies, earliestInceptionDate]) // eslint-disable-line react-hooks/exhaustive-deps
   const handlePresetClick = (presetKey: keyof typeof presetRanges) => {
     const preset = presetRanges[presetKey]
     validateDateRange(preset.start, preset.end)
@@ -66,7 +83,43 @@ export default function ChartControls({
   }
 
   // Show warning if current date range is before currency inception
-  const showInceptionWarning = startDate < currencyInceptionDate
+  const showInceptionWarning = startDate < earliestInceptionDate
+
+  // Handler for multi-select checkbox
+  const handleCurrencyToggle = (currencyId: string) => {
+    if (!onCurrenciesChange) return
+
+    const newSelection = selectedCurrencies.includes(currencyId)
+      ? selectedCurrencies.filter((id) => id !== currencyId)
+      : [...selectedCurrencies, currencyId]
+
+    // Enforce max selection limit
+    if (newSelection.length <= maxSelections) {
+      onCurrenciesChange(newSelection)
+    }
+  }
+
+  // Select All handler
+  const handleSelectAll = () => {
+    if (!onCurrenciesChange) return
+    const allIds = currencies.slice(0, maxSelections).map((c) => c.id)
+    onCurrenciesChange(allIds)
+  }
+
+  // Clear All handler
+  const handleClearAll = () => {
+    if (!onCurrenciesChange) return
+    onCurrenciesChange([])
+  }
+
+  // Get inception date info for warning message
+  const getInceptionInfo = () => {
+    if (!isMultiSelect && selectedCurrency) {
+      const currency = currencies.find((c) => c.id === selectedCurrency)
+      return currency?.name || 'The selected currency'
+    }
+    return 'One or more selected currencies'
+  }
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200 space-y-6">
@@ -89,8 +142,8 @@ export default function ChartControls({
               Date Range Before Currency Inception
             </p>
             <p className="text-sm text-amber-800 mt-1">
-              {selectedCurrencyData?.name} was introduced on{' '}
-              {formatDateInput(currencyInceptionDate)}. Data before this date is not 
+              {getInceptionInfo()} was introduced on{' '}
+              {formatDateInput(earliestInceptionDate)}. Data before this date is not 
               available. The start date will be adjusted automatically.
             </p>
           </div>
@@ -98,19 +151,83 @@ export default function ChartControls({
       )}
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Currency Selector */}
-        <div>
-          <Select
-            label="Currency / Asset"
-            id="currency-select"
-            value={selectedCurrency}
-            onChange={(e) => onCurrencyChange(e.target.value)}
-            options={currencies.map((c) => ({
-              value: c.id,
-              label: `${c.name} (${c.symbol})`,
-            }))}
-          />
-        </div>
+        {/* Currency Selector - Single Select Mode */}
+        {!isMultiSelect && (
+          <div>
+            <Select
+              label="Currency / Asset"
+              id="currency-select"
+              value={selectedCurrency || ''}
+              onChange={(e) => onCurrencyChange?.(e.target.value)}
+              options={currencies.map((c) => ({
+                value: c.id,
+                label: `${c.name} (${c.symbol})`,
+              }))}
+            />
+          </div>
+        )}
+
+        {/* Currency Selector - Multi Select Mode */}
+        {isMultiSelect && (
+          <div className="md:col-span-3">
+            <div className="flex items-center justify-between mb-2">
+              <label className="block text-sm font-medium text-gray-700">
+                Select Currencies to Compare ({selectedCurrencies.length}/{maxSelections})
+              </label>
+              <div className="flex gap-2">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={handleSelectAll}
+                  disabled={selectedCurrencies.length === maxSelections}
+                >
+                  Select All
+                </Button>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={handleClearAll}
+                  disabled={selectedCurrencies.length === 0}
+                >
+                  Clear All
+                </Button>
+              </div>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 p-4 bg-gray-50 rounded-lg border border-gray-200">
+              {currencies.map((currency) => {
+                const isSelected = selectedCurrencies.includes(currency.id)
+                const isDisabled = !isSelected && selectedCurrencies.length >= maxSelections
+
+                return (
+                  <label
+                    key={currency.id}
+                    className={`flex items-center gap-2 p-2 rounded-md cursor-pointer transition-colors ${
+                      isDisabled
+                        ? 'opacity-50 cursor-not-allowed'
+                        : 'hover:bg-white hover:shadow-sm'
+                    } ${isSelected ? 'bg-white shadow-sm' : ''}`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={isSelected}
+                      onChange={() => handleCurrencyToggle(currency.id)}
+                      disabled={isDisabled}
+                      className="w-4 h-4 text-greco-primary focus:ring-greco-primary border-gray-300 rounded cursor-pointer"
+                    />
+                    <span className="text-sm font-medium text-gray-700">
+                      {currency.name} ({currency.symbol})
+                    </span>
+                  </label>
+                )
+              })}
+            </div>
+            {selectedCurrencies.length >= maxSelections && (
+              <p className="text-sm text-gray-500 mt-2">
+                Maximum {maxSelections} currencies selected. Uncheck a currency to select another.
+              </p>
+            )}
+          </div>
+        )}
 
         {/* Start Date */}
         <div>
@@ -130,12 +247,12 @@ export default function ChartControls({
                 validateDateRange(newStart, endDate)
               }
             }}
-            min={formatDateInput(currencyInceptionDate)}
+            min={formatDateInput(earliestInceptionDate)}
             max={formatDateInput(endDate)}
             className="block w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent"
           />
           <p className="text-xs text-gray-500 mt-1">
-            Earliest: {formatDateInput(currencyInceptionDate)}
+            Earliest: {formatDateInput(earliestInceptionDate)}
           </p>
         </div>
 
