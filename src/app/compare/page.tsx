@@ -5,10 +5,12 @@
 
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
+import { useSearchParams, useRouter } from 'next/navigation'
 import MultiCurrencyChart from '@/components/charts/MultiCurrencyChart'
 import ChartControls from '@/components/charts/ChartControls'
 import ComparisonInsights from '@/components/insights/ComparisonInsights'
+import ErrorBoundary from '@/components/errors/ErrorBoundary'
 import Loading from '@/components/ui/Loading'
 import { loadCurrencies, loadCommodities } from '@/lib/data/loader'
 import { calculateGrecoTimeSeries } from '@/lib/data/calculator'
@@ -18,6 +20,9 @@ import { Currency } from '@/lib/types/currency'
 import { Commodity } from '@/lib/types/commodity'
 
 export default function ComparePage() {
+  const searchParams = useSearchParams()
+  const router = useRouter()
+  
   const [currencies, setCurrencies] = useState<Currency[]>([])
   const [selectedCurrencies, setSelectedCurrencies] = useState<string[]>([])
   const [hiddenCurrencies, setHiddenCurrencies] = useState<Set<string>>(new Set())
@@ -25,11 +30,63 @@ export default function ComparePage() {
   const [endDate, setEndDate] = useState(() => new Date())
   const [currencyDataMap, setCurrencyDataMap] = useState<Map<string, GrecoValue[]>>(new Map())
   const [loading, setLoading] = useState(false)
+  const [isInitialized, setIsInitialized] = useState(false)
 
   // Load currencies on mount
   React.useEffect(() => {
     loadCurrencies().then(setCurrencies)
   }, [])
+
+  // Initialize from URL params
+  useEffect(() => {
+    if (currencies.length === 0 || isInitialized) return
+
+    const currenciesParam = searchParams.get('currencies')
+    const startParam = searchParams.get('start')
+    const endParam = searchParams.get('end')
+
+    if (currenciesParam) {
+      const currencyIds = currenciesParam.split(',').filter((id) => 
+        currencies.some((c) => c.id === id)
+      )
+      if (currencyIds.length > 0) {
+        setSelectedCurrencies(currencyIds)
+      }
+    }
+
+    if (startParam) {
+      const date = new Date(startParam)
+      if (!isNaN(date.getTime())) {
+        setStartDate(date)
+      }
+    }
+
+    if (endParam) {
+      const date = new Date(endParam)
+      if (!isNaN(date.getTime())) {
+        setEndDate(date)
+      }
+    }
+
+    setIsInitialized(true)
+  }, [currencies, searchParams, isInitialized])
+
+  // Update URL when state changes
+  useEffect(() => {
+    if (!isInitialized) return
+
+    const params = new URLSearchParams()
+    
+    if (selectedCurrencies.length > 0) {
+      params.set('currencies', selectedCurrencies.join(','))
+    }
+    
+    params.set('start', startDate.toISOString().split('T')[0])
+    params.set('end', endDate.toISOString().split('T')[0])
+
+    const newUrl = params.toString() ? `?${params.toString()}` : '/compare'
+    router.replace(newUrl, { scroll: false })
+  }, [selectedCurrencies, startDate, endDate, isInitialized, router])
 
   // Calculate Greco values when selections change
   React.useEffect(() => {
@@ -86,20 +143,58 @@ export default function ComparePage() {
     setEndDate(end)
   }
 
+  // Export to CSV handler
+  const handleExportCSV = () => {
+    if (chartData.length === 0) return
+
+    // Create CSV headers
+    const headers = ['Date', ...selectedCurrencies.map((id) => {
+      const currency = currencies.find((c) => c.id === id)
+      return currency?.name || id
+    })]
+
+    // Create CSV rows
+    const rows = chartData.map((point) => {
+      const row = [point.formattedDate]
+      selectedCurrencies.forEach((id) => {
+        const value = (point as any)[id]
+        row.push(value !== null && value !== undefined ? value.toString() : '')
+      })
+      return row
+    })
+
+    // Combine headers and rows
+    const csvContent = [
+      headers.join(','),
+      ...rows.map((row) => row.join(','))
+    ].join('\n')
+
+    // Create blob and download
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' })
+    const link = document.createElement('a')
+    const url = URL.createObjectURL(blob)
+    link.setAttribute('href', url)
+    link.setAttribute('download', `greco-comparison-${new Date().toISOString().split('T')[0]}.csv`)
+    link.style.visibility = 'hidden'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
-    <main className="container mx-auto px-4 py-8 max-w-7xl">
+    <main className="container mx-auto px-4 py-6 sm:py-8 max-w-7xl">
       {/* Page Header */}
-      <div className="mb-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
           Currency Comparison
         </h1>
-        <p className="text-lg text-gray-600">
+        <p className="text-base sm:text-lg text-gray-600">
           Compare up to 9 currencies side-by-side to analyze relative purchasing power
         </p>
       </div>
 
       {/* Controls */}
-      <div className="mb-8">
+      <div className="mb-6 sm:mb-8">
         <ChartControls
           currencies={currencies}
           selectedCurrencies={selectedCurrencies}
@@ -114,41 +209,106 @@ export default function ComparePage() {
       {/* Chart */}
       {selectedCurrencies.length > 0 ? (
         <>
-          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">
-              Greco Value Comparison
-            </h2>
-            {loading ? (
-              <div className="flex items-center justify-center" style={{ height: 500 }}>
-                <Loading size="lg" text={`Loading data for ${selectedCurrencies.length} ${selectedCurrencies.length === 1 ? 'currency' : 'currencies'}...`} />
+          <ErrorBoundary
+            fallback={
+              <div className="bg-red-50 rounded-lg p-8 border border-red-200 text-center">
+                <svg
+                  className="mx-auto h-12 w-12 text-red-600 mb-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+                  />
+                </svg>
+                <h3 className="text-lg font-semibold text-red-900 mb-2">
+                  Chart Error
+                </h3>
+                <p className="text-red-800 mb-4">
+                  Unable to display the comparison chart. Please try selecting different currencies or adjusting the date range.
+                </p>
+                <button
+                  onClick={() => window.location.reload()}
+                  className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+                >
+                  Reload Page
+                </button>
               </div>
-            ) : (
-              <MultiCurrencyChart
-                data={chartData}
-                currencies={currencies}
-                selectedCurrencyIds={selectedCurrencies}
-                colorMap={colorMap}
-                hiddenCurrencies={hiddenCurrencies}
-                onToggleCurrency={handleToggleCurrency}
-                showGrid={true}
-                height={500}
-              />
-            )}
-          </div>
+            }
+          >
+            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+                <h2 className="text-xl font-semibold text-gray-900">
+                  Greco Value Comparison
+                </h2>
+                {!loading && chartData.length > 0 && (
+                  <button
+                    onClick={handleExportCSV}
+                    className="flex items-center justify-center gap-2 px-4 py-2 bg-greco-primary text-white rounded-lg hover:bg-greco-primary/90 transition-colors text-sm font-medium w-full sm:w-auto"
+                  >
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                      />
+                    </svg>
+                    Export CSV
+                  </button>
+                )}
+              </div>
+              {loading ? (
+                <div className="flex items-center justify-center" style={{ height: 400 }}>
+                  <Loading size="lg" text={`Loading data for ${selectedCurrencies.length} ${selectedCurrencies.length === 1 ? 'currency' : 'currencies'}...`} />
+                </div>
+              ) : (
+                <MultiCurrencyChart
+                  data={chartData}
+                  currencies={currencies}
+                  selectedCurrencyIds={selectedCurrencies}
+                  colorMap={colorMap}
+                  hiddenCurrencies={hiddenCurrencies}
+                  onToggleCurrency={handleToggleCurrency}
+                  showGrid={true}
+                  height={400}
+                />
+              )}
+            </div>
+          </ErrorBoundary>
 
           {/* Insights Panel */}
           {!loading && (
-            <div className="mt-8">
-              <ComparisonInsights
-                currencyDataMap={currencyDataMap}
-                currencies={currencies}
-                selectedCurrencyIds={selectedCurrencies}
-              />
-            </div>
+            <ErrorBoundary
+              fallback={
+                <div className="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
+                  <p className="text-yellow-800 text-sm">
+                    Unable to calculate comparison insights. The chart is still available above.
+                  </p>
+                </div>
+              }
+            >
+              <div className="mt-8">
+                <ComparisonInsights
+                  currencyDataMap={currencyDataMap}
+                  currencies={currencies}
+                  selectedCurrencyIds={selectedCurrencies}
+                />
+              </div>
+            </ErrorBoundary>
           )}
         </>
       ) : (
-        <div className="bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 p-12 text-center">
+        <div className="bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 p-8 sm:p-12 text-center">
           <svg
             className="mx-auto h-12 w-12 text-gray-400 mb-4"
             fill="none"
