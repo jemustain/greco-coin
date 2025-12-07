@@ -29,8 +29,8 @@ export default function AboutPage() {
                 stable measure of purchasing power by anchoring value to real-world goods that have intrinsic utility.
               </p>
               <p>
-                This concept draws inspiration from <strong>Thomas H. Greco Jr.'s</strong> work on monetary reform and 
-                alternative exchange systems. The name "Greco" honors his contributions to rethinking how we measure 
+                This concept draws inspiration from <strong>Thomas H. Greco Jr.&apos;s</strong> work on monetary reform and 
+                alternative exchange systems. The name &quot;Greco&quot; honors his contributions to rethinking how we measure 
                 and exchange value in modern economies.
               </p>
             </div>
@@ -88,7 +88,7 @@ export default function AboutPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Independence:</strong> Not subject to any single government's monetary policy</span>
+                    <span><strong>Independence:</strong> Not subject to any single government&apos;s monetary policy</span>
                   </li>
                 </ul>
               </div>
@@ -97,16 +97,16 @@ export default function AboutPage() {
 
           {/* Tom Greco's Vision */}
           <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Tom Greco's Vision for Monetary Reform</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Tom Greco&apos;s Vision for Monetary Reform</h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
                 Thomas H. Greco Jr. is a researcher, author, and advocate for monetary innovation and community 
-                economic empowerment. In his influential book <em className="font-semibold">"The End of Money and 
-                the Future of Civilization"</em> (2009), Greco explores how alternative exchange mechanisms can 
+                economic empowerment. In his influential book <em className="font-semibold">&quot;The End of Money and 
+                the Future of Civilization&quot;</em> (2009), Greco explores how alternative exchange mechanisms can 
                 create more equitable and sustainable economic systems.
               </p>
               <p>
-                Key themes from Greco's work that inform this project:
+                Key themes from Greco&apos;s work that inform this project:
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
                 <li>The need for <strong>value standards independent of political control</strong></li>
@@ -130,7 +130,7 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
                 The Greco Historical Currency Tracker calculates the value of various currencies in terms of 
-                Greco units from 1900 to the present. Here's how it works:
+                Greco units from 1900 to the present. Here&apos;s how it works:
               </p>
               <ol className="list-decimal list-inside space-y-3 ml-4">
                 <li>

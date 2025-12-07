@@ -104,7 +104,7 @@ export default function MethodologyPage() {
               </p>
               <p>
                 This methodology allows us to track how much of any given currency is needed to purchase one Greco 
-                unit over time, revealing changes in that currency's purchasing power.
+                unit over time, revealing changes in that currency&apos;s purchasing power.
               </p>
             </div>
           </section>
@@ -265,7 +265,7 @@ export default function MethodologyPage() {
           <section className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">Calculation Example</h2>
             <p className="text-gray-700 mb-6">
-              Let's calculate the Greco value for January 1, 2000 in USD:
+              Let&apos;s calculate the Greco value for January 1, 2000 in USD:
             </p>
 
             <div className="overflow-x-auto mb-6">
@@ -323,7 +323,7 @@ export default function MethodologyPage() {
                   <strong>Diversification:</strong> Ensures broad exposure across all economic sectors
                 </li>
                 <li>
-                  <strong>Historical Consistency:</strong> Weighting schemes don't change over time, making comparisons valid
+                  <strong>Historical Consistency:</strong> Weighting schemes don&apos;t change over time, making comparisons valid
                 </li>
                 <li>
                   <strong>Philosophical Alignment:</strong> Reflects the idea that all essential commodities have intrinsic value

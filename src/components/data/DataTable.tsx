@@ -210,7 +210,6 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
                     }
                   }}
                   tabIndex={0}
-                  role="button"
                   aria-label={`Sort by date ${sortField === 'date' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
                   aria-sort={sortField === 'date' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
@@ -233,7 +232,6 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
                     }
                   }}
                   tabIndex={0}
-                  role="button"
                   aria-label={`Sort by currency ${sortField === 'currency' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
                   aria-sort={sortField === 'currency' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
@@ -256,7 +254,6 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
                     }
                   }}
                   tabIndex={0}
-                  role="button"
                   aria-label={`Sort by value ${sortField === 'value' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : ''}`}
                   aria-sort={sortField === 'value' ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}
                 >
