@@ -179,70 +179,72 @@ export default function TimeSeriesChart({
 
   return (
     <>
-      <ResponsiveContainer width="100%" height={height}>
-        <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          {showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />}
-          
-          {/* Data gap annotations */}
-          {dataGaps.map((gap, index) => {
-            // Find the data point indices for the gap boundaries
-            const startIndex = data.findIndex(
-              (d) => d.dateObj.getTime() >= gap.start.getTime()
-            )
-            const endIndex = data.findIndex(
-              (d) => d.dateObj.getTime() >= gap.end.getTime()
-            )
+      <div className="chart-container">
+        <ResponsiveContainer width="100%" height={height}>
+          <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+            {showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />}
+            
+            {/* Data gap annotations */}
+            {dataGaps.map((gap, index) => {
+              // Find the data point indices for the gap boundaries
+              const startIndex = data.findIndex(
+                (d) => d.dateObj.getTime() >= gap.start.getTime()
+              )
+              const endIndex = data.findIndex(
+                (d) => d.dateObj.getTime() >= gap.end.getTime()
+              )
 
-            if (startIndex === -1 || endIndex === -1) return null
+              if (startIndex === -1 || endIndex === -1) return null
 
-            return (
-              <ReferenceArea
-                key={`gap-${index}`}
-                x1={data[startIndex].formattedDate}
-                x2={data[endIndex].formattedDate}
-                fill="#fef3c7"
-                fillOpacity={0.3}
-                stroke="#f59e0b"
-                strokeOpacity={0.5}
-                strokeDasharray="3 3"
-                label={{
-                  value: `${gap.durationMonths}mo gap`,
-                  position: 'top',
-                  fontSize: 10,
-                  fill: '#92400e',
-                }}
-              />
-            )
-          })}
+              return (
+                <ReferenceArea
+                  key={`gap-${index}`}
+                  x1={data[startIndex].formattedDate}
+                  x2={data[endIndex].formattedDate}
+                  fill="#fef3c7"
+                  fillOpacity={0.3}
+                  stroke="#f59e0b"
+                  strokeOpacity={0.5}
+                  strokeDasharray="3 3"
+                  label={{
+                    value: `${gap.durationMonths}mo gap`,
+                    position: 'top',
+                    fontSize: 10,
+                    fill: '#92400e',
+                  }}
+                />
+              )
+            })}
 
-          <XAxis
-            dataKey="formattedDate"
-            stroke="#6b7280"
-            style={{ fontSize: '0.75rem' }}
-            tickFormatter={formatXAxis}
-          />
-          <YAxis
-            stroke="#6b7280"
-            style={{ fontSize: '0.75rem' }}
-            tickFormatter={formatYAxis}
-          />
-          <Tooltip content={<CustomTooltip />} />
-          <Legend
-            wrapperStyle={{ fontSize: '0.875rem' }}
-            iconType="line"
-          />
-          <Line
-            type="monotone"
-            dataKey="value"
-            name={`Greco Value (${currency})`}
-            stroke="#2563eb"
-            strokeWidth={2}
-            dot={false}
-            activeDot={{ r: 6 }}
-            animationDuration={300}
-          />
-        </LineChart>
-      </ResponsiveContainer>
+            <XAxis
+              dataKey="formattedDate"
+              stroke="#6b7280"
+              style={{ fontSize: '0.75rem' }}
+              tickFormatter={formatXAxis}
+            />
+            <YAxis
+              stroke="#6b7280"
+              style={{ fontSize: '0.75rem' }}
+              tickFormatter={formatYAxis}
+            />
+            <Tooltip content={<CustomTooltip />} />
+            <Legend
+              wrapperStyle={{ fontSize: '0.875rem' }}
+              iconType="line"
+            />
+            <Line
+              type="monotone"
+              dataKey="value"
+              name={`Greco Value (${currency})`}
+              stroke="#2563eb"
+              strokeWidth={2}
+              dot={false}
+              activeDot={{ r: 6 }}
+              animationDuration={300}
+            />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
 
       {/* Gap warning below chart */}
       {dataGaps.length > 0 && (
