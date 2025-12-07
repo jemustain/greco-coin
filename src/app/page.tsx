@@ -44,11 +44,19 @@ export default function HomePage() {
     setLoading(true)
     setError(null)
 
+    const startTime = performance.now()
+
     calculateGrecoTimeSeries(startDate, endDate, selectedCurrency, 'monthly')
       .then((grecoValues) => {
         const timeSeriesData = convertToTimeSeriesData(grecoValues)
+        // Performance optimization: Sample data to max 500 points for <500ms interactions
         const sampledData = sampleDataForPerformance(timeSeriesData, 500)
         setChartData(sampledData)
+        
+        const endTime = performance.now()
+        const duration = endTime - startTime
+        console.log(`Chart data loaded in ${duration.toFixed(2)}ms (${grecoValues.length} → ${sampledData.length} points)`)
+        
         setLoading(false)
       })
       .catch((err) => {

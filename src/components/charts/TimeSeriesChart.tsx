@@ -28,7 +28,14 @@ interface TimeSeriesChartProps {
   height?: number
 }
 
-export default function TimeSeriesChart({
+/**
+ * TimeSeriesChart component with performance optimizations:
+ * - React.memo for component-level memoization
+ * - useMemo for expensive gap detection calculations
+ * - Data sampling (500 points max) handled by parent
+ * Target: <500ms interaction time per SC-003
+ */
+const TimeSeriesChart = React.memo(function TimeSeriesChart({
   data,
   currency,
   showGrid = true,
@@ -272,4 +279,6 @@ export default function TimeSeriesChart({
       )}
     </>
   )
-}
+})
+
+export default TimeSeriesChart
