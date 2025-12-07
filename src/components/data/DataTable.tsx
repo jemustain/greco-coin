@@ -37,11 +37,18 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
       }
 
       // Date range filter
-      if (filterDateFrom && item.date < filterDateFrom) {
-        return false
+      const itemDate = typeof item.date === 'string' ? new Date(item.date) : item.date
+      if (filterDateFrom) {
+        const fromDate = new Date(filterDateFrom)
+        if (itemDate < fromDate) {
+          return false
+        }
       }
-      if (filterDateTo && item.date > filterDateTo) {
-        return false
+      if (filterDateTo) {
+        const toDate = new Date(filterDateTo)
+        if (itemDate > toDate) {
+          return false
+        }
       }
 
       return true
@@ -55,14 +62,17 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
       let comparison = 0
 
       switch (sortField) {
-        case 'date':
-          comparison = a.date.localeCompare(b.date)
+        case 'date': {
+          const dateA = typeof a.date === 'string' ? new Date(a.date) : a.date
+          const dateB = typeof b.date === 'string' ? new Date(b.date) : b.date
+          comparison = dateA.getTime() - dateB.getTime()
           break
+        }
         case 'currency':
           comparison = a.currencyId.localeCompare(b.currencyId)
           break
         case 'value':
-          comparison = a.grecoValue - b.grecoValue
+          comparison = a.value - b.value
           break
       }
 
@@ -244,7 +254,7 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
                     {getCurrencyName(item.currencyId)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900 text-right font-mono">
-                    {formatCurrency(item.grecoValue)}
+                    {formatCurrency(item.value)}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-right">
                     <span className={`inline-flex px-2 py-1 text-xs font-medium rounded-full ${
@@ -284,7 +294,7 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
               </span>
             </div>
             <div className="text-lg font-semibold text-gray-900 font-mono">
-              {formatCurrency(item.grecoValue)} Greco
+              {formatCurrency(item.value)} Greco
             </div>
           </div>
         ))}

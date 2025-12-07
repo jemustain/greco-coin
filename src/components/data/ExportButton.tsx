@@ -126,6 +126,7 @@ export default function ExportButton({
 
             <div className="space-y-4">
               {/* Include Headers Checkbox */}
+              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
               <label className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
                 <input
                   type="checkbox"
@@ -142,6 +143,7 @@ export default function ExportButton({
               </label>
 
               {/* Include Metadata Checkbox */}
+              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
               <label className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
                 <input
                   type="checkbox"

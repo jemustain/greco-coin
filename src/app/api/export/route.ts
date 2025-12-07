@@ -7,7 +7,6 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
-import { GrecoValue } from '@/lib/types/greco'
 
 // Validation schema
 const ExportRequestSchema = z.object({

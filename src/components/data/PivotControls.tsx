@@ -32,9 +32,9 @@ export default function PivotControls({
       <div className="space-y-4">
         {/* View Mode Selection */}
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <div className="block text-sm font-medium text-gray-700 mb-2">
             Display Mode
-          </label>
+          </div>
           <div className="flex space-x-2">
             <button
               onClick={() => onViewModeChange('table')}
@@ -64,10 +64,11 @@ export default function PivotControls({
         {/* Pivot Mode Selection (only shown when in pivot view) */}
         {viewMode === 'pivot' && (
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <div className="block text-sm font-medium text-gray-700 mb-2">
               Pivot By
-            </label>
+            </div>
             <div className="space-y-2">
+              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
               <label className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
                 <input
                   type="radio"
@@ -86,6 +87,7 @@ export default function PivotControls({
                 </div>
               </label>
 
+              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
               <label className="flex items-center space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer">
                 <input
                   type="radio"
