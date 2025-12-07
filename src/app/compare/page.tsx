@@ -18,6 +18,9 @@ import { mergeTimeSeriesData, assignColors } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic'
+
 function ComparePageContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
