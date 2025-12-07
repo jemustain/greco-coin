@@ -5,7 +5,7 @@
 
 'use client'
 
-import React, { useState, useMemo, useEffect } from 'react'
+import React, { useState, useMemo, useEffect, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import MultiCurrencyChart from '@/components/charts/MultiCurrencyChart'
 import ChartControls from '@/components/charts/ChartControls'
@@ -18,7 +18,7 @@ import { mergeTimeSeriesData, assignColors } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 
-export default function ComparePage() {
+function ComparePageContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   
@@ -407,5 +407,19 @@ export default function ComparePage() {
         </ul>
       </div>
     </main>
+  )
+}
+
+export default function ComparePage() {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-6 sm:py-8 max-w-7xl">
+        <div className="flex items-center justify-center min-h-screen">
+          <Loading size="lg" text="Loading comparison page..." />
+        </div>
+      </div>
+    }>
+      <ComparePageContent />
+    </Suspense>
   )
 }
