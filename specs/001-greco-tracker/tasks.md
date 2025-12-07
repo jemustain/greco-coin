@@ -90,17 +90,17 @@
 
 **Independent Test**: Load homepage → Select USD from currency dropdown → Verify chart displays with 1900-2025 data → Hover over data point → Verify tooltip shows date, value, and basket summary → Change date range → Verify chart updates
 
-### US1 Components
+### US1 Components ✅
 
-- [ ] T036 [P] [US1] Create ChartControls component in `src/components/charts/ChartControls.tsx` (currency selector, date range inputs)
-- [ ] T037 [US1] Create TimeSeriesChart component in `src/components/charts/TimeSeriesChart.tsx` using Recharts (LineChart, XAxis, YAxis, Tooltip, ResponsiveContainer)
-- [ ] T038 [US1] Implement chart data transformation in `src/lib/utils/chart.ts` (convertToTimeSeriesData, sampleDataForPerformance, handleDataGaps)
+- [x] T036 [P] [US1] Create ChartControls component in `src/components/charts/ChartControls.tsx` (currency selector, date range inputs)
+- [x] T037 [US1] Create TimeSeriesChart component in `src/components/charts/TimeSeriesChart.tsx` using Recharts (LineChart, XAxis, YAxis, Tooltip, ResponsiveContainer)
+- [x] T038 [US1] Implement chart data transformation in `src/lib/utils/chart.ts` (convertToTimeSeriesData, sampleDataForPerformance, handleDataGaps)
 
-### US1 Pages & Integration
+### US1 Pages & Integration 🔄
 
-- [ ] T039 [US1] Create homepage in `src/app/page.tsx` integrating TimeSeriesChart and ChartControls
-- [ ] T040 [US1] Implement data loading logic for homepage (load currencies, load prices, calculate Greco values)
-- [ ] T041 [US1] Add date range filtering functionality (custom ranges, preset ranges: 1900-2025, 1950-2025, 2000-2025)
+- [x] T039 [US1] Create homepage in `src/app/page.tsx` integrating TimeSeriesChart and ChartControls
+- [x] T040 [US1] Implement data loading logic for homepage (load currencies, load prices, calculate Greco values)
+- [x] T041 [US1] Add date range filtering functionality (custom ranges, preset ranges: 1900-2025, 1950-2025, 2000-2025)
 - [ ] T042 [US1] Implement tooltip with basket composition summary (show 32 commodities contribution)
 - [ ] T043 [US1] Add explanatory text about Greco unit concept below chart (FR-013)
 - [ ] T044 [US1] Implement data gap handling with annotations in chart (FR-016)

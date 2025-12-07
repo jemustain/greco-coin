@@ -6,9 +6,11 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
-  // Enable static export for immutable historical data
-  output: 'export',
-  trailingSlash: true,
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: false,
+  },
 }
 
 module.exports = nextConfig
