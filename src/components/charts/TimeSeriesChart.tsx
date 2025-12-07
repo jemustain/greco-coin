@@ -45,7 +45,14 @@ export default function TimeSeriesChart({
   const currencySymbol = getCurrencySymbol(currency)
 
   // Custom tooltip
-  const CustomTooltip = ({ active, payload }: any) => {
+  interface TooltipProps {
+    active?: boolean
+    payload?: Array<{
+      payload: TimeSeriesDataPoint
+    }>
+  }
+
+  const CustomTooltip = ({ active, payload }: TooltipProps) => {
     if (!active || !payload || !payload[0]) return null
 
     const data = payload[0].payload as TimeSeriesDataPoint
