@@ -1,0 +1,73 @@
+[
+  {
+    "id": "usgs-metals",
+    "name": "USGS Mineral Commodity Summaries",
+    "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries",
+    "description": "Annual reports on US and global mineral commodities from US Geological Survey",
+    "type": "primary",
+    "coveragePeriod": {
+      "start": "1900-01-01",
+      "end": "2025-12-31"
+    },
+    "commodities": ["gold", "silver", "copper", "iron", "aluminum", "tin", "lead", "zinc", "nickel", "platinum"]
+  },
+  {
+    "id": "imf-commodity",
+    "name": "IMF Primary Commodity Prices",
+    "url": "https://www.imf.org/en/Research/commodity-prices",
+    "description": "International Monetary Fund commodity price database",
+    "type": "primary",
+    "coveragePeriod": {
+      "start": "1980-01-01",
+      "end": "2025-12-31"
+    },
+    "commodities": ["petroleum", "wheat", "corn", "rice", "sugar", "coffee", "cocoa", "cotton"]
+  },
+  {
+    "id": "world-bank",
+    "name": "World Bank Commodity Price Data",
+    "url": "https://www.worldbank.org/en/research/commodity-markets",
+    "description": "World Bank's Pink Sheet commodity price data",
+    "type": "primary",
+    "coveragePeriod": {
+      "start": "1960-01-01",
+      "end": "2025-12-31"
+    },
+    "commodities": ["rubber", "cement", "sulphur", "jute", "wool", "hides", "copra", "tallow"]
+  },
+  {
+    "id": "usda-nass",
+    "name": "USDA National Agricultural Statistics Service",
+    "url": "https://www.nass.usda.gov/",
+    "description": "US Department of Agriculture agricultural commodity statistics",
+    "type": "primary",
+    "coveragePeriod": {
+      "start": "1866-01-01",
+      "end": "2025-12-31"
+    },
+    "commodities": ["wheat", "corn", "barley", "oats", "rye", "soy-beans", "peanuts", "cotton-seed"]
+  },
+  {
+    "id": "fred-economic",
+    "name": "FRED Economic Data",
+    "url": "https://fred.stlouisfed.org/",
+    "description": "Federal Reserve Economic Data including historical commodity prices",
+    "type": "primary",
+    "coveragePeriod": {
+      "start": "1900-01-01",
+      "end": "2025-12-31"
+    },
+    "commodities": ["gold", "silver", "petroleum", "wheat", "corn"]
+  },
+  {
+    "id": "historical-estimate",
+    "name": "Historical Price Estimates (Pre-1950)",
+    "description": "Estimated prices for 1900-1950 based on academic research and historical records",
+    "type": "estimated",
+    "coveragePeriod": {
+      "start": "1900-01-01",
+      "end": "1950-12-31"
+    },
+    "commodities": ["all"]
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "commodityId": "gold",
+    "date": "1900-01-01",
+    "priceUSD": 20.67,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1901-01-01",
+    "priceUSD": 20.77,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1902-01-01",
+    "priceUSD": 20.87,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1903-01-01",
+    "priceUSD": 20.97,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1904-01-01",
+    "priceUSD": 21.07,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1905-01-01",
+    "priceUSD": 21.17,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1906-01-01",
+    "priceUSD": 21.27,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1907-01-01",
+    "priceUSD": 21.37,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1908-01-01",
+    "priceUSD": 21.47,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1909-01-01",
+    "priceUSD": 21.57,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1910-01-01",
+    "priceUSD": 21.67,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1911-01-01",
+    "priceUSD": 21.77,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1912-01-01",
+    "priceUSD": 21.87,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1913-01-01",
+    "priceUSD": 21.97,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1914-01-01",
+    "priceUSD": 22.07,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1915-01-01",
+    "priceUSD": 22.17,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1916-01-01",
+    "priceUSD": 22.27,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1917-01-01",
+    "priceUSD": 22.37,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1918-01-01",
+    "priceUSD": 22.47,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1919-01-01",
+    "priceUSD": 22.57,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1920-01-01",
+    "priceUSD": 22.67,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1921-01-01",
+    "priceUSD": 22.77,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1922-01-01",
+    "priceUSD": 22.87,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1923-01-01",
+    "priceUSD": 22.97,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1924-01-01",
+    "priceUSD": 23.07,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1925-01-01",
+    "priceUSD": 23.17,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1926-01-01",
+    "priceUSD": 23.27,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1927-01-01",
+    "priceUSD": 23.37,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1928-01-01",
+    "priceUSD": 23.47,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1929-01-01",
+    "priceUSD": 23.57,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1930-01-01",
+    "priceUSD": 23.67,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1931-01-01",
+    "priceUSD": 23.77,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1932-01-01",
+    "priceUSD": 23.87,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1933-01-01",
+    "priceUSD": 23.97,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1934-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1935-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1936-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1937-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1938-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1939-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1940-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1941-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1942-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1943-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1944-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1945-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1946-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1947-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1948-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1949-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "historical-estimate",
+    "qualityIndicator": "medium"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1950-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1950-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1950-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1950-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1951-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1951-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1951-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1951-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1952-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1952-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1952-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1952-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1953-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1953-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1953-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1953-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1954-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1954-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1954-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1954-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1955-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1955-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1955-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1955-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1956-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1956-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1956-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1956-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1957-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1957-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1957-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1957-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1958-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1958-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1958-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1958-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1959-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1959-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1959-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1959-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1960-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1960-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1960-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1960-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1961-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1961-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1961-07-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1961-10-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1962-01-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  },
+  {
+    "commodityId": "gold",
+    "date": "1962-04-01",
+    "priceUSD": 35,
+    "unit": "troy-ounce",
+    "sourceId": "fred-economic",
+    "qualityIndicator": "high"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "USD",
+    "name": "United States Dollar",
+    "symbol": "$",
+    "type": "fiat_currency",
+    "inceptionDate": "1792-04-02",
+    "description": "Official currency of the United States, global reserve currency",
+    "metadata": {
+      "iso4217Code": "USD",
+      "country": "United States",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "EUR",
+    "name": "Euro",
+    "symbol": "€",
+    "type": "fiat_currency",
+    "inceptionDate": "1999-01-01",
+    "description": "Official currency of the Eurozone (19 EU member states)",
+    "metadata": {
+      "iso4217Code": "EUR",
+      "country": "European Union",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "GBP",
+    "name": "British Pound Sterling",
+    "symbol": "£",
+    "type": "fiat_currency",
+    "inceptionDate": "1694-07-27",
+    "description": "Official currency of the United Kingdom",
+    "metadata": {
+      "iso4217Code": "GBP",
+      "country": "United Kingdom",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "CNY",
+    "name": "Chinese Yuan",
+    "symbol": "¥",
+    "type": "fiat_currency",
+    "inceptionDate": "1949-12-01",
+    "description": "Official currency of the People's Republic of China",
+    "metadata": {
+      "iso4217Code": "CNY",
+      "country": "China",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "RUB",
+    "name": "Russian Ruble",
+    "symbol": "₽",
+    "type": "fiat_currency",
+    "inceptionDate": "1704-01-01",
+    "description": "Official currency of the Russian Federation",
+    "metadata": {
+      "iso4217Code": "RUB",
+      "country": "Russia",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "INR",
+    "name": "Indian Rupee",
+    "symbol": "₹",
+    "type": "fiat_currency",
+    "inceptionDate": "1540-01-01",
+    "description": "Official currency of India",
+    "metadata": {
+      "iso4217Code": "INR",
+      "country": "India",
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "GOLD",
+    "name": "Gold",
+    "symbol": "Au",
+    "type": "precious_metal",
+    "inceptionDate": "1900-01-01",
+    "description": "Gold as a monetary asset (price per troy ounce)",
+    "metadata": {
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "SILVER",
+    "name": "Silver",
+    "symbol": "Ag",
+    "type": "precious_metal",
+    "inceptionDate": "1900-01-01",
+    "description": "Silver as a monetary asset (price per troy ounce)",
+    "metadata": {
+      "displayPrecision": 2
+    }
+  },
+  {
+    "id": "BTC",
+    "name": "Bitcoin",
+    "symbol": "₿",
+    "type": "cryptocurrency",
+    "inceptionDate": "2009-01-03",
+    "description": "Decentralized digital cryptocurrency",
+    "metadata": {
+      "displayPrecision": 8
+    }
+  }
+]
