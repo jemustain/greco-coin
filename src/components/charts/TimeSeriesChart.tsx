@@ -4,7 +4,7 @@
 
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 import {
   LineChart,
   Line,
@@ -14,8 +14,9 @@ import {
   Tooltip,
   ResponsiveContainer,
   Legend,
+  ReferenceArea,
 } from 'recharts'
-import { TimeSeriesDataPoint } from '@/lib/utils/chart'
+import { TimeSeriesDataPoint, handleDataGaps } from '@/lib/utils/chart'
 import { formatCurrency, getCurrencySymbol } from '@/lib/utils/format'
 import { loadCommodities } from '@/lib/data/loader'
 import { Commodity } from '@/lib/types/commodity'
@@ -40,6 +41,9 @@ export default function TimeSeriesChart({
     // Load commodity data for tooltip
     loadCommodities().then(setCommodities).catch(console.error)
   }, [])
+
+  // Detect data gaps (memoized for performance)
+  const dataGaps = useMemo(() => handleDataGaps(data), [data])
 
   if (data.length === 0) {
     return (
@@ -174,36 +178,96 @@ export default function TimeSeriesChart({
   }
 
   return (
-    <ResponsiveContainer width="100%" height={height}>
-      <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-        {showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />}
-        <XAxis
-          dataKey="formattedDate"
-          stroke="#6b7280"
-          style={{ fontSize: '0.75rem' }}
-          tickFormatter={formatXAxis}
-        />
-        <YAxis
-          stroke="#6b7280"
-          style={{ fontSize: '0.75rem' }}
-          tickFormatter={formatYAxis}
-        />
-        <Tooltip content={<CustomTooltip />} />
-        <Legend
-          wrapperStyle={{ fontSize: '0.875rem' }}
-          iconType="line"
-        />
-        <Line
-          type="monotone"
-          dataKey="value"
-          name={`Greco Value (${currency})`}
-          stroke="#2563eb"
-          strokeWidth={2}
-          dot={false}
-          activeDot={{ r: 6 }}
-          animationDuration={300}
-        />
-      </LineChart>
-    </ResponsiveContainer>
+    <>
+      <ResponsiveContainer width="100%" height={height}>
+        <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+          {showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />}
+          
+          {/* Data gap annotations */}
+          {dataGaps.map((gap, index) => {
+            // Find the data point indices for the gap boundaries
+            const startIndex = data.findIndex(
+              (d) => d.dateObj.getTime() >= gap.start.getTime()
+            )
+            const endIndex = data.findIndex(
+              (d) => d.dateObj.getTime() >= gap.end.getTime()
+            )
+
+            if (startIndex === -1 || endIndex === -1) return null
+
+            return (
+              <ReferenceArea
+                key={`gap-${index}`}
+                x1={data[startIndex].formattedDate}
+                x2={data[endIndex].formattedDate}
+                fill="#fef3c7"
+                fillOpacity={0.3}
+                stroke="#f59e0b"
+                strokeOpacity={0.5}
+                strokeDasharray="3 3"
+                label={{
+                  value: `${gap.durationMonths}mo gap`,
+                  position: 'top',
+                  fontSize: 10,
+                  fill: '#92400e',
+                }}
+              />
+            )
+          })}
+
+          <XAxis
+            dataKey="formattedDate"
+            stroke="#6b7280"
+            style={{ fontSize: '0.75rem' }}
+            tickFormatter={formatXAxis}
+          />
+          <YAxis
+            stroke="#6b7280"
+            style={{ fontSize: '0.75rem' }}
+            tickFormatter={formatYAxis}
+          />
+          <Tooltip content={<CustomTooltip />} />
+          <Legend
+            wrapperStyle={{ fontSize: '0.875rem' }}
+            iconType="line"
+          />
+          <Line
+            type="monotone"
+            dataKey="value"
+            name={`Greco Value (${currency})`}
+            stroke="#2563eb"
+            strokeWidth={2}
+            dot={false}
+            activeDot={{ r: 6 }}
+            animationDuration={300}
+          />
+        </LineChart>
+      </ResponsiveContainer>
+
+      {/* Gap warning below chart */}
+      {dataGaps.length > 0 && (
+        <div className="mt-2 flex items-start text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded p-2">
+          <svg
+            className="w-4 h-4 mr-2 flex-shrink-0 mt-0.5"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fillRule="evenodd"
+              d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
+              clipRule="evenodd"
+            />
+          </svg>
+          <div>
+            <p className="font-semibold">Data Gaps Detected</p>
+            <p className="mt-1">
+              This chart contains {dataGaps.length} gap{dataGaps.length > 1 ? 's' : ''} 
+              where data is missing for more than 3 months. Highlighted areas show periods 
+              with incomplete data.
+            </p>
+          </div>
+        </div>
+      )}
+    </>
   )
 }
