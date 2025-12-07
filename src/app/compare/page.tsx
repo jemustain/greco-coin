@@ -12,12 +12,11 @@ import ChartControls from '@/components/charts/ChartControls'
 import ComparisonInsights from '@/components/insights/ComparisonInsights'
 import ErrorBoundary from '@/components/errors/ErrorBoundary'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies, loadCommodities } from '@/lib/data/loader'
+import { loadCurrencies } from '@/lib/data/loader'
 import { calculateGrecoTimeSeries } from '@/lib/data/calculator'
 import { mergeTimeSeriesData, assignColors } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
-import { Commodity } from '@/lib/types/commodity'
 
 export default function ComparePage() {
   const searchParams = useSearchParams()
@@ -157,7 +156,7 @@ export default function ComparePage() {
     const rows = chartData.map((point) => {
       const row = [point.formattedDate]
       selectedCurrencies.forEach((id) => {
-        const value = (point as any)[id]
+        const value = (point as Record<string, unknown>)[id]
         row.push(value !== null && value !== undefined ? value.toString() : '')
       })
       return row

@@ -4,7 +4,7 @@
 
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useMemo } from 'react'
 import {
   LineChart,
   Line,
@@ -127,19 +127,24 @@ const MultiCurrencyChart = React.memo(function MultiCurrencyChart({
   }
 
   // Custom legend with toggle functionality
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const renderLegend = (props: any) => {
     const { payload } = props
     
+    if (!payload) return null
+    
     return (
       <div className="flex flex-wrap gap-3 justify-center mt-4">
+        {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
         {payload.map((entry: any, index: number) => {
-          const isHidden = hiddenCurrencies.has(entry.dataKey)
-          const currency = getCurrencyDetails(entry.dataKey)
+          const dataKey = String(entry.dataKey || '')
+          const isHidden = hiddenCurrencies.has(dataKey)
+          const currency = getCurrencyDetails(dataKey)
           
           return (
             <button
               key={index}
-              onClick={() => onToggleCurrency?.(entry.dataKey)}
+              onClick={() => onToggleCurrency?.(dataKey)}
               className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all ${
                 isHidden
                   ? 'bg-gray-100 border-gray-300 opacity-50'
@@ -152,7 +157,7 @@ const MultiCurrencyChart = React.memo(function MultiCurrencyChart({
                 style={!isHidden ? { backgroundColor: entry.color } : {}}
               />
               <span className={`text-sm font-medium ${isHidden ? 'text-gray-500' : 'text-gray-700'}`}>
-                {currency?.name || entry.dataKey}
+                {currency?.name || dataKey}
               </span>
             </button>
           )
