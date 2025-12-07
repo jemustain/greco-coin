@@ -20,6 +20,7 @@ import { TimeSeriesDataPoint, handleDataGaps } from '@/lib/utils/chart'
 import { formatCurrency, getCurrencySymbol } from '@/lib/utils/format'
 import { loadCommodities } from '@/lib/data/loader'
 import { Commodity } from '@/lib/types/commodity'
+import { sampleChartData, shouldSampleData } from '@/lib/utils/performance'
 
 interface TimeSeriesChartProps {
   data: TimeSeriesDataPoint[]
@@ -32,7 +33,7 @@ interface TimeSeriesChartProps {
  * TimeSeriesChart component with performance optimizations:
  * - React.memo for component-level memoization
  * - useMemo for expensive gap detection calculations
- * - Data sampling (500 points max) handled by parent
+ * - Data sampling for datasets >10K points per SC-003
  * Target: <500ms interaction time per SC-003
  */
 const TimeSeriesChart = React.memo(function TimeSeriesChart({
@@ -49,14 +50,27 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
     loadCommodities().then(setCommodities).catch(console.error)
   }, [])
 
+  // Sample data if needed for performance (memoized)
+  const displayData = useMemo(() => {
+    if (shouldSampleData(data.length, 10000)) {
+      return sampleChartData(
+        data.map(d => ({ ...d, date: d.date, value: d.value })),
+        1000
+      )
+    }
+    return data
+  }, [data])
+
   // Detect data gaps (memoized for performance)
-  const dataGaps = useMemo(() => handleDataGaps(data), [data])
+  const dataGaps = useMemo(() => handleDataGaps(displayData), [displayData])
 
   if (data.length === 0) {
     return (
       <div
         className="flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200"
         style={{ height }}
+        role="img"
+        aria-label="No data available"
       >
         <p className="text-gray-500">No data available for selected range</p>
       </div>
@@ -64,6 +78,7 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
   }
 
   const currencySymbol = getCurrencySymbol(currency)
+  const isSampled = data.length !== displayData.length
 
   // Helper to group commodities by category
   const groupCommoditiesByCategory = (
@@ -186,18 +201,36 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
 
   return (
     <>
+      {/* Data sampling indicator */}
+      {isSampled && (
+        <div className="mb-2 flex items-center text-xs text-blue-700 bg-blue-50 border border-blue-200 rounded p-2">
+          <svg
+            className="w-4 h-4 mr-2 flex-shrink-0"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>
+            Chart data sampled from {data.length.toLocaleString()} to {displayData.length.toLocaleString()} points for optimal performance
+          </span>
+        </div>
+      )}
+
       <div className="chart-container">
         <ResponsiveContainer width="100%" height={height}>
-          <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+          <LineChart data={displayData} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             {showGrid && <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />}
             
             {/* Data gap annotations */}
             {dataGaps.map((gap, index) => {
               // Find the data point indices for the gap boundaries
-              const startIndex = data.findIndex(
+              const startIndex = displayData.findIndex(
                 (d) => d.dateObj.getTime() >= gap.start.getTime()
               )
-              const endIndex = data.findIndex(
+              const endIndex = displayData.findIndex(
                 (d) => d.dateObj.getTime() >= gap.end.getTime()
               )
 
@@ -206,8 +239,8 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
               return (
                 <ReferenceArea
                   key={`gap-${index}`}
-                  x1={data[startIndex].formattedDate}
-                  x2={data[endIndex].formattedDate}
+                  x1={displayData[startIndex].formattedDate}
+                  x2={displayData[endIndex].formattedDate}
                   fill="#fef3c7"
                   fillOpacity={0.3}
                   stroke="#f59e0b"
@@ -260,6 +293,7 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
             className="w-4 h-4 mr-2 flex-shrink-0 mt-0.5"
             fill="currentColor"
             viewBox="0 0 20 20"
+            aria-hidden="true"
           >
             <path
               fillRule="evenodd"
