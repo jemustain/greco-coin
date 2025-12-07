@@ -58,18 +58,18 @@
 - [x] T021 [P] Create sample price data in `src/data/prices/wheat.json` (100 sample records 1900-2025)
 - [x] T022 [P] Create sample `src/data/exchange-rates.json` with USD base rates (50 sample records)
 
-### Core Data Services
+### Core Data Services ✅
 
-- [ ] T023 Implement data loader in `src/lib/data/loader.ts` (loadCommodities, loadCurrencies, loadPrices, loadExchangeRates)
-- [ ] T024 Implement Greco calculator in `src/lib/data/calculator.ts` (calculateGrecoValue, validateCompleteness ≥80%)
-- [ ] T025 [P] Implement unit converter in `src/lib/data/converter.ts` (convertToMetricTon, handleBushelConversions)
-- [ ] T026 [P] Implement data validator in `src/lib/data/validator.ts` (validatePricePoint, checkDateRanges, flagOutliers)
+- [x] T023 Implement data loader in `src/lib/data/loader.ts` (loadCommodities, loadCurrencies, loadPrices, loadExchangeRates)
+- [x] T024 Implement Greco calculator in `src/lib/data/calculator.ts` (calculateGrecoValue, validateCompleteness ≥80%)
+- [x] T025 [P] Implement unit converter in `src/lib/data/converter.ts` (convertToMetricTon, handleBushelConversions)
+- [x] T026 [P] Implement data validator in `src/lib/data/validator.ts` (validatePricePoint, checkDateRanges, flagOutliers)
 
-### Utility Functions
+### Utility Functions ✅
 
-- [ ] T027 [P] Create date utilities in `src/lib/utils/date.ts` (formatDate, getDateRange, checkCurrencyInception)
-- [ ] T028 [P] Create formatting utilities in `src/lib/utils/format.ts` (formatCurrency, formatNumber, formatPercentage)
-- [ ] T029 [P] Create export utilities in `src/lib/utils/export.ts` (generateCSV, streamLargeDataset)
+- [x] T027 [P] Create date utilities in `src/lib/utils/date.ts` (formatDate, getDateRange, checkCurrencyInception)
+- [x] T028 [P] Create formatting utilities in `src/lib/utils/format.ts` (formatCurrency, formatNumber, formatPercentage)
+- [x] T029 [P] Create export utilities in `src/lib/utils/export.ts` (generateCSV, streamLargeDataset)
 
 ### Shared UI Components
 
