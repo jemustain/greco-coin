@@ -5,6 +5,12 @@
 **Status**: Draft  
 **Input**: User description: "Implement real commodity data APIs and optimize data retrieval performance for fast website loading"
 
+## Clarifications
+
+### Session 2025-12-07
+
+- Q: Historical data compression (FR-018) - Which approach for data >1 year old? → A: Option B - No compression initially (3MB total is manageable, can add later if needed)
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Fast Initial Page Load (Priority: P1)
@@ -129,7 +135,7 @@ System tracks data completeness, staleness, and quality indicators for each comm
 - **FR-015**: System MUST store commodity prices in optimized format enabling fast date-range queries
 - **FR-016**: System MUST maintain separate index files mapping date ranges to data file locations
 - **FR-017**: System MUST store source attribution (API source, fetch date, quality indicator) with each price point
-- **FR-018**: System MUST compress historical data (&gt;1 year old) to reduce storage size
+- **FR-018**: System SHOULD compress historical data (&gt;1 year old) if storage exceeds 10MB total (currently 3MB - defer compression until needed)
 - **FR-019**: System MUST maintain data versioning to rollback corrupted updates
 
 #### Data Quality & Monitoring
