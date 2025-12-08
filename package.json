@@ -10,7 +10,10 @@
     "lint": "next lint",
     "test": "vitest",
     "test:e2e": "playwright test",
-    "check": "tsc --noEmit && npm run lint && npm run test"
+    "check": "tsc --noEmit && npm run lint && npm run test",
+    "script:validate": "ts-node scripts/validate-data.ts",
+    "script:calculate": "ts-node scripts/calculate-greco.ts",
+    "script:import": "ts-node scripts/import-prices.ts"
   },
   "dependencies": {
     "date-fns": "^3.0.0",
@@ -21,7 +24,7 @@
     "zod": "^3.22.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0",
+    "@playwright/test": "^1.57.0",
     "@testing-library/jest-dom": "^6.1.0",
     "@testing-library/react": "^14.1.0",
     "@types/node": "^20.10.0",
