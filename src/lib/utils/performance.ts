@@ -74,8 +74,11 @@ export function sampleChartData<T extends { date: Date | string; value: number }
  * @param wait - Wait time in milliseconds
  * @returns Debounced function
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ...args: any[]
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+) => any>(
   func: T,
   wait: number
 ): (...args: Parameters<T>) => void {
@@ -101,8 +104,11 @@ export function debounce<T extends (...args: any[]) => any>(
  * @param limit - Time limit in milliseconds
  * @returns Throttled function
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function throttle<T extends (...args: any[]) => any>(
+export function throttle<T extends (
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ...args: any[]
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+) => any>(
   func: T,
   limit: number
 ): (...args: Parameters<T>) => void {
