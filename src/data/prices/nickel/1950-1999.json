@@ -1,0 +1,1802 @@
+[
+  {
+    "date": "1999-10-01",
+    "price": 1422.29,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1999-07-01",
+    "price": 1801.3,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1999-04-01",
+    "price": 1869.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1999-01-01",
+    "price": 1526.17,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1998-10-01",
+    "price": 1295.01,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1998-07-01",
+    "price": 1788.6,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1998-04-01",
+    "price": 1829.98,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1998-01-01",
+    "price": 1425.47,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1997-10-01",
+    "price": 1390.32,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1997-07-01",
+    "price": 1334.78,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1997-04-01",
+    "price": 1486.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1997-01-01",
+    "price": 1608,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1996-10-01",
+    "price": 1822.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1996-07-01",
+    "price": 1550.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1996-04-01",
+    "price": 1407.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1996-01-01",
+    "price": 1715.38,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1995-10-01",
+    "price": 1662.35,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1995-07-01",
+    "price": 1743.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1995-04-01",
+    "price": 1386.76,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1995-01-01",
+    "price": 1375.67,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1994-10-01",
+    "price": 1369.49,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1994-07-01",
+    "price": 1593.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1994-04-01",
+    "price": 1742.84,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.152Z"
+  },
+  {
+    "date": "1994-01-01",
+    "price": 1403.41,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1993-10-01",
+    "price": 1622.15,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1993-07-01",
+    "price": 1609.85,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1993-04-01",
+    "price": 1301.48,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1993-01-01",
+    "price": 1722.65,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1992-10-01",
+    "price": 1525.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1992-07-01",
+    "price": 1672.45,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1992-04-01",
+    "price": 1258.52,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1992-01-01",
+    "price": 1548.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1991-10-01",
+    "price": 1487.96,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1991-07-01",
+    "price": 1436.93,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1991-04-01",
+    "price": 1514.16,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1991-01-01",
+    "price": 1210.22,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1990-10-01",
+    "price": 1566.98,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1990-07-01",
+    "price": 1756.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1990-04-01",
+    "price": 1544.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1990-01-01",
+    "price": 1648.25,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1989-10-01",
+    "price": 1295.42,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1989-07-01",
+    "price": 1752.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1989-04-01",
+    "price": 1711.47,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1989-01-01",
+    "price": 1298.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1988-10-01",
+    "price": 1361.08,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1988-07-01",
+    "price": 1686.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1988-04-01",
+    "price": 1733.94,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1988-01-01",
+    "price": 1725.49,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1987-10-01",
+    "price": 1514.71,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1987-07-01",
+    "price": 1724.01,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1987-04-01",
+    "price": 1390.47,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1987-01-01",
+    "price": 1563.98,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1986-10-01",
+    "price": 1602.25,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1986-07-01",
+    "price": 1424.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1986-04-01",
+    "price": 1162.83,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1986-01-01",
+    "price": 1299.69,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1985-10-01",
+    "price": 1651.79,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1985-07-01",
+    "price": 1393.18,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1985-04-01",
+    "price": 1428.56,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1985-01-01",
+    "price": 1144.62,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1984-10-01",
+    "price": 1218.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1984-07-01",
+    "price": 1261.28,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1984-04-01",
+    "price": 1539.79,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1984-01-01",
+    "price": 1279.13,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1983-10-01",
+    "price": 1607.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1983-07-01",
+    "price": 1479.2,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1983-04-01",
+    "price": 1465.03,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1983-01-01",
+    "price": 1452.06,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1982-10-01",
+    "price": 1654.74,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1982-07-01",
+    "price": 1220.93,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1982-04-01",
+    "price": 1540.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1982-01-01",
+    "price": 1643.94,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1981-10-01",
+    "price": 1342.11,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1981-07-01",
+    "price": 1100.88,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1981-04-01",
+    "price": 1233.14,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1981-01-01",
+    "price": 1126.34,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1980-10-01",
+    "price": 1492.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1980-07-01",
+    "price": 1158.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1980-04-01",
+    "price": 1266.19,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1980-01-01",
+    "price": 1343.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1979-10-01",
+    "price": 1319.83,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1979-07-01",
+    "price": 1580.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1979-04-01",
+    "price": 1394.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1979-01-01",
+    "price": 1414.77,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1978-10-01",
+    "price": 1421.14,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1978-07-01",
+    "price": 1286.94,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1978-04-01",
+    "price": 1363.32,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1978-01-01",
+    "price": 1364.22,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1977-10-01",
+    "price": 1301.12,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1977-07-01",
+    "price": 1395.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1977-04-01",
+    "price": 1445.19,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1977-01-01",
+    "price": 1168.01,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1976-10-01",
+    "price": 1256.97,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1976-07-01",
+    "price": 1467.63,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1976-04-01",
+    "price": 1122.63,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1976-01-01",
+    "price": 1266.3,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1975-10-01",
+    "price": 1246.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1975-07-01",
+    "price": 1207.35,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1975-04-01",
+    "price": 1444.05,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1975-01-01",
+    "price": 1221.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1974-10-01",
+    "price": 1167.76,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1974-07-01",
+    "price": 1197.71,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1974-04-01",
+    "price": 1281.16,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1974-01-01",
+    "price": 1524.72,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1973-10-01",
+    "price": 1176.65,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1973-07-01",
+    "price": 1272.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1973-04-01",
+    "price": 1515.28,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1973-01-01",
+    "price": 1394.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1972-10-01",
+    "price": 1343.5,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1972-07-01",
+    "price": 1359.44,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1972-04-01",
+    "price": 1242.13,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1972-01-01",
+    "price": 1405.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1971-10-01",
+    "price": 1474.59,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1971-07-01",
+    "price": 1268.21,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1971-04-01",
+    "price": 1057.51,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1971-01-01",
+    "price": 1347.32,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1970-10-01",
+    "price": 1209.86,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1970-07-01",
+    "price": 1400.61,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1970-04-01",
+    "price": 1097.02,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1970-01-01",
+    "price": 1144.22,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1969-10-01",
+    "price": 1158.87,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1969-07-01",
+    "price": 1197.17,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1969-04-01",
+    "price": 1032.85,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1969-01-01",
+    "price": 1427.52,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1968-10-01",
+    "price": 1022.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1968-07-01",
+    "price": 1408.22,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1968-04-01",
+    "price": 1373.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1968-01-01",
+    "price": 1320.14,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1967-10-01",
+    "price": 1386.04,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1967-07-01",
+    "price": 1330.78,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1967-04-01",
+    "price": 1388.49,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1967-01-01",
+    "price": 1067.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1966-10-01",
+    "price": 1209.34,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1966-07-01",
+    "price": 1218.63,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1966-04-01",
+    "price": 1005.3,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1966-01-01",
+    "price": 1128.97,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1965-10-01",
+    "price": 1072.11,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1965-07-01",
+    "price": 986.65,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1965-04-01",
+    "price": 1177.07,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1965-01-01",
+    "price": 1327.56,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1964-10-01",
+    "price": 1217.93,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1964-07-01",
+    "price": 1226.5,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1964-04-01",
+    "price": 1284.38,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1964-01-01",
+    "price": 1287.1,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1963-10-01",
+    "price": 1268.83,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1963-07-01",
+    "price": 1131.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1963-04-01",
+    "price": 1345.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1963-01-01",
+    "price": 1001.78,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1962-10-01",
+    "price": 1094.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1962-07-01",
+    "price": 1261.21,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1962-04-01",
+    "price": 1325.85,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1962-01-01",
+    "price": 1214.18,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1961-10-01",
+    "price": 1321.22,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1961-07-01",
+    "price": 1109.95,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1961-04-01",
+    "price": 950.14,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1961-01-01",
+    "price": 940.29,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1960-10-01",
+    "price": 1133.34,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1960-07-01",
+    "price": 987.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1960-04-01",
+    "price": 974.48,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1960-01-01",
+    "price": 971.87,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1959-10-01",
+    "price": 1286.82,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1959-07-01",
+    "price": 1018.95,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1959-04-01",
+    "price": 1088.64,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1959-01-01",
+    "price": 1259.74,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1958-10-01",
+    "price": 1142.65,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1958-07-01",
+    "price": 1238.61,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1958-04-01",
+    "price": 930.78,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1958-01-01",
+    "price": 1073.17,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1957-10-01",
+    "price": 1221.84,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1957-07-01",
+    "price": 1184.36,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1957-04-01",
+    "price": 1277.65,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1957-01-01",
+    "price": 1151.6,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1956-10-01",
+    "price": 1010.92,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1956-07-01",
+    "price": 1221.8,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1956-04-01",
+    "price": 1250.37,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1956-01-01",
+    "price": 985.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1955-10-01",
+    "price": 996.07,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1955-07-01",
+    "price": 1234.9,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1955-04-01",
+    "price": 1015.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1955-01-01",
+    "price": 886.03,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1954-10-01",
+    "price": 1227.15,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1954-07-01",
+    "price": 871.58,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1954-04-01",
+    "price": 911.36,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1954-01-01",
+    "price": 873.88,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1953-10-01",
+    "price": 980,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1953-07-01",
+    "price": 941.18,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1953-04-01",
+    "price": 1167.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1953-01-01",
+    "price": 1218.2,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1952-10-01",
+    "price": 960.82,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1952-07-01",
+    "price": 1011.72,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1952-04-01",
+    "price": 980.61,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1952-01-01",
+    "price": 918.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1951-10-01",
+    "price": 955.21,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1951-07-01",
+    "price": 1098.47,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1951-04-01",
+    "price": 1188.17,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1951-01-01",
+    "price": 1098.59,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1950-10-01",
+    "price": 830.49,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1950-07-01",
+    "price": 1060.83,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1950-04-01",
+    "price": 1020.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  },
+  {
+    "date": "1950-01-01",
+    "price": 1037.29,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.151Z"
+  }
+]

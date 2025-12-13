@@ -9,12 +9,19 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-57-5",
-      "alternateNames": ["Au", "Fine Gold"],
+      "alternateNames": [
+        "Au",
+        "Fine Gold"
+      ],
       "physicalProperties": {
         "density": 19.32,
         "meltingPoint": 1064
       }
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "GOLDAMGBD228NLBM",
+    "worldBankIndicator": "PGOLDWORLDM"
   },
   {
     "id": "silver",
@@ -26,9 +33,16 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-22-4",
-      "alternateNames": ["Ag", "Fine Silver"],
+      "alternateNames": [
+        "Ag",
+        "Fine Silver"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "SILVERAMGBD228NLBM",
+    "worldBankIndicator": "PSILVWORLDM"
   },
   {
     "id": "iron",
@@ -40,9 +54,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7439-89-6",
-      "alternateNames": ["Fe", "Steel (primary component)"],
+      "alternateNames": [
+        "Fe",
+        "Steel (primary component)"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "worldBankIndicator": "PIORECWORLDM"
   },
   {
     "id": "copper",
@@ -54,9 +74,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-50-8",
-      "alternateNames": ["Cu"],
+      "alternateNames": [
+        "Cu"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PCOPPUSDM",
+    "worldBankIndicator": "PCOPPWORLDM"
   },
   {
     "id": "aluminum",
@@ -68,9 +94,16 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7429-90-5",
-      "alternateNames": ["Al", "Aluminium"],
+      "alternateNames": [
+        "Al",
+        "Aluminium"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PALUMUSDM",
+    "worldBankIndicator": "PALUMWORLDM"
   },
   {
     "id": "tin",
@@ -82,9 +115,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-31-5",
-      "alternateNames": ["Sn"],
+      "alternateNames": [
+        "Sn"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PTINUSDM",
+    "worldBankIndicator": "PTINWORLDM"
   },
   {
     "id": "lead",
@@ -96,9 +135,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7439-92-1",
-      "alternateNames": ["Pb"],
+      "alternateNames": [
+        "Pb"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PLEADUSDM",
+    "worldBankIndicator": "PLEADWORLDM"
   },
   {
     "id": "zinc",
@@ -110,9 +155,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-66-6",
-      "alternateNames": ["Zn"],
+      "alternateNames": [
+        "Zn"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PZINCUSDM",
+    "worldBankIndicator": "PZINCWORLDM"
   },
   {
     "id": "nickel",
@@ -124,9 +175,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-02-0",
-      "alternateNames": ["Ni"],
+      "alternateNames": [
+        "Ni"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PNICKUSDM",
+    "worldBankIndicator": "PNICKWORLDM"
   },
   {
     "id": "platinum",
@@ -138,9 +195,15 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7440-06-4",
-      "alternateNames": ["Pt"],
+      "alternateNames": [
+        "Pt"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "PLATAMGBD228NLBM",
+    "worldBankIndicator": "PPLATWORLDM"
   },
   {
     "id": "petroleum",
@@ -151,9 +214,16 @@
     "description": "Crude oil used for energy and petrochemicals",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Crude Oil", "Oil"],
+      "alternateNames": [
+        "Crude Oil",
+        "Oil"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "MCOILWTICO",
+    "worldBankIndicator": "POILWTIUSDM"
   },
   {
     "id": "cement",
@@ -164,7 +234,9 @@
     "description": "Building material for construction",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Portland Cement"],
+      "alternateNames": [
+        "Portland Cement"
+      ],
       "physicalProperties": {}
     }
   },
@@ -177,9 +249,15 @@
     "description": "Natural and synthetic rubber for tires and industrial uses",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Natural Rubber", "Latex"],
+      "alternateNames": [
+        "Natural Rubber",
+        "Latex"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PRUBBUSDM"
   },
   {
     "id": "sulphur",
@@ -191,7 +269,10 @@
     "inceptionDate": "1900-01-01",
     "metadata": {
       "casNumber": "7704-34-9",
-      "alternateNames": ["Sulfur", "S"],
+      "alternateNames": [
+        "Sulfur",
+        "S"
+      ],
       "physicalProperties": {}
     }
   },
@@ -204,9 +285,16 @@
     "description": "Staple grain crop",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Paddy Rice", "Milled Rice"],
+      "alternateNames": [
+        "Paddy Rice",
+        "Milled Rice"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "high",
+    "fredSeriesId": "PRICEUSDM",
+    "worldBankIndicator": "PRICEUSDM"
   },
   {
     "id": "wheat",
@@ -217,11 +305,18 @@
     "description": "Major grain crop for bread and flour",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Hard Wheat", "Soft Wheat"],
+      "alternateNames": [
+        "Hard Wheat",
+        "Soft Wheat"
+      ],
       "physicalProperties": {
         "bushelWeight": 60
       }
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "PWHEAMTUSDM",
+    "worldBankIndicator": "PWHEUSDM"
   },
   {
     "id": "corn",
@@ -232,11 +327,17 @@
     "description": "Grain crop used for food, feed, and ethanol",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Maize"],
+      "alternateNames": [
+        "Maize"
+      ],
       "physicalProperties": {
         "bushelWeight": 56
       }
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "PMAIZUSDM",
+    "worldBankIndicator": "PMAIZUSDM"
   },
   {
     "id": "barley",
@@ -247,11 +348,17 @@
     "description": "Grain crop used for malt and animal feed",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Malting Barley"],
+      "alternateNames": [
+        "Malting Barley"
+      ],
       "physicalProperties": {
         "bushelWeight": 48
       }
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "fredSeriesId": "PBARLUSDM",
+    "worldBankIndicator": "PBARUSDM"
   },
   {
     "id": "oats",
@@ -266,7 +373,10 @@
       "physicalProperties": {
         "bushelWeight": 32
       }
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "medium",
+    "fredSeriesId": "POATSUSDM"
   },
   {
     "id": "rye",
@@ -281,7 +391,10 @@
       "physicalProperties": {
         "bushelWeight": 56
       }
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "medium",
+    "fredSeriesId": "PRYEUSDM"
   },
   {
     "id": "peanuts",
@@ -292,9 +405,15 @@
     "description": "Legume crop used for oil and food",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Groundnuts"],
+      "alternateNames": [
+        "Groundnuts"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "medium",
+    "fredSeriesId": "PPNTSOTMUSDM",
+    "worldBankIndicator": "PPNTSOTMUSDM"
   },
   {
     "id": "soy-beans",
@@ -305,7 +424,10 @@
     "description": "Oilseed crop used for oil, meal, and food products",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Soybeans", "Soya Beans"],
+      "alternateNames": [
+        "Soybeans",
+        "Soya Beans"
+      ],
       "physicalProperties": {
         "bushelWeight": 60
       }
@@ -320,9 +442,15 @@
     "description": "Beverage crop",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Arabica Coffee", "Robusta Coffee"],
+      "alternateNames": [
+        "Arabica Coffee",
+        "Robusta Coffee"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PCOFFOTMUSDM"
   },
   {
     "id": "cocoa",
@@ -333,9 +461,14 @@
     "description": "Crop used for chocolate production",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Cacao"],
+      "alternateNames": [
+        "Cacao"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PCOCOUSDM"
   },
   {
     "id": "sugar",
@@ -346,9 +479,15 @@
     "description": "Sweetener from sugar cane or beets",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Cane Sugar", "Beet Sugar"],
+      "alternateNames": [
+        "Cane Sugar",
+        "Beet Sugar"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PSUGUSDM"
   },
   {
     "id": "cotton-seed",
@@ -359,7 +498,9 @@
     "description": "Oilseed from cotton production",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Cottonseed"],
+      "alternateNames": [
+        "Cottonseed"
+      ],
       "physicalProperties": {}
     }
   },
@@ -372,9 +513,16 @@
     "description": "Natural fiber for textiles",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Cotton Fiber", "Raw Cotton"],
+      "alternateNames": [
+        "Cotton Fiber",
+        "Raw Cotton"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "fred",
+    "updatePriority": "medium",
+    "fredSeriesId": "PCOTTUSDM",
+    "worldBankIndicator": "PCOTTUSDM"
   },
   {
     "id": "wool",
@@ -385,9 +533,15 @@
     "description": "Natural fiber from sheep",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Sheep Wool", "Greasy Wool"],
+      "alternateNames": [
+        "Sheep Wool",
+        "Greasy Wool"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PWOOLCUSDM"
   },
   {
     "id": "jute",
@@ -411,9 +565,15 @@
     "description": "Animal leather material",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Cattle Hides", "Leather Hides"],
+      "alternateNames": [
+        "Cattle Hides",
+        "Leather Hides"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PHIDESUSDM"
   },
   {
     "id": "copra",
@@ -424,9 +584,14 @@
     "description": "Dried coconut meat used for oil production",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Dried Coconut"],
+      "alternateNames": [
+        "Dried Coconut"
+      ],
       "physicalProperties": {}
-    }
+    },
+    "primarySource": "worldbank",
+    "updatePriority": "medium",
+    "worldBankIndicator": "PCOPRUSDM"
   },
   {
     "id": "tallow",
@@ -437,7 +602,9 @@
     "description": "Rendered animal fat used in soap and candles",
     "inceptionDate": "1900-01-01",
     "metadata": {
-      "alternateNames": ["Beef Tallow"],
+      "alternateNames": [
+        "Beef Tallow"
+      ],
       "physicalProperties": {}
     }
   }

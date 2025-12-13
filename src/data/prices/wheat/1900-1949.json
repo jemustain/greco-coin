@@ -1,0 +1,452 @@
+[
+  {
+    "date": "1949-01-01",
+    "price": 1.7,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1948-01-01",
+    "price": 1.6,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1947-01-01",
+    "price": 1.5,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1946-01-01",
+    "price": 1.4,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1945-01-01",
+    "price": 1.3,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1944-01-01",
+    "price": 1.2,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1943-01-01",
+    "price": 1.1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1942-01-01",
+    "price": 1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1941-01-01",
+    "price": 0.9,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1940-01-01",
+    "price": 0.8,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1939-01-01",
+    "price": 0.82,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1938-01-01",
+    "price": 0.84,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1937-01-01",
+    "price": 0.86,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1936-01-01",
+    "price": 0.88,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1935-01-01",
+    "price": 0.9,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1934-01-01",
+    "price": 0.92,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1933-01-01",
+    "price": 0.94,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1932-01-01",
+    "price": 0.96,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1931-01-01",
+    "price": 0.98,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1930-01-01",
+    "price": 1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1929-01-01",
+    "price": 1.02,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1928-01-01",
+    "price": 1.04,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1927-01-01",
+    "price": 1.06,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1926-01-01",
+    "price": 1.08,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1925-01-01",
+    "price": 1.1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1924-01-01",
+    "price": 1.12,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1923-01-01",
+    "price": 1.14,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1922-01-01",
+    "price": 1.16,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1921-01-01",
+    "price": 1.18,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1920-01-01",
+    "price": 1.7,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1919-01-01",
+    "price": 1.65,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1918-01-01",
+    "price": 1.6,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1917-01-01",
+    "price": 1.55,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1916-01-01",
+    "price": 1.5,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1915-01-01",
+    "price": 1.45,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1914-01-01",
+    "price": 1.4,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1913-01-01",
+    "price": 1.35,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1912-01-01",
+    "price": 1.3,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1911-01-01",
+    "price": 1.25,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1910-01-01",
+    "price": 1.2,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1909-01-01",
+    "price": 1.15,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1908-01-01",
+    "price": 1.1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1907-01-01",
+    "price": 1.05,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1906-01-01",
+    "price": 1,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1905-01-01",
+    "price": 0.95,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1904-01-01",
+    "price": 0.9,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1903-01-01",
+    "price": 0.85,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1902-01-01",
+    "price": 0.8,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1901-01-01",
+    "price": 0.75,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1900-01-01",
+    "price": 0.7,
+    "unit": "bushel",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  }
+]

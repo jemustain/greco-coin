@@ -1,0 +1,452 @@
+[
+  {
+    "date": "1949-01-01",
+    "price": 1.4,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1948-01-01",
+    "price": 1.37,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1947-01-01",
+    "price": 1.69,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1946-01-01",
+    "price": 1.5,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1945-01-01",
+    "price": 1.52,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1944-01-01",
+    "price": 1.47,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1943-01-01",
+    "price": 1.5,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1942-01-01",
+    "price": 1.33,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1941-01-01",
+    "price": 1.08,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1940-01-01",
+    "price": 1.34,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1939-01-01",
+    "price": 1.09,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1938-01-01",
+    "price": 1.29,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1937-01-01",
+    "price": 1.09,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1936-01-01",
+    "price": 1.07,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1935-01-01",
+    "price": 1.01,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1934-01-01",
+    "price": 1.06,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1933-01-01",
+    "price": 0.96,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1932-01-01",
+    "price": 1.34,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1931-01-01",
+    "price": 1.18,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1930-01-01",
+    "price": 1.12,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1929-01-01",
+    "price": 0.98,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1928-01-01",
+    "price": 1,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1927-01-01",
+    "price": 1.04,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1926-01-01",
+    "price": 1.28,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1925-01-01",
+    "price": 0.89,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1924-01-01",
+    "price": 0.98,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1923-01-01",
+    "price": 0.96,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1922-01-01",
+    "price": 1.18,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1921-01-01",
+    "price": 0.8,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1920-01-01",
+    "price": 0.82,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1919-01-01",
+    "price": 1.01,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1918-01-01",
+    "price": 0.82,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1917-01-01",
+    "price": 1.05,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1916-01-01",
+    "price": 0.88,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1915-01-01",
+    "price": 0.76,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1914-01-01",
+    "price": 0.92,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1913-01-01",
+    "price": 0.69,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1912-01-01",
+    "price": 0.92,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1911-01-01",
+    "price": 0.74,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1910-01-01",
+    "price": 0.75,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1909-01-01",
+    "price": 0.61,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1908-01-01",
+    "price": 0.62,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1907-01-01",
+    "price": 0.87,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1906-01-01",
+    "price": 0.71,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1905-01-01",
+    "price": 0.75,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1904-01-01",
+    "price": 0.65,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1903-01-01",
+    "price": 0.7,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1902-01-01",
+    "price": 0.52,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1901-01-01",
+    "price": 0.55,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  },
+  {
+    "date": "1900-01-01",
+    "price": 0.54,
+    "unit": "metric-ton",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.290Z"
+  }
+]
