@@ -330,6 +330,42 @@ async function main() {
   
   printSummary(results);
   
+  // T034: Trigger cache invalidation if any commodities were successfully updated
+  const successfulCommodities = results.filter((r) => r.success).map((r) => r.commodityId);
+  if (successfulCommodities.length > 0 && !args.dryRun) {
+    console.log('\n🔄 Triggering cache invalidation...');
+    try {
+      // Determine if we should trigger revalidation
+      // In development, skip if REVALIDATION_URL not set
+      const revalidationUrl = process.env.REVALIDATION_URL || 'http://localhost:3000/api/revalidate';
+      const revalidationSecret = process.env.REVALIDATION_SECRET || 'dev-secret-change-in-production';
+      
+      // Build cache tags to invalidate
+      const tags = ['commodity-prices', 'homepage'];
+      for (const commodityId of successfulCommodities) {
+        tags.push(`commodity-${commodityId}`);
+      }
+      
+      const response = await fetch(revalidationUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ secret: revalidationSecret, tags }),
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        console.log(`   ✅ Cache invalidated for ${tags.length} tags`);
+        console.log(`   📅 Timestamp: ${data.timestamp}`);
+      } else {
+        console.log(`   ⚠️  Cache revalidation returned ${response.status}: ${response.statusText}`);
+        console.log(`   ℹ️  Data was fetched successfully, but cache may not be updated`);
+      }
+    } catch (error: any) {
+      console.log(`   ⚠️  Cache revalidation failed: ${error.message}`);
+      console.log(`   ℹ️  Data was fetched successfully, but cache may not be updated`);
+    }
+  }
+  
   const failedCount = results.filter((r) => !r.success).length;
   process.exit(failedCount > 0 ? 1 : 0);
 }

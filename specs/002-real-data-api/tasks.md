@@ -93,10 +93,10 @@ Run Lighthouse audit on homepage. Performance score >90, Time to Interactive <2s
 #### Caching Implementation
 
 - [ ] T030 [P] [US1] Configure Next.js ISR in app/page.tsx with revalidate: 86400 (24h)
-- [ ] T031 [P] [US1] Add Cache-Control headers in next.config.js for browser caching
-- [ ] T032 [US1] Implement unstable_cache in lib/data/data-service.ts for API route caching
-- [ ] T033 [US1] Create revalidation endpoint at app/api/revalidate/route.ts
-- [ ] T034 [US1] Add cache tags ('commodity-prices', 'homepage') to enable selective invalidation
+- [X] T031 [P] [US1] Add Cache-Control headers in next.config.js for browser caching
+- [X] T032 [US1] Implement unstable_cache in lib/data/data-service.ts for API route caching
+- [X] T033 [US1] Create revalidation endpoint at app/api/revalidate/route.ts
+- [X] T034 [US1] Add cache tags ('commodity-prices', 'homepage') to enable selective invalidation
 
 #### Homepage Optimization
 
