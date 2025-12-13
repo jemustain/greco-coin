@@ -1,0 +1,1802 @@
+[
+  {
+    "date": "1999-10-01",
+    "price": 71.43,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1999-07-01",
+    "price": 63.06,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1999-04-01",
+    "price": 69.11,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1999-01-01",
+    "price": 70.63,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1998-10-01",
+    "price": 69.98,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1998-07-01",
+    "price": 50.62,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1998-04-01",
+    "price": 53.83,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1998-01-01",
+    "price": 47.94,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1997-10-01",
+    "price": 56.91,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1997-07-01",
+    "price": 63.57,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1997-04-01",
+    "price": 55.07,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1997-01-01",
+    "price": 54.39,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1996-10-01",
+    "price": 53.96,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1996-07-01",
+    "price": 57.78,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1996-04-01",
+    "price": 52.27,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1996-01-01",
+    "price": 64.76,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1995-10-01",
+    "price": 65.02,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1995-07-01",
+    "price": 53.77,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1995-04-01",
+    "price": 64,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1995-01-01",
+    "price": 56.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1994-10-01",
+    "price": 55.05,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1994-07-01",
+    "price": 56,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1994-04-01",
+    "price": 59.92,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1994-01-01",
+    "price": 66.52,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1993-10-01",
+    "price": 49.95,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1993-07-01",
+    "price": 61.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1993-04-01",
+    "price": 59.48,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1993-01-01",
+    "price": 54.58,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1992-10-01",
+    "price": 55.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1992-07-01",
+    "price": 46.21,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1992-04-01",
+    "price": 49.62,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1992-01-01",
+    "price": 45.89,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1991-10-01",
+    "price": 49.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1991-07-01",
+    "price": 46.1,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1991-04-01",
+    "price": 64.41,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1991-01-01",
+    "price": 54.6,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1990-10-01",
+    "price": 51.77,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1990-07-01",
+    "price": 56.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1990-04-01",
+    "price": 49.72,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1990-01-01",
+    "price": 64.06,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1989-10-01",
+    "price": 50.29,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1989-07-01",
+    "price": 66.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1989-04-01",
+    "price": 51.31,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1989-01-01",
+    "price": 55.66,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1988-10-01",
+    "price": 61.68,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1988-07-01",
+    "price": 45.6,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1988-04-01",
+    "price": 51.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1988-01-01",
+    "price": 64.97,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1987-10-01",
+    "price": 45.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1987-07-01",
+    "price": 58.82,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1987-04-01",
+    "price": 47.65,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1987-01-01",
+    "price": 56.32,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1986-10-01",
+    "price": 63.59,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1986-07-01",
+    "price": 59.65,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1986-04-01",
+    "price": 58.69,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1986-01-01",
+    "price": 63.62,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1985-10-01",
+    "price": 47.4,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1985-07-01",
+    "price": 51.35,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1985-04-01",
+    "price": 61.02,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1985-01-01",
+    "price": 52.49,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1984-10-01",
+    "price": 51.6,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1984-07-01",
+    "price": 60.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1984-04-01",
+    "price": 60.84,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1984-01-01",
+    "price": 62.54,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1983-10-01",
+    "price": 56.41,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1983-07-01",
+    "price": 58.97,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1983-04-01",
+    "price": 55.81,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1983-01-01",
+    "price": 56.78,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1982-10-01",
+    "price": 50.34,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1982-07-01",
+    "price": 61.35,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1982-04-01",
+    "price": 53.97,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1982-01-01",
+    "price": 50.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1981-10-01",
+    "price": 49.93,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1981-07-01",
+    "price": 47.57,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1981-04-01",
+    "price": 51.8,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1981-01-01",
+    "price": 56.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1980-10-01",
+    "price": 57.5,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1980-07-01",
+    "price": 51.3,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1980-04-01",
+    "price": 57.18,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1980-01-01",
+    "price": 41.62,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1979-10-01",
+    "price": 45.84,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1979-07-01",
+    "price": 44.09,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1979-04-01",
+    "price": 42.89,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1979-01-01",
+    "price": 60.59,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1978-10-01",
+    "price": 48.38,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1978-07-01",
+    "price": 47.67,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1978-04-01",
+    "price": 49.41,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1978-01-01",
+    "price": 40.4,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1977-10-01",
+    "price": 53.15,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1977-07-01",
+    "price": 46.16,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1977-04-01",
+    "price": 51.7,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1977-01-01",
+    "price": 50.09,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1976-10-01",
+    "price": 58.31,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1976-07-01",
+    "price": 56.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1976-04-01",
+    "price": 55.02,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1976-01-01",
+    "price": 39.47,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1975-10-01",
+    "price": 54.37,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1975-07-01",
+    "price": 49.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1975-04-01",
+    "price": 43.26,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1975-01-01",
+    "price": 42.89,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1974-10-01",
+    "price": 45.66,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1974-07-01",
+    "price": 42.18,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1974-04-01",
+    "price": 51.43,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1974-01-01",
+    "price": 51.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1973-10-01",
+    "price": 40.76,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1973-07-01",
+    "price": 39.77,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1973-04-01",
+    "price": 53.42,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1973-01-01",
+    "price": 49.81,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1972-10-01",
+    "price": 40.03,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1972-07-01",
+    "price": 44.18,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1972-04-01",
+    "price": 48.6,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1972-01-01",
+    "price": 41.97,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1971-10-01",
+    "price": 43.73,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1971-07-01",
+    "price": 51.9,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1971-04-01",
+    "price": 40.66,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1971-01-01",
+    "price": 54.27,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1970-10-01",
+    "price": 47.55,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1970-07-01",
+    "price": 45.77,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1970-04-01",
+    "price": 53.69,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1970-01-01",
+    "price": 42.79,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1969-10-01",
+    "price": 38.2,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1969-07-01",
+    "price": 51.3,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1969-04-01",
+    "price": 46.63,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1969-01-01",
+    "price": 54.82,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1968-10-01",
+    "price": 39.98,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1968-07-01",
+    "price": 47.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1968-04-01",
+    "price": 47.15,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1968-01-01",
+    "price": 45.04,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1967-10-01",
+    "price": 47.71,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1967-07-01",
+    "price": 45.09,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1967-04-01",
+    "price": 43.52,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1967-01-01",
+    "price": 49.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1966-10-01",
+    "price": 49.56,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1966-07-01",
+    "price": 46.55,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1966-04-01",
+    "price": 35.92,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1966-01-01",
+    "price": 44.81,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1965-10-01",
+    "price": 42.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1965-07-01",
+    "price": 40.82,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1965-04-01",
+    "price": 52.11,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1965-01-01",
+    "price": 44.26,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1964-10-01",
+    "price": 40.48,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1964-07-01",
+    "price": 49.34,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1964-04-01",
+    "price": 39.53,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1964-01-01",
+    "price": 50.19,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1963-10-01",
+    "price": 38.25,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1963-07-01",
+    "price": 42.55,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1963-04-01",
+    "price": 49.23,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1963-01-01",
+    "price": 43.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1962-10-01",
+    "price": 36.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1962-07-01",
+    "price": 38.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1962-04-01",
+    "price": 41.4,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1962-01-01",
+    "price": 43.59,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1961-10-01",
+    "price": 46.11,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1961-07-01",
+    "price": 37.29,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1961-04-01",
+    "price": 35.58,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1961-01-01",
+    "price": 38.22,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1960-10-01",
+    "price": 46.75,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1960-07-01",
+    "price": 49.85,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1960-04-01",
+    "price": 47.19,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1960-01-01",
+    "price": 45.22,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1959-10-01",
+    "price": 33.94,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1959-07-01",
+    "price": 38.45,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1959-04-01",
+    "price": 44.46,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1959-01-01",
+    "price": 41.17,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1958-10-01",
+    "price": 37.43,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1958-07-01",
+    "price": 37.11,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1958-04-01",
+    "price": 44.64,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1958-01-01",
+    "price": 37.63,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1957-10-01",
+    "price": 32.7,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1957-07-01",
+    "price": 44.18,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1957-04-01",
+    "price": 41.99,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1957-01-01",
+    "price": 46.2,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1956-10-01",
+    "price": 44.07,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1956-07-01",
+    "price": 34.29,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1956-04-01",
+    "price": 39.26,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1956-01-01",
+    "price": 45.69,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1955-10-01",
+    "price": 38.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1955-07-01",
+    "price": 36.75,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1955-04-01",
+    "price": 37.09,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1955-01-01",
+    "price": 37.83,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1954-10-01",
+    "price": 43.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.044Z"
+  },
+  {
+    "date": "1954-07-01",
+    "price": 39.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1954-04-01",
+    "price": 40.63,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1954-01-01",
+    "price": 34.42,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1953-10-01",
+    "price": 45.41,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1953-07-01",
+    "price": 43.46,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1953-04-01",
+    "price": 46.14,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1953-01-01",
+    "price": 39.92,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1952-10-01",
+    "price": 43.13,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1952-07-01",
+    "price": 37.19,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1952-04-01",
+    "price": 45.96,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1952-01-01",
+    "price": 43.03,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1951-10-01",
+    "price": 39.67,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1951-07-01",
+    "price": 42.56,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1951-04-01",
+    "price": 31.22,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1951-01-01",
+    "price": 36.69,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1950-10-01",
+    "price": 33.94,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1950-07-01",
+    "price": 38.58,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1950-04-01",
+    "price": 41.82,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  },
+  {
+    "date": "1950-01-01",
+    "price": 31.36,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.043Z"
+  }
+]

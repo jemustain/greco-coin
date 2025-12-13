@@ -1,0 +1,452 @@
+[
+  {
+    "date": "1949-01-01",
+    "price": 1.38,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1948-01-01",
+    "price": 1.55,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1947-01-01",
+    "price": 1.49,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1946-01-01",
+    "price": 1.61,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1945-01-01",
+    "price": 1.62,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1944-01-01",
+    "price": 1.65,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1943-01-01",
+    "price": 1.2,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1942-01-01",
+    "price": 1.59,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1941-01-01",
+    "price": 1.34,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1940-01-01",
+    "price": 1.65,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1939-01-01",
+    "price": 1.21,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1938-01-01",
+    "price": 1.18,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1937-01-01",
+    "price": 1.46,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1936-01-01",
+    "price": 1.58,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1935-01-01",
+    "price": 1.54,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1934-01-01",
+    "price": 1.37,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1933-01-01",
+    "price": 1.36,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1932-01-01",
+    "price": 1.26,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1931-01-01",
+    "price": 1.37,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1930-01-01",
+    "price": 1.2,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1929-01-01",
+    "price": 1.36,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1928-01-01",
+    "price": 1.37,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1927-01-01",
+    "price": 1.41,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1926-01-01",
+    "price": 1,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1925-01-01",
+    "price": 0.98,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1924-01-01",
+    "price": 1.24,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1923-01-01",
+    "price": 1.2,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1922-01-01",
+    "price": 0.93,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1921-01-01",
+    "price": 0.91,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1920-01-01",
+    "price": 1.23,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1919-01-01",
+    "price": 1.12,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1918-01-01",
+    "price": 0.94,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1917-01-01",
+    "price": 1.08,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1916-01-01",
+    "price": 0.93,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1915-01-01",
+    "price": 0.95,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1914-01-01",
+    "price": 0.89,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1913-01-01",
+    "price": 1.08,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1912-01-01",
+    "price": 0.82,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1911-01-01",
+    "price": 0.84,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1910-01-01",
+    "price": 0.98,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1909-01-01",
+    "price": 0.76,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1908-01-01",
+    "price": 0.65,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1907-01-01",
+    "price": 0.66,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1906-01-01",
+    "price": 0.81,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1905-01-01",
+    "price": 0.86,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1904-01-01",
+    "price": 0.66,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1903-01-01",
+    "price": 0.8,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1902-01-01",
+    "price": 0.77,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1901-01-01",
+    "price": 0.64,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  },
+  {
+    "date": "1900-01-01",
+    "price": 0.62,
+    "unit": "troy-ounce",
+    "quality": "interpolated_linear",
+    "source": "imported",
+    "sourceId": "historical-estimate",
+    "fetchedAt": "2025-12-13T07:23:22.275Z"
+  }
+]

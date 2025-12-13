@@ -77,18 +77,18 @@ Run Lighthouse audit on homepage. Performance score >90, Time to Interactive <2s
 
 #### Data Migration to Shards
 
-- [ ] T021 [US1] Create scripts/migrate-to-shards.ts to split existing prices/*.json into time-period shards
-- [ ] T022 [US1] Generate src/data/indexes/date-range-index.json mapping date ranges to shard files
+- [X] T021 [US1] Create scripts/migrate-to-shards.ts to split existing prices/*.json into time-period shards
+- [X] T022 [US1] Generate src/data/indexes/date-range-index.json mapping date ranges to shard files
 - [ ] T023 [US1] Validate migrated shards match original data with comparison script
-- [ ] T024 [US1] Update src/data/commodities.json with primarySource, fredSeriesId, updatePriority fields
+- [X] T024 [US1] Update src/data/commodities.json with primarySource, fredSeriesId, updatePriority fields
 
 #### Data Service Layer
 
-- [ ] T025 [P] [US1] Create lib/data/shard-loader.ts to load specific shards based on date range
-- [ ] T026 [P] [US1] Create lib/data/index-reader.ts to query date-range-index.json
-- [ ] T027 [US1] Create lib/data/data-service.ts with getPrices(commodity, startDate, endDate) method
-- [ ] T028 [US1] Implement query optimization in data-service.ts to load only needed shards
-- [ ] T029 [US1] Add data-service.ts unit tests verifying correct shard selection
+- [X] T025 [P] [US1] Create lib/data/shard-loader.ts to load specific shards based on date range
+- [X] T026 [P] [US1] Create lib/data/index-reader.ts to query date-range-index.json
+- [X] T027 [US1] Create lib/data/data-service.ts with getPrices(commodity, startDate, endDate) method
+- [X] T028 [US1] Implement query optimization in data-service.ts to load only needed shards
+- [X] T029 [US1] Add data-service.ts unit tests verifying correct shard selection
 
 #### Caching Implementation
 

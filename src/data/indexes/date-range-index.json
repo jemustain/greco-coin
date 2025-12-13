@@ -1,0 +1,1249 @@
+{
+  "generatedAt": "2025-12-13T07:26:37.890Z",
+  "commodityCount": 32,
+  "totalRecords": 17534,
+  "totalSize": 3557464,
+  "commodities": {
+    "aluminum": {
+      "commodityId": "aluminum",
+      "totalRecords": 562,
+      "totalSize": 115771,
+      "shards": [
+        {
+          "file": "aluminum/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11495
+        },
+        {
+          "file": "aluminum/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40664
+        },
+        {
+          "file": "aluminum/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48930
+        },
+        {
+          "file": "aluminum/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14682
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "barley": {
+      "commodityId": "barley",
+      "totalRecords": 562,
+      "totalSize": 113700,
+      "shards": [
+        {
+          "file": "barley/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11347
+        },
+        {
+          "file": "barley/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39987
+        },
+        {
+          "file": "barley/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47975
+        },
+        {
+          "file": "barley/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14391
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "cement": {
+      "commodityId": "cement",
+      "totalRecords": 562,
+      "totalSize": 113688,
+      "shards": [
+        {
+          "file": "cement/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11343
+        },
+        {
+          "file": "cement/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39984
+        },
+        {
+          "file": "cement/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47969
+        },
+        {
+          "file": "cement/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14392
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "cocoa": {
+      "commodityId": "cocoa",
+      "totalRecords": 562,
+      "totalSize": 113699,
+      "shards": [
+        {
+          "file": "cocoa/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11347
+        },
+        {
+          "file": "cocoa/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39976
+        },
+        {
+          "file": "cocoa/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47981
+        },
+        {
+          "file": "cocoa/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14395
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "coffee": {
+      "commodityId": "coffee",
+      "totalRecords": 562,
+      "totalSize": 113700,
+      "shards": [
+        {
+          "file": "coffee/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11344
+        },
+        {
+          "file": "coffee/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39986
+        },
+        {
+          "file": "coffee/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47975
+        },
+        {
+          "file": "coffee/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14395
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "copper": {
+      "commodityId": "copper",
+      "totalRecords": 562,
+      "totalSize": 114717,
+      "shards": [
+        {
+          "file": "copper/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11449
+        },
+        {
+          "file": "copper/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40375
+        },
+        {
+          "file": "copper/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48448
+        },
+        {
+          "file": "copper/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14445
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "copra": {
+      "commodityId": "copra",
+      "totalRecords": 562,
+      "totalSize": 113710,
+      "shards": [
+        {
+          "file": "copra/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11352
+        },
+        {
+          "file": "copra/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39969
+        },
+        {
+          "file": "copra/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47987
+        },
+        {
+          "file": "copra/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14402
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "corn": {
+      "commodityId": "corn",
+      "totalRecords": 562,
+      "totalSize": 113685,
+      "shards": [
+        {
+          "file": "corn/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11348
+        },
+        {
+          "file": "corn/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39971
+        },
+        {
+          "file": "corn/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47969
+        },
+        {
+          "file": "corn/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14397
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "cotton": {
+      "commodityId": "cotton",
+      "totalRecords": 562,
+      "totalSize": 113719,
+      "shards": [
+        {
+          "file": "cotton/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11350
+        },
+        {
+          "file": "cotton/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39989
+        },
+        {
+          "file": "cotton/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47985
+        },
+        {
+          "file": "cotton/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14395
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "cotton-seed": {
+      "commodityId": "cotton-seed",
+      "totalRecords": 562,
+      "totalSize": 114258,
+      "shards": [
+        {
+          "file": "cotton-seed/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11397
+        },
+        {
+          "file": "cotton-seed/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40179
+        },
+        {
+          "file": "cotton-seed/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48216
+        },
+        {
+          "file": "cotton-seed/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14466
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "gold": {
+      "commodityId": "gold",
+      "totalRecords": 562,
+      "totalSize": 113828,
+      "shards": [
+        {
+          "file": "gold/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11354
+        },
+        {
+          "file": "gold/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39710
+        },
+        {
+          "file": "gold/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48182
+        },
+        {
+          "file": "gold/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14582
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "hides": {
+      "commodityId": "hides",
+      "totalRecords": 562,
+      "totalSize": 113705,
+      "shards": [
+        {
+          "file": "hides/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11349
+        },
+        {
+          "file": "hides/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39981
+        },
+        {
+          "file": "hides/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47981
+        },
+        {
+          "file": "hides/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14394
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "iron": {
+      "commodityId": "iron",
+      "totalRecords": 562,
+      "totalSize": 114485,
+      "shards": [
+        {
+          "file": "iron/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11398
+        },
+        {
+          "file": "iron/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40189
+        },
+        {
+          "file": "iron/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48364
+        },
+        {
+          "file": "iron/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14534
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "jute": {
+      "commodityId": "jute",
+      "totalRecords": 562,
+      "totalSize": 113713,
+      "shards": [
+        {
+          "file": "jute/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11351
+        },
+        {
+          "file": "jute/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39988
+        },
+        {
+          "file": "jute/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47989
+        },
+        {
+          "file": "jute/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14385
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "lead": {
+      "commodityId": "lead",
+      "totalRecords": 562,
+      "totalSize": 114809,
+      "shards": [
+        {
+          "file": "lead/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11435
+        },
+        {
+          "file": "lead/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40381
+        },
+        {
+          "file": "lead/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48453
+        },
+        {
+          "file": "lead/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14540
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "nickel": {
+      "commodityId": "nickel",
+      "totalRecords": 562,
+      "totalSize": 115324,
+      "shards": [
+        {
+          "file": "nickel/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11453
+        },
+        {
+          "file": "nickel/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40564
+        },
+        {
+          "file": "nickel/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48693
+        },
+        {
+          "file": "nickel/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14614
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "oats": {
+      "commodityId": "oats",
+      "totalRecords": 562,
+      "totalSize": 113693,
+      "shards": [
+        {
+          "file": "oats/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11349
+        },
+        {
+          "file": "oats/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39974
+        },
+        {
+          "file": "oats/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47971
+        },
+        {
+          "file": "oats/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14399
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "peanuts": {
+      "commodityId": "peanuts",
+      "totalRecords": 562,
+      "totalSize": 113690,
+      "shards": [
+        {
+          "file": "peanuts/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11347
+        },
+        {
+          "file": "peanuts/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39980
+        },
+        {
+          "file": "peanuts/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47975
+        },
+        {
+          "file": "peanuts/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14388
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "petroleum": {
+      "commodityId": "petroleum",
+      "totalRecords": 562,
+      "totalSize": 111394,
+      "shards": [
+        {
+          "file": "petroleum/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11146
+        },
+        {
+          "file": "petroleum/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39179
+        },
+        {
+          "file": "petroleum/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47019
+        },
+        {
+          "file": "petroleum/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14050
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "platinum": {
+      "commodityId": "platinum",
+      "totalRecords": 562,
+      "totalSize": 114756,
+      "shards": [
+        {
+          "file": "platinum/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11399
+        },
+        {
+          "file": "platinum/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40365
+        },
+        {
+          "file": "platinum/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48453
+        },
+        {
+          "file": "platinum/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14539
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "rice": {
+      "commodityId": "rice",
+      "totalRecords": 562,
+      "totalSize": 114230,
+      "shards": [
+        {
+          "file": "rice/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11363
+        },
+        {
+          "file": "rice/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40181
+        },
+        {
+          "file": "rice/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48218
+        },
+        {
+          "file": "rice/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14468
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "rubber": {
+      "commodityId": "rubber",
+      "totalRecords": 562,
+      "totalSize": 113697,
+      "shards": [
+        {
+          "file": "rubber/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11350
+        },
+        {
+          "file": "rubber/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39978
+        },
+        {
+          "file": "rubber/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47972
+        },
+        {
+          "file": "rubber/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14397
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "rye": {
+      "commodityId": "rye",
+      "totalRecords": 562,
+      "totalSize": 113697,
+      "shards": [
+        {
+          "file": "rye/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11350
+        },
+        {
+          "file": "rye/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39979
+        },
+        {
+          "file": "rye/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47977
+        },
+        {
+          "file": "rye/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14391
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "silver": {
+      "commodityId": "silver",
+      "totalRecords": 562,
+      "totalSize": 113701,
+      "shards": [
+        {
+          "file": "silver/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11345
+        },
+        {
+          "file": "silver/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39979
+        },
+        {
+          "file": "silver/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47979
+        },
+        {
+          "file": "silver/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14398
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "soy-beans": {
+      "commodityId": "soy-beans",
+      "totalRecords": 562,
+      "totalSize": 113692,
+      "shards": [
+        {
+          "file": "soy-beans/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11344
+        },
+        {
+          "file": "soy-beans/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39971
+        },
+        {
+          "file": "soy-beans/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47978
+        },
+        {
+          "file": "soy-beans/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14399
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "sugar": {
+      "commodityId": "sugar",
+      "totalRecords": 562,
+      "totalSize": 113704,
+      "shards": [
+        {
+          "file": "sugar/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11348
+        },
+        {
+          "file": "sugar/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39983
+        },
+        {
+          "file": "sugar/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47981
+        },
+        {
+          "file": "sugar/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14392
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "sulphur": {
+      "commodityId": "sulphur",
+      "totalRecords": 562,
+      "totalSize": 114304,
+      "shards": [
+        {
+          "file": "sulphur/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11398
+        },
+        {
+          "file": "sulphur/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40176
+        },
+        {
+          "file": "sulphur/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48237
+        },
+        {
+          "file": "sulphur/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14493
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "tallow": {
+      "commodityId": "tallow",
+      "totalRecords": 562,
+      "totalSize": 113708,
+      "shards": [
+        {
+          "file": "tallow/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11346
+        },
+        {
+          "file": "tallow/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39993
+        },
+        {
+          "file": "tallow/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47974
+        },
+        {
+          "file": "tallow/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14395
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "tin": {
+      "commodityId": "tin",
+      "totalRecords": 562,
+      "totalSize": 114854,
+      "shards": [
+        {
+          "file": "tin/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11445
+        },
+        {
+          "file": "tin/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40375
+        },
+        {
+          "file": "tin/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48472
+        },
+        {
+          "file": "tin/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14562
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "wheat": {
+      "commodityId": "wheat",
+      "totalRecords": 112,
+      "totalSize": 23316,
+      "shards": [
+        {
+          "file": "wheat/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11122
+        },
+        {
+          "file": "wheat/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1962-04-01",
+          "recordCount": 50,
+          "sizeBytes": 9840
+        },
+        {
+          "file": "wheat/2020-present.json",
+          "startDate": "2024-01-01",
+          "endDate": "2024-12-01",
+          "recordCount": 12,
+          "sizeBytes": 2354
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2024-12-01"
+      }
+    },
+    "wool": {
+      "commodityId": "wool",
+      "totalRecords": 562,
+      "totalSize": 113703,
+      "shards": [
+        {
+          "file": "wool/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11346
+        },
+        {
+          "file": "wool/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 39989
+        },
+        {
+          "file": "wool/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 47976
+        },
+        {
+          "file": "wool/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14392
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    },
+    "zinc": {
+      "commodityId": "zinc",
+      "totalRecords": 562,
+      "totalSize": 114814,
+      "shards": [
+        {
+          "file": "zinc/1900-1949.json",
+          "startDate": "1900-01-01",
+          "endDate": "1949-01-01",
+          "recordCount": 50,
+          "sizeBytes": 11443
+        },
+        {
+          "file": "zinc/1950-1999.json",
+          "startDate": "1950-01-01",
+          "endDate": "1999-10-01",
+          "recordCount": 200,
+          "sizeBytes": 40383
+        },
+        {
+          "file": "zinc/2000-2019.json",
+          "startDate": "2000-01-01",
+          "endDate": "2019-12-01",
+          "recordCount": 240,
+          "sizeBytes": 48450
+        },
+        {
+          "file": "zinc/2020-present.json",
+          "startDate": "2020-01-01",
+          "endDate": "2025-12-01",
+          "recordCount": 72,
+          "sizeBytes": 14538
+        }
+      ],
+      "dateRange": {
+        "start": "1900-01-01",
+        "end": "2025-12-01"
+      }
+    }
+  }
+}

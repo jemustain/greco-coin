@@ -1,0 +1,650 @@
+[
+  {
+    "date": "2025-12-01",
+    "price": 2.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-11-01",
+    "price": 2.74,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-10-01",
+    "price": 2.54,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-09-01",
+    "price": 2.89,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-08-01",
+    "price": 2.48,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-07-01",
+    "price": 3.62,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-06-01",
+    "price": 3.04,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-05-01",
+    "price": 3.39,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-04-01",
+    "price": 3.58,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-03-01",
+    "price": 3.62,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-02-01",
+    "price": 3.37,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2025-01-01",
+    "price": 3.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-12-01",
+    "price": 3.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-11-01",
+    "price": 3.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-10-01",
+    "price": 3.19,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-09-01",
+    "price": 2.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-08-01",
+    "price": 3.42,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-07-01",
+    "price": 2.86,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-06-01",
+    "price": 3.21,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-05-01",
+    "price": 3.19,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-04-01",
+    "price": 3.15,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-03-01",
+    "price": 3.42,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-02-01",
+    "price": 3.6,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2024-01-01",
+    "price": 2.83,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-12-01",
+    "price": 2.89,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-11-01",
+    "price": 2.97,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-10-01",
+    "price": 2.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-09-01",
+    "price": 2.81,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-08-01",
+    "price": 3.66,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-07-01",
+    "price": 2.58,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-06-01",
+    "price": 3.34,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-05-01",
+    "price": 2.75,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-04-01",
+    "price": 3.58,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-03-01",
+    "price": 3.05,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-02-01",
+    "price": 3.06,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2023-01-01",
+    "price": 2.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-12-01",
+    "price": 2.9,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-11-01",
+    "price": 2.59,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-10-01",
+    "price": 3.53,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-09-01",
+    "price": 2.81,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-08-01",
+    "price": 3.29,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-07-01",
+    "price": 2.57,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-06-01",
+    "price": 3.58,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-05-01",
+    "price": 2.91,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-04-01",
+    "price": 3.27,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-03-01",
+    "price": 3.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-02-01",
+    "price": 3.11,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2022-01-01",
+    "price": 2.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-12-01",
+    "price": 2.99,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-11-01",
+    "price": 3.13,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-10-01",
+    "price": 3.5,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-09-01",
+    "price": 3.06,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-08-01",
+    "price": 3.09,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-07-01",
+    "price": 2.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-06-01",
+    "price": 3.33,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-05-01",
+    "price": 3.01,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-04-01",
+    "price": 3.39,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-03-01",
+    "price": 3.54,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-02-01",
+    "price": 2.71,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2021-01-01",
+    "price": 3.13,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-12-01",
+    "price": 2.72,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-11-01",
+    "price": 2.68,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-10-01",
+    "price": 2.48,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-09-01",
+    "price": 3.43,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-08-01",
+    "price": 3.51,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-07-01",
+    "price": 2.54,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-06-01",
+    "price": 3.2,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-05-01",
+    "price": 2.45,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-04-01",
+    "price": 2.74,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-03-01",
+    "price": 3.37,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-02-01",
+    "price": 2.45,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  },
+  {
+    "date": "2020-01-01",
+    "price": 2.72,
+    "unit": "troy-ounce",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.276Z"
+  }
+]

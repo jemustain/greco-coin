@@ -1,0 +1,452 @@
+[
+  {
+    "date": "1962-04-01",
+    "price": 3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1962-01-01",
+    "price": 3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1961-10-01",
+    "price": 2.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1961-07-01",
+    "price": 2.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1961-04-01",
+    "price": 2.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1961-01-01",
+    "price": 2.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1960-10-01",
+    "price": 2.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1960-07-01",
+    "price": 2.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1960-04-01",
+    "price": 2.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1960-01-01",
+    "price": 2.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1959-10-01",
+    "price": 2.7,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1959-07-01",
+    "price": 2.7,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1959-04-01",
+    "price": 2.7,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1959-01-01",
+    "price": 2.7,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1958-10-01",
+    "price": 2.6,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1958-07-01",
+    "price": 2.6,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1958-04-01",
+    "price": 2.6,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1958-01-01",
+    "price": 2.6,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1957-10-01",
+    "price": 2.5,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1957-07-01",
+    "price": 2.5,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1957-04-01",
+    "price": 2.5,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1957-01-01",
+    "price": 2.5,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1956-10-01",
+    "price": 2.4,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1956-07-01",
+    "price": 2.4,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1956-04-01",
+    "price": 2.4,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1956-01-01",
+    "price": 2.4,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1955-10-01",
+    "price": 2.3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1955-07-01",
+    "price": 2.3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1955-04-01",
+    "price": 2.3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1955-01-01",
+    "price": 2.3,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1954-10-01",
+    "price": 2.2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1954-07-01",
+    "price": 2.2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1954-04-01",
+    "price": 2.2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1954-01-01",
+    "price": 2.2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1953-10-01",
+    "price": 2.1,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1953-07-01",
+    "price": 2.1,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1953-04-01",
+    "price": 2.1,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1953-01-01",
+    "price": 2.1,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1952-10-01",
+    "price": 2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1952-07-01",
+    "price": 2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1952-04-01",
+    "price": 2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1952-01-01",
+    "price": 2,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1951-10-01",
+    "price": 1.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1951-07-01",
+    "price": 1.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1951-04-01",
+    "price": 1.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1951-01-01",
+    "price": 1.9,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1950-10-01",
+    "price": 1.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1950-07-01",
+    "price": 1.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1950-04-01",
+    "price": 1.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  },
+  {
+    "date": "1950-01-01",
+    "price": 1.8,
+    "unit": "bushel",
+    "quality": "high",
+    "source": "imported",
+    "sourceId": "usda-nass",
+    "fetchedAt": "2025-12-13T07:23:22.369Z"
+  }
+]

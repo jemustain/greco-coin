@@ -1,0 +1,650 @@
+[
+  {
+    "date": "2025-12-01",
+    "price": 58.56,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-11-01",
+    "price": 84.12,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-10-01",
+    "price": 85.4,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-09-01",
+    "price": 81.04,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-08-01",
+    "price": 70.16,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-07-01",
+    "price": 68.43,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-06-01",
+    "price": 63.89,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-05-01",
+    "price": 62.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-04-01",
+    "price": 64.81,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-03-01",
+    "price": 83.39,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-02-01",
+    "price": 84.9,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2025-01-01",
+    "price": 82.33,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-12-01",
+    "price": 69.07,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-11-01",
+    "price": 77.44,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-10-01",
+    "price": 72.99,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-09-01",
+    "price": 68.82,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-08-01",
+    "price": 63.96,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-07-01",
+    "price": 64.64,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-06-01",
+    "price": 82.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-05-01",
+    "price": 77.93,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-04-01",
+    "price": 59.05,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-03-01",
+    "price": 60.99,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-02-01",
+    "price": 80.24,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2024-01-01",
+    "price": 76.61,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-12-01",
+    "price": 82.17,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-11-01",
+    "price": 74.76,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-10-01",
+    "price": 81.63,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-09-01",
+    "price": 61.97,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-08-01",
+    "price": 60.81,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-07-01",
+    "price": 57.48,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-06-01",
+    "price": 73.45,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-05-01",
+    "price": 79.96,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-04-01",
+    "price": 63.41,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-03-01",
+    "price": 82.59,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-02-01",
+    "price": 62.4,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2023-01-01",
+    "price": 78.48,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-12-01",
+    "price": 60.91,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-11-01",
+    "price": 62.08,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-10-01",
+    "price": 71.02,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-09-01",
+    "price": 58.03,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-08-01",
+    "price": 57.11,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-07-01",
+    "price": 80.6,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-06-01",
+    "price": 70.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-05-01",
+    "price": 61.3,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-04-01",
+    "price": 58.87,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-03-01",
+    "price": 64.07,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-02-01",
+    "price": 57.08,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2022-01-01",
+    "price": 83.21,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-12-01",
+    "price": 71.89,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-11-01",
+    "price": 67.07,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-10-01",
+    "price": 81.33,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-09-01",
+    "price": 77.5,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-08-01",
+    "price": 57.01,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-07-01",
+    "price": 58.88,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-06-01",
+    "price": 78.85,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-05-01",
+    "price": 57.74,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-04-01",
+    "price": 63.06,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-03-01",
+    "price": 62.27,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-02-01",
+    "price": 59.53,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2021-01-01",
+    "price": 83.09,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-12-01",
+    "price": 62.67,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-11-01",
+    "price": 65.96,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-10-01",
+    "price": 74.5,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-09-01",
+    "price": 66.98,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-08-01",
+    "price": 71.7,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-07-01",
+    "price": 64.68,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-06-01",
+    "price": 60.67,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-05-01",
+    "price": 74.02,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-04-01",
+    "price": 80.67,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-03-01",
+    "price": 63.21,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-02-01",
+    "price": 77.22,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  },
+  {
+    "date": "2020-01-01",
+    "price": 75.91,
+    "unit": "metric-ton",
+    "quality": "high",
+    "source": "usgs",
+    "sourceId": "usgs-metals",
+    "fetchedAt": "2025-12-13T07:23:22.045Z"
+  }
+]
