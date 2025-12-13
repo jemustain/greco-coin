@@ -56,7 +56,11 @@ export default function HomePage() {
         return res.json()
       })
       .then((data) => {
-        const grecoValues = data.values
+        // Convert date strings back to Date objects
+        const grecoValues = data.values.map((gv: any) => ({
+          ...gv,
+          date: new Date(gv.date),
+        }))
         const timeSeriesData = convertToTimeSeriesData(grecoValues)
         // Performance optimization: Sample data to max 500 points for <500ms interactions
         const sampledData = sampleDataForPerformance(timeSeriesData, 500)
