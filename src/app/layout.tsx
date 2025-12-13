@@ -7,6 +7,7 @@ import { Inter } from 'next/font/google'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import ErrorBoundary from '@/components/ui/ErrorBoundary'
+import DataQualityBanner from '@/components/ui/DataQualityBanner'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className={`${inter.className} h-full flex flex-col`}>
         <ErrorBoundary>
           <Header />
+          <DataQualityBanner />
           <main className="flex-1">{children}</main>
           <Footer />
         </ErrorBoundary>
