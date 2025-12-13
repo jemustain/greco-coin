@@ -18,7 +18,7 @@ import {
 } from 'recharts'
 import { TimeSeriesDataPoint, handleDataGaps } from '@/lib/utils/chart'
 import { formatCurrency, getCurrencySymbol } from '@/lib/utils/format'
-import { loadCommodities } from '@/lib/data/loader-optimized'
+import { loadCommodities } from '@/lib/data/loader'
 import { Commodity } from '@/lib/types/commodity'
 import { sampleChartData, shouldSampleData } from '@/lib/utils/performance'
 

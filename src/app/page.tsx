@@ -8,8 +8,7 @@ import { useState, useEffect } from 'react'
 import ChartControls from '@/components/charts/ChartControls'
 import TimeSeriesChart from '@/components/charts/TimeSeriesChart'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies } from '@/lib/data/loader-optimized'
-import { calculateGrecoTimeSeriesOptimized as calculateGrecoTimeSeries } from '@/lib/data/calculator-optimized'
+import { loadCurrencies } from '@/lib/data/loader'
 import { convertToTimeSeriesData, sampleDataForPerformance } from '@/lib/utils/chart'
 import { presetRanges } from '@/lib/utils/date'
 import { Currency } from '@/lib/types/currency'
@@ -46,8 +45,18 @@ export default function HomePage() {
 
     const startTime = performance.now()
 
-    calculateGrecoTimeSeries(startDate, endDate, selectedCurrency, 'monthly')
-      .then((grecoValues) => {
+    // Fetch from API route (server-side calculation)
+    const startDateStr = startDate.toISOString().split('T')[0]
+    const endDateStr = endDate.toISOString().split('T')[0]
+    const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=${selectedCurrency}&interval=monthly`
+    
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`)
+        return res.json()
+      })
+      .then((data) => {
+        const grecoValues = data.values
         const timeSeriesData = convertToTimeSeriesData(grecoValues)
         // Performance optimization: Sample data to max 500 points for <500ms interactions
         const sampledData = sampleDataForPerformance(timeSeriesData, 500)
