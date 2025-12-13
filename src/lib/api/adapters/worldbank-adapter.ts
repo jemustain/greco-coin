@@ -88,19 +88,18 @@ export class WorldBankAdapter extends BaseAdapter {
 
   getMetadata(): SourceMetadata {
     return {
+      source: 'worldbank',
       name: 'World Bank Commodity Price Data (Pink Sheet)',
-      description: 'Monthly commodity prices from World Bank with historical data back to 1960',
       url: 'https://www.worldbank.org/en/research/commodity-markets',
+      supportedCommodities: Object.keys(WORLDBANK_INDICATOR_MAP),
       updateFrequency: 'monthly',
-      historicalDepth: '1960-present',
-      dataGranularity: 'monthly',
     };
   }
 
   getRateLimit(): RateLimitInfo {
     return {
-      requestsPerMinute: API_CONFIG.worldBank.rateLimit.maxRequestsPerMinute,
-      currentTokens: this.rateLimiter.getTokenCount(),
+      maxRequestsPerMinute: API_CONFIG.worldBank.rateLimit.maxRequestsPerMinute,
+      remainingRequests: this.rateLimiter.getTokenCount(),
     };
   }
 
@@ -126,6 +125,7 @@ export class WorldBankAdapter extends BaseAdapter {
     if (!this.supports(commodityId)) {
       throw new NotFoundError(
         `Commodity "${commodityId}" is not supported by World Bank adapter`,
+        'worldbank',
         { commodityId, supportedCommodities: Object.keys(WORLDBANK_INDICATOR_MAP) }
       );
     }
@@ -142,14 +142,14 @@ export class WorldBankAdapter extends BaseAdapter {
             mapping.indicatorId,
             startYear,
             endYear,
-            options?.timeout
+            options?.timeoutMs
           );
         },
         {
-          maxAttempts: 3,
+          maxRetries: 3,
           initialDelayMs: 1000,
           maxDelayMs: 10000,
-          multiplier: 2,
+          backoffMultiplier: 2,
         }
       );
 
@@ -167,22 +167,10 @@ export class WorldBankAdapter extends BaseAdapter {
         }));
 
       return {
-        commodityId,
         prices: transformedPrices,
-        dateRange,
+        count: transformedPrices.length,
         source: this.getSource(),
-        metadata: {
-          totalRecords: transformedPrices.length,
-          startDate: transformedPrices[transformedPrices.length - 1]?.date || dateRange.start,
-          endDate: transformedPrices[0]?.date || dateRange.end,
-          qualitySummary: {
-            high: transformedPrices.length,
-            interpolated_linear: 0,
-            quarterly_average: 0,
-            annual_average: 0,
-            unavailable: 0,
-          },
-        },
+        fetchedAt: new Date().toISOString(),
       };
     } catch (error) {
       if (error instanceof APIError) {
@@ -281,6 +269,7 @@ export class WorldBankAdapter extends BaseAdapter {
         return new RateLimitError(
           'World Bank API rate limit exceeded',
           retryAfter * 1000,
+          'worldbank',
           { indicatorId, status, errorData }
         );
       }
@@ -288,6 +277,7 @@ export class WorldBankAdapter extends BaseAdapter {
       if (status === 404) {
         return new NotFoundError(
           `World Bank indicator "${indicatorId}" not found`,
+          'worldbank',
           { indicatorId, status, errorData }
         );
       }
@@ -295,6 +285,7 @@ export class WorldBankAdapter extends BaseAdapter {
       if (status && status >= 400 && status < 500) {
         return new ValidationError(
           `World Bank API validation error: ${errorData?.message || error.message}`,
+          'worldbank',
           { indicatorId, status, errorData }
         );
       }
@@ -302,25 +293,31 @@ export class WorldBankAdapter extends BaseAdapter {
       if (error.code === 'ECONNABORTED' || error.code === 'ETIMEDOUT') {
         return new TimeoutError(
           `World Bank API request timeout for indicator ${indicatorId}`,
-          { indicatorId, timeout: API_CONFIG.worldBank.timeout }
+          API_CONFIG.worldBank.timeout,
+          'worldbank'
         );
       }
 
       if (error.code === 'ENOTFOUND' || error.code === 'ECONNREFUSED') {
         return new NetworkError(
           `Unable to reach World Bank API: ${error.message}`,
+          'worldbank',
           { indicatorId, code: error.code }
         );
       }
 
       return new APIError(
         `World Bank API error: ${error.message}`,
+        undefined,
+        'worldbank',
         { indicatorId, status, errorData, code: error.code }
       );
     }
 
     return new APIError(
       `Unexpected error fetching World Bank data: ${error.message}`,
+      undefined,
+      'worldbank',
       { indicatorId, error: String(error) }
     );
   }

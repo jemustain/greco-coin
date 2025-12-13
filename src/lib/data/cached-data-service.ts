@@ -64,7 +64,7 @@ export const getCachedAllPrices = unstable_cache(
   ['get-all-prices'],
   {
     revalidate: DEFAULT_REVALIDATE,
-    tags: [CACHE_TAGS.commodityPrices, CACHE_TAGS.commodity(commodityId)],
+    tags: [CACHE_TAGS.commodityPrices],
   }
 );
 

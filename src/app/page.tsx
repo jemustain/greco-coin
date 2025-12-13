@@ -57,7 +57,7 @@ export default function HomePage() {
       })
       .then((data) => {
         // Convert date strings back to Date objects
-        const grecoValues = data.values.map((gv: any) => ({
+        const grecoValues = data.values.map((gv: { date: string; [key: string]: unknown }) => ({
           ...gv,
           date: new Date(gv.date),
         }))

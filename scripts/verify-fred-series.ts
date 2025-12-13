@@ -24,7 +24,7 @@ async function searchFRED(searchTerm: string) {
     
     return response.data.seriess || [];
   } catch (error) {
-    console.error(`Error searching for "${searchTerm}":`, error.message);
+    console.error(`Error searching for "${searchTerm}":`, error instanceof Error ? error.message : String(error));
     return [];
   }
 }

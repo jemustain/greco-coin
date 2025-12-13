@@ -14,7 +14,6 @@ import { DataQualityIndicator } from '../types/commodity';
 import { GrecoValue } from '../types/greco';
 import { 
   loadBasketWeights, 
-  loadPricesOptimized, 
   loadBatchPrices,
   loadExchangeRate,
   PricePoint 
@@ -26,7 +25,7 @@ import {
 function findClosestPrice(
   prices: Array<{ date: Date; priceUSD: number }>,
   targetDate: Date
-): any | null {
+): { date: Date; priceUSD: number } | null {
   if (prices.length === 0) return null;
 
   return prices.reduce((closest, price) => {
@@ -59,7 +58,7 @@ export async function calculateGrecoValueOptimized(
   // Find closest prices for each commodity
   const commodityPrices = basketWeights.weights.map(weightEntry => {
     const prices = allPrices[weightEntry.commodityId] || [];
-    const closestPrice = findClosestPrice(prices as any, date);
+    const closestPrice = findClosestPrice(prices as Array<{ date: Date; priceUSD: number }>, date);
     
     return {
       commodityId: weightEntry.commodityId,
@@ -142,7 +141,7 @@ export async function calculateGrecoTimeSeriesOptimized(
   
   // Generate date range based on interval
   const dates: Date[] = [];
-  let currentDate = new Date(startDate);
+  const currentDate = new Date(startDate);
   
   while (currentDate <= endDate) {
     dates.push(new Date(currentDate));
