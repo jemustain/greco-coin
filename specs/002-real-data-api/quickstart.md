@@ -36,17 +36,50 @@ This guide covers:
 **In Vercel Dashboard**:
 
 1. Navigate to Project Settings → Environment Variables
-2. Add the following:
+2. Add the following environment variables:
 
+**Required:**
 ```bash
-# FRED API Key (required)
+# FRED API Key (required for 15 commodities)
+# Get from: https://fred.stlouisfed.org/docs/api/api_key.html
 FRED_API_KEY=your_fred_api_key_here
+```
 
-# World Bank API (no key needed, but configure base URL if using proxy)
+**Optional:**
+```bash
+# World Bank API base URL (defaults to https://api.worldbank.org/v2)
 WORLD_BANK_BASE_URL=https://api.worldbank.org/v2
 
-# Optional: USGS cache directory (for bulk downloads)
+# USGS cache directory for bulk downloads (defaults to /tmp/usgs-data)
 USGS_CACHE_DIR=/tmp/usgs-data
+```
+
+3. **Apply to Environments**: Select "Production", "Preview", and "Development"
+4. Click "Save"
+
+**For Local Development**:
+
+1. Copy `.env.local.example` to `.env.local`:
+   ```bash
+   cp .env.local.example .env.local
+   ```
+
+2. Edit `.env.local` and add your FRED_API_KEY:
+   ```bash
+   # Add to .env.local
+   FRED_API_KEY=your_fred_api_key_here
+   ```
+
+3. Test configuration:
+   ```bash
+   npm run test:api-connection
+   ```
+   
+   Expected output:
+   ```
+   ✅ All 2 API connections successful!
+   🎉 You are ready to fetch commodity data.
+   ```
 
 # Optional: Enable debug logging
 DEBUG_API_ADAPTERS=false

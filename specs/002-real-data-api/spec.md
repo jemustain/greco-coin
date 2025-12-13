@@ -5,6 +5,34 @@
 **Status**: Draft  
 **Input**: User description: "Implement real commodity data APIs and optimize data retrieval performance for fast website loading"
 
+## Terminology Standards
+
+**Consistent naming conventions across specification, code, and documentation:**
+
+| Context | Format | Example | Usage |
+|---------|--------|---------|-------|
+| TypeScript code | `commodityId` (camelCase) | `commodityId: string` | Variable names, object properties, function parameters |
+| CLI arguments | `--commodity` (kebab-case) | `--commodity=gold` | Script flags and command-line options |
+| File paths | `[commodity]` (bracket notation) | `prices/[commodity]/` | Next.js dynamic routes, directory names |
+| Database/JSON keys | `commodity_id` (snake_case) | `"commodity_id": "gold"` | If using SQL databases or external APIs |
+| User interface | "commodity name" (human-readable) | "Gold" or "Crude Oil (Petroleum)" | Display labels, headings |
+| General text | "commodity" (lowercase) | "each commodity" | Documentation prose, comments |
+
+**Examples:**
+```typescript
+// Code: camelCase
+function getPrices(commodityId: string): Promise<CommodityPrice[]>
+
+// CLI: kebab-case
+npm run fetch-data -- --commodity=gold --start=2020-01-01
+
+// File path: bracket notation
+app/api/prices/[commodity]/route.ts
+
+// JSON: snake_case (if needed for external APIs)
+{"commodity_id": "gold", "price": 2050.00}
+```
+
 ## Clarifications
 
 ### Session 2025-12-07
@@ -127,7 +155,7 @@ System tracks data completeness, staleness, and quality indicators for each comm
 - **FR-010**: System MUST cache processed data to avoid redundant calculations on every request
 - **FR-011**: System MUST index data by date to enable fast range queries without full dataset scan
 - **FR-012**: API routes MUST paginate large datasets (max 1000 records per request)
-- **FR-013**: System MUST implement data sampling for charts displaying &gt;10,000 points (already implemented - verify working)
+- **FR-013**: System MUST implement data sampling for charts displaying >10,000 points using LTTB (Largest Triangle Three Buckets) algorithm. Note: Basic LTTB implementation may exist in src/lib/utils/performance.ts - MUST verify compatibility with new shard-based data loading before relying on it
 - **FR-014**: System MUST prefetch likely-needed data based on user navigation patterns
 
 #### Data Storage & Format
@@ -135,7 +163,7 @@ System tracks data completeness, staleness, and quality indicators for each comm
 - **FR-015**: System MUST store commodity prices in optimized format enabling fast date-range queries
 - **FR-016**: System MUST maintain separate index files mapping date ranges to data file locations
 - **FR-017**: System MUST store source attribution (API source, fetch date, quality indicator) with each price point
-- **FR-018**: System SHOULD compress historical data (&gt;1 year old) if storage exceeds 10MB total (currently 3MB - defer compression until needed)
+- **FR-018**: System SHOULD compress historical data (>1 year old) if storage exceeds 10MB total (currently 3.06MB baseline - defer compression until needed). System SHALL monitor total storage size and display warning in data quality dashboard when approaching threshold (warn at 8MB, implement compression at 10MB)
 - **FR-019**: System MUST maintain data versioning to rollback corrupted updates
 
 #### Data Quality & Monitoring
@@ -144,7 +172,7 @@ System tracks data completeness, staleness, and quality indicators for each comm
 - **FR-021**: System MUST track data freshness (days since last update) for each commodity
 - **FR-022**: System MUST validate data quality using statistical outlier detection
 - **FR-023**: System MUST generate daily data quality report accessible to administrators
-- **FR-024**: System MUST alert administrators when data is stale (&gt;30 days) or quality degrades below threshold
+- **FR-024**: System MUST alert administrators when data is stale (>30 days) or quality degrades below threshold via dashboard indicators (Phase 1 MVP); email notifications SHOULD be implemented as optional enhancement (Phase 2)
 
 #### Automation & Maintenance
 

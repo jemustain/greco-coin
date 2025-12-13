@@ -1,4 +1,31 @@
-# Greco Coin - Historical Currency Tracker
+# Greco Coin
+
+## Quick Start
+
+### API Key Setup (Required for Data Updates)
+
+1. **Get FRED API Key** (free):
+   - Visit https://fred.stlouisfed.org/docs/api/api_key.html
+   - Sign up for free account
+   - Copy your API key
+
+2. **Configure Environment**:
+   ```bash
+   cp .env.local.example .env.local
+   # Edit .env.local and add your FRED_API_KEY
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+## Greco Coin - Historical Currency Tracker
 
 > Historical economic data visualization tracking purchasing power trends of a standardized basket of 32 commodities (the Greco unit) across 9 currencies/assets from 1900 to present.
 
