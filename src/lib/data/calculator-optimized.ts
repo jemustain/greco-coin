@@ -10,13 +10,14 @@
  * - 5-10x faster for typical homepage queries (last 12 months)
  */
 
-import { CommodityPricePoint, DataQualityIndicator } from '../types/commodity';
+import { DataQualityIndicator } from '../types/commodity';
 import { GrecoValue } from '../types/greco';
 import { 
   loadBasketWeights, 
   loadPricesOptimized, 
   loadBatchPrices,
-  loadExchangeRate 
+  loadExchangeRate,
+  PricePoint 
 } from './loader-optimized';
 
 /**
@@ -41,7 +42,7 @@ function findClosestPrice(
 export async function calculateGrecoValueOptimized(
   date: Date,
   currencyId: string,
-  pricesCache?: Record<string, CommodityPricePoint[]>
+  pricesCache?: Record<string, PricePoint[]>
 ): Promise<GrecoValue | null> {
   const basketWeights = await loadBasketWeights();
   
@@ -97,7 +98,7 @@ export async function calculateGrecoValueOptimized(
   }
 
   // Determine quality indicator
-  const qualityIndicator: DataQualityIndicator = completeness >= 95 ? 'high' : 'medium';
+  const qualityIndicator: DataQualityIndicator = completeness >= 95 ? DataQualityIndicator.HIGH : DataQualityIndicator.MEDIUM;
 
   return {
     date,
@@ -179,5 +180,4 @@ export {
   calculateGrecoValue,
   calculateGrecoTimeSeries,
   validateCompleteness,
-  determineQualityIndicator,
 } from './calculator';
