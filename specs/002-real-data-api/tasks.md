@@ -100,11 +100,11 @@ Run Lighthouse audit on homepage. Performance score >90, Time to Interactive <2s
 
 #### Homepage Optimization
 
-- [ ] T035 [US1] Update app/page.tsx to load recent 12 months only (not full history)
-- [ ] T036 [US1] Add loading skeleton component for chart in components/ui/chart-skeleton.tsx
-- [ ] T037 [US1] Implement progressive loading: recent data first, historical on-demand
-- [ ] T038 [US1] Pre-generate homepage at build time with generateStaticParams
-- [ ] T039 [US1] Update existing chart component to handle progressive data loading
+- [X] T035 [US1] Update app/page.tsx to load recent 12 months only (not full history)
+- [X] T036 [US1] Add loading skeleton component for chart in components/ui/chart-skeleton.tsx
+- [X] T037 [US1] Implement progressive loading: recent data first, historical on-demand
+- [X] T038 [US1] Pre-generate homepage at build time with generateStaticParams
+- [X] T039 [US1] Update existing chart component to handle progressive data loading
 
 #### Testing & Validation
 
