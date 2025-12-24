@@ -6,7 +6,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-11-01",
@@ -15,7 +15,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-10-01",
@@ -24,7 +24,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-09-01",
@@ -33,7 +33,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-08-01",
@@ -42,7 +42,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-07-01",
@@ -51,7 +51,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-06-01",
@@ -60,7 +60,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-05-01",
@@ -69,7 +69,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-04-01",
@@ -78,7 +78,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-03-01",
@@ -87,7 +87,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-02-01",
@@ -96,7 +96,7 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   },
   {
     "date": "2024-01-01",
@@ -105,806 +105,6 @@
     "quality": "high",
     "source": "fred",
     "sourceId": "PWHEAMTUSDM",
-    "fetchedAt": "2025-12-13T07:13:18.065Z"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1962-04-01",
-    "priceUSD": 3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1962-01-01",
-    "priceUSD": 3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1961-10-01",
-    "priceUSD": 2.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1961-07-01",
-    "priceUSD": 2.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1961-04-01",
-    "priceUSD": 2.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1961-01-01",
-    "priceUSD": 2.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1960-10-01",
-    "priceUSD": 2.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1960-07-01",
-    "priceUSD": 2.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1960-04-01",
-    "priceUSD": 2.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1960-01-01",
-    "priceUSD": 2.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1959-10-01",
-    "priceUSD": 2.7,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1959-07-01",
-    "priceUSD": 2.7,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1959-04-01",
-    "priceUSD": 2.7,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1959-01-01",
-    "priceUSD": 2.7,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1958-10-01",
-    "priceUSD": 2.6,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1958-07-01",
-    "priceUSD": 2.6,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1958-04-01",
-    "priceUSD": 2.6,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1958-01-01",
-    "priceUSD": 2.6,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1957-10-01",
-    "priceUSD": 2.5,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1957-07-01",
-    "priceUSD": 2.5,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1957-04-01",
-    "priceUSD": 2.5,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1957-01-01",
-    "priceUSD": 2.5,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1956-10-01",
-    "priceUSD": 2.4,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1956-07-01",
-    "priceUSD": 2.4,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1956-04-01",
-    "priceUSD": 2.4,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1956-01-01",
-    "priceUSD": 2.4,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1955-10-01",
-    "priceUSD": 2.3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1955-07-01",
-    "priceUSD": 2.3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1955-04-01",
-    "priceUSD": 2.3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1955-01-01",
-    "priceUSD": 2.3,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1954-10-01",
-    "priceUSD": 2.2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1954-07-01",
-    "priceUSD": 2.2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1954-04-01",
-    "priceUSD": 2.2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1954-01-01",
-    "priceUSD": 2.2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1953-10-01",
-    "priceUSD": 2.1,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1953-07-01",
-    "priceUSD": 2.1,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1953-04-01",
-    "priceUSD": 2.1,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1953-01-01",
-    "priceUSD": 2.1,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1952-10-01",
-    "priceUSD": 2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1952-07-01",
-    "priceUSD": 2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1952-04-01",
-    "priceUSD": 2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1952-01-01",
-    "priceUSD": 2,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1951-10-01",
-    "priceUSD": 1.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1951-07-01",
-    "priceUSD": 1.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1951-04-01",
-    "priceUSD": 1.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1951-01-01",
-    "priceUSD": 1.9,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1950-10-01",
-    "priceUSD": 1.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1950-07-01",
-    "priceUSD": 1.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1950-04-01",
-    "priceUSD": 1.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1950-01-01",
-    "priceUSD": 1.8,
-    "unit": "bushel",
-    "sourceId": "usda-nass",
-    "qualityIndicator": "high"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1949-01-01",
-    "priceUSD": 1.7,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1948-01-01",
-    "priceUSD": 1.6,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1947-01-01",
-    "priceUSD": 1.5,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1946-01-01",
-    "priceUSD": 1.4,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1945-01-01",
-    "priceUSD": 1.3,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1944-01-01",
-    "priceUSD": 1.2,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1943-01-01",
-    "priceUSD": 1.1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1942-01-01",
-    "priceUSD": 1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1941-01-01",
-    "priceUSD": 0.9,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1940-01-01",
-    "priceUSD": 0.8,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1939-01-01",
-    "priceUSD": 0.82,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1938-01-01",
-    "priceUSD": 0.84,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1937-01-01",
-    "priceUSD": 0.86,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1936-01-01",
-    "priceUSD": 0.88,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1935-01-01",
-    "priceUSD": 0.9,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1934-01-01",
-    "priceUSD": 0.92,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1933-01-01",
-    "priceUSD": 0.94,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1932-01-01",
-    "priceUSD": 0.96,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1931-01-01",
-    "priceUSD": 0.98,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1930-01-01",
-    "priceUSD": 1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1929-01-01",
-    "priceUSD": 1.02,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1928-01-01",
-    "priceUSD": 1.04,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1927-01-01",
-    "priceUSD": 1.06,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1926-01-01",
-    "priceUSD": 1.08,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1925-01-01",
-    "priceUSD": 1.1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1924-01-01",
-    "priceUSD": 1.12,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1923-01-01",
-    "priceUSD": 1.14,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1922-01-01",
-    "priceUSD": 1.16,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1921-01-01",
-    "priceUSD": 1.18,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1920-01-01",
-    "priceUSD": 1.7,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1919-01-01",
-    "priceUSD": 1.65,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1918-01-01",
-    "priceUSD": 1.6,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1917-01-01",
-    "priceUSD": 1.55,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1916-01-01",
-    "priceUSD": 1.5,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1915-01-01",
-    "priceUSD": 1.45,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1914-01-01",
-    "priceUSD": 1.4,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1913-01-01",
-    "priceUSD": 1.35,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1912-01-01",
-    "priceUSD": 1.3,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1911-01-01",
-    "priceUSD": 1.25,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1910-01-01",
-    "priceUSD": 1.2,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1909-01-01",
-    "priceUSD": 1.15,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1908-01-01",
-    "priceUSD": 1.1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1907-01-01",
-    "priceUSD": 1.05,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1906-01-01",
-    "priceUSD": 1,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1905-01-01",
-    "priceUSD": 0.95,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1904-01-01",
-    "priceUSD": 0.9,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1903-01-01",
-    "priceUSD": 0.85,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1902-01-01",
-    "priceUSD": 0.8,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1901-01-01",
-    "priceUSD": 0.75,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
-  },
-  {
-    "commodityId": "wheat",
-    "date": "1900-01-01",
-    "priceUSD": 0.7,
-    "unit": "bushel",
-    "sourceId": "historical-estimate",
-    "qualityIndicator": "medium"
+    "fetchedAt": "2025-12-15T07:37:41.113Z"
   }
 ]
