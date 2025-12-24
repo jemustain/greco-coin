@@ -5,7 +5,7 @@
 
 'use client'
 
-import React, { useState, useMemo, useEffect, Suspense } from 'react'
+import React, { useState, useMemo, useEffect, Suspense, useCallback } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import MultiCurrencyChart from '@/components/charts/MultiCurrencyChart'
 import ChartControls from '@/components/charts/ChartControls'
@@ -13,7 +13,6 @@ import ComparisonInsights from '@/components/insights/ComparisonInsights'
 import ErrorBoundary from '@/components/errors/ErrorBoundary'
 import Loading from '@/components/ui/Loading'
 import { loadCurrencies } from '@/lib/data/loader'
-import { calculateGrecoTimeSeries } from '@/lib/data/calculator'
 import { mergeTimeSeriesData, assignColors } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
@@ -101,23 +100,42 @@ function ComparePageContent() {
 
     Promise.all(
       selectedCurrencies.map(async (currencyId) => {
-        const grecoValues = await calculateGrecoTimeSeries(
-          startDate,
-          endDate,
-          currencyId,
-          'monthly'
+        // Use the optimized API endpoint instead of direct calculation
+        const startDateStr = startDate.toISOString().split('T')[0]
+        const endDateStr = endDate.toISOString().split('T')[0]
+        
+        const response = await fetch(
+          `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=${currencyId}&interval=monthly`
         )
+        
+        if (!response.ok) {
+          console.error(`Failed to fetch data for ${currencyId}:`, response.statusText)
+          return [currencyId, []] as [string, GrecoValue[]]
+        }
+        
+        const data = await response.json()
+        
+        // Convert ISO date strings back to Date objects
+        const grecoValues: GrecoValue[] = data.values.map((v: GrecoValue & { date: string }) => ({
+          ...v,
+          date: new Date(v.date),
+        }))
+        
         return [currencyId, grecoValues] as [string, GrecoValue[]]
       })
     ).then((results) => {
       const dataMap = new Map(results)
       setCurrencyDataMap(dataMap)
       setLoading(false)
+    }).catch((error) => {
+      console.error('Error fetching Greco data:', error)
+      setLoading(false)
     })
   }, [selectedCurrencies, startDate, endDate])
 
   // Merge all currency data into unified timeline
   const chartData = useMemo(() => {
+    if (currencyDataMap.size === 0) return []
     return mergeTimeSeriesData(currencyDataMap)
   }, [currencyDataMap])
 
@@ -127,7 +145,7 @@ function ComparePageContent() {
   }, [selectedCurrencies])
 
   // Toggle currency visibility in legend
-  const handleToggleCurrency = (currencyId: string) => {
+  const handleToggleCurrency = useCallback((currencyId: string) => {
     setHiddenCurrencies((prev) => {
       const next = new Set(prev)
       if (next.has(currencyId)) {
@@ -137,13 +155,13 @@ function ComparePageContent() {
       }
       return next
     })
-  }
+  }, [])
 
   // Date range change handler
-  const handleDateRangeChange = (start: Date, end: Date) => {
+  const handleDateRangeChange = useCallback((start: Date, end: Date) => {
     setStartDate(start)
     setEndDate(end)
-  }
+  }, [])
 
   // Export to CSV handler
   const handleExportCSV = () => {
