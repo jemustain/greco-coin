@@ -13,10 +13,35 @@ export default function Header() {
   const [showAboutMenu, setShowAboutMenu] = useState(false)
   const aboutButtonRef = useRef<HTMLButtonElement>(null)
   const dropdownRef = useRef<HTMLDivElement>(null)
+  const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   const isActive = (path: string) => {
     if (path === '/') return pathname === '/'
     return pathname?.startsWith(path)
+  }
+
+  // Clear timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (closeTimeoutRef.current) {
+        clearTimeout(closeTimeoutRef.current)
+      }
+    }
+  }, [])
+
+  // Handle delayed close to prevent premature closing
+  const handleMouseLeave = () => {
+    closeTimeoutRef.current = setTimeout(() => {
+      setShowAboutMenu(false)
+    }, 200) // 200ms delay
+  }
+
+  const handleMouseEnter = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current)
+      closeTimeoutRef.current = null
+    }
+    setShowAboutMenu(true)
   }
 
   // Handle Escape key to close dropdown
@@ -103,12 +128,18 @@ export default function Header() {
             {/* About Dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setShowAboutMenu(true)}
-              onMouseLeave={() => setShowAboutMenu(false)}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
               <button
                 ref={aboutButtonRef}
-                onClick={() => setShowAboutMenu(!showAboutMenu)}
+                onClick={() => {
+                  if (closeTimeoutRef.current) {
+                    clearTimeout(closeTimeoutRef.current)
+                    closeTimeoutRef.current = null
+                  }
+                  setShowAboutMenu(!showAboutMenu)
+                }}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault()
@@ -132,15 +163,23 @@ export default function Header() {
               {showAboutMenu && (
                 <div 
                   ref={dropdownRef}
-                  className="absolute top-full right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
+                  className="absolute top-full right-0 mt-1 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
                   role="menu"
                   aria-label="About submenu"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
                 >
                   <Link
                     href="/about"
                     className="block px-4 py-3 hover:bg-gray-50 transition-colors focus:outline-none focus:bg-gray-100"
                     role="menuitem"
-                    onClick={() => setShowAboutMenu(false)}
+                    onClick={() => {
+                      // Allow navigation to happen naturally
+                      if (closeTimeoutRef.current) {
+                        clearTimeout(closeTimeoutRef.current)
+                      }
+                      setShowAboutMenu(false)
+                    }}
                   >
                     <div className="font-semibold text-gray-900 text-sm">About the Greco Unit</div>
                     <div className="text-xs text-gray-600 mt-1">
@@ -151,7 +190,12 @@ export default function Header() {
                     href="/about/methodology"
                     className="block px-4 py-3 hover:bg-gray-50 transition-colors focus:outline-none focus:bg-gray-100"
                     role="menuitem"
-                    onClick={() => setShowAboutMenu(false)}
+                    onClick={() => {
+                      if (closeTimeoutRef.current) {
+                        clearTimeout(closeTimeoutRef.current)
+                      }
+                      setShowAboutMenu(false)
+                    }}
                   >
                     <div className="font-semibold text-gray-900 text-sm">Methodology</div>
                     <div className="text-xs text-gray-600 mt-1">
@@ -162,7 +206,12 @@ export default function Header() {
                     href="/about/sources"
                     className="block px-4 py-3 hover:bg-gray-50 transition-colors focus:outline-none focus:bg-gray-100"
                     role="menuitem"
-                    onClick={() => setShowAboutMenu(false)}
+                    onClick={() => {
+                      if (closeTimeoutRef.current) {
+                        clearTimeout(closeTimeoutRef.current)
+                      }
+                      setShowAboutMenu(false)
+                    }}
                   >
                     <div className="font-semibold text-gray-900 text-sm">Data Sources</div>
                     <div className="text-xs text-gray-600 mt-1">
