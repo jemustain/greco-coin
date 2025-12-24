@@ -200,8 +200,9 @@ const MultiCurrencyChart = React.memo(function MultiCurrencyChart({
                 strokeWidth={2}
                 dot={false}
                 activeDot={{ r: 6 }}
-                animationDuration={300}
+                animationDuration={150}
                 connectNulls
+                isAnimationActive={data.length <= 100}
               />
             )
           })}

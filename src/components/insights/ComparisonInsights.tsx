@@ -15,7 +15,7 @@ interface ComparisonInsightsProps {
   selectedCurrencyIds: string[]
 }
 
-export default function ComparisonInsights({
+const ComparisonInsights = React.memo(function ComparisonInsights({
   currencyDataMap,
   currencies,
   selectedCurrencyIds,
@@ -270,4 +270,6 @@ export default function ComparisonInsights({
       </div>
     </div>
   )
-}
+})
+
+export default ComparisonInsights
