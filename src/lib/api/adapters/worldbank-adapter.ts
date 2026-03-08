@@ -9,7 +9,6 @@
  * API Documentation: https://datahelpdesk.worldbank.org/knowledgebase/articles/898599
  */
 
-import axios from 'axios';
 import { API_CONFIG } from '../../config/api-config';
 import { worldBankResponseSchema } from '../../validation/price-schema';
 import type { CommodityPrice, DataSource } from '../../types/commodity-price';
@@ -176,7 +175,7 @@ export class WorldBankAdapter extends BaseAdapter {
       if (error instanceof APIError) {
         throw error;
       }
-      throw this.handleAxiosError(error, mapping.indicatorId);
+      throw this.handleFetchException(error, mapping.indicatorId);
     }
   }
 
@@ -195,24 +194,37 @@ export class WorldBankAdapter extends BaseAdapter {
     endYear: string,
     timeout?: number
   ): Promise<Array<{ date: string; value: number | null }>> {
-    const response = await axios.get(
-      `${API_CONFIG.worldBank.baseUrl}/country/WLD/indicator/${indicatorId}`,
-      {
-        params: {
-          format: 'json',
-          date: `${startYear}:${endYear}`,
-          per_page: 1000, // World Bank supports up to 1000 records per page
-        },
-        timeout: timeout || API_CONFIG.worldBank.timeout,
+    const params = new URLSearchParams({
+      format: 'json',
+      date: `${startYear}:${endYear}`,
+      per_page: '1000',
+    });
+    const url = `${API_CONFIG.worldBank.baseUrl}/country/WLD/indicator/${indicatorId}?${params}`;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeout || API_CONFIG.worldBank.timeout);
+
+    let response: Response;
+    try {
+      response = await fetch(url, {
+        signal: controller.signal,
         headers: {
           'User-Agent': 'GrecoVoin/1.0 (https://github.com/jemustain/greco-coin)',
           'Accept': 'application/json',
         },
-      }
-    );
+        next: { revalidate: 3600 },
+      } as RequestInit);
+    } finally {
+      clearTimeout(timeoutId);
+    }
+
+    if (!response.ok) {
+      throw await this.handleFetchError(response, indicatorId);
+    }
+
+    const data = await response.json();
 
     // Validate response with zod schema
-    const validatedData = worldBankResponseSchema.parse(response.data);
+    const validatedData = worldBankResponseSchema.parse(data);
     const [metadata, dataPoints] = validatedData;
 
     return dataPoints.map((dataPoint) => ({
@@ -253,64 +265,64 @@ export class WorldBankAdapter extends BaseAdapter {
   }
 
   /**
-   * Handle axios errors and convert to domain-specific APIError types
-   * 
-   * @param error Error from axios request
-   * @param indicatorId World Bank indicator ID for context
-   * @returns Appropriate APIError subclass
+   * Handle fetch errors and convert to domain-specific APIError types
    */
-  private handleAxiosError(error: any, indicatorId: string): APIError {
-    if (axios.isAxiosError(error)) {
-      const status = error.response?.status;
-      const errorData = error.response?.data;
+  private async handleFetchError(response: Response, indicatorId: string): Promise<APIError> {
+    const status = response.status;
+    let errorData: any;
+    try { errorData = await response.json(); } catch { errorData = await response.text().catch(() => null); }
 
-      if (status === 429) {
-        const retryAfter = parseInt(error.response?.headers['retry-after'] || '60', 10);
-        return new RateLimitError(
-          'World Bank API rate limit exceeded',
-          retryAfter * 1000,
-          'worldbank',
-          { indicatorId, status, errorData }
-        );
-      }
-
-      if (status === 404) {
-        return new NotFoundError(
-          `World Bank indicator "${indicatorId}" not found`,
-          'worldbank',
-          { indicatorId, status, errorData }
-        );
-      }
-
-      if (status && status >= 400 && status < 500) {
-        return new ValidationError(
-          `World Bank API validation error: ${errorData?.message || error.message}`,
-          'worldbank',
-          { indicatorId, status, errorData }
-        );
-      }
-
-      if (error.code === 'ECONNABORTED' || error.code === 'ETIMEDOUT') {
-        return new TimeoutError(
-          `World Bank API request timeout for indicator ${indicatorId}`,
-          API_CONFIG.worldBank.timeout,
-          'worldbank'
-        );
-      }
-
-      if (error.code === 'ENOTFOUND' || error.code === 'ECONNREFUSED') {
-        return new NetworkError(
-          `Unable to reach World Bank API: ${error.message}`,
-          'worldbank',
-          { indicatorId, code: error.code }
-        );
-      }
-
-      return new APIError(
-        `World Bank API error: ${error.message}`,
-        undefined,
+    if (status === 429) {
+      const retryAfter = parseInt(response.headers.get('retry-after') || '60', 10);
+      return new RateLimitError(
+        'World Bank API rate limit exceeded',
+        retryAfter * 1000,
         'worldbank',
-        { indicatorId, status, errorData, code: error.code }
+        { indicatorId, status, errorData }
+      );
+    }
+
+    if (status === 404) {
+      return new NotFoundError(
+        `World Bank indicator "${indicatorId}" not found`,
+        'worldbank',
+        { indicatorId, status, errorData }
+      );
+    }
+
+    if (status >= 400 && status < 500) {
+      return new ValidationError(
+        `World Bank API validation error: ${errorData?.message || response.statusText}`,
+        'worldbank',
+        { indicatorId, status, errorData }
+      );
+    }
+
+    return new APIError(
+      `World Bank API error: ${response.statusText}`,
+      status,
+      'worldbank',
+      { indicatorId, status, errorData }
+    );
+  }
+
+  /**
+   * Handle general errors from fetch requests
+   */
+  private handleFetchException(error: any, indicatorId: string): APIError {
+    if (error.name === 'AbortError') {
+      return new TimeoutError(
+        `World Bank API request timeout for indicator ${indicatorId}`,
+        API_CONFIG.worldBank.timeout,
+        'worldbank'
+      );
+    }
+
+    if (error.cause?.code === 'ENOTFOUND' || error.cause?.code === 'ECONNREFUSED') {
+      return new NetworkError(
+        `Unable to reach World Bank API: ${error.message}`,
+        'worldbank',
+        { indicatorId, code: error.cause?.code }
       );
     }
 
