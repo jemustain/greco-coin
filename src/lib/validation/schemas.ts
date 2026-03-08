@@ -61,6 +61,17 @@ export const CommodityPricePointSchema = z.object({
   qualityIndicator: DataQualityIndicatorSchema.optional(),
 })
 
+// Raw price point schema matching the JSON files in src/data/prices/
+export const RawPricePointSchema = z.object({
+  date: z.string(),
+  price: z.number(),
+  unit: z.string(),
+  source: z.string().optional(),
+  quality: DataQualityIndicatorSchema.optional(),
+})
+
+export const RawPricePointsSchema = z.array(RawPricePointSchema)
+
 // Currency schemas
 export const AssetTypeSchema = z.enum([
   'fiat_currency',
