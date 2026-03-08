@@ -10,7 +10,7 @@ import {
   CurrenciesSchema,
   BasketWeightSchema,
   DataSourcesSchema,
-  PricePointsSchema,
+  RawPricePointsSchema,
   ExchangeRatesSchema,
 } from '../validation/schemas'
 
@@ -171,10 +171,13 @@ export async function loadPrices(commodityId: string) {
     return [] // Return empty array for commodities without data files yet
   }
 
-  const validated = PricePointsSchema.parse(data)
+  const validated = RawPricePointsSchema.parse(data)
   return validated.map((p) => ({
-    ...p,
+    commodityId: commodityId,
     date: new Date(p.date),
+    priceUSD: p.price,
+    unit: p.unit,
+    qualityIndicator: p.quality,
   }))
 }
 
