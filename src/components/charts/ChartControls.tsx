@@ -12,7 +12,7 @@ import { presetRanges } from '@/lib/utils/date'
 import { Currency } from '@/lib/types/currency'
 
 interface ChartControlsProps {
-  currencies: Currency[]
+  currencies?: Currency[]
   // Single-select mode (for main charts)
   selectedCurrency?: string
   onCurrencyChange?: (currencyId: string) => void
@@ -50,8 +50,8 @@ export default function ChartControls({
   // Get the earliest inception date from selected currencies
   const earliestInceptionDate = useMemo(() => {
     const activeCurrencies = isMultiSelect
-      ? currencies.filter((c) => selectedCurrencies.includes(c.id))
-      : currencies.filter((c) => c.id === selectedCurrency)
+      ? (currencies || []).filter((c) => selectedCurrencies.includes(c.id))
+      : (currencies || []).filter((c) => c.id === selectedCurrency)
 
     if (activeCurrencies.length === 0) return new Date('1900-01-01')
 
@@ -109,7 +109,7 @@ export default function ChartControls({
   // Select All handler
   const handleSelectAll = () => {
     if (!onCurrenciesChange) return
-    const allIds = currencies.slice(0, maxSelections).map((c) => c.id)
+    const allIds = (currencies || []).slice(0, maxSelections).map((c) => c.id)
     onCurrenciesChange(allIds)
   }
 
@@ -122,7 +122,7 @@ export default function ChartControls({
   // Get inception date info for warning message
   const getInceptionInfo = () => {
     if (!isMultiSelect && selectedCurrency) {
-      const currency = currencies.find((c) => c.id === selectedCurrency)
+      const currency = (currencies || []).find((c) => c.id === selectedCurrency)
       return currency?.name || 'The selected currency'
     }
     return 'One or more selected currencies'
@@ -159,7 +159,7 @@ export default function ChartControls({
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Currency Selector - Single Select Mode */}
-        {!isMultiSelect && (
+        {!isMultiSelect && currencies && currencies.length > 0 && (
           <div>
             <Select
               label="Currency / Asset"
@@ -191,7 +191,7 @@ export default function ChartControls({
         )}
 
         {/* Currency Selector - Multi Select Mode */}
-        {isMultiSelect && (
+        {isMultiSelect && currencies && currencies.length > 0 && (
           <div className="md:col-span-3">
             <div className="flex items-center justify-between mb-2">
               <label className="block text-sm font-medium text-gray-700">
