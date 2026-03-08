@@ -41,3 +41,4 @@ Thumbs.db
 *.seed
 *.pid.lock
 .turbo/
+scripts/tmp/

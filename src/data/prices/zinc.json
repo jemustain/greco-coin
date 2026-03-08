@@ -1,110 +1,7022 @@
 [
   {
     "date": "2024-12-01",
-    "price": 3033.75818181818,
-    "unit": "USD/metric ton",
+    "price": 3034.16,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-11-01",
-    "price": 3004.19619047619,
-    "unit": "USD/metric ton",
+    "price": 3004.2,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-10-01",
-    "price": 3105.77086956522,
-    "unit": "USD/metric ton",
+    "price": 3105.77,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-09-01",
-    "price": 2847.48380952381,
-    "unit": "USD/metric ton",
+    "price": 2837.02,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-08-01",
-    "price": 2721.07818181818,
-    "unit": "USD/metric ton",
+    "price": 2714.08,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-07-01",
-    "price": 2777.26869565217,
-    "unit": "USD/metric ton",
+    "price": 2777.27,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-06-01",
-    "price": 2809.185,
-    "unit": "USD/metric ton",
+    "price": 2809.19,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-05-01",
-    "price": 2955.18826086957,
-    "unit": "USD/metric ton",
+    "price": 2959.13,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-04-01",
-    "price": 2725.55954545455,
-    "unit": "USD/metric ton",
+    "price": 2732.74,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-03-01",
-    "price": 2457.85619047619,
-    "unit": "USD/metric ton",
+    "price": 2461.04,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-02-01",
-    "price": 2360.0919047619,
-    "unit": "USD/metric ton",
+    "price": 2360.09,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   },
   {
     "date": "2024-01-01",
-    "price": 2520.93913043478,
-    "unit": "USD/metric ton",
+    "price": 2515.42,
+    "unit": "usd/metric-ton",
     "quality": "high",
-    "source": "fred",
-    "sourceId": "PZINCUSDM",
-    "fetchedAt": "2025-12-15T07:38:07.856Z"
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-12-01",
+    "price": 2502.39,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-11-01",
+    "price": 2543.61,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-10-01",
+    "price": 2448.56,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-09-01",
+    "price": 2495.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-08-01",
+    "price": 2406.72,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-07-01",
+    "price": 2404.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-06-01",
+    "price": 2375.45,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-05-01",
+    "price": 2475.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-04-01",
+    "price": 2767.56,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-03-01",
+    "price": 2967.46,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-02-01",
+    "price": 3133.84,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2023-01-01",
+    "price": 3309.81,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-12-01",
+    "price": 3129.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-11-01",
+    "price": 2938.92,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-10-01",
+    "price": 2967.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-09-01",
+    "price": 3124.97,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-08-01",
+    "price": 3587.57,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-07-01",
+    "price": 3105.36,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-06-01",
+    "price": 3629.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-05-01",
+    "price": 3751.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-04-01",
+    "price": 4360.43,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-03-01",
+    "price": 3962.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-02-01",
+    "price": 3620.04,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2022-01-01",
+    "price": 3599.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-12-01",
+    "price": 3399.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-11-01",
+    "price": 3311.27,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-10-01",
+    "price": 3359.91,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-09-01",
+    "price": 3036.02,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-08-01",
+    "price": 2987.95,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-07-01",
+    "price": 2947.52,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-06-01",
+    "price": 2951.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-05-01",
+    "price": 2965.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-04-01",
+    "price": 2829.01,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-03-01",
+    "price": 2791.94,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-02-01",
+    "price": 2744.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2021-01-01",
+    "price": 2705.34,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-12-01",
+    "price": 2779.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-11-01",
+    "price": 2671.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-10-01",
+    "price": 2440.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-09-01",
+    "price": 2442.46,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-08-01",
+    "price": 2410.05,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-07-01",
+    "price": 2177.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-06-01",
+    "price": 2025.71,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-05-01",
+    "price": 1975.32,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-04-01",
+    "price": 1903.37,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-03-01",
+    "price": 1903.63,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-02-01",
+    "price": 2113.24,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2020-01-01",
+    "price": 2354.31,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-12-01",
+    "price": 2272.54,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-11-01",
+    "price": 2425.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-10-01",
+    "price": 2451.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-09-01",
+    "price": 2331.56,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-08-01",
+    "price": 2273.01,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-07-01",
+    "price": 2446.51,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-06-01",
+    "price": 2601.22,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-05-01",
+    "price": 2742.81,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-04-01",
+    "price": 2932.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-03-01",
+    "price": 2850.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-02-01",
+    "price": 2707.19,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2019-01-01",
+    "price": 2569.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-12-01",
+    "price": 2616.29,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-11-01",
+    "price": 2595.69,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-10-01",
+    "price": 2673.67,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-09-01",
+    "price": 2434.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-08-01",
+    "price": 2512,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-07-01",
+    "price": 2656.13,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-06-01",
+    "price": 3088.57,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-05-01",
+    "price": 3059.87,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-04-01",
+    "price": 3188.05,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-03-01",
+    "price": 3269.18,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-02-01",
+    "price": 3532.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2018-01-01",
+    "price": 3441.52,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-12-01",
+    "price": 3195.95,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-11-01",
+    "price": 3229.31,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-10-01",
+    "price": 3264.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-09-01",
+    "price": 3116.86,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-08-01",
+    "price": 2980.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-07-01",
+    "price": 2787.19,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-06-01",
+    "price": 2573.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-05-01",
+    "price": 2590.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-04-01",
+    "price": 2614.92,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-03-01",
+    "price": 2776.88,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-02-01",
+    "price": 2845.55,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2017-01-01",
+    "price": 2714.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-12-01",
+    "price": 2664.81,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-11-01",
+    "price": 2566.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-10-01",
+    "price": 2311.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-09-01",
+    "price": 2292.31,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-08-01",
+    "price": 2279.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-07-01",
+    "price": 2183.25,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-06-01",
+    "price": 2026.19,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-05-01",
+    "price": 1869.03,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-04-01",
+    "price": 1855.37,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-03-01",
+    "price": 1801.69,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-02-01",
+    "price": 1709.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2016-01-01",
+    "price": 1520.36,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-12-01",
+    "price": 1527.79,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-11-01",
+    "price": 1583.31,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-10-01",
+    "price": 1724.34,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-09-01",
+    "price": 1720.23,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-08-01",
+    "price": 1807.64,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-07-01",
+    "price": 2000.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-06-01",
+    "price": 2082.09,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-05-01",
+    "price": 2281.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-04-01",
+    "price": 2212.72,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-03-01",
+    "price": 2028.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-02-01",
+    "price": 2097.76,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2015-01-01",
+    "price": 2113.05,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-12-01",
+    "price": 2175.76,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-11-01",
+    "price": 2253.22,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-10-01",
+    "price": 2276.83,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-09-01",
+    "price": 2294.59,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-08-01",
+    "price": 2326.99,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-07-01",
+    "price": 2310.62,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-06-01",
+    "price": 2128.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-05-01",
+    "price": 2058.97,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-04-01",
+    "price": 2027.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-03-01",
+    "price": 2007.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-02-01",
+    "price": 2034.53,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2014-01-01",
+    "price": 2036.93,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-12-01",
+    "price": 1974.98,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-11-01",
+    "price": 1866.42,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-10-01",
+    "price": 1884.84,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-09-01",
+    "price": 1846.88,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-08-01",
+    "price": 1898.82,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-07-01",
+    "price": 1837.62,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-06-01",
+    "price": 1839.01,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-05-01",
+    "price": 1831.55,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-04-01",
+    "price": 1856,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-03-01",
+    "price": 1926.07,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-02-01",
+    "price": 2128.69,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2013-01-01",
+    "price": 2032.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-12-01",
+    "price": 2040.43,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-11-01",
+    "price": 1912.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-10-01",
+    "price": 1903.96,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-09-01",
+    "price": 2009.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-08-01",
+    "price": 1818.16,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-07-01",
+    "price": 1847.75,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-06-01",
+    "price": 1858.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-05-01",
+    "price": 1936,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-04-01",
+    "price": 2002.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-03-01",
+    "price": 2035.92,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-02-01",
+    "price": 2057.79,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2012-01-01",
+    "price": 1981.86,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-12-01",
+    "price": 1904.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-11-01",
+    "price": 1935.32,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-10-01",
+    "price": 1871.42,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-09-01",
+    "price": 2075.22,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-08-01",
+    "price": 2200.17,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-07-01",
+    "price": 2397.75,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-06-01",
+    "price": 2234.47,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-05-01",
+    "price": 2167.35,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-04-01",
+    "price": 2362.22,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-03-01",
+    "price": 2341.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-02-01",
+    "price": 2465.13,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2011-01-01",
+    "price": 2371.55,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-12-01",
+    "price": 2280.93,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-11-01",
+    "price": 2291.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-10-01",
+    "price": 2372.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-09-01",
+    "price": 2151.41,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-08-01",
+    "price": 2044.57,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-07-01",
+    "price": 1843.89,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-06-01",
+    "price": 1742.84,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-05-01",
+    "price": 1968.37,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-04-01",
+    "price": 2366.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-03-01",
+    "price": 2275.07,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-02-01",
+    "price": 2156.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2010-01-01",
+    "price": 2434.45,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-12-01",
+    "price": 2375.95,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-11-01",
+    "price": 2193.38,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-10-01",
+    "price": 2071.59,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-09-01",
+    "price": 1884.02,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-08-01",
+    "price": 1821.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-07-01",
+    "price": 1578.61,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-06-01",
+    "price": 1557.27,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-05-01",
+    "price": 1483.79,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-04-01",
+    "price": 1378.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-03-01",
+    "price": 1216.75,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-02-01",
+    "price": 1112.08,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2009-01-01",
+    "price": 1187.41,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-12-01",
+    "price": 1100.57,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-11-01",
+    "price": 1152.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-10-01",
+    "price": 1302.11,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-09-01",
+    "price": 1735.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-08-01",
+    "price": 1723.28,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-07-01",
+    "price": 1852.37,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-06-01",
+    "price": 1894.48,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-05-01",
+    "price": 2182.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-04-01",
+    "price": 2263.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-03-01",
+    "price": 2511.47,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-02-01",
+    "price": 2438.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2008-01-01",
+    "price": 2340.11,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-12-01",
+    "price": 2353.08,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-11-01",
+    "price": 2541.32,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-10-01",
+    "price": 2975.33,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-09-01",
+    "price": 2881.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-08-01",
+    "price": 3252.52,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-07-01",
+    "price": 3545.58,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-06-01",
+    "price": 3602.85,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-05-01",
+    "price": 3831.26,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-04-01",
+    "price": 3557.47,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-03-01",
+    "price": 3271.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-02-01",
+    "price": 3309.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2007-01-01",
+    "price": 3786.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-12-01",
+    "price": 4405.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-11-01",
+    "price": 4382.23,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-10-01",
+    "price": 3822.96,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-09-01",
+    "price": 3403.02,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-08-01",
+    "price": 3347.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-07-01",
+    "price": 3339.86,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-06-01",
+    "price": 3225.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-05-01",
+    "price": 3565.69,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-04-01",
+    "price": 3084.78,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-03-01",
+    "price": 2416.91,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-02-01",
+    "price": 2219.38,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2006-01-01",
+    "price": 2090.31,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-12-01",
+    "price": 1821.83,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-11-01",
+    "price": 1610.93,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-10-01",
+    "price": 1488.38,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-09-01",
+    "price": 1397.52,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-08-01",
+    "price": 1298.39,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-07-01",
+    "price": 1194.43,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-06-01",
+    "price": 1275.73,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-05-01",
+    "price": 1243.63,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-04-01",
+    "price": 1300.14,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-03-01",
+    "price": 1372.15,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-02-01",
+    "price": 1326.18,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2005-01-01",
+    "price": 1246.38,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-12-01",
+    "price": 1180.21,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-11-01",
+    "price": 1095.64,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-10-01",
+    "price": 1064.95,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-09-01",
+    "price": 975.18,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-08-01",
+    "price": 975.81,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-07-01",
+    "price": 988.32,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-06-01",
+    "price": 1021.46,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-05-01",
+    "price": 1028.29,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-04-01",
+    "price": 1032.72,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-03-01",
+    "price": 1105.78,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-02-01",
+    "price": 1087.68,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2004-01-01",
+    "price": 1017,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-12-01",
+    "price": 977.76,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-11-01",
+    "price": 914.53,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-10-01",
+    "price": 897.96,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-09-01",
+    "price": 818.18,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-08-01",
+    "price": 817.88,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-07-01",
+    "price": 827.54,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-06-01",
+    "price": 790.69,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-05-01",
+    "price": 775.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-04-01",
+    "price": 754.65,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-03-01",
+    "price": 790.95,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-02-01",
+    "price": 785.15,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2003-01-01",
+    "price": 781.41,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-12-01",
+    "price": 797.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-11-01",
+    "price": 765.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-10-01",
+    "price": 754.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-09-01",
+    "price": 756.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-08-01",
+    "price": 747.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-07-01",
+    "price": 794.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-06-01",
+    "price": 767.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-05-01",
+    "price": 769.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-04-01",
+    "price": 808.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-03-01",
+    "price": 819.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-02-01",
+    "price": 771.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2002-01-01",
+    "price": 793.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-12-01",
+    "price": 754.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-11-01",
+    "price": 772.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-10-01",
+    "price": 761.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-09-01",
+    "price": 798.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-08-01",
+    "price": 828.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-07-01",
+    "price": 852.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-06-01",
+    "price": 894.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-05-01",
+    "price": 938,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-04-01",
+    "price": 969.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-03-01",
+    "price": 1004.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-02-01",
+    "price": 1020.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2001-01-01",
+    "price": 1033.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-12-01",
+    "price": 1059.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-11-01",
+    "price": 1059,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-10-01",
+    "price": 1095.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-09-01",
+    "price": 1224.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-08-01",
+    "price": 1169.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-07-01",
+    "price": 1136.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-06-01",
+    "price": 1117.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-05-01",
+    "price": 1156.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-04-01",
+    "price": 1127.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-03-01",
+    "price": 1116.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-02-01",
+    "price": 1094.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "2000-01-01",
+    "price": 1178.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-12-01",
+    "price": 1183.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-11-01",
+    "price": 1147.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-10-01",
+    "price": 1148.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-09-01",
+    "price": 1193.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-08-01",
+    "price": 1130.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-07-01",
+    "price": 1072.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-06-01",
+    "price": 1000.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-05-01",
+    "price": 1040.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-04-01",
+    "price": 1019,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-03-01",
+    "price": 1030,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-02-01",
+    "price": 1017.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1999-01-01",
+    "price": 932.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-12-01",
+    "price": 959.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-11-01",
+    "price": 967.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-10-01",
+    "price": 940.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-09-01",
+    "price": 1000,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-08-01",
+    "price": 1029.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-07-01",
+    "price": 1040.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-06-01",
+    "price": 1009.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-05-01",
+    "price": 1061.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-04-01",
+    "price": 1097,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-03-01",
+    "price": 1047.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-02-01",
+    "price": 1044,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1998-01-01",
+    "price": 1097.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-12-01",
+    "price": 1102.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-11-01",
+    "price": 1173,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-10-01",
+    "price": 1280.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-09-01",
+    "price": 1640.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-08-01",
+    "price": 1653.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-07-01",
+    "price": 1518,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-06-01",
+    "price": 1354.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-05-01",
+    "price": 1310.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-04-01",
+    "price": 1240.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-03-01",
+    "price": 1254.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-02-01",
+    "price": 1179.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1997-01-01",
+    "price": 1086.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-12-01",
+    "price": 1036.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-11-01",
+    "price": 1046.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-10-01",
+    "price": 1003.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-09-01",
+    "price": 1000.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-08-01",
+    "price": 1006.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-07-01",
+    "price": 1000.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-06-01",
+    "price": 1008.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-05-01",
+    "price": 1035.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-04-01",
+    "price": 1045.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-03-01",
+    "price": 1063.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-02-01",
+    "price": 1035.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1996-01-01",
+    "price": 1019.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-12-01",
+    "price": 1018.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-11-01",
+    "price": 1030.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-10-01",
+    "price": 979.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-09-01",
+    "price": 986.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-08-01",
+    "price": 1014.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-07-01",
+    "price": 1026.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-06-01",
+    "price": 1009.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-05-01",
+    "price": 1036.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-04-01",
+    "price": 1061.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-03-01",
+    "price": 1022.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-02-01",
+    "price": 1032.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1995-01-01",
+    "price": 1156.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-12-01",
+    "price": 1114.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-11-01",
+    "price": 1151.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-10-01",
+    "price": 1058.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-09-01",
+    "price": 992.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-08-01",
+    "price": 944.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-07-01",
+    "price": 964,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-06-01",
+    "price": 966.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-05-01",
+    "price": 955.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-04-01",
+    "price": 923.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-03-01",
+    "price": 935.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-02-01",
+    "price": 968.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1994-01-01",
+    "price": 996.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-12-01",
+    "price": 974.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-11-01",
+    "price": 928.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-10-01",
+    "price": 914.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-09-01",
+    "price": 874.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-08-01",
+    "price": 884,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-07-01",
+    "price": 927.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-06-01",
+    "price": 926,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-05-01",
+    "price": 980.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-04-01",
+    "price": 1004.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-03-01",
+    "price": 996.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-02-01",
+    "price": 1072.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1993-01-01",
+    "price": 1061.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-12-01",
+    "price": 1057.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-11-01",
+    "price": 1046.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-10-01",
+    "price": 1163.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-09-01",
+    "price": 1366.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-08-01",
+    "price": 1360.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-07-01",
+    "price": 1320.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-06-01",
+    "price": 1385.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-05-01",
+    "price": 1372.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-04-01",
+    "price": 1304.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-03-01",
+    "price": 1214.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-02-01",
+    "price": 1130.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1992-01-01",
+    "price": 1153.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-12-01",
+    "price": 1188,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-11-01",
+    "price": 1093.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-10-01",
+    "price": 991.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-09-01",
+    "price": 1023.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-08-01",
+    "price": 1046.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-07-01",
+    "price": 1063.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-06-01",
+    "price": 1061.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-05-01",
+    "price": 1090.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-04-01",
+    "price": 1252.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-03-01",
+    "price": 1198.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-02-01",
+    "price": 1188.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1991-01-01",
+    "price": 1206.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-12-01",
+    "price": 1265.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-11-01",
+    "price": 1277.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-10-01",
+    "price": 1352.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-09-01",
+    "price": 1537.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-08-01",
+    "price": 1615.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-07-01",
+    "price": 1637,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-06-01",
+    "price": 1714.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-05-01",
+    "price": 1774.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-04-01",
+    "price": 1685.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-03-01",
+    "price": 1607.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-02-01",
+    "price": 1396.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1990-01-01",
+    "price": 1297,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-12-01",
+    "price": 1455,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-11-01",
+    "price": 1437.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-10-01",
+    "price": 1584.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-09-01",
+    "price": 1628.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-08-01",
+    "price": 1730.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-07-01",
+    "price": 1616.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-06-01",
+    "price": 1539,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-05-01",
+    "price": 1628.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-04-01",
+    "price": 1656.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-03-01",
+    "price": 1961.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-02-01",
+    "price": 1932.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1989-01-01",
+    "price": 1734,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-12-01",
+    "price": 1594.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-11-01",
+    "price": 1559,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-10-01",
+    "price": 1519.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-09-01",
+    "price": 1330.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-08-01",
+    "price": 1309.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-07-01",
+    "price": 1237.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-06-01",
+    "price": 1365.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-05-01",
+    "price": 1176.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-04-01",
+    "price": 1069.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-03-01",
+    "price": 981.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-02-01",
+    "price": 876.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1988-01-01",
+    "price": 878.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-12-01",
+    "price": 866.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-11-01",
+    "price": 848,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-10-01",
+    "price": 769.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-09-01",
+    "price": 756.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-08-01",
+    "price": 804.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-07-01",
+    "price": 829.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-06-01",
+    "price": 878.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-05-01",
+    "price": 838.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-04-01",
+    "price": 761.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-03-01",
+    "price": 731.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-02-01",
+    "price": 740.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1987-01-01",
+    "price": 759.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-12-01",
+    "price": 798.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-11-01",
+    "price": 820,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-10-01",
+    "price": 886.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-09-01",
+    "price": 871.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-08-01",
+    "price": 816,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-07-01",
+    "price": 807.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-06-01",
+    "price": 804.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-05-01",
+    "price": 707.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-04-01",
+    "price": 659.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-03-01",
+    "price": 625.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-02-01",
+    "price": 608.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1986-01-01",
+    "price": 644,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-12-01",
+    "price": 685.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-11-01",
+    "price": 597.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-10-01",
+    "price": 631.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-09-01",
+    "price": 689.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-08-01",
+    "price": 735.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-07-01",
+    "price": 766.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-06-01",
+    "price": 808,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-05-01",
+    "price": 881.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-04-01",
+    "price": 931.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-03-01",
+    "price": 920.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-02-01",
+    "price": 886.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1985-01-01",
+    "price": 867.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-12-01",
+    "price": 859.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-11-01",
+    "price": 855.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-10-01",
+    "price": 843.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-09-01",
+    "price": 873.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-08-01",
+    "price": 834.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-07-01",
+    "price": 853.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-06-01",
+    "price": 941.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-05-01",
+    "price": 1001.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-04-01",
+    "price": 1004.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-03-01",
+    "price": 1040.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-02-01",
+    "price": 998.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1984-01-01",
+    "price": 957.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-12-01",
+    "price": 857,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-11-01",
+    "price": 859.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-10-01",
+    "price": 859,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-09-01",
+    "price": 837.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-08-01",
+    "price": 808.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-07-01",
+    "price": 739.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-06-01",
+    "price": 718.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-05-01",
+    "price": 735.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-04-01",
+    "price": 697.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-03-01",
+    "price": 678.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-02-01",
+    "price": 681.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1983-01-01",
+    "price": 699.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-12-01",
+    "price": 668.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-11-01",
+    "price": 710,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-10-01",
+    "price": 751.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-09-01",
+    "price": 749.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-08-01",
+    "price": 715.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-07-01",
+    "price": 726.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-06-01",
+    "price": 691.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-05-01",
+    "price": 750.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-04-01",
+    "price": 742.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-03-01",
+    "price": 789.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-02-01",
+    "price": 822.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1982-01-01",
+    "price": 818.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-12-01",
+    "price": 845.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-11-01",
+    "price": 876.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-10-01",
+    "price": 891.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-09-01",
+    "price": 939.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-08-01",
+    "price": 955,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-07-01",
+    "price": 865.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-06-01",
+    "price": 840,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-05-01",
+    "price": 851,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-04-01",
+    "price": 824,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-03-01",
+    "price": 751,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-02-01",
+    "price": 731,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1981-01-01",
+    "price": 777.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-12-01",
+    "price": 784,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-11-01",
+    "price": 802,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-10-01",
+    "price": 805,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-09-01",
+    "price": 796,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-08-01",
+    "price": 769,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-07-01",
+    "price": 714,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-06-01",
+    "price": 678.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-05-01",
+    "price": 691.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-04-01",
+    "price": 708,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-03-01",
+    "price": 743,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-02-01",
+    "price": 870,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1980-01-01",
+    "price": 774,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-12-01",
+    "price": 751,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-11-01",
+    "price": 702,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-10-01",
+    "price": 707,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-09-01",
+    "price": 724,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-08-01",
+    "price": 665,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-07-01",
+    "price": 722,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-06-01",
+    "price": 754,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-05-01",
+    "price": 778,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-04-01",
+    "price": 789,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-03-01",
+    "price": 795,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-02-01",
+    "price": 793,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1979-01-01",
+    "price": 720,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-12-01",
+    "price": 687,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-11-01",
+    "price": 695,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-10-01",
+    "price": 713,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-09-01",
+    "price": 634,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-08-01",
+    "price": 618,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-07-01",
+    "price": 584,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-06-01",
+    "price": 578,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-05-01",
+    "price": 562,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-04-01",
+    "price": 553,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-03-01",
+    "price": 507,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-02-01",
+    "price": 478,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1978-01-01",
+    "price": 518,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-12-01",
+    "price": 538,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-11-01",
+    "price": 525,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-10-01",
+    "price": 511,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-09-01",
+    "price": 518,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-08-01",
+    "price": 520,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-07-01",
+    "price": 542,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-06-01",
+    "price": 542,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-05-01",
+    "price": 611,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-04-01",
+    "price": 655,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-03-01",
+    "price": 719,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-02-01",
+    "price": 703,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1977-01-01",
+    "price": 692,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-12-01",
+    "price": 642,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-11-01",
+    "price": 604,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-10-01",
+    "price": 639,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-09-01",
+    "price": 712,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-08-01",
+    "price": 741,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-07-01",
+    "price": 776,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-06-01",
+    "price": 750,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-05-01",
+    "price": 774,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-04-01",
+    "price": 789,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-03-01",
+    "price": 728,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-02-01",
+    "price": 690,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1976-01-01",
+    "price": 692,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-12-01",
+    "price": 686,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-11-01",
+    "price": 705,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-10-01",
+    "price": 706,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-09-01",
+    "price": 724,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-08-01",
+    "price": 737,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-07-01",
+    "price": 707,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-06-01",
+    "price": 751,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-05-01",
+    "price": 747,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-04-01",
+    "price": 783,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-03-01",
+    "price": 803,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-02-01",
+    "price": 794,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1975-01-01",
+    "price": 799,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-12-01",
+    "price": 771,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-11-01",
+    "price": 794,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-10-01",
+    "price": 825,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-09-01",
+    "price": 911,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-08-01",
+    "price": 1066,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-07-01",
+    "price": 1097,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-06-01",
+    "price": 1410,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-05-01",
+    "price": 1782,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-04-01",
+    "price": 1743,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-03-01",
+    "price": 1630,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-02-01",
+    "price": 1516,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1974-01-01",
+    "price": 1330,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-12-01",
+    "price": 1623,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-11-01",
+    "price": 1625,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-10-01",
+    "price": 1163,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-09-01",
+    "price": 976,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-08-01",
+    "price": 914,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-07-01",
+    "price": 842,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-06-01",
+    "price": 656,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-05-01",
+    "price": 549,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-04-01",
+    "price": 513,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-03-01",
+    "price": 474,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-02-01",
+    "price": 422,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1973-01-01",
+    "price": 387,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-12-01",
+    "price": 375,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-11-01",
+    "price": 378.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-10-01",
+    "price": 363.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-09-01",
+    "price": 368.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-08-01",
+    "price": 363.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-07-01",
+    "price": 363.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-06-01",
+    "price": 371,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-05-01",
+    "price": 386.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-04-01",
+    "price": 395,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-03-01",
+    "price": 397.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-02-01",
+    "price": 389.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1972-01-01",
+    "price": 379.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-12-01",
+    "price": 358.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-11-01",
+    "price": 344.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-10-01",
+    "price": 336.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-09-01",
+    "price": 311.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-08-01",
+    "price": 322.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-07-01",
+    "price": 317.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-06-01",
+    "price": 308.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-05-01",
+    "price": 287.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-04-01",
+    "price": 283.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-03-01",
+    "price": 283.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-02-01",
+    "price": 272.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1971-01-01",
+    "price": 284.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-12-01",
+    "price": 289.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-11-01",
+    "price": 293.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-10-01",
+    "price": 296.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-09-01",
+    "price": 300,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-08-01",
+    "price": 298.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-07-01",
+    "price": 298.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-06-01",
+    "price": 293.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-05-01",
+    "price": 291.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-04-01",
+    "price": 293.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-03-01",
+    "price": 296,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-02-01",
+    "price": 298,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1970-01-01",
+    "price": 302.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-12-01",
+    "price": 310.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-11-01",
+    "price": 309.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-10-01",
+    "price": 298.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-09-01",
+    "price": 299.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-08-01",
+    "price": 293.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-07-01",
+    "price": 283.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-06-01",
+    "price": 281.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-05-01",
+    "price": 278.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-04-01",
+    "price": 272.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-03-01",
+    "price": 271.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-02-01",
+    "price": 267.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1969-01-01",
+    "price": 269.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-12-01",
+    "price": 269,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-11-01",
+    "price": 264.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-10-01",
+    "price": 262.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-09-01",
+    "price": 263,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-08-01",
+    "price": 269,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-07-01",
+    "price": 265.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-06-01",
+    "price": 262.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-05-01",
+    "price": 261.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-04-01",
+    "price": 258.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-03-01",
+    "price": 257.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-02-01",
+    "price": 259.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1968-01-01",
+    "price": 262.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-12-01",
+    "price": 266.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-11-01",
+    "price": 287,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-10-01",
+    "price": 263.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-09-01",
+    "price": 264.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-08-01",
+    "price": 268.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-07-01",
+    "price": 267.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-06-01",
+    "price": 274.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-05-01",
+    "price": 275.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-04-01",
+    "price": 272.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-03-01",
+    "price": 279.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-02-01",
+    "price": 282.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1967-01-01",
+    "price": 279.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-12-01",
+    "price": 285.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-11-01",
+    "price": 288.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-10-01",
+    "price": 276,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-09-01",
+    "price": 270.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-08-01",
+    "price": 264.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-07-01",
+    "price": 264.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-06-01",
+    "price": 272.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-05-01",
+    "price": 270,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-04-01",
+    "price": 278.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-03-01",
+    "price": 300.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-02-01",
+    "price": 299.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1966-01-01",
+    "price": 302.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-12-01",
+    "price": 302.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-11-01",
+    "price": 298.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-10-01",
+    "price": 307.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-09-01",
+    "price": 299.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-08-01",
+    "price": 303.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-07-01",
+    "price": 310.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-06-01",
+    "price": 314.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-05-01",
+    "price": 323.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-04-01",
+    "price": 315.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-03-01",
+    "price": 315.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-02-01",
+    "price": 320.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1965-01-01",
+    "price": 322.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-12-01",
+    "price": 343,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-11-01",
+    "price": 344.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-10-01",
+    "price": 334.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-09-01",
+    "price": 355.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-08-01",
+    "price": 345.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-07-01",
+    "price": 385.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-06-01",
+    "price": 357.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-05-01",
+    "price": 343,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-04-01",
+    "price": 298.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-03-01",
+    "price": 277.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-02-01",
+    "price": 270.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1964-01-01",
+    "price": 264.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-12-01",
+    "price": 261,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-11-01",
+    "price": 231.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-10-01",
+    "price": 220.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-09-01",
+    "price": 211.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-08-01",
+    "price": 210.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-07-01",
+    "price": 204.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-06-01",
+    "price": 209.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-05-01",
+    "price": 209.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-04-01",
+    "price": 204.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-03-01",
+    "price": 197.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-02-01",
+    "price": 191.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1963-01-01",
+    "price": 186.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-12-01",
+    "price": 184.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-11-01",
+    "price": 188.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-10-01",
+    "price": 181.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-09-01",
+    "price": 176.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-08-01",
+    "price": 178.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-07-01",
+    "price": 182.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-06-01",
+    "price": 184.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-05-01",
+    "price": 188.5,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-04-01",
+    "price": 191.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-03-01",
+    "price": 191.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-02-01",
+    "price": 189.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1962-01-01",
+    "price": 193.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-12-01",
+    "price": 196.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-11-01",
+    "price": 191.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-10-01",
+    "price": 198.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-09-01",
+    "price": 203.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-08-01",
+    "price": 210.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-07-01",
+    "price": 214.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-06-01",
+    "price": 217.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-05-01",
+    "price": 227.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-04-01",
+    "price": 231.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-03-01",
+    "price": 233.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-02-01",
+    "price": 228.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1961-01-01",
+    "price": 218,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-12-01",
+    "price": 228.2,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-11-01",
+    "price": 241.4,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-10-01",
+    "price": 242.3,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-09-01",
+    "price": 240.1,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-08-01",
+    "price": 241,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-07-01",
+    "price": 248.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-06-01",
+    "price": 249.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-05-01",
+    "price": 253.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-04-01",
+    "price": 254.6,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-03-01",
+    "price": 248.7,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-02-01",
+    "price": 244.9,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
+  },
+  {
+    "date": "1960-01-01",
+    "price": 260.8,
+    "unit": "usd/metric-ton",
+    "quality": "high",
+    "source": "worldbank",
+    "sourceId": "CMO-Pink-Sheet",
+    "fetchedAt": "2026-03-08T05:04:13.380Z"
   }
 ]
