@@ -21,11 +21,12 @@ import ChartControls from '@/components/charts/ChartControls'
 import TimeSeriesChart from '@/components/charts/TimeSeriesChart'
 import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
-import { loadCommodities } from '@/lib/data/loader'
+import { loadCurrencies, loadCommodities } from '@/lib/data/loader'
 import { convertToTimeSeriesData, sampleDataForPerformance, assignColors } from '@/lib/utils/chart'
 import { normalizeToBaseline, getAvailableYears, normalizePricesToBaseline } from '@/lib/utils/normalize'
 import { presetRanges } from '@/lib/utils/date'
 import { formatDate } from '@/lib/utils/date'
+import { Currency } from '@/lib/types/currency'
 import { TimeSeriesDataPoint } from '@/lib/utils/chart'
 
 interface CommodityInfo {
@@ -50,6 +51,8 @@ const COMMODITY_COLORS = [
 ]
 
 export default function HomePage() {
+  const [currencies, setCurrencies] = useState<Currency[]>([])
+  const [selectedCurrency, setSelectedCurrency] = useState('USD')
   const [startDate, setStartDate] = useState(presetRanges.modern.start)
   const [endDate, setEndDate] = useState(presetRanges.modern.end)
   const [chartData, setChartData] = useState<TimeSeriesDataPoint[]>([])
@@ -64,10 +67,11 @@ export default function HomePage() {
   const [commodityLoading, setCommodityLoading] = useState(false)
   const [commodityMetadata, setCommodityMetadata] = useState<Record<string, { name: string }>>({})
 
-  // Load commodities on mount
+  // Load currencies and commodities on mount
   useEffect(() => {
-    loadCommodities()
-      .then((commodityData) => {
+    Promise.all([loadCurrencies(), loadCommodities()])
+      .then(([currencyData, commodityData]) => {
+        setCurrencies(currencyData)
         setAllCommodities(
           commodityData.map((c) => ({
             id: c.id,
@@ -84,14 +88,16 @@ export default function HomePage() {
       })
   }, [])
 
-  // Load chart data when dates change
+  // Load chart data when currency or dates change
   useEffect(() => {
+    if (!selectedCurrency) return
+
     setLoading(true)
     setError(null)
 
     const startDateStr = startDate.toISOString().split('T')[0]
     const endDateStr = endDate.toISOString().split('T')[0]
-    const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=USD&interval=monthly`
+    const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=${selectedCurrency}&interval=monthly`
 
     fetch(url)
       .then((res) => {
@@ -112,7 +118,7 @@ export default function HomePage() {
         setError('Failed to calculate Greco values: ' + err.message)
         setLoading(false)
       })
-  }, [startDate, endDate])
+  }, [selectedCurrency, startDate, endDate])
 
   // Normalize Greco data
   const normalizedChartData = useMemo(
@@ -205,13 +211,16 @@ export default function HomePage() {
             Greco Historical Currency Tracker
           </h1>
           <p className="text-lg text-gray-600">
-            Visualize how the Greco Coin — backed by a basket of 32 commodities — behaves
-            over time against the US dollar.
+            Visualize purchasing power trends of a standardized basket of 32 commodities
+            across 9 currencies from 1900 to present.
           </p>
         </div>
 
         {/* Controls */}
         <ChartControls
+          currencies={currencies}
+          selectedCurrency={selectedCurrency}
+          onCurrencyChange={setSelectedCurrency}
           startDate={startDate}
           endDate={endDate}
           onDateRangeChange={handleDateRangeChange}
@@ -227,7 +236,7 @@ export default function HomePage() {
           </h2>
           <p className="text-sm text-gray-500 mb-4">
             Value relative to baseline year ({baselineYear} = 1.0). Values above 1.0 mean
-            the basket costs more in USD; below 1.0 means it costs less.
+            the basket costs more in {selectedCurrency}; below 1.0 means it costs less.
           </p>
 
           {loading && (
@@ -301,14 +310,14 @@ export default function HomePage() {
                     }}
                   />
                   <Tooltip
-                    formatter={(value: number) => [value.toFixed(3), `Greco ($USD)`]}
+                    formatter={(value: number) => [value.toFixed(3), `Greco (${selectedCurrency})`]}
                     labelFormatter={(label) => label}
                   />
                   <Legend wrapperStyle={{ fontSize: '0.875rem' }} iconType="line" />
                   <Line
                     type="monotone"
                     dataKey="value"
-                    name={`Greco Value ($USD)`}
+                    name={`Greco Value (${selectedCurrency})`}
                     stroke="#2563eb"
                     strokeWidth={2}
                     dot={false}
