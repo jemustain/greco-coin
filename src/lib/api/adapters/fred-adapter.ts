@@ -5,7 +5,6 @@
  * API Documentation: https://fred.stlouisfed.org/docs/api/fred/
  */
 
-import axios, { AxiosError } from 'axios';
 import { API_CONFIG } from '../../config/api-config';
 import { fredResponseSchema } from '../../validation/price-schema';
 import type { CommodityPrice, DataSource } from '../../types/commodity-price';
@@ -156,90 +155,98 @@ export class FREDAdapter extends BaseAdapter {
       await this.rateLimiter.acquire();
     }
     
+    const params = new URLSearchParams({
+      series_id: seriesId,
+      api_key: apiKey,
+      file_type: 'json',
+      observation_start: dateRange.startDate,
+      observation_end: dateRange.endDate,
+      sort_order: 'asc',
+    });
+    const url = `${baseUrl}/series/observations?${params}`;
+    const requestTimeout = options.timeoutMs || timeout;
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), requestTimeout);
+
+    let response: Response;
     try {
-      const response = await axios.get(`${baseUrl}/series/observations`, {
-        params: {
-          series_id: seriesId,
-          api_key: apiKey,
-          file_type: 'json',
-          observation_start: dateRange.startDate,
-          observation_end: dateRange.endDate,
-          sort_order: 'asc',
-        },
-        timeout: options.timeoutMs || timeout,
-        headers: {
-          'User-Agent': 'GrecoVoin/1.0',
-        },
-      });
-      
-      // Validate response schema
-      if (!options.skipValidation) {
-        const validatedData = fredResponseSchema.parse(response.data);
-        
-        // Transform to CommodityPrice format
-        const prices: CommodityPrice[] = validatedData.observations
-          .filter(obs => obs.value !== '.' && obs.value !== '') // Filter missing values
-          .map(obs => ({
-            date: obs.date,
-            price: parseFloat(obs.value),
-            unit,
-            quality: 'high' as const,
-            source: 'fred' as const,
-            sourceId: seriesId,
-            fetchedAt: new Date().toISOString(),
-          }));
-        
-        return {
-          prices,
-          count: prices.length,
-          source: 'fred',
-          fetchedAt: new Date().toISOString(),
-          rateLimit: this.getRateLimit(),
-        };
-      } else {
-        // Skip validation (for debugging)
-        return {
-          prices: [],
-          count: 0,
-          source: 'fred',
-          fetchedAt: new Date().toISOString(),
-          warnings: ['Validation skipped'],
-        };
-      }
+      response = await fetch(url, {
+        signal: controller.signal,
+        headers: { 'User-Agent': 'GrecoVoin/1.0' },
+        next: { revalidate: 3600 },
+      } as RequestInit);
     } catch (error: any) {
-      if (axios.isAxiosError(error)) {
-        return this.handleAxiosError(error, seriesId);
+      clearTimeout(timeoutId);
+      if (error.name === 'AbortError') {
+        throw new TimeoutError(
+          `FRED API request timed out for series ${seriesId}`,
+          requestTimeout,
+          'fred'
+        );
+      }
+      if (error.cause?.code === 'ENOTFOUND' || error.cause?.code === 'ECONNREFUSED') {
+        throw new NetworkError(
+          `Cannot connect to FRED API: ${error.message}`,
+          'fred'
+        );
       }
       throw error;
+    } finally {
+      clearTimeout(timeoutId);
+    }
+
+    if (!response.ok) {
+      this.handleFetchError(response, await response.json().catch(() => null), seriesId);
+    }
+
+    const data = await response.json();
+
+    // Validate response schema
+    if (!options.skipValidation) {
+      const validatedData = fredResponseSchema.parse(data);
+      
+      // Transform to CommodityPrice format
+      const prices: CommodityPrice[] = validatedData.observations
+        .filter(obs => obs.value !== '.' && obs.value !== '') // Filter missing values
+        .map(obs => ({
+          date: obs.date,
+          price: parseFloat(obs.value),
+          unit,
+          quality: 'high' as const,
+          source: 'fred' as const,
+          sourceId: seriesId,
+          fetchedAt: new Date().toISOString(),
+        }));
+      
+      return {
+        prices,
+        count: prices.length,
+        source: 'fred',
+        fetchedAt: new Date().toISOString(),
+        rateLimit: this.getRateLimit(),
+      };
+    } else {
+      // Skip validation (for debugging)
+      return {
+        prices: [],
+        count: 0,
+        source: 'fred',
+        fetchedAt: new Date().toISOString(),
+        warnings: ['Validation skipped'],
+      };
     }
   }
   
   /**
-   * Handle Axios errors and convert to domain errors
+   * Handle fetch HTTP errors and convert to domain errors
    */
-  private handleAxiosError(error: AxiosError, seriesId: string): never {
-    const status = error.response?.status;
-    const data: any = error.response?.data;
-    
-    if (error.code === 'ECONNABORTED' || error.code === 'ETIMEDOUT') {
-      throw new TimeoutError(
-        `FRED API request timed out for series ${seriesId}`,
-        API_CONFIG.fred.timeout,
-        'fred'
-      );
-    }
-    
-    if (error.code === 'ENOTFOUND' || error.code === 'ECONNREFUSED') {
-      throw new NetworkError(
-        `Cannot connect to FRED API: ${error.message}`,
-        'fred'
-      );
-    }
+  private handleFetchError(response: Response, data: any, seriesId: string): never {
+    const status = response.status;
     
     switch (status) {
       case 400:
         throw new ValidationError(
-          `Invalid request to FRED API: ${data?.error_message || error.message}`,
+          `Invalid request to FRED API: ${data?.error_message || response.statusText}`,
           'fred',
           data
         );
@@ -258,8 +265,8 @@ export class FREDAdapter extends BaseAdapter {
           data
         );
       
-      case 429:
-        const retryAfter = error.response?.headers['retry-after'];
+      case 429: {
+        const retryAfter = response.headers.get('retry-after');
         const retryAfterMs = retryAfter ? parseInt(retryAfter) * 1000 : 60000;
         throw new RateLimitError(
           'FRED API rate limit exceeded',
@@ -267,6 +274,7 @@ export class FREDAdapter extends BaseAdapter {
           'fred',
           data
         );
+      }
       
       case 503:
         throw new APIError(
@@ -278,7 +286,7 @@ export class FREDAdapter extends BaseAdapter {
       
       default:
         throw new APIError(
-          `FRED API error: ${data?.error_message || error.message}`,
+          `FRED API error: ${data?.error_message || response.statusText}`,
           status,
           'fred',
           data
