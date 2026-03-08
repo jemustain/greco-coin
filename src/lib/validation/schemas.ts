@@ -61,8 +61,9 @@ export const CommodityPricePointSchema = z.object({
   qualityIndicator: DataQualityIndicatorSchema.optional(),
 })
 
-// Raw price point schema matching the JSON files in src/data/prices/
-export const RawPricePointSchema = z.object({
+// Raw price point schemas matching the JSON files in src/data/prices/
+// New format (World Bank commodities): { date, price, unit, quality }
+const NewFormatPricePointSchema = z.object({
   date: z.string(),
   price: z.number(),
   unit: z.string(),
@@ -70,6 +71,17 @@ export const RawPricePointSchema = z.object({
   quality: DataQualityIndicatorSchema.optional(),
 })
 
+// Old format (estimated/placeholder commodities): { commodityId, date, priceUSD, unit, qualityIndicator }
+const OldFormatPricePointSchema = z.object({
+  commodityId: z.string(),
+  date: z.string(),
+  priceUSD: z.number(),
+  unit: z.string(),
+  sourceId: z.string().optional(),
+  qualityIndicator: DataQualityIndicatorSchema.optional(),
+})
+
+export const RawPricePointSchema = z.union([NewFormatPricePointSchema, OldFormatPricePointSchema])
 export const RawPricePointsSchema = z.array(RawPricePointSchema)
 
 // Currency schemas
