@@ -1,18 +1,54 @@
 /**
- * Homepage - Greco unit time-series visualization
+ * Homepage - Greco unit time-series visualization with normalized view
+ * and commodity price trend overlay
  */
 
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend,
+  ReferenceLine,
+} from 'recharts'
 import ChartControls from '@/components/charts/ChartControls'
 import TimeSeriesChart from '@/components/charts/TimeSeriesChart'
+import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies } from '@/lib/data/loader'
-import { convertToTimeSeriesData, sampleDataForPerformance } from '@/lib/utils/chart'
+import { loadCurrencies, loadCommodities } from '@/lib/data/loader'
+import { convertToTimeSeriesData, sampleDataForPerformance, assignColors } from '@/lib/utils/chart'
+import { normalizeToBaseline, getAvailableYears, normalizePricesToBaseline } from '@/lib/utils/normalize'
 import { presetRanges } from '@/lib/utils/date'
+import { formatDate } from '@/lib/utils/date'
 import { Currency } from '@/lib/types/currency'
 import { TimeSeriesDataPoint } from '@/lib/utils/chart'
+
+interface CommodityInfo {
+  id: string
+  name: string
+  category: string
+  unit: string
+}
+
+interface CommodityChartPoint {
+  date: string
+  formattedDate: string
+  [key: string]: string | number | undefined
+}
+
+const COMMODITY_COLORS = [
+  '#dc2626', // Red
+  '#16a34a', // Green
+  '#ca8a04', // Yellow
+  '#7c3aed', // Purple
+  '#0891b2', // Cyan
+]
 
 export default function HomePage() {
   const [currencies, setCurrencies] = useState<Currency[]>([])
@@ -22,16 +58,32 @@ export default function HomePage() {
   const [chartData, setChartData] = useState<TimeSeriesDataPoint[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [baselineYear, setBaselineYear] = useState(1990)
 
-  // Load currencies on mount
+  // Commodity state
+  const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
+  const [selectedCommodities, setSelectedCommodities] = useState<string[]>([])
+  const [commodityChartData, setCommodityChartData] = useState<CommodityChartPoint[]>([])
+  const [commodityLoading, setCommodityLoading] = useState(false)
+  const [commodityMetadata, setCommodityMetadata] = useState<Record<string, { name: string }>>({})
+
+  // Load currencies and commodities on mount
   useEffect(() => {
-    loadCurrencies()
-      .then((data) => {
-        setCurrencies(data)
+    Promise.all([loadCurrencies(), loadCommodities()])
+      .then(([currencyData, commodityData]) => {
+        setCurrencies(currencyData)
+        setAllCommodities(
+          commodityData.map((c) => ({
+            id: c.id,
+            name: c.name,
+            category: c.category,
+            unit: c.unit,
+          }))
+        )
         setLoading(false)
       })
       .catch((err) => {
-        setError('Failed to load currencies: ' + err.message)
+        setError('Failed to load data: ' + err.message)
         setLoading(false)
       })
   }, [])
@@ -43,33 +95,23 @@ export default function HomePage() {
     setLoading(true)
     setError(null)
 
-    const startTime = performance.now()
-
-    // Fetch from API route (server-side calculation)
     const startDateStr = startDate.toISOString().split('T')[0]
     const endDateStr = endDate.toISOString().split('T')[0]
     const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=${selectedCurrency}&interval=monthly`
-    
+
     fetch(url)
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`)
         return res.json()
       })
       .then((data) => {
-        // Convert date strings back to Date objects
         const grecoValues = data.values.map((gv: { date: string; [key: string]: unknown }) => ({
           ...gv,
           date: new Date(gv.date),
         }))
         const timeSeriesData = convertToTimeSeriesData(grecoValues)
-        // Performance optimization: Sample data to max 500 points for <500ms interactions
         const sampledData = sampleDataForPerformance(timeSeriesData, 500)
         setChartData(sampledData)
-        
-        const endTime = performance.now()
-        const duration = endTime - startTime
-        console.log(`Chart data loaded in ${duration.toFixed(2)}ms (${grecoValues.length} → ${sampledData.length} points)`)
-        
         setLoading(false)
       })
       .catch((err) => {
@@ -78,9 +120,86 @@ export default function HomePage() {
       })
   }, [selectedCurrency, startDate, endDate])
 
+  // Normalize Greco data
+  const normalizedChartData = useMemo(
+    () => normalizeToBaseline(chartData, baselineYear),
+    [chartData, baselineYear]
+  )
+
+  // Available years from data
+  const availableYears = useMemo(() => getAvailableYears(chartData), [chartData])
+
+  // Load commodity data when selection changes
+  useEffect(() => {
+    if (selectedCommodities.length === 0) {
+      setCommodityChartData([])
+      return
+    }
+
+    setCommodityLoading(true)
+    const startDateStr = startDate.toISOString().split('T')[0]
+    const endDateStr = endDate.toISOString().split('T')[0]
+    const url = `/api/commodity-timeseries?commodities=${selectedCommodities.join(',')}&startDate=${startDateStr}&endDate=${endDateStr}&interval=monthly`
+
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.json()
+      })
+      .then((data) => {
+        // Build metadata map
+        const metaMap: Record<string, { name: string }> = {}
+        if (data.metadata) {
+          for (const m of data.metadata) {
+            metaMap[m.id] = { name: m.name }
+          }
+        }
+        setCommodityMetadata(metaMap)
+
+        // Merge and normalize all commodity price series
+        const allDates = new Set<string>()
+        const normalizedSeries: Record<string, Map<string, number>> = {}
+
+        for (const [commodityId, prices] of Object.entries(data.commodities)) {
+          const priceArray = prices as Array<{ date: string; price: number }>
+          const normalized = normalizePricesToBaseline(priceArray, baselineYear)
+          normalizedSeries[commodityId] = new Map()
+          for (const p of normalized) {
+            allDates.add(p.date)
+            normalizedSeries[commodityId].set(p.date, p.normalizedPrice)
+          }
+        }
+
+        // Build merged chart data
+        const sortedDates = Array.from(allDates).sort()
+        const merged: CommodityChartPoint[] = sortedDates.map((date) => {
+          const point: CommodityChartPoint = {
+            date,
+            formattedDate: formatDate(new Date(date), 'MMM yyyy'),
+          }
+          for (const commodityId of selectedCommodities) {
+            point[commodityId] = normalizedSeries[commodityId]?.get(date) ?? undefined
+          }
+          return point
+        })
+
+        setCommodityChartData(merged)
+        setCommodityLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to load commodity data:', err)
+        setCommodityLoading(false)
+      })
+  }, [selectedCommodities, startDate, endDate, baselineYear])
+
   const handleDateRangeChange = (start: Date, end: Date) => {
     setStartDate(start)
     setEndDate(end)
+  }
+
+  // Format normalized Y-axis
+  const formatNormalizedYAxis = (value: number) => {
+    return value.toFixed(1)
   }
 
   return (
@@ -105,10 +224,21 @@ export default function HomePage() {
           startDate={startDate}
           endDate={endDate}
           onDateRangeChange={handleDateRangeChange}
+          baselineYear={baselineYear}
+          onBaselineYearChange={setBaselineYear}
+          availableYears={availableYears}
         />
 
-        {/* Chart */}
+        {/* Normalized Greco Chart */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
+            Greco Value — Normalized to {baselineYear}
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            Value relative to baseline year ({baselineYear} = 1.0). Values above 1.0 mean
+            the basket costs more in {selectedCurrency}; below 1.0 means it costs less.
+          </p>
+
           {loading && (
             <div className="flex items-center justify-center" style={{ height: 400 }}>
               <Loading size="lg" text="Loading chart data..." />
@@ -143,95 +273,236 @@ export default function HomePage() {
             </div>
           )}
 
-          {!loading && !error && (
-            <>
-              <TimeSeriesChart
-                data={chartData}
-                currency={selectedCurrency}
-                height={400}
-              />
-              <div className="mt-6 pt-6 border-t border-gray-200 space-y-4">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    What is the Greco Unit?
-                  </h3>
-                  <p className="text-sm text-gray-600 mb-3">
-                    The Greco unit represents the purchasing power of a basket of 32 essential
-                    commodities, as proposed by economist Thomas H. Greco Jr. in &quot;The End 
-                    of Money and the Future of Civilization&quot; (2009). Unlike traditional 
-                    currency indices, the Greco provides a tangible measure of value tied to 
-                    real, physical commodities rather than abstract monetary metrics.
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    By tracking how much currency is needed to purchase this standardized basket 
-                    over time, we can measure the real purchasing power of different currencies 
-                    and assets, independent of monetary policy, inflation targeting, or central 
-                    bank manipulation.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                    How to Interpret This Chart
-                  </h3>
-                  <ul className="text-sm text-gray-600 space-y-2">
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        <strong>Y-Axis (Greco Value):</strong> Shows how much of the selected 
-                        currency is required to purchase the entire basket of 32 commodities at 
-                        any point in time. Higher values mean you need more currency units to buy 
-                        the same basket (lower purchasing power).
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        <strong>Upward Trends:</strong> Indicate decreasing purchasing power 
-                        (currency depreciation). The currency buys less of the commodity basket 
-                        over time.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        <strong>Downward Trends:</strong> Indicate increasing purchasing power 
-                        (currency appreciation). The same amount of currency buys more commodities.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        <strong>Completeness:</strong> Shows the percentage of the 32 commodities 
-                        with available price data. Values ≥80% meet our quality threshold. Lower 
-                        completeness may indicate data gaps or emerging commodities/currencies.
-                      </span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="mr-2">•</span>
-                      <span>
-                        <strong>Quality Indicator:</strong> Reflects the reliability of the 
-                        underlying price data (High, Medium, Low, Missing). Hover over data points 
-                        to see quality ratings and which commodities contributed to each calculation.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h3 className="text-sm font-semibold text-blue-900 mb-1">
-                    💡 Pro Tip
-                  </h3>
-                  <p className="text-sm text-blue-800">
-                    Compare multiple currencies side-by-side to understand relative purchasing 
-                    power shifts. For example, comparing USD vs Gold shows how the dollar&apos;s 
-                    purchasing power changed relative to precious metals over the 20th century. 
-                    Multi-currency comparison feature coming soon!
-                  </p>
-                </div>
-              </div>
-            </>
+          {!loading && !error && normalizedChartData.length > 0 && (
+            <div className="chart-container">
+              <ResponsiveContainer width="100%" height={400}>
+                <LineChart
+                  data={normalizedChartData}
+                  margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                  <XAxis
+                    dataKey="formattedDate"
+                    stroke="#6b7280"
+                    style={{ fontSize: '0.75rem' }}
+                  />
+                  <YAxis
+                    stroke="#6b7280"
+                    style={{ fontSize: '0.75rem' }}
+                    tickFormatter={formatNormalizedYAxis}
+                    label={{
+                      value: 'Value relative to baseline (1.0)',
+                      angle: -90,
+                      position: 'insideLeft',
+                      style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
+                    }}
+                  />
+                  <ReferenceLine
+                    y={1.0}
+                    stroke="#9ca3af"
+                    strokeDasharray="6 4"
+                    strokeWidth={1.5}
+                    label={{
+                      value: `${baselineYear} baseline`,
+                      position: 'right',
+                      fontSize: 11,
+                      fill: '#6b7280',
+                    }}
+                  />
+                  <Tooltip
+                    formatter={(value: number) => [value.toFixed(3), `Greco (${selectedCurrency})`]}
+                    labelFormatter={(label) => label}
+                  />
+                  <Legend wrapperStyle={{ fontSize: '0.875rem' }} iconType="line" />
+                  <Line
+                    type="monotone"
+                    dataKey="value"
+                    name={`Greco Value (${selectedCurrency})`}
+                    stroke="#2563eb"
+                    strokeWidth={2}
+                    dot={false}
+                    activeDot={{ r: 6 }}
+                    animationDuration={300}
+                  />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
           )}
+        </div>
+
+        {/* Commodity Selector */}
+        <CommoditySelector
+          commodities={allCommodities}
+          selectedCommodities={selectedCommodities}
+          onSelectionChange={setSelectedCommodities}
+          maxSelections={5}
+        />
+
+        {/* Commodity Price Trends Chart */}
+        {selectedCommodities.length > 0 && (
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">
+              Commodity Price Trends — Normalized to {baselineYear}
+            </h2>
+            <p className="text-sm text-gray-500 mb-4">
+              Individual commodity prices normalized so {baselineYear} = 1.0. Compare how
+              different commodities have moved relative to the baseline.
+            </p>
+
+            {commodityLoading && (
+              <div className="flex items-center justify-center" style={{ height: 350 }}>
+                <Loading size="lg" text="Loading commodity data..." />
+              </div>
+            )}
+
+            {!commodityLoading && commodityChartData.length > 0 && (
+              <div className="chart-container">
+                <ResponsiveContainer width="100%" height={350}>
+                  <LineChart
+                    data={commodityChartData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                    <XAxis
+                      dataKey="formattedDate"
+                      stroke="#6b7280"
+                      style={{ fontSize: '0.75rem' }}
+                    />
+                    <YAxis
+                      stroke="#6b7280"
+                      style={{ fontSize: '0.75rem' }}
+                      tickFormatter={formatNormalizedYAxis}
+                      label={{
+                        value: 'Value relative to baseline (1.0)',
+                        angle: -90,
+                        position: 'insideLeft',
+                        style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
+                      }}
+                    />
+                    <ReferenceLine
+                      y={1.0}
+                      stroke="#9ca3af"
+                      strokeDasharray="6 4"
+                      strokeWidth={1.5}
+                      label={{
+                        value: `${baselineYear} baseline`,
+                        position: 'right',
+                        fontSize: 11,
+                        fill: '#6b7280',
+                      }}
+                    />
+                    <Tooltip
+                      formatter={(value: number, name: string) => [
+                        value?.toFixed(3) ?? '—',
+                        commodityMetadata[name]?.name || name,
+                      ]}
+                      labelFormatter={(label) => label}
+                    />
+                    <Legend
+                      wrapperStyle={{ fontSize: '0.875rem' }}
+                      iconType="line"
+                      formatter={(value: string) =>
+                        commodityMetadata[value]?.name || value
+                      }
+                    />
+                    {selectedCommodities.map((id, i) => (
+                      <Line
+                        key={id}
+                        type="monotone"
+                        dataKey={id}
+                        name={id}
+                        stroke={COMMODITY_COLORS[i % COMMODITY_COLORS.length]}
+                        strokeWidth={2}
+                        dot={false}
+                        activeDot={{ r: 5 }}
+                        animationDuration={300}
+                        connectNulls
+                      />
+                    ))}
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            )}
+
+            {!commodityLoading && commodityChartData.length === 0 && (
+              <div className="flex items-center justify-center h-40 text-gray-500">
+                No price data available for selected commodities in this date range.
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Explanation sections */}
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div className="space-y-4">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                What is the Greco Unit?
+              </h3>
+              <p className="text-sm text-gray-600 mb-3">
+                The Greco unit represents the purchasing power of a basket of 32 essential
+                commodities, as proposed by economist Thomas H. Greco Jr. in &quot;The End
+                of Money and the Future of Civilization&quot; (2009). Unlike traditional
+                currency indices, the Greco provides a tangible measure of value tied to
+                real, physical commodities rather than abstract monetary metrics.
+              </p>
+              <p className="text-sm text-gray-600">
+                By tracking how much currency is needed to purchase this standardized basket
+                over time, we can measure the real purchasing power of different currencies
+                and assets, independent of monetary policy, inflation targeting, or central
+                bank manipulation.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                How to Interpret the Normalized Chart
+              </h3>
+              <ul className="text-sm text-gray-600 space-y-2">
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    <strong>Baseline (1.0):</strong> The dashed line at 1.0 represents the
+                    value in your selected baseline year. All other values are ratios
+                    relative to that year.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    <strong>Above 1.0:</strong> The basket costs more than it did in the
+                    baseline year — your currency has lost purchasing power.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    <strong>Below 1.0:</strong> The basket costs less than it did in the
+                    baseline year — your currency has gained purchasing power.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>
+                    <strong>Commodity Overlay:</strong> Select individual commodities below
+                    to see how their prices moved relative to the same baseline. This helps
+                    identify which commodities are driving overall basket changes.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+              <h3 className="text-sm font-semibold text-blue-900 mb-1">
+                💡 Pro Tip
+              </h3>
+              <p className="text-sm text-blue-800">
+                Try changing the baseline year to see how the story changes. Setting it to
+                1970 (before the gold standard ended) vs 1990 tells very different stories
+                about currency depreciation.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Commodities Info */}

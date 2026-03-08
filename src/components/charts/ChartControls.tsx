@@ -24,6 +24,10 @@ interface ChartControlsProps {
   startDate: Date
   endDate: Date
   onDateRangeChange: (start: Date, end: Date) => void
+  // Baseline year (for normalized view)
+  baselineYear?: number
+  onBaselineYearChange?: (year: number) => void
+  availableYears?: number[]
 }
 
 export default function ChartControls({
@@ -36,6 +40,9 @@ export default function ChartControls({
   startDate,
   endDate,
   onDateRangeChange,
+  baselineYear,
+  onBaselineYearChange,
+  availableYears = [],
 }: ChartControlsProps) {
   // Determine which mode we're in
   const isMultiSelect = selectedCurrencies.length > 0 || onCurrenciesChange !== undefined
@@ -162,6 +169,22 @@ export default function ChartControls({
               options={currencies.map((c) => ({
                 value: c.id,
                 label: `${c.name} (${c.symbol})`,
+              }))}
+            />
+          </div>
+        )}
+
+        {/* Baseline Year Selector */}
+        {onBaselineYearChange && availableYears.length > 0 && !isMultiSelect && (
+          <div>
+            <Select
+              label="Baseline Year (= 1.0)"
+              id="baseline-year-select"
+              value={String(baselineYear || '')}
+              onChange={(e) => onBaselineYearChange(Number(e.target.value))}
+              options={availableYears.map((y) => ({
+                value: String(y),
+                label: String(y),
               }))}
             />
           </div>
