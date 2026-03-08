@@ -20,7 +20,7 @@ interface CommoditySelectorProps {
 }
 
 const ESTIMATED_COMMODITY_IDS = new Set([
-  'cement', 'sulphur', 'cotton-seed', 'tallow', 'jute', 'oats', 'rye', 'wool', 'hides',
+  'sulphur', 'cotton-seed', 'jute',
 ])
 
 const CATEGORY_ORDER = [
