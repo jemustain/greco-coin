@@ -175,9 +175,9 @@ export async function loadPrices(commodityId: string) {
   return validated.map((p) => ({
     commodityId: commodityId,
     date: new Date(p.date),
-    priceUSD: p.price,
+    priceUSD: 'price' in p ? p.price : p.priceUSD,
     unit: p.unit,
-    qualityIndicator: p.quality,
+    qualityIndicator: 'quality' in p ? p.quality : ('qualityIndicator' in p ? p.qualityIndicator : undefined),
   }))
 }
 
