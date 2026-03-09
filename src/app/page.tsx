@@ -23,7 +23,7 @@ import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
 import { loadCommodities } from '@/lib/data/loader'
 import { convertToTimeSeriesData, sampleDataForPerformance, assignColors } from '@/lib/utils/chart'
-import { normalizeToBaseline, getAvailableYears, normalizePricesToBaseline } from '@/lib/utils/normalize'
+import { normalizeToBaseline, normalizePricesToBaseline } from '@/lib/utils/normalize'
 import { presetRanges } from '@/lib/utils/date'
 import { formatDate } from '@/lib/utils/date'
 import { TimeSeriesDataPoint } from '@/lib/utils/chart'
@@ -55,7 +55,7 @@ export default function HomePage() {
   const [chartData, setChartData] = useState<TimeSeriesDataPoint[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [baselineYear, setBaselineYear] = useState(1990)
+  const baselineYear = 1990
 
   // Commodity state
   const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
@@ -120,8 +120,6 @@ export default function HomePage() {
     [chartData, baselineYear]
   )
 
-  // Available years from data
-  const availableYears = useMemo(() => getAvailableYears(chartData), [chartData])
 
   // Load commodity data when selection changes
   useEffect(() => {
@@ -215,9 +213,6 @@ export default function HomePage() {
           startDate={startDate}
           endDate={endDate}
           onDateRangeChange={handleDateRangeChange}
-          baselineYear={baselineYear}
-          onBaselineYearChange={setBaselineYear}
-          availableYears={availableYears}
         />
 
         {/* Normalized Greco Chart */}
@@ -483,16 +478,7 @@ export default function HomePage() {
               </ul>
             </div>
 
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-              <h3 className="text-sm font-semibold text-blue-900 mb-1">
-                💡 Pro Tip
-              </h3>
-              <p className="text-sm text-blue-800">
-                Try changing the baseline year to see how the story changes. Setting it to
-                1970 (before the gold standard ended) vs 1990 tells very different stories
-                about currency depreciation.
-              </p>
-            </div>
+
           </div>
         </div>
 

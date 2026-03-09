@@ -19,6 +19,10 @@ interface CommoditySelectorProps {
   maxSelections?: number
 }
 
+const ESTIMATED_COMMODITY_IDS = new Set([
+  'sulphur', 'cotton-seed', 'jute',
+])
+
 const CATEGORY_ORDER = [
   'Metals',
   'Energy',
@@ -108,6 +112,9 @@ export default function CommoditySelector({
                     `}
                   >
                     {commodity.name}
+                    {ESTIMATED_COMMODITY_IDS.has(commodity.id) && (
+                      <span className="ml-1 text-amber-600" title="Estimated data">⚠️</span>
+                    )}
                   </button>
                 )
               })}
@@ -115,6 +122,9 @@ export default function CommoditySelector({
           </div>
         ))}
       </div>
+      <p className="text-xs text-gray-500 mt-3">
+        ⚠️ = estimated data (no verified source yet)
+      </p>
     </div>
   )
 }
