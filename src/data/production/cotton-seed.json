@@ -1,0 +1,380 @@
+[
+  {
+    "year": 2023,
+    "production": 42,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 2022,
+    "production": 42.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2021,
+    "production": 42.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2020,
+    "production": 42,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 2019,
+    "production": 42.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2018,
+    "production": 42.5,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2017,
+    "production": 41.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2016,
+    "production": 42.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2015,
+    "production": 42.6,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2014,
+    "production": 42.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2013,
+    "production": 43.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2012,
+    "production": 42.6,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2011,
+    "production": 42.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2010,
+    "production": 43,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 2009,
+    "production": 42.6,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2008,
+    "production": 42,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2007,
+    "production": 41.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2006,
+    "production": 39.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2005,
+    "production": 37.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2004,
+    "production": 36.4,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2003,
+    "production": 35.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2002,
+    "production": 34.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2001,
+    "production": 33,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 2000,
+    "production": 33,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 1999,
+    "production": 33.3,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1998,
+    "production": 32.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1997,
+    "production": 32.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1996,
+    "production": 33.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1995,
+    "production": 33.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1994,
+    "production": 33.3,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1993,
+    "production": 32.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1992,
+    "production": 32.9,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1991,
+    "production": 33.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1990,
+    "production": 33,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 1989,
+    "production": 32.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1988,
+    "production": 32.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1987,
+    "production": 31.4,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1986,
+    "production": 29.6,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1985,
+    "production": 28.4,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1984,
+    "production": 27.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1983,
+    "production": 26.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1982,
+    "production": 24.7,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1981,
+    "production": 24.1,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1980,
+    "production": 24,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  },
+  {
+    "year": 1979,
+    "production": 23.7,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1978,
+    "production": 23.5,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1977,
+    "production": 23.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1976,
+    "production": 22.7,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1975,
+    "production": 21.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1974,
+    "production": 21.3,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1973,
+    "production": 20.8,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1972,
+    "production": 20.5,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1971,
+    "production": 20.2,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "medium"
+  },
+  {
+    "year": 1970,
+    "production": 20,
+    "unit": "million-metric-tons",
+    "source": "fao",
+    "quality": "high"
+  }
+]

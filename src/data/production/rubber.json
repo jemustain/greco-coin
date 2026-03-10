@@ -1,0 +1,380 @@
+[
+  {
+    "year": 2023,
+    "production": 14,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 2022,
+    "production": 13.7,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2021,
+    "production": 13.2,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2020,
+    "production": 12.8,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 2019,
+    "production": 12.8,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2018,
+    "production": 12.7,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2017,
+    "production": 12.2,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2016,
+    "production": 12,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2015,
+    "production": 11.7,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2014,
+    "production": 11.4,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2013,
+    "production": 11.2,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2012,
+    "production": 10.8,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2011,
+    "production": 10.6,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2010,
+    "production": 10.6,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 2009,
+    "production": 10.5,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2008,
+    "production": 10.3,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2007,
+    "production": 9.94,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2006,
+    "production": 9.53,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2005,
+    "production": 8.89,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2004,
+    "production": 8.44,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2003,
+    "production": 8.03,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2002,
+    "production": 7.69,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2001,
+    "production": 7.32,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 2000,
+    "production": 7.3,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 1999,
+    "production": 7.31,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1998,
+    "production": 7.04,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1997,
+    "production": 6.85,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1996,
+    "production": 6.61,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1995,
+    "production": 6.34,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1994,
+    "production": 6.06,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1993,
+    "production": 5.7,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1992,
+    "production": 5.5,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1991,
+    "production": 5.37,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1990,
+    "production": 5.3,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 1989,
+    "production": 5.27,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1988,
+    "production": 5.19,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1987,
+    "production": 5.07,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1986,
+    "production": 4.81,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1985,
+    "production": 4.64,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1984,
+    "production": 4.47,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1983,
+    "production": 4.31,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1982,
+    "production": 4.1,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1981,
+    "production": 4.01,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1980,
+    "production": 4,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  },
+  {
+    "year": 1979,
+    "production": 3.95,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1978,
+    "production": 3.89,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1977,
+    "production": 3.79,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1976,
+    "production": 3.67,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1975,
+    "production": 3.47,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1974,
+    "production": 3.33,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1973,
+    "production": 3.21,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1972,
+    "production": 3.11,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1971,
+    "production": 3.05,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "medium"
+  },
+  {
+    "year": 1970,
+    "production": 3,
+    "unit": "million-metric-tons",
+    "source": "irsg",
+    "quality": "high"
+  }
+]
