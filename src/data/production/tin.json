@@ -1,0 +1,380 @@
+[
+  {
+    "year": 2023,
+    "production": 300000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 2022,
+    "production": 295300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2021,
+    "production": 286900,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2020,
+    "production": 280000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 2019,
+    "production": 281000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2018,
+    "production": 281400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2017,
+    "production": 275900,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2016,
+    "production": 275700,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2015,
+    "production": 275400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2014,
+    "production": 275000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2013,
+    "production": 274800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2012,
+    "production": 269400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2011,
+    "production": 269800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2010,
+    "production": 270000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 2009,
+    "production": 268900,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2008,
+    "production": 269200,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2007,
+    "production": 269200,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2006,
+    "production": 269000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2005,
+    "production": 263300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2004,
+    "production": 262900,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2003,
+    "production": 262700,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2002,
+    "production": 262600,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2001,
+    "production": 257700,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 2000,
+    "production": 260000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 1999,
+    "production": 261200,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1998,
+    "production": 254100,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1997,
+    "production": 250700,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1996,
+    "production": 246300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1995,
+    "production": 241400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1994,
+    "production": 236400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1993,
+    "production": 227300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1992,
+    "production": 223800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1991,
+    "production": 221600,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1990,
+    "production": 220000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 1989,
+    "production": 220800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1988,
+    "production": 223300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1987,
+    "production": 226500,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1986,
+    "production": 225600,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1985,
+    "production": 229500,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1984,
+    "production": 233400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1983,
+    "production": 237100,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1982,
+    "production": 235600,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1981,
+    "production": 238100,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1980,
+    "production": 240000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  },
+  {
+    "year": 1979,
+    "production": 238100,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1978,
+    "production": 238400,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1977,
+    "production": 238300,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1976,
+    "production": 237900,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1975,
+    "production": 232700,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1974,
+    "production": 232200,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1973,
+    "production": 231800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1972,
+    "production": 231600,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1971,
+    "production": 231800,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "medium"
+  },
+  {
+    "year": 1970,
+    "production": 230000,
+    "unit": "metric-tons",
+    "source": "usgs",
+    "quality": "high"
+  }
+]

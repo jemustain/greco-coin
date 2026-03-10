@@ -8,6 +8,43 @@ import Link from 'next/link'
 export default function SourcesPage() {
   const dataSources = [
     {
+      category: 'Production Data Sources',
+      sources: [
+        {
+          name: 'USGS Mineral Commodity Summaries',
+          organization: 'U.S. Geological Survey',
+          description: 'Annual world production volumes for metals (gold, silver, copper, iron, aluminum, tin, lead, zinc, nickel, platinum), cement, and sulphur',
+          coverage: '1970-Present',
+          url: 'https://www.usgs.gov/centers/national-minerals-information-center',
+          quality: 'High',
+        },
+        {
+          name: 'FAOSTAT',
+          organization: 'Food and Agriculture Organization (UN)',
+          description: 'Annual world production volumes for grains (rice, wheat, corn, barley, oats, rye), oilseeds (soy beans, peanuts), beverages (coffee, cocoa), fibers (cotton, jute, wool), and animal products (hides, copra, tallow, cotton seed, sugar)',
+          coverage: '1970-Present',
+          url: 'https://www.fao.org/faostat/',
+          quality: 'High',
+        },
+        {
+          name: 'EIA International Energy Statistics',
+          organization: 'U.S. Energy Information Administration',
+          description: 'Annual world petroleum production volumes',
+          coverage: '1970-Present',
+          url: 'https://www.eia.gov/',
+          quality: 'High',
+        },
+        {
+          name: 'International Rubber Study Group (IRSG)',
+          organization: 'International Rubber Study Group',
+          description: 'Annual world rubber production (natural and synthetic combined)',
+          coverage: '1970-Present',
+          url: 'https://www.rubberstudy.org/',
+          quality: 'High',
+        },
+      ],
+    },
+    {
       category: 'Metals (Precious & Industrial)',
       sources: [
         {

@@ -41,6 +41,11 @@ interface CommodityChartPoint {
   [key: string]: string | number | undefined
 }
 
+interface ProductionChartPoint {
+  year: number
+  [key: string]: string | number | undefined
+}
+
 const COMMODITY_COLORS = [
   '#dc2626', // Red
   '#16a34a', // Green
@@ -63,6 +68,12 @@ export default function HomePage() {
   const [commodityChartData, setCommodityChartData] = useState<CommodityChartPoint[]>([])
   const [commodityLoading, setCommodityLoading] = useState(false)
   const [commodityMetadata, setCommodityMetadata] = useState<Record<string, { name: string }>>({})
+
+  // Production chart state
+  const [selectedProductionCommodities, setSelectedProductionCommodities] = useState<string[]>([])
+  const [productionChartData, setProductionChartData] = useState<ProductionChartPoint[]>([])
+  const [productionLoading, setProductionLoading] = useState(false)
+  const [productionMetadata, setProductionMetadata] = useState<Record<string, { name: string; unit: string }>>({})
 
   // Load commodities on mount
   useEffect(() => {
@@ -183,6 +194,71 @@ export default function HomePage() {
         setCommodityLoading(false)
       })
   }, [selectedCommodities, startDate, endDate, baselineYear])
+
+  // Load production data when selection changes
+  useEffect(() => {
+    if (selectedProductionCommodities.length === 0) {
+      setProductionChartData([])
+      return
+    }
+
+    setProductionLoading(true)
+    const url = `/api/production-timeseries?commodities=${selectedProductionCommodities.join(',')}&startYear=1970&endYear=2023`
+
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.json()
+      })
+      .then((data) => {
+        // Build metadata map
+        const metaMap: Record<string, { name: string; unit: string }> = {}
+        if (data.metadata) {
+          for (const m of data.metadata) {
+            metaMap[m.id] = { name: m.name, unit: m.unit }
+          }
+        }
+        setProductionMetadata(metaMap)
+
+        // Normalize to 1990 baseline
+        const allYears = new Set<number>()
+        const normalizedSeries: Record<string, Map<number, number>> = {}
+
+        for (const [commodityId, points] of Object.entries(data.commodities)) {
+          const prodArray = points as Array<{ year: number; production: number }>
+          // Find 1990 value for baseline
+          const baseline1990 = prodArray.find(p => p.year === 1990)
+          let baselineVal = baseline1990?.production
+          if (!baselineVal) {
+            // Closest year fallback
+            const sorted = [...prodArray].sort((a, b) => Math.abs(a.year - 1990) - Math.abs(b.year - 1990))
+            baselineVal = sorted[0]?.production || 1
+          }
+
+          normalizedSeries[commodityId] = new Map()
+          for (const p of prodArray) {
+            allYears.add(p.year)
+            normalizedSeries[commodityId].set(p.year, p.production / baselineVal)
+          }
+        }
+
+        const sortedYears = Array.from(allYears).sort((a, b) => a - b)
+        const merged: ProductionChartPoint[] = sortedYears.map((year) => {
+          const point: ProductionChartPoint = { year }
+          for (const commodityId of selectedProductionCommodities) {
+            point[commodityId] = normalizedSeries[commodityId]?.get(year) ?? undefined
+          }
+          return point
+        })
+
+        setProductionChartData(merged)
+        setProductionLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to load production data:', err)
+        setProductionLoading(false)
+      })
+  }, [selectedProductionCommodities])
 
   const handleDateRangeChange = (start: Date, end: Date) => {
     setStartDate(start)
@@ -417,6 +493,108 @@ export default function HomePage() {
             )}
           </div>
         )}
+
+        {/* Explanation sections */}
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
+            World Production Volume
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            Annual production volumes for selected commodities. All values normalized to 1990 = 1.0 for comparison across different units.
+          </p>
+
+          <CommoditySelector
+            commodities={allCommodities}
+            selectedCommodities={selectedProductionCommodities}
+            onSelectionChange={setSelectedProductionCommodities}
+            maxSelections={5}
+          />
+
+          {selectedProductionCommodities.length > 0 && (
+            <>
+              {productionLoading && (
+                <div className="flex items-center justify-center mt-4" style={{ height: 350 }}>
+                  <Loading size="lg" text="Loading production data..." />
+                </div>
+              )}
+
+              {!productionLoading && productionChartData.length > 0 && (
+                <div className="chart-container mt-4">
+                  <ResponsiveContainer width="100%" height={350}>
+                    <LineChart
+                      data={productionChartData}
+                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                    >
+                      <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                      <XAxis
+                        dataKey="year"
+                        stroke="#6b7280"
+                        style={{ fontSize: '0.75rem' }}
+                      />
+                      <YAxis
+                        stroke="#6b7280"
+                        style={{ fontSize: '0.75rem' }}
+                        tickFormatter={formatNormalizedYAxis}
+                        label={{
+                          value: 'Production relative to 1990 (1.0)',
+                          angle: -90,
+                          position: 'insideLeft',
+                          style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
+                        }}
+                      />
+                      <ReferenceLine
+                        y={1.0}
+                        stroke="#9ca3af"
+                        strokeDasharray="6 4"
+                        strokeWidth={1.5}
+                        label={{
+                          value: '1990 baseline',
+                          position: 'right',
+                          fontSize: 11,
+                          fill: '#6b7280',
+                        }}
+                      />
+                      <Tooltip
+                        formatter={(value: number, name: string) => [
+                          value?.toFixed(3) ?? '—',
+                          productionMetadata[name]?.name || name,
+                        ]}
+                        labelFormatter={(label) => `${label}`}
+                      />
+                      <Legend
+                        wrapperStyle={{ fontSize: '0.875rem' }}
+                        iconType="line"
+                        formatter={(value: string) =>
+                          productionMetadata[value]?.name || value
+                        }
+                      />
+                      {selectedProductionCommodities.map((id, i) => (
+                        <Line
+                          key={id}
+                          type="monotone"
+                          dataKey={id}
+                          name={id}
+                          stroke={COMMODITY_COLORS[i % COMMODITY_COLORS.length]}
+                          strokeWidth={2}
+                          dot={false}
+                          activeDot={{ r: 5 }}
+                          animationDuration={300}
+                          connectNulls
+                        />
+                      ))}
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+              )}
+
+              {!productionLoading && productionChartData.length === 0 && (
+                <div className="flex items-center justify-center h-40 text-gray-500">
+                  No production data available for selected commodities.
+                </div>
+              )}
+            </>
+          )}
+        </div>
 
         {/* Explanation sections */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
