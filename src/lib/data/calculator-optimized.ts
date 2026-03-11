@@ -18,6 +18,7 @@ import {
   loadExchangeRate,
   PricePoint 
 } from './loader-optimized';
+import { computeProductionWeights } from './weights';
 
 /**
  * Find price closest to target date
@@ -41,7 +42,8 @@ function findClosestPrice(
 export async function calculateGrecoValueOptimized(
   date: Date,
   currencyId: string,
-  pricesCache?: Record<string, PricePoint[]>
+  pricesCache?: Record<string, PricePoint[]>,
+  customWeights?: Record<string, number>
 ): Promise<GrecoValue | null> {
   const basketWeights = await loadBasketWeights();
   
@@ -55,14 +57,15 @@ export async function calculateGrecoValueOptimized(
     new Date(date.getTime() + 30 * 24 * 60 * 60 * 1000)  // Look 30 days after
   );
   
-  // Find closest prices for each commodity
+  // Find closest prices for each commodity, using custom weights if provided
   const commodityPrices = basketWeights.weights.map(weightEntry => {
     const prices = allPrices[weightEntry.commodityId] || [];
     const closestPrice = findClosestPrice(prices as Array<{ date: Date; priceUSD: number }>, date);
+    const weight = customWeights ? (customWeights[weightEntry.commodityId] ?? 0) : weightEntry.weight;
     
     return {
       commodityId: weightEntry.commodityId,
-      weight: weightEntry.weight,
+      weight,
       price: closestPrice,
     };
   });
@@ -120,10 +123,23 @@ export async function calculateGrecoTimeSeriesOptimized(
   startDate: Date,
   endDate: Date,
   currencyId: string = 'USD',
-  interval: 'monthly' | 'quarterly' | 'annual' = 'monthly'
+  interval: 'monthly' | 'quarterly' | 'annual' = 'monthly',
+  baselineYear?: number
 ): Promise<GrecoValue[]> {
-  console.log(`🚀 Calculating Greco time series (optimized) from ${startDate.toISOString().split('T')[0]} to ${endDate.toISOString().split('T')[0]}`);
+  console.log(`🚀 Calculating Greco time series (optimized) from ${startDate.toISOString().split('T')[0]} to ${endDate.toISOString().split('T')[0]}${baselineYear ? ` [weights from ${baselineYear}]` : ''}`);
   const startTime = performance.now();
+  
+  // Compute production-based weights if baseline year provided
+  let customWeights: Record<string, number> | undefined;
+  if (baselineYear) {
+    console.log(`⚖️ Computing production-based weights for baseline year ${baselineYear}...`);
+    customWeights = await computeProductionWeights(baselineYear);
+    const topWeights = Object.entries(customWeights)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([id, w]) => `${id}: ${(w * 100).toFixed(1)}%`);
+    console.log(`⚖️ Top 5 weights: ${topWeights.join(', ')}`);
+  }
   
   const basketWeights = await loadBasketWeights();
   const commodityIds = basketWeights.weights.map(w => w.commodityId);
@@ -161,7 +177,7 @@ export async function calculateGrecoTimeSeriesOptimized(
   const grecoValues: GrecoValue[] = [];
   
   for (const date of dates) {
-    const grecoValue = await calculateGrecoValueOptimized(date, currencyId, allPrices);
+    const grecoValue = await calculateGrecoValueOptimized(date, currencyId, allPrices, customWeights);
     if (grecoValue) {
       grecoValues.push(grecoValue);
     }

@@ -108,7 +108,7 @@ export default function HomePage() {
 
     const startDateStr = startDate.toISOString().split('T')[0]
     const endDateStr = endDate.toISOString().split('T')[0]
-    const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=USD&interval=monthly`
+    const url = `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=USD&interval=monthly&baselineYear=${baselineYear}`
 
     fetch(url)
       .then((res) => {
@@ -129,7 +129,7 @@ export default function HomePage() {
         setError('Failed to calculate Greco values: ' + err.message)
         setLoading(false)
       })
-  }, [startDate, endDate])
+  }, [startDate, endDate, baselineYear])
 
   // Normalize Greco data
   const normalizedChartData = useMemo(
