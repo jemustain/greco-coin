@@ -105,3 +105,39 @@ export function getAvailableYears(data: TimeSeriesDataPoint[]): number[] {
   const years = [...new Set(data.map((d) => d.dateObj.getFullYear()))]
   return years.sort((a, b) => a - b)
 }
+
+/**
+ * Smart downsampling based on date range span.
+ * - ≤ 2 years: all monthly points
+ * - 2–10 years: quarterly (every 3 months)
+ * - 10–30 years: semi-annual (every 6 months)
+ * - 30+ years: annual (one per year)
+ */
+export function downsampleTimeSeries<T extends { date: string }>(
+  data: T[],
+  startDate: Date,
+  endDate: Date
+): T[] {
+  if (data.length === 0) return data
+
+  const spanMs = endDate.getTime() - startDate.getTime()
+  const spanYears = spanMs / (365.25 * 24 * 60 * 60 * 1000)
+
+  if (spanYears <= 2) return data
+
+  let intervalMonths: number
+  if (spanYears <= 10) intervalMonths = 3
+  else if (spanYears <= 30) intervalMonths = 6
+  else intervalMonths = 12
+
+  // Group by bucket and pick first point in each bucket
+  const seen = new Set<string>()
+  return data.filter((point) => {
+    const d = new Date(point.date)
+    const bucketMonth = Math.floor(d.getMonth() / intervalMonths) * intervalMonths
+    const key = `${d.getFullYear()}-${bucketMonth}`
+    if (seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
+}
