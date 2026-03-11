@@ -10,20 +10,13 @@ import DataTable from '@/components/data/DataTable'
 import PivotControls, { PivotMode, ViewMode } from '@/components/data/PivotControls'
 import ExportButton from '@/components/data/ExportButton'
 import Loading from '@/components/ui/Loading'
+import { loadCurrencies } from '@/lib/data/loader'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 import { formatCurrency } from '@/lib/utils/format'
 
-// Single USD currency for the scoped-down version
-const USD_CURRENCY: Currency = {
-  id: 'USD',
-  name: 'US Dollar',
-  symbol: '$',
-  isoCode: 'USD',
-  decimals: 2,
-}
-
 export default function DataPage() {
+  const [currencies, setCurrencies] = useState<Currency[]>([])
   const [grecoData, setGrecoData] = useState<GrecoValue[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -31,14 +24,16 @@ export default function DataPage() {
   const [viewMode, setViewMode] = useState<ViewMode>('table')
   const [pivotMode, setPivotMode] = useState<PivotMode>('by-year')
 
-  const currencies = [USD_CURRENCY]
-
   // Load data via API (much faster than client-side calculation)
   useEffect(() => {
     async function loadData() {
       try {
         setLoading(true)
         setError(null)
+
+        const allCurrencies = await loadCurrencies()
+        const usdOnly = allCurrencies.filter(c => c.id === 'USD')
+        setCurrencies(usdOnly)
 
         const res = await fetch(
           `/api/greco-timeseries?startDate=1960-01-01&endDate=${new Date().toISOString().split('T')[0]}&currency=USD&interval=annual`
