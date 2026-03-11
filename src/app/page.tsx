@@ -24,6 +24,7 @@ import Loading from '@/components/ui/Loading'
 import { loadCommodities } from '@/lib/data/loader'
 import { convertToTimeSeriesData, sampleDataForPerformance, assignColors } from '@/lib/utils/chart'
 import { normalizeToBaseline, normalizePricesToBaseline, getAvailableYears, downsampleTimeSeries } from '@/lib/utils/normalize'
+import { BarChart, Bar, Cell } from 'recharts'
 import { presetRanges } from '@/lib/utils/date'
 import { formatDate } from '@/lib/utils/date'
 import { TimeSeriesDataPoint } from '@/lib/utils/chart'
@@ -75,6 +76,10 @@ export default function HomePage() {
   const [productionLoading, setProductionLoading] = useState(false)
   const [productionMetadata, setProductionMetadata] = useState<Record<string, { name: string; unit: string }>>({})
 
+  // Market value (price × quantity) state
+  const [marketValueData, setMarketValueData] = useState<Array<{ id: string; name: string; value: number }>>([])
+  const [marketValueLoading, setMarketValueLoading] = useState(false)
+  const [marketValueYear, setMarketValueYear] = useState(2023)
   // Load commodities on mount
   useEffect(() => {
     loadCommodities()
@@ -277,6 +282,36 @@ export default function HomePage() {
         setProductionLoading(false)
       })
   }, [selectedProductionCommodities, baselineYear])
+
+  // Load market value data (price × quantity) for all commodities
+  useEffect(() => {
+    setMarketValueLoading(true)
+    fetch(`/api/market-value?startYear=${marketValueYear}&endYear=${marketValueYear}`)
+      .then(res => res.json())
+      .then(data => {
+        const entries: Array<{ id: string; name: string; value: number }> = []
+        for (const [id, series] of Object.entries(data.commodities || {})) {
+          const points = series as Array<{ year: number; marketValueMillionUSD: number }>
+          const point = points.find(p => p.year === marketValueYear)
+          if (point) {
+            const commodity = allCommodities.find(c => c.id === id)
+            entries.push({
+              id,
+              name: commodity?.name || id,
+              value: point.marketValueMillionUSD,
+            })
+          }
+        }
+        // Sort by value descending
+        entries.sort((a, b) => b.value - a.value)
+        setMarketValueData(entries)
+        setMarketValueLoading(false)
+      })
+      .catch(err => {
+        console.error('Failed to load market value data:', err)
+        setMarketValueLoading(false)
+      })
+  }, [marketValueYear, allCommodities])
 
   const handleDateRangeChange = (start: Date, end: Date) => {
     setStartDate(start)
@@ -630,6 +665,107 @@ export default function HomePage() {
                 </div>
               )}
             </>
+          )}
+        </div>
+
+        {/* Market Value Chart (Price × Quantity) */}
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+            <div>
+              <h2 className="text-xl font-semibold text-gray-900">
+                Commodity Market Values (Price × Production)
+              </h2>
+              <p className="text-sm text-gray-500 mt-1">
+                Annual market value in millions USD — shows relative economic weight of each commodity in the basket.
+              </p>
+            </div>
+            <div className="flex items-center gap-2">
+              <label htmlFor="mv-year" className="text-sm font-medium text-gray-700">Year:</label>
+              <select
+                id="mv-year"
+                value={marketValueYear}
+                onChange={(e) => setMarketValueYear(Number(e.target.value))}
+                className="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+              >
+                {Array.from({ length: 54 }, (_, i) => 2023 - i).map(y => (
+                  <option key={y} value={y}>{y}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          {marketValueLoading && (
+            <div className="flex items-center justify-center h-40">
+              <Loading />
+            </div>
+          )}
+
+          {!marketValueLoading && marketValueData.length > 0 && (
+            <div className="chart-container">
+              <ResponsiveContainer width="100%" height={Math.max(400, marketValueData.length * 28)}>
+                <BarChart
+                  data={marketValueData}
+                  layout="vertical"
+                  margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" horizontal={false} />
+                  <XAxis
+                    type="number"
+                    tickFormatter={(v: number) => {
+                      if (v >= 1_000_000) return `$${(v / 1_000_000).toFixed(0)}T`
+                      if (v >= 1_000) return `$${(v / 1_000).toFixed(0)}B`
+                      return `$${v.toFixed(0)}M`
+                    }}
+                    style={{ fontSize: '0.75rem' }}
+                  />
+                  <YAxis
+                    type="category"
+                    dataKey="name"
+                    width={110}
+                    style={{ fontSize: '0.7rem' }}
+                    tick={{ fill: '#374151' }}
+                  />
+                  <Tooltip
+                    formatter={(value: number) => {
+                      if (value >= 1_000_000) return [`$${(value / 1_000_000).toFixed(2)} trillion`, 'Market Value']
+                      if (value >= 1_000) return [`$${(value / 1_000).toFixed(2)} billion`, 'Market Value']
+                      return [`$${value.toFixed(2)} million`, 'Market Value']
+                    }}
+                  />
+                  <Bar dataKey="value" radius={[0, 4, 4, 0]}>
+                    {marketValueData.map((entry, index) => (
+                      <Cell
+                        key={entry.id}
+                        fill={COMMODITY_COLORS[index % COMMODITY_COLORS.length]}
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
+
+              {/* Weight summary */}
+              {marketValueData.length > 0 && (() => {
+                const total = marketValueData.reduce((sum, d) => sum + d.value, 0)
+                const top5 = marketValueData.slice(0, 5)
+                const top5Pct = ((top5.reduce((s, d) => s + d.value, 0) / total) * 100).toFixed(1)
+                return (
+                  <div className="mt-4 p-4 bg-gray-50 rounded-lg text-sm text-gray-700">
+                    <p className="font-medium mb-2">Production-based weight insights ({marketValueYear}):</p>
+                    <ul className="space-y-1">
+                      <li>• Top 5 commodities ({top5.map(d => d.name).join(', ')}) represent <strong>{top5Pct}%</strong> of total basket value</li>
+                      <li>• Total basket market value: <strong>${total >= 1_000_000 ? `${(total / 1_000_000).toFixed(1)} trillion` : `${(total / 1_000).toFixed(1)} billion`}</strong></li>
+                      <li>• Current basket uses equal weighting (1/32 each). Production-based weights would reflect these proportions.</li>
+                    </ul>
+                  </div>
+                )
+              })()}
+            </div>
+          )}
+
+          {!marketValueLoading && marketValueData.length === 0 && (
+            <div className="flex items-center justify-center h-40 text-gray-500">
+              No market value data available for {marketValueYear}.
+            </div>
           )}
         </div>
 
