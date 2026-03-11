@@ -1,21 +1,21 @@
 /**
  * Data Page - Access raw Greco historical currency data
- * Features: filtering, sorting, pagination, pivot views, CSV export
+ * Features: date range selection, interval control, sorting, pagination, pivot views, CSV export
  */
 
 'use client'
 
-import React, { useState, useEffect, useMemo } from 'react'
+import React, { useState, useEffect, useMemo, useCallback } from 'react'
 import DataTable from '@/components/data/DataTable'
 import PivotControls, { PivotMode, ViewMode } from '@/components/data/PivotControls'
 import ExportButton from '@/components/data/ExportButton'
 import Loading from '@/components/ui/Loading'
 import { loadCurrencies } from '@/lib/data/loader'
-import { calculateGrecoTimeSeries } from '@/lib/data/calculator'
-import { pivotByYear, pivotByCurrency } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 import { formatCurrency } from '@/lib/utils/format'
+
+type Interval = 'monthly' | 'quarterly' | 'annual'
 
 export default function DataPage() {
   const [currencies, setCurrencies] = useState<Currency[]>([])
@@ -26,48 +26,51 @@ export default function DataPage() {
   const [viewMode, setViewMode] = useState<ViewMode>('table')
   const [pivotMode, setPivotMode] = useState<PivotMode>('by-year')
 
-  // Load data
+  // User-controllable date range and interval
+  const [startYear, setStartYear] = useState(1960)
+  const [endYear, setEndYear] = useState(new Date().getFullYear())
+  const [interval, setInterval] = useState<Interval>('annual')
+
+  // Load currencies once
   useEffect(() => {
-    async function loadData() {
-      try {
-        setLoading(true)
-        setError(null)
-
-        const currenciesData = await loadCurrencies()
-        setCurrencies(currenciesData)
-
-        // Calculate Greco values for all currencies
-        const allGrecoData: GrecoValue[] = []
-        
-        // Define date range for data loading
-        const startDate = new Date('1900-01-01')
-        const endDate = new Date()
-        
-        for (const currency of currenciesData) {
-          try {
-            const currencyGrecoData = await calculateGrecoTimeSeries(
-              startDate,
-              endDate,
-              currency.id,
-              'annual' // Use annual data for better performance
-            )
-            allGrecoData.push(...currencyGrecoData)
-          } catch (err) {
-            console.warn(`Failed to load data for ${currency.id}:`, err)
-          }
-        }
-
-        setGrecoData(allGrecoData)
-      } catch (err) {
-        console.error('Failed to load data:', err)
-        setError('Failed to load currency data. Please try again later.')
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    loadData()
+    loadCurrencies().then(all => {
+      setCurrencies(all.filter(c => c.id === 'USD'))
+    })
   }, [])
+
+  // Fetch data when range/interval changes
+  const fetchData = useCallback(async () => {
+    try {
+      setLoading(true)
+      setError(null)
+
+      const res = await fetch(
+        `/api/greco-timeseries?startDate=${startYear}-01-01&endDate=${endYear}-12-31&currency=USD&interval=${interval}`
+      )
+      if (!res.ok) throw new Error(`API error: ${res.status}`)
+      const data = await res.json()
+
+      const grecoValues: GrecoValue[] = (data.timeSeries || []).map(
+        (point: { date: string; value: number; completeness?: number }) => ({
+          date: new Date(point.date),
+          currencyId: 'USD',
+          value: point.value,
+          completeness: point.completeness ?? 1,
+        })
+      )
+
+      setGrecoData(grecoValues)
+    } catch (err) {
+      console.error('Failed to load data:', err)
+      setError('Failed to load data. Please try again later.')
+    } finally {
+      setLoading(false)
+    }
+  }, [startYear, endYear, interval])
+
+  useEffect(() => {
+    fetchData()
+  }, [fetchData])
 
   // Get unique years for pivot
   const years = useMemo(() => {
@@ -78,21 +81,33 @@ export default function DataPage() {
     return Array.from(yearSet).sort((a, b) => a - b)
   }, [grecoData])
 
-  // Get currency IDs
-  const currencyIds = useMemo(() => {
-    return currencies.map((c) => c.id)
-  }, [currencies])
-
   // Prepare pivot data
   const pivotData = useMemo(() => {
     if (viewMode !== 'pivot') return null
 
     if (pivotMode === 'by-year') {
-      return pivotByYear(grecoData, currencyIds)
+      const byYear = new Map<number, Record<string, unknown>>()
+      grecoData.forEach((gv) => {
+        const year = gv.date.getFullYear()
+        if (!byYear.has(year)) {
+          byYear.set(year, { year })
+        }
+        byYear.get(year)![gv.currencyId] = gv.value
+      })
+      return Array.from(byYear.values()).sort(
+        (a, b) => (a.year as number) - (b.year as number)
+      )
     } else {
-      return pivotByCurrency(grecoData, years)
+      const byCurrency = new Map<string, Record<string, unknown>>()
+      grecoData.forEach((gv) => {
+        if (!byCurrency.has(gv.currencyId)) {
+          byCurrency.set(gv.currencyId, { currency: gv.currencyId })
+        }
+        byCurrency.get(gv.currencyId)![gv.date.getFullYear().toString()] = gv.value
+      })
+      return Array.from(byCurrency.values())
     }
-  }, [viewMode, pivotMode, grecoData, currencyIds, years])
+  }, [viewMode, pivotMode, grecoData])
 
   // Get currency name by ID
   const getCurrencyName = (currencyId: string) => {
@@ -100,39 +115,14 @@ export default function DataPage() {
     return currency ? currency.name : currencyId
   }
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Loading />
-        </div>
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-            <div className="flex">
-              <div className="flex-shrink-0">
-                <svg className="h-5 w-5 text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <div className="ml-3">
-                <h3 className="text-sm font-medium text-red-800">Error Loading Data</h3>
-                <div className="mt-2 text-sm text-red-700">
-                  <p>{error}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    )
-  }
+  // Available years for dropdowns
+  const yearOptions = useMemo(() => {
+    const opts = []
+    for (let y = 1960; y <= new Date().getFullYear(); y++) {
+      opts.push(y)
+    }
+    return opts
+  }, [])
 
   return (
     <div className="min-h-screen bg-gray-50 py-12">
@@ -141,8 +131,64 @@ export default function DataPage() {
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Historical Data Access</h1>
           <p className="mt-2 text-lg text-gray-600">
-            View, filter, pivot, and export Greco historical currency data
+            View, filter, pivot, and export Greco historical data (USD)
           </p>
+        </div>
+
+        {/* Data Range Controls */}
+        <div className="bg-white rounded-lg shadow p-6">
+          <h3 className="text-lg font-semibold text-gray-900 mb-4">Data Range</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+              <label htmlFor="start-year" className="block text-sm font-medium text-gray-700 mb-1">
+                Start Year
+              </label>
+              <select
+                id="start-year"
+                value={startYear}
+                onChange={(e) => setStartYear(Number(e.target.value))}
+                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-sm"
+              >
+                {yearOptions.map((y) => (
+                  <option key={y} value={y} disabled={y > endYear}>
+                    {y}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label htmlFor="end-year" className="block text-sm font-medium text-gray-700 mb-1">
+                End Year
+              </label>
+              <select
+                id="end-year"
+                value={endYear}
+                onChange={(e) => setEndYear(Number(e.target.value))}
+                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-sm"
+              >
+                {yearOptions.map((y) => (
+                  <option key={y} value={y} disabled={y < startYear}>
+                    {y}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label htmlFor="interval" className="block text-sm font-medium text-gray-700 mb-1">
+                Interval
+              </label>
+              <select
+                id="interval"
+                value={interval}
+                onChange={(e) => setInterval(e.target.value as Interval)}
+                className="w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 text-sm"
+              >
+                <option value="annual">Annual</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="monthly">Monthly</option>
+              </select>
+            </div>
+          </div>
         </div>
 
         {/* Data Statistics */}
@@ -150,13 +196,13 @@ export default function DataPage() {
           <div className="bg-white rounded-lg shadow p-6">
             <div className="text-sm font-medium text-gray-500">Total Records</div>
             <div className="mt-2 text-3xl font-semibold text-gray-900">
-              {grecoData.length.toLocaleString()}
+              {loading ? '...' : grecoData.length.toLocaleString()}
             </div>
           </div>
           <div className="bg-white rounded-lg shadow p-6">
-            <div className="text-sm font-medium text-gray-500">Currencies</div>
+            <div className="text-sm font-medium text-gray-500">Currency</div>
             <div className="mt-2 text-3xl font-semibold text-gray-900">
-              {currencies.length}
+              USD
             </div>
           </div>
           <div className="bg-white rounded-lg shadow p-6">
@@ -167,38 +213,45 @@ export default function DataPage() {
           </div>
         </div>
 
-        {/* Controls Row */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Pivot Controls */}
-          <div className="lg:col-span-2">
-            <PivotControls
-              viewMode={viewMode}
-              pivotMode={pivotMode}
-              onViewModeChange={setViewMode}
-              onPivotModeChange={setPivotMode}
-            />
+        {loading ? (
+          <Loading />
+        ) : error ? (
+          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+            <p className="text-red-700">{error}</p>
           </div>
-
-          {/* Export Button */}
-          <div className="flex items-end">
-            <div className="w-full bg-white rounded-lg shadow p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Export Data</h3>
-              <ExportButton data={grecoData} filename="greco-historical-data" />
-            </div>
-          </div>
-        </div>
-
-        {/* Data Display */}
-        {viewMode === 'table' ? (
-          <DataTable data={grecoData} currencies={currencies} />
         ) : (
-          <PivotTable
-            data={pivotData || []}
-            mode={pivotMode}
-            currencies={currencies}
-            years={years}
-            getCurrencyName={getCurrencyName}
-          />
+          <>
+            {/* Controls Row */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              <div className="lg:col-span-2">
+                <PivotControls
+                  viewMode={viewMode}
+                  pivotMode={pivotMode}
+                  onViewModeChange={setViewMode}
+                  onPivotModeChange={setPivotMode}
+                />
+              </div>
+              <div className="flex items-end">
+                <div className="w-full bg-white rounded-lg shadow p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Export Data</h3>
+                  <ExportButton data={grecoData} filename="greco-historical-data" />
+                </div>
+              </div>
+            </div>
+
+            {/* Data Display */}
+            {viewMode === 'table' ? (
+              <DataTable data={grecoData} currencies={currencies} />
+            ) : (
+              <PivotTable
+                data={pivotData || []}
+                mode={pivotMode}
+                currencies={currencies}
+                years={years}
+                getCurrencyName={getCurrencyName}
+              />
+            )}
+          </>
         )}
 
         {/* Help Section */}
@@ -206,20 +259,18 @@ export default function DataPage() {
           <h3 className="text-lg font-semibold text-blue-900 mb-4">Using This Page</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-blue-800">
             <div>
-              <h4 className="font-semibold mb-2">Standard Table View</h4>
+              <h4 className="font-semibold mb-2">Data Controls</h4>
               <ul className="list-disc list-inside space-y-1">
-                <li>Filter by currency and date range</li>
-                <li>Sort by clicking column headers</li>
-                <li>Paginate through large datasets</li>
-                <li>Responsive card view on mobile</li>
+                <li>Select start/end year to define the range</li>
+                <li>Choose interval: annual, quarterly, or monthly</li>
+                <li>Export downloads all data in the selected range</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2">Pivot Table View</h4>
+              <h4 className="font-semibold mb-2">Views</h4>
               <ul className="list-disc list-inside space-y-1">
-                <li>Pivot by year to compare currencies</li>
-                <li>Pivot by currency to see trends over time</li>
-                <li>Horizontal scrolling for many columns</li>
+                <li>Table view with sorting and pagination</li>
+                <li>Pivot by year for annual summaries</li>
                 <li>Export in either view format</li>
               </ul>
             </div>
@@ -313,7 +364,6 @@ function PivotTable({ data, mode, currencies, years, getCurrencyName }: PivotTab
         </table>
       </div>
 
-      {/* Scroll Hint */}
       <div className="bg-gray-50 border-t border-gray-200 px-6 py-3 text-xs text-gray-500 text-center">
         ← Scroll horizontally to view all columns →
       </div>
