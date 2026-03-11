@@ -80,6 +80,7 @@ export default function HomePage() {
   const [marketValueData, setMarketValueData] = useState<Array<{ id: string; name: string; value: number }>>([])
   const [marketValueLoading, setMarketValueLoading] = useState(false)
   const [marketValueYear, setMarketValueYear] = useState(2023)
+  const [marketValueMode, setMarketValueMode] = useState<'percent' | 'log'>('percent')
   // Load commodities on mount
   useEffect(() => {
     loadCommodities()
@@ -676,21 +677,37 @@ export default function HomePage() {
                 Commodity Market Values (Price × Production)
               </h2>
               <p className="text-sm text-gray-500 mt-1">
-                Annual market value in millions USD — shows relative economic weight of each commodity in the basket.
+                {marketValueMode === 'percent'
+                  ? 'Share of total basket value — what production-based weights would look like.'
+                  : 'Absolute market value (log scale) — shows magnitude differences across commodities.'}
               </p>
             </div>
-            <div className="flex items-center gap-2">
-              <label htmlFor="mv-year" className="text-sm font-medium text-gray-700">Year:</label>
-              <select
-                id="mv-year"
-                value={marketValueYear}
-                onChange={(e) => setMarketValueYear(Number(e.target.value))}
-                className="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
-              >
-                {Array.from({ length: 54 }, (_, i) => 2023 - i).map(y => (
-                  <option key={y} value={y}>{y}</option>
-                ))}
-              </select>
+            <div className="flex items-center gap-3 flex-wrap">
+              <div className="flex items-center gap-2">
+                <label htmlFor="mv-mode" className="text-sm font-medium text-gray-700">View:</label>
+                <select
+                  id="mv-mode"
+                  value={marketValueMode}
+                  onChange={(e) => setMarketValueMode(e.target.value as 'percent' | 'log')}
+                  className="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+                >
+                  <option value="percent">% of Total</option>
+                  <option value="log">Log Scale (USD)</option>
+                </select>
+              </div>
+              <div className="flex items-center gap-2">
+                <label htmlFor="mv-year" className="text-sm font-medium text-gray-700">Year:</label>
+                <select
+                  id="mv-year"
+                  value={marketValueYear}
+                  onChange={(e) => setMarketValueYear(Number(e.target.value))}
+                  className="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+                >
+                  {Array.from({ length: 54 }, (_, i) => 2023 - i).map(y => (
+                    <option key={y} value={y}>{y}</option>
+                  ))}
+                </select>
+              </div>
             </div>
           </div>
 
@@ -700,67 +717,80 @@ export default function HomePage() {
             </div>
           )}
 
-          {!marketValueLoading && marketValueData.length > 0 && (
-            <div className="chart-container">
-              <ResponsiveContainer width="100%" height={Math.max(400, marketValueData.length * 28)}>
-                <BarChart
-                  data={marketValueData}
-                  layout="vertical"
-                  margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
-                >
-                  <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" horizontal={false} />
-                  <XAxis
-                    type="number"
-                    tickFormatter={(v: number) => {
-                      if (v >= 1_000_000) return `$${(v / 1_000_000).toFixed(0)}T`
-                      if (v >= 1_000) return `$${(v / 1_000).toFixed(0)}B`
-                      return `$${v.toFixed(0)}M`
-                    }}
-                    style={{ fontSize: '0.75rem' }}
-                  />
-                  <YAxis
-                    type="category"
-                    dataKey="name"
-                    width={110}
-                    style={{ fontSize: '0.7rem' }}
-                    tick={{ fill: '#374151' }}
-                  />
-                  <Tooltip
-                    formatter={(value: number) => {
-                      if (value >= 1_000_000) return [`$${(value / 1_000_000).toFixed(2)} trillion`, 'Market Value']
-                      if (value >= 1_000) return [`$${(value / 1_000).toFixed(2)} billion`, 'Market Value']
-                      return [`$${value.toFixed(2)} million`, 'Market Value']
-                    }}
-                  />
-                  <Bar dataKey="value" radius={[0, 4, 4, 0]}>
-                    {marketValueData.map((entry, index) => (
-                      <Cell
-                        key={entry.id}
-                        fill={COMMODITY_COLORS[index % COMMODITY_COLORS.length]}
-                      />
-                    ))}
-                  </Bar>
-                </BarChart>
-              </ResponsiveContainer>
+          {!marketValueLoading && marketValueData.length > 0 && (() => {
+            const total = marketValueData.reduce((sum, d) => sum + d.value, 0)
+            const chartData = marketValueMode === 'percent'
+              ? marketValueData.map(d => ({
+                  ...d,
+                  displayValue: Math.round((d.value / total) * 10000) / 100,
+                  tooltipLabel: `${((d.value / total) * 100).toFixed(2)}% — $${d.value >= 1_000_000 ? `${(d.value / 1_000_000).toFixed(2)}T` : d.value >= 1_000 ? `${(d.value / 1_000).toFixed(1)}B` : `${d.value.toFixed(0)}M`}`,
+                }))
+              : marketValueData.map(d => ({
+                  ...d,
+                  displayValue: d.value,
+                  tooltipLabel: `$${d.value >= 1_000_000 ? `${(d.value / 1_000_000).toFixed(2)}T` : d.value >= 1_000 ? `${(d.value / 1_000).toFixed(2)}B` : `${d.value.toFixed(1)}M`} (${((d.value / total) * 100).toFixed(2)}%)`,
+                }))
 
-              {/* Weight summary */}
-              {marketValueData.length > 0 && (() => {
-                const total = marketValueData.reduce((sum, d) => sum + d.value, 0)
-                const top5 = marketValueData.slice(0, 5)
-                const top5Pct = ((top5.reduce((s, d) => s + d.value, 0) / total) * 100).toFixed(1)
-                return (
-                  <div className="mt-4 p-4 bg-gray-50 rounded-lg text-sm text-gray-700">
-                    <p className="font-medium mb-2">Production-based weight insights ({marketValueYear}):</p>
-                    <ul className="space-y-1">
-                      <li>• Top 5 commodities ({top5.map(d => d.name).join(', ')}) represent <strong>{top5Pct}%</strong> of total basket value</li>
-                      <li>• Total basket market value: <strong>${total >= 1_000_000 ? `${(total / 1_000_000).toFixed(1)} trillion` : `${(total / 1_000).toFixed(1)} billion`}</strong></li>
-                      <li>• Current basket uses equal weighting (1/32 each). Production-based weights would reflect these proportions.</li>
-                    </ul>
-                  </div>
-                )
-              })()}
-            </div>
-          )}
+            return (
+              <div className="chart-container">
+                <ResponsiveContainer width="100%" height={Math.max(400, marketValueData.length * 28)}>
+                  <BarChart
+                    data={chartData}
+                    layout="vertical"
+                    margin={{ top: 5, right: 30, left: 120, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" horizontal={false} />
+                    <XAxis
+                      type="number"
+                      scale={marketValueMode === 'log' ? 'log' : 'auto'}
+                      domain={marketValueMode === 'log' ? ['auto', 'auto'] : [0, 'auto']}
+                      allowDataOverflow={marketValueMode === 'log'}
+                      tickFormatter={(v: number) => {
+                        if (marketValueMode === 'percent') return `${v}%`
+                        if (v >= 1_000_000) return `$${(v / 1_000_000).toFixed(0)}T`
+                        if (v >= 1_000) return `$${(v / 1_000).toFixed(0)}B`
+                        return `$${v.toFixed(0)}M`
+                      }}
+                      style={{ fontSize: '0.75rem' }}
+                    />
+                    <YAxis
+                      type="category"
+                      dataKey="name"
+                      width={110}
+                      style={{ fontSize: '0.7rem' }}
+                      tick={{ fill: '#374151' }}
+                    />
+                    <Tooltip
+                      formatter={(value: number, _name: string) => {
+                        if (marketValueMode === 'percent') return [`${value.toFixed(2)}%`, 'Weight']
+                        if (value >= 1_000_000) return [`$${(value / 1_000_000).toFixed(2)}T`, 'Market Value']
+                        if (value >= 1_000) return [`$${(value / 1_000).toFixed(2)}B`, 'Market Value']
+                        return [`$${value.toFixed(1)}M`, 'Market Value']
+                      }}
+                    />
+                    <Bar dataKey="displayValue" radius={[0, 4, 4, 0]}>
+                      {chartData.map((entry, index) => (
+                        <Cell
+                          key={entry.id}
+                          fill={COMMODITY_COLORS[index % COMMODITY_COLORS.length]}
+                        />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+
+                {/* Weight summary */}
+                <div className="mt-4 p-4 bg-gray-50 rounded-lg text-sm text-gray-700">
+                  <p className="font-medium mb-2">Production-based weight insights ({marketValueYear}):</p>
+                  <ul className="space-y-1">
+                    <li>• Top 5: {marketValueData.slice(0, 5).map(d => `${d.name} (${((d.value / total) * 100).toFixed(1)}%)`).join(', ')}</li>
+                    <li>• Total basket market value: <strong>${total >= 1_000_000 ? `${(total / 1_000_000).toFixed(1)} trillion` : `${(total / 1_000).toFixed(1)} billion`}</strong></li>
+                    <li>• Current basket uses equal weighting (1/32 = 3.1% each). These percentages show what production-based weights would be.</li>
+                  </ul>
+                </div>
+              </div>
+            )
+          })()}
 
           {!marketValueLoading && marketValueData.length === 0 && (
             <div className="flex items-center justify-center h-40 text-gray-500">
