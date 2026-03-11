@@ -23,7 +23,7 @@ import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
 import { loadCommodities } from '@/lib/data/loader'
 import { convertToTimeSeriesData, sampleDataForPerformance, assignColors } from '@/lib/utils/chart'
-import { normalizeToBaseline, normalizePricesToBaseline } from '@/lib/utils/normalize'
+import { normalizeToBaseline, normalizePricesToBaseline, getAvailableYears, downsampleTimeSeries } from '@/lib/utils/normalize'
 import { presetRanges } from '@/lib/utils/date'
 import { formatDate } from '@/lib/utils/date'
 import { TimeSeriesDataPoint } from '@/lib/utils/chart'
@@ -60,7 +60,7 @@ export default function HomePage() {
   const [chartData, setChartData] = useState<TimeSeriesDataPoint[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const baselineYear = 1990
+  const [baselineYear, setBaselineYear] = useState(1990)
 
   // Commodity state
   const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
@@ -131,6 +131,18 @@ export default function HomePage() {
     [chartData, baselineYear]
   )
 
+  // Available years for baseline selector
+  const availableYears = useMemo(
+    () => getAvailableYears(chartData),
+    [chartData]
+  )
+
+  // Downsample normalized data based on date range
+  const downsampledChartData = useMemo(
+    () => downsampleTimeSeries(normalizedChartData, startDate, endDate),
+    [normalizedChartData, startDate, endDate]
+  )
+
 
   // Load commodity data when selection changes
   useEffect(() => {
@@ -195,6 +207,12 @@ export default function HomePage() {
       })
   }, [selectedCommodities, startDate, endDate, baselineYear])
 
+  // Downsample commodity chart data
+  const downsampledCommodityData = useMemo(
+    () => downsampleTimeSeries(commodityChartData, startDate, endDate),
+    [commodityChartData, startDate, endDate]
+  )
+
   // Load production data when selection changes
   useEffect(() => {
     if (selectedProductionCommodities.length === 0) {
@@ -220,18 +238,18 @@ export default function HomePage() {
         }
         setProductionMetadata(metaMap)
 
-        // Normalize to 1990 baseline
+        // Normalize to baseline year
         const allYears = new Set<number>()
         const normalizedSeries: Record<string, Map<number, number>> = {}
 
         for (const [commodityId, points] of Object.entries(data.commodities)) {
           const prodArray = points as Array<{ year: number; production: number }>
           // Find 1990 value for baseline
-          const baseline1990 = prodArray.find(p => p.year === 1990)
+          const baseline1990 = prodArray.find(p => p.year === baselineYear)
           let baselineVal = baseline1990?.production
           if (!baselineVal) {
             // Closest year fallback
-            const sorted = [...prodArray].sort((a, b) => Math.abs(a.year - 1990) - Math.abs(b.year - 1990))
+            const sorted = [...prodArray].sort((a, b) => Math.abs(a.year - baselineYear) - Math.abs(b.year - baselineYear))
             baselineVal = sorted[0]?.production || 1
           }
 
@@ -258,7 +276,7 @@ export default function HomePage() {
         console.error('Failed to load production data:', err)
         setProductionLoading(false)
       })
-  }, [selectedProductionCommodities])
+  }, [selectedProductionCommodities, baselineYear])
 
   const handleDateRangeChange = (start: Date, end: Date) => {
     setStartDate(start)
@@ -290,6 +308,25 @@ export default function HomePage() {
           endDate={endDate}
           onDateRangeChange={handleDateRangeChange}
         />
+
+        {/* Baseline Year Selector */}
+        {availableYears.length > 0 && (
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 flex items-center gap-3">
+            <label htmlFor="baseline-year" className="text-sm font-medium text-gray-700 whitespace-nowrap">
+              Baseline Year (= 1.0)
+            </label>
+            <select
+              id="baseline-year"
+              value={baselineYear}
+              onChange={(e) => setBaselineYear(Number(e.target.value))}
+              className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+            >
+              {availableYears.map((year) => (
+                <option key={year} value={year}>{year}</option>
+              ))}
+            </select>
+          </div>
+        )}
 
         {/* Normalized Greco Chart */}
         <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
@@ -335,11 +372,11 @@ export default function HomePage() {
             </div>
           )}
 
-          {!loading && !error && normalizedChartData.length > 0 && (
+          {!loading && !error && downsampledChartData.length > 0 && (
             <div className="chart-container">
               <ResponsiveContainer width="100%" height={400}>
                 <LineChart
-                  data={normalizedChartData}
+                  data={downsampledChartData}
                   margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
                 >
                   <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -417,11 +454,11 @@ export default function HomePage() {
               </div>
             )}
 
-            {!commodityLoading && commodityChartData.length > 0 && (
+            {!commodityLoading && downsampledCommodityData.length > 0 && (
               <div className="chart-container">
                 <ResponsiveContainer width="100%" height={350}>
                   <LineChart
-                    data={commodityChartData}
+                    data={downsampledCommodityData}
                     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
                   >
                     <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
@@ -486,7 +523,7 @@ export default function HomePage() {
               </div>
             )}
 
-            {!commodityLoading && commodityChartData.length === 0 && (
+            {!commodityLoading && downsampledCommodityData.length === 0 && (
               <div className="flex items-center justify-center h-40 text-gray-500">
                 No price data available for selected commodities in this date range.
               </div>
@@ -500,7 +537,7 @@ export default function HomePage() {
             World Production Volume
           </h2>
           <p className="text-sm text-gray-500 mb-4">
-            Annual production volumes for selected commodities. All values normalized to 1990 = 1.0 for comparison across different units.
+            Annual production volumes for selected commodities. All values normalized to {baselineYear} = 1.0 for comparison across different units.
           </p>
 
           <CommoditySelector
@@ -536,7 +573,7 @@ export default function HomePage() {
                         style={{ fontSize: '0.75rem' }}
                         tickFormatter={formatNormalizedYAxis}
                         label={{
-                          value: 'Production relative to 1990 (1.0)',
+                          value: `Production relative to ${baselineYear} (1.0)`,
                           angle: -90,
                           position: 'insideLeft',
                           style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
@@ -548,7 +585,7 @@ export default function HomePage() {
                         strokeDasharray="6 4"
                         strokeWidth={1.5}
                         label={{
-                          value: '1990 baseline',
+                          value: `${baselineYear} baseline`,
                           position: 'right',
                           fontSize: 11,
                           fill: '#6b7280',

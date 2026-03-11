@@ -10,15 +10,20 @@ import DataTable from '@/components/data/DataTable'
 import PivotControls, { PivotMode, ViewMode } from '@/components/data/PivotControls'
 import ExportButton from '@/components/data/ExportButton'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies } from '@/lib/data/loader'
-import { calculateGrecoTimeSeries } from '@/lib/data/calculator'
-import { pivotByYear, pivotByCurrency } from '@/lib/utils/chart'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 import { formatCurrency } from '@/lib/utils/format'
 
+// Single USD currency for the scoped-down version
+const USD_CURRENCY: Currency = {
+  id: 'USD',
+  name: 'US Dollar',
+  symbol: '$',
+  isoCode: 'USD',
+  decimals: 2,
+}
+
 export default function DataPage() {
-  const [currencies, setCurrencies] = useState<Currency[]>([])
   const [grecoData, setGrecoData] = useState<GrecoValue[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -26,41 +31,34 @@ export default function DataPage() {
   const [viewMode, setViewMode] = useState<ViewMode>('table')
   const [pivotMode, setPivotMode] = useState<PivotMode>('by-year')
 
-  // Load data
+  const currencies = [USD_CURRENCY]
+
+  // Load data via API (much faster than client-side calculation)
   useEffect(() => {
     async function loadData() {
       try {
         setLoading(true)
         setError(null)
 
-        const currenciesData = await loadCurrencies()
-        setCurrencies(currenciesData)
+        const res = await fetch(
+          `/api/greco-timeseries?startDate=1960-01-01&endDate=${new Date().toISOString().split('T')[0]}&currency=USD&interval=annual`
+        )
+        if (!res.ok) throw new Error(`API error: ${res.status}`)
+        const data = await res.json()
 
-        // Calculate Greco values for all currencies
-        const allGrecoData: GrecoValue[] = []
-        
-        // Define date range for data loading
-        const startDate = new Date('1900-01-01')
-        const endDate = new Date()
-        
-        for (const currency of currenciesData) {
-          try {
-            const currencyGrecoData = await calculateGrecoTimeSeries(
-              startDate,
-              endDate,
-              currency.id,
-              'annual' // Use annual data for better performance
-            )
-            allGrecoData.push(...currencyGrecoData)
-          } catch (err) {
-            console.warn(`Failed to load data for ${currency.id}:`, err)
-          }
-        }
+        const grecoValues: GrecoValue[] = (data.timeSeries || []).map(
+          (point: { date: string; value: number; completeness?: number }) => ({
+            date: new Date(point.date),
+            currencyId: 'USD',
+            value: point.value,
+            completeness: point.completeness ?? 1,
+          })
+        )
 
-        setGrecoData(allGrecoData)
+        setGrecoData(grecoValues)
       } catch (err) {
         console.error('Failed to load data:', err)
-        setError('Failed to load currency data. Please try again later.')
+        setError('Failed to load data. Please try again later.')
       } finally {
         setLoading(false)
       }
@@ -87,12 +85,30 @@ export default function DataPage() {
   const pivotData = useMemo(() => {
     if (viewMode !== 'pivot') return null
 
+    // Simple pivot implementation since we only have USD now
     if (pivotMode === 'by-year') {
-      return pivotByYear(grecoData, currencyIds)
+      const byYear = new Map<number, Record<string, unknown>>()
+      grecoData.forEach((gv) => {
+        const year = gv.date.getFullYear()
+        if (!byYear.has(year)) {
+          byYear.set(year, { year })
+        }
+        byYear.get(year)![gv.currencyId] = gv.value
+      })
+      return Array.from(byYear.values()).sort(
+        (a, b) => (a.year as number) - (b.year as number)
+      )
     } else {
-      return pivotByCurrency(grecoData, years)
+      const byCurrency = new Map<string, Record<string, unknown>>()
+      grecoData.forEach((gv) => {
+        if (!byCurrency.has(gv.currencyId)) {
+          byCurrency.set(gv.currencyId, { currency: gv.currencyId })
+        }
+        byCurrency.get(gv.currencyId)![gv.date.getFullYear().toString()] = gv.value
+      })
+      return Array.from(byCurrency.values())
     }
-  }, [viewMode, pivotMode, grecoData, currencyIds, years])
+  }, [viewMode, pivotMode, grecoData])
 
   // Get currency name by ID
   const getCurrencyName = (currencyId: string) => {
@@ -141,7 +157,7 @@ export default function DataPage() {
         <div>
           <h1 className="text-3xl font-bold text-gray-900">Historical Data Access</h1>
           <p className="mt-2 text-lg text-gray-600">
-            View, filter, pivot, and export Greco historical currency data
+            View, filter, pivot, and export Greco historical data (USD)
           </p>
         </div>
 
@@ -154,9 +170,9 @@ export default function DataPage() {
             </div>
           </div>
           <div className="bg-white rounded-lg shadow p-6">
-            <div className="text-sm font-medium text-gray-500">Currencies</div>
+            <div className="text-sm font-medium text-gray-500">Currency</div>
             <div className="mt-2 text-3xl font-semibold text-gray-900">
-              {currencies.length}
+              USD
             </div>
           </div>
           <div className="bg-white rounded-lg shadow p-6">
@@ -208,7 +224,7 @@ export default function DataPage() {
             <div>
               <h4 className="font-semibold mb-2">Standard Table View</h4>
               <ul className="list-disc list-inside space-y-1">
-                <li>Filter by currency and date range</li>
+                <li>Filter by date range</li>
                 <li>Sort by clicking column headers</li>
                 <li>Paginate through large datasets</li>
                 <li>Responsive card view on mobile</li>
@@ -217,8 +233,7 @@ export default function DataPage() {
             <div>
               <h4 className="font-semibold mb-2">Pivot Table View</h4>
               <ul className="list-disc list-inside space-y-1">
-                <li>Pivot by year to compare currencies</li>
-                <li>Pivot by currency to see trends over time</li>
+                <li>Pivot by year to see annual values</li>
                 <li>Horizontal scrolling for many columns</li>
                 <li>Export in either view format</li>
               </ul>
