@@ -32,7 +32,7 @@ const SERIES: FREDSeries[] = [
     commodityId: 'wool',
     unit: 'usd/kilogram',
     type: 'price',
-    description: 'Global price of Wool, Fine (USD/kg)',
+    description: 'Global price of Wool, Fine (IMF reports in US cents/kg — divide by 100)',
   },
   // Note: oats, rye, hides, tallow, cement are PPI (index numbers, not USD prices).
   // We'll fetch them but mark quality appropriately.
@@ -138,6 +138,10 @@ async function fetchSeries(series: FREDSeries): Promise<void> {
     if (series.type === 'price') {
       // Direct USD price
       price = val;
+      // PWOOLFUSDM is reported in US cents/kg by IMF — convert to USD
+      if (series.seriesId === 'PWOOLFUSDM') {
+        price = val / 100;
+      }
       unit = series.unit;
       quality = 'high';
     } else if (ref) {

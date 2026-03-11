@@ -19,6 +19,8 @@ export async function GET(request: NextRequest) {
     const endDateStr = searchParams.get('endDate');
     const currency = searchParams.get('currency') || 'USD';
     const interval = (searchParams.get('interval') || 'monthly') as 'monthly' | 'quarterly' | 'annual';
+    const baselineYearStr = searchParams.get('baselineYear');
+    const baselineYear = baselineYearStr ? parseInt(baselineYearStr) : undefined;
     
     if (!startDateStr || !endDateStr) {
       return NextResponse.json(
@@ -42,7 +44,8 @@ export async function GET(request: NextRequest) {
       startDate,
       endDate,
       currency,
-      interval
+      interval,
+      baselineYear
     );
     
     return NextResponse.json({
