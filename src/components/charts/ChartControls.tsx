@@ -253,7 +253,7 @@ export default function ChartControls({
             }}
             min={formatDateInput(earliestInceptionDate)}
             max={formatDateInput(endDate)}
-            className="block w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent"
+            className="block w-full px-3 py-2 min-h-[44px] border border-gray-300 rounded-lg bg-white text-gray-900 appearance-none cursor-pointer focus:ring-2 focus:ring-greco-primary focus:border-transparent"
           />
           <p className="text-xs text-gray-500 mt-1">
             Earliest: {formatDateInput(earliestInceptionDate)}
@@ -280,7 +280,7 @@ export default function ChartControls({
             }}
             min={formatDateInput(startDate)}
             max={formatDateInput(new Date())}
-            className="block w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent"
+            className="block w-full px-3 py-2 min-h-[44px] border border-gray-300 rounded-lg bg-white text-gray-900 appearance-none cursor-pointer focus:ring-2 focus:ring-greco-primary focus:border-transparent"
           />
         </div>
       </div>
