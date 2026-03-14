@@ -152,22 +152,21 @@ export default function ChartControls({
         </div>
       )}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        {/* Currency Selector - Single Select Mode */}
-        {!isMultiSelect && currencies && currencies.length > 0 && (
-          <div>
-            <Select
-              label="Currency / Asset"
-              id="currency-select"
-              value={selectedCurrency || ''}
-              onChange={(e) => onCurrencyChange?.(e.target.value)}
-              options={currencies.map((c) => ({
-                value: c.id,
-                label: `${c.name} (${c.symbol})`,
-              }))}
-            />
-          </div>
-        )}
+      {/* Currency Selector - Single Select Mode */}
+      {!isMultiSelect && currencies && currencies.length > 0 && (
+        <div>
+          <Select
+            label="Currency / Asset"
+            id="currency-select"
+            value={selectedCurrency || ''}
+            onChange={(e) => onCurrencyChange?.(e.target.value)}
+            options={currencies.map((c) => ({
+              value: c.id,
+              label: `${c.name} (${c.symbol})`,
+            }))}
+          />
+        </div>
+      )}
 
 
 
@@ -233,7 +232,8 @@ export default function ChartControls({
           </div>
         )}
 
-        {/* Start Date */}
+      {/* Date Range */}
+      <div className="grid grid-cols-2 gap-4">
         <div>
           <label
             htmlFor="start-date"
@@ -260,7 +260,6 @@ export default function ChartControls({
           </p>
         </div>
 
-        {/* End Date */}
         <div>
           <label
             htmlFor="end-date"
