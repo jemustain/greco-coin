@@ -50,7 +50,7 @@ export default function DataPage() {
       if (!res.ok) throw new Error(`API error: ${res.status}`)
       const data = await res.json()
 
-      const grecoValues: GrecoValue[] = (data.timeSeries || []).map(
+      const grecoValues: GrecoValue[] = (data.values || []).map(
         (point: { date: string; value: number; completeness?: number }) => ({
           date: new Date(point.date),
           currencyId: 'USD',
