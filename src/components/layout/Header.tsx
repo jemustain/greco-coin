@@ -6,14 +6,11 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useState, useRef, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Header() {
   const pathname = usePathname()
-  const [showAboutMenu, setShowAboutMenu] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const aboutButtonRef = useRef<HTMLButtonElement>(null)
-  const dropdownRef = useRef<HTMLDivElement>(null)
 
   const isActive = (path: string) => {
     if (path === '/') return pathname === '/'
@@ -23,40 +20,18 @@ export default function Header() {
   // Close mobile menu on route change
   useEffect(() => {
     setMobileMenuOpen(false)
-    setShowAboutMenu(false)
   }, [pathname])
 
   // Handle Escape key
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') {
-        if (showAboutMenu) {
-          setShowAboutMenu(false)
-          aboutButtonRef.current?.focus()
-        }
-        if (mobileMenuOpen) {
-          setMobileMenuOpen(false)
-        }
+      if (e.key === 'Escape' && mobileMenuOpen) {
+        setMobileMenuOpen(false)
       }
     }
     document.addEventListener('keydown', handleEscape)
     return () => document.removeEventListener('keydown', handleEscape)
-  }, [showAboutMenu, mobileMenuOpen])
-
-  // Handle click outside to close about dropdown
-  useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (
-        dropdownRef.current &&
-        !dropdownRef.current.contains(e.target as Node) &&
-        !aboutButtonRef.current?.contains(e.target as Node)
-      ) {
-        setShowAboutMenu(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
+  }, [mobileMenuOpen])
 
   const navLinkClass = (path: string, exact = false) => {
     const active = exact ? (isActive(path) && pathname === path) : isActive(path)
@@ -127,55 +102,10 @@ export default function Header() {
               Data
             </Link>
             
-            {/* About Dropdown */}
-            <div
-              className="relative"
-              onMouseEnter={() => setShowAboutMenu(true)}
-              onMouseLeave={() => setShowAboutMenu(false)}
-            >
-              <button
-                ref={aboutButtonRef}
-                onClick={() => setShowAboutMenu(!showAboutMenu)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter' || e.key === ' ') {
-                    e.preventDefault()
-                    setShowAboutMenu(!showAboutMenu)
-                  }
-                }}
-                className={navLinkClass('/about')}
-                aria-expanded={showAboutMenu}
-                aria-haspopup="true"
-                aria-label="About menu"
-              >
-                About
-                <span className="ml-1 text-xs" aria-hidden="true">▾</span>
-              </button>
-              
-              {showAboutMenu && (
-                <div 
-                  ref={dropdownRef}
-                  className="absolute top-full right-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
-                  role="menu"
-                  aria-label="About submenu"
-                >
-                  <Link href="/about" className="block px-4 py-3 hover:bg-gray-50 transition-colors"
-                    role="menuitem" onClick={() => setShowAboutMenu(false)}>
-                    <div className="font-semibold text-gray-900 text-sm">About the Greco Unit</div>
-                    <div className="text-xs text-gray-600 mt-1">Tom Greco&apos;s concept and commodity-backed value</div>
-                  </Link>
-                  <Link href="/about/methodology" className="block px-4 py-3 hover:bg-gray-50 transition-colors"
-                    role="menuitem" onClick={() => setShowAboutMenu(false)}>
-                    <div className="font-semibold text-gray-900 text-sm">Methodology</div>
-                    <div className="text-xs text-gray-600 mt-1">33 commodities, weighting, and calculations</div>
-                  </Link>
-                  <Link href="/about/sources" className="block px-4 py-3 hover:bg-gray-50 transition-colors"
-                    role="menuitem" onClick={() => setShowAboutMenu(false)}>
-                    <div className="font-semibold text-gray-900 text-sm">Data Sources</div>
-                    <div className="text-xs text-gray-600 mt-1">Bibliography and citations for all data</div>
-                  </Link>
-                </div>
-              )}
-            </div>
+            <Link href="/about" className={navLinkClass('/about')}
+              aria-current={isActive('/about') ? 'page' : undefined}>
+              About
+            </Link>
           </nav>
         </div>
       </div>
@@ -193,18 +123,8 @@ export default function Header() {
             <Link href="/data" className={mobileNavLinkClass('/data')}>
               Data
             </Link>
-            <div className="border-t border-gray-100 my-1" />
-            <div className="px-4 py-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
-              About
-            </div>
             <Link href="/about" className={mobileNavLinkClass('/about')}>
-              About the Greco Unit
-            </Link>
-            <Link href="/about/methodology" className={mobileNavLinkClass('/about/methodology')}>
-              Methodology
-            </Link>
-            <Link href="/about/sources" className={mobileNavLinkClass('/about/sources')}>
-              Data Sources
+              About
             </Link>
           </div>
         </nav>

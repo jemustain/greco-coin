@@ -30,18 +30,18 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/about/methodology"
+                  href="/about"
                   className="text-gray-600 hover:text-greco-primary text-sm transition-colors"
                 >
-                  Methodology
+                  About
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/about/sources"
+                  href="/data"
                   className="text-gray-600 hover:text-greco-primary text-sm transition-colors"
                 >
-                  Data Sources
+                  Explore Data
                 </Link>
               </li>
               <li>
