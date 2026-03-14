@@ -711,7 +711,7 @@ export default function HomePage() {
               '#65a30d', '#0284c7', '#a21caf', '#c2410c', '#1d4ed8',
               '#15803d', '#b91c1c', '#6d28d9', '#0e7490', '#9f1239',
               '#4d7c0f', '#0369a1', '#86198f', '#9a3412', '#1e40af',
-              '#166534', '#991b1b',
+              '#166534', '#991b1b', '#7e22ce',
             ]
 
             const treemapData = marketValueData.map((d, i) => ({

@@ -17,7 +17,7 @@ export default function Footer() {
               About
             </h3>
             <p className="text-gray-600 text-sm">
-              Visualizing purchasing power trends through Tom Greco&apos;s basket of 32
+              Visualizing purchasing power trends through Tom Greco&apos;s basket of 33
               commodities across 9 currencies from 1900 to present.
             </p>
           </div>
