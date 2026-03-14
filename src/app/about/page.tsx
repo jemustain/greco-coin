@@ -1,6 +1,5 @@
 /**
- * About Page - Introduction to the Greco Unit Concept
- * Explains Tom Greco's theory and the basket of goods approach
+ * About Page - Concise overview of the Greco unit and this tracker
  */
 
 import Link from 'next/link'
@@ -9,224 +8,100 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Page Header */}
-        <div className="mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">About the Greco Unit</h1>
-          <p className="text-xl text-gray-600">
-            Understanding stable value measurement through commodity-backed currency
+        <div className="mb-10">
+          <h1 className="text-4xl font-bold text-gray-900 mb-3">About the Greco Unit</h1>
+          <p className="text-lg text-gray-600">
+            A commodity-backed measure of purchasing power
           </p>
         </div>
 
-        {/* Main Content */}
         <div className="bg-white rounded-lg shadow-lg p-8 space-y-8">
-          {/* Introduction */}
+          {/* What is it */}
           <section>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">What is a Greco?</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                The <strong>Greco</strong> is a proposed unit of value based on a diversified basket of essential commodities. 
-                Unlike fiat currencies that can be subject to inflation and manipulation, the Greco aims to provide a 
-                stable measure of purchasing power by anchoring value to real-world goods that have intrinsic utility.
-              </p>
-              <p>
-                This concept draws inspiration from <strong>Thomas H. Greco Jr.&apos;s</strong> work on monetary reform and 
-                alternative exchange systems. The name &quot;Greco&quot; honors his contributions to rethinking how we measure 
-                and exchange value in modern economies.
-              </p>
-            </div>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">What is a Greco?</h2>
+            <p className="text-gray-700">
+              The Greco is a unit of value defined by a basket of <strong>32 essential commodities</strong> — metals,
+              energy, grains, and agricultural goods. Unlike fiat currencies subject to inflation and monetary policy,
+              the Greco anchors value to real-world goods with intrinsic utility. The concept is inspired by{' '}
+              <strong>Thomas H. Greco Jr.&apos;s</strong> work on monetary reform in{' '}
+              <em>The End of Money and the Future of Civilization</em> (2009).
+            </p>
           </section>
 
-          {/* The Basket of Goods Approach */}
+          {/* How the tracker works */}
           <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">The Basket of Goods Approach</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                The Greco unit is defined by a fixed basket of <strong>32 essential commodities</strong> spanning 
-                six major categories:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li><strong>Metals:</strong> Gold, Silver, Iron, Copper, Aluminum, Tin, Lead, Zinc, Nickel, Platinum</li>
-                <li><strong>Energy:</strong> Petroleum (crude oil)</li>
-                <li><strong>Materials:</strong> Cement, Rubber, Sulphur</li>
-                <li><strong>Grains:</strong> Rice, Wheat, Corn, Barley, Oats, Rye</li>
-                <li><strong>Soft Commodities:</strong> Peanuts, Soybeans, Coffee, Cocoa, Sugar, Cotton Seed, Cotton</li>
-                <li><strong>Animal Products:</strong> Wool, Jute, Hides, Copra, Tallow</li>
-              </ul>
-              <p>
-                Each commodity is assigned an equal weight in the basket (1/32 ≈ 3.125%), ensuring diversification 
-                and reducing the impact of volatility in any single commodity market. This balanced approach provides 
-                a more stable reference point than gold-only standards or single-commodity indices.
-              </p>
-            </div>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">How This Tracker Works</h2>
+            <p className="text-gray-700 mb-4">
+              We collect historical commodity prices from public sources (USGS, FRED, USDA, FAO), compute the
+              equally-weighted basket cost in USD, then normalize to a baseline year so you can see how purchasing
+              power changes over time. The tracker also shows individual commodity price trends, production volumes,
+              and market-value-weighted breakdowns.
+            </p>
+            <p className="text-gray-700">
+              All values are shown as ratios to the baseline year (1.0). Above 1.0 means the basket costs more
+              (currency lost purchasing power); below 1.0 means it costs less.
+            </p>
           </section>
 
-          {/* Why Commodity-Backed Value? */}
+          {/* The 32 commodities */}
           <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Why Commodity-Backed Value?</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                Traditional fiat currencies can lose purchasing power over time due to inflation, monetary policy, 
-                and economic conditions. The Greco unit addresses this by:
-              </p>
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-6">
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Intrinsic Value:</strong> Commodities have real-world utility and cannot be created arbitrarily</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Historical Stability:</strong> Commodity prices tend to track real purchasing power over long periods</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Diversification:</strong> A basket of 32 commodities smooths out individual market fluctuations</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Global Relevance:</strong> These commodities are traded worldwide with transparent pricing</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-blue-500 mr-2">✓</span>
-                    <span><strong>Independence:</strong> Not subject to any single government&apos;s monetary policy</span>
-                  </li>
-                </ul>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">The 32 Commodities</h2>
+            <p className="text-gray-700 mb-4">
+              Each commodity is equally weighted (1/32 ≈ 3.125%). This keeps it simple, prevents any single commodity
+              from dominating, and stays consistent across time periods.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-gray-700">
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Metals (10)</p>
+                <p>Gold, Silver, Iron, Copper, Aluminum, Tin, Lead, Zinc, Nickel, Platinum</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Energy (1)</p>
+                <p>Petroleum (crude oil)</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Materials (3)</p>
+                <p>Cement, Rubber, Sulphur</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Grains (6)</p>
+                <p>Rice, Wheat, Corn, Barley, Oats, Rye</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Soft Commodities (7)</p>
+                <p>Peanuts, Soybeans, Coffee, Cocoa, Sugar, Cotton Seed, Cotton</p>
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900 mb-1">Animal Products (5)</p>
+                <p>Wool, Jute, Hides, Copra, Tallow</p>
               </div>
             </div>
           </section>
 
-          {/* Tom Greco's Vision */}
+          {/* Links */}
           <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Tom Greco&apos;s Vision for Monetary Reform</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                Thomas H. Greco Jr. is a researcher, author, and advocate for monetary innovation and community 
-                economic empowerment. In his influential book <em className="font-semibold">&quot;The End of Money and 
-                the Future of Civilization&quot;</em> (2009), Greco explores how alternative exchange mechanisms can 
-                create more equitable and sustainable economic systems.
-              </p>
-              <p>
-                Key themes from Greco&apos;s work that inform this project:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>The need for <strong>value standards independent of political control</strong></li>
-                <li>The importance of <strong>transparency and verifiability</strong> in monetary systems</li>
-                <li>The potential for <strong>decentralized exchange</strong> based on mutual credit</li>
-                <li>The role of <strong>commodity baskets</strong> in providing stable reference points</li>
-              </ul>
-              <div className="bg-gray-100 border border-gray-300 rounded-lg p-6 my-6">
-                <p className="text-sm text-gray-600 mb-2"><strong>Citation:</strong></p>
-                <p className="text-gray-800">
-                  Greco, Thomas H. Jr. (2009). <em>The End of Money and the Future of Civilization</em>. 
-                  Chelsea Green Publishing. ISBN: 978-1603580786
-                </p>
-              </div>
-            </div>
-          </section>
-
-          {/* How This Tracker Works */}
-          <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">How This Tracker Works</h2>
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>
-                The Greco Historical Currency Tracker calculates the value of various currencies in terms of 
-                Greco units from 1900 to the present. Here&apos;s how it works:
-              </p>
-              <ol className="list-decimal list-inside space-y-3 ml-4">
-                <li>
-                  <strong>Collect Historical Prices:</strong> Gather commodity price data from authoritative sources 
-                  (USGS, FRED, historical archives)
-                </li>
-                <li>
-                  <strong>Normalize to USD:</strong> Convert all commodity prices to a common currency (USD) for 
-                  the calculation period
-                </li>
-                <li>
-                  <strong>Calculate Basket Value:</strong> Compute the weighted average cost of the 32-commodity 
-                  basket for each time period
-                </li>
-                <li>
-                  <strong>Convert to Target Currency:</strong> Use historical exchange rates to express the basket 
-                  value in different currencies (EUR, GBP, etc.)
-                </li>
-                <li>
-                  <strong>Track Over Time:</strong> Visualize how many units of each currency were needed to purchase 
-                  one Greco unit throughout history
-                </li>
-              </ol>
-              <p>
-                This approach reveals how currencies have gained or lost purchasing power relative to a stable 
-                commodity basket over time.
-              </p>
-            </div>
-          </section>
-
-          {/* Learn More */}
-          <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-4">Learn More</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Link
                 href="/about/methodology"
-                className="block p-6 bg-blue-50 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
+                className="block p-5 bg-blue-50 border border-blue-200 rounded-lg hover:bg-blue-100 transition-colors"
               >
-                <h3 className="text-lg font-semibold text-blue-900 mb-2">Calculation Methodology</h3>
-                <p className="text-blue-700 text-sm">
-                  Detailed explanation of how we calculate Greco values, including the 32 commodities, 
-                  weighting scheme, and data sources.
-                </p>
+                <h3 className="text-lg font-semibold text-blue-900 mb-1">Methodology</h3>
+                <p className="text-blue-700 text-sm">Calculation steps, weighting, and data handling</p>
               </Link>
               <Link
                 href="/about/sources"
-                className="block p-6 bg-green-50 border border-green-200 rounded-lg hover:bg-green-100 transition-colors"
+                className="block p-5 bg-green-50 border border-green-200 rounded-lg hover:bg-green-100 transition-colors"
               >
-                <h3 className="text-lg font-semibold text-green-900 mb-2">Data Sources</h3>
-                <p className="text-green-700 text-sm">
-                  Complete bibliography and citations for all commodity price data and historical exchange rates 
-                  used in this tracker.
-                </p>
+                <h3 className="text-lg font-semibold text-green-900 mb-1">Data Sources</h3>
+                <p className="text-green-700 text-sm">Where the price and production data comes from</p>
               </Link>
             </div>
           </section>
-
-          {/* Call to Action */}
-          <section className="border-t pt-8">
-            <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg p-8 text-white">
-              <h3 className="text-2xl font-semibold mb-4">Explore the Data</h3>
-              <p className="mb-6">
-                Use our interactive tools to visualize historical currency values, compare multiple currencies, 
-                and export data for your own analysis.
-              </p>
-              <div className="flex flex-wrap gap-4">
-                <Link
-                  href="/"
-                  className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-colors"
-                >
-                  View Charts
-                </Link>
-                <Link
-                  href="/compare"
-                  className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors"
-                >
-                  Compare Currencies
-                </Link>
-                <Link
-                  href="/data"
-                  className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors"
-                >
-                  Access Raw Data
-                </Link>
-              </div>
-            </div>
-          </section>
         </div>
 
-        {/* Footer Note */}
-        <div className="mt-8 text-center text-sm text-gray-500">
-          <p>
-            This project is an educational tool for exploring commodity-backed value measurement. 
-            It is not financial advice and should not be used for investment decisions.
-          </p>
-        </div>
+        <p className="mt-6 text-center text-sm text-gray-500">
+          This is an educational tool, not financial advice.
+        </p>
       </div>
     </div>
   )
