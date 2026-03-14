@@ -1,0 +1,182 @@
+[
+  {
+    "date": "2000-01-01",
+    "price": 3.68,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2001-01-01",
+    "price": 4.07,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2002-01-01",
+    "price": 3.33,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2003-01-01",
+    "price": 5.47,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2004-01-01",
+    "price": 5.85,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2005-01-01",
+    "price": 7.51,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2006-01-01",
+    "price": 6.72,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2007-01-01",
+    "price": 6.97,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2008-01-01",
+    "price": 8.86,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2009-01-01",
+    "price": 3.94,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2010-01-01",
+    "price": 4.48,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2011-01-01",
+    "price": 4.0,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2012-01-01",
+    "price": 2.75,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2013-01-01",
+    "price": 3.73,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2014-01-01",
+    "price": 4.37,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2015-01-01",
+    "price": 2.62,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2016-01-01",
+    "price": 2.52,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2017-01-01",
+    "price": 2.99,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2018-01-01",
+    "price": 3.15,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2019-01-01",
+    "price": 2.57,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  }
+]
