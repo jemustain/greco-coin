@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Greco Coin - Historical Currency Tracker',
   description:
-    'Visualize purchasing power trends of a standardized basket of 32 commodities (the Greco unit) across 9 currencies/assets from 1900 to present. Based on Tom Greco\'s alternative monetary theory.',
+    'Visualize purchasing power trends of a standardized basket of 33 commodities (the Greco unit) across 9 currencies/assets from 1900 to present. Based on Tom Greco\'s alternative monetary theory.',
   keywords: [
     'currency',
     'purchasing power',

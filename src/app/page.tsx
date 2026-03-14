@@ -333,7 +333,7 @@ export default function HomePage() {
             Greco Historical Currency Tracker
           </h1>
           <p className="text-lg text-gray-600">
-            Visualize how the Greco Coin — backed by a basket of 32 commodities — behaves
+            Visualize how the Greco Coin — backed by a basket of 33 commodities — behaves
             over time against the US dollar.
           </p>
         </div>
@@ -799,7 +799,7 @@ export default function HomePage() {
                   <ul className="space-y-1">
                     <li>• Top 5: {marketValueData.slice(0, 5).map(d => `${d.name} (${((d.value / total) * 100).toFixed(1)}%)`).join(', ')}</li>
                     <li>• Total basket market value: <strong>${total >= 1_000_000 ? `${(total / 1_000_000).toFixed(1)} trillion` : `${(total / 1_000).toFixed(1)} billion`}</strong></li>
-                    <li>• Current basket uses equal weighting (1/32 = 3.1% each). Area shows what production-based weights would be.</li>
+                    <li>• Current basket uses equal weighting (1/33 = 3.0% each). Area shows what production-based weights would be.</li>
                   </ul>
                 </div>
               </div>
@@ -821,7 +821,7 @@ export default function HomePage() {
                 What is the Greco Unit?
               </h3>
               <p className="text-sm text-gray-600 mb-3">
-                The Greco unit represents the purchasing power of a basket of 32 essential
+                The Greco unit represents the purchasing power of a basket of 33 essential
                 commodities, as proposed by economist Thomas H. Greco Jr. in &quot;The End
                 of Money and the Future of Civilization&quot; (2009). Unlike traditional
                 currency indices, the Greco provides a tangible measure of value tied to
@@ -880,7 +880,7 @@ export default function HomePage() {
         {/* Commodities Info */}
         <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            32 Commodities in the Greco Basket
+            33 Commodities in the Greco Basket
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
             {[

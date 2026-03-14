@@ -10,7 +10,7 @@ export interface BasketWeight {
   description: string
   weights: Array<{
     commodityId: string
-    weight: number // Fraction (e.g., 1/32 = 0.03125)
+    weight: number // Fraction (e.g., 1/33 = 0.030303)
     rationale?: string
   }>
 }

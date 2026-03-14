@@ -25,7 +25,7 @@ export default function MethodologyPage() {
             <ol className="space-y-3 text-gray-700">
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">1</span>
-                <span><strong>Collect prices</strong> for each of the 32 commodities in their native units (troy oz, metric ton, bushel, etc.)</span>
+                <span><strong>Collect prices</strong> for each of the 33 commodities in their native units (troy oz, metric ton, bushel, etc.)</span>
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">2</span>
@@ -33,7 +33,7 @@ export default function MethodologyPage() {
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">3</span>
-                <span><strong>Compute basket value</strong> — equally weighted average (each commodity = 1/32)</span>
+                <span><strong>Compute basket value</strong> — equally weighted average (each commodity = 1/33)</span>
               </li>
               <li className="flex gap-3">
                 <span className="flex-shrink-0 w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">4</span>
@@ -42,7 +42,7 @@ export default function MethodologyPage() {
             </ol>
 
             <div className="mt-5 bg-gray-50 p-4 rounded-lg font-mono text-sm text-gray-700">
-              Greco(t) = Σ(Price<sub>i,t</sub> × 1/32) / Greco(baseline)
+              Greco(t) = Σ(Price<sub>i,t</sub> × 1/33) / Greco(baseline)
             </div>
           </section>
 

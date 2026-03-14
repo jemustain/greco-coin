@@ -143,7 +143,7 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
         <div className="mt-2 pt-2 border-t border-gray-200">
           <div className="flex items-center justify-between mb-1">
             <p className="text-xs font-semibold text-gray-700">
-              Basket Composition ({contributingCommodities.length}/32 commodities)
+              Basket Composition ({contributingCommodities.length}/33 commodities)
             </p>
             <button
               className="text-xs text-blue-600 hover:text-blue-800"
@@ -164,7 +164,7 @@ const TimeSeriesChart = React.memo(function TimeSeriesChart({
                 </div>
               ))}
               
-              {contributingCommodities.length < 32 && (
+              {contributingCommodities.length < 33 && (
                 <p className="text-orange-600 mt-2">
                   {32 - contributingCommodities.length} commodities missing data
                 </p>

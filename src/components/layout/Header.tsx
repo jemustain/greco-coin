@@ -166,7 +166,7 @@ export default function Header() {
                   <Link href="/about/methodology" className="block px-4 py-3 hover:bg-gray-50 transition-colors"
                     role="menuitem" onClick={() => setShowAboutMenu(false)}>
                     <div className="font-semibold text-gray-900 text-sm">Methodology</div>
-                    <div className="text-xs text-gray-600 mt-1">32 commodities, weighting, and calculations</div>
+                    <div className="text-xs text-gray-600 mt-1">33 commodities, weighting, and calculations</div>
                   </Link>
                   <Link href="/about/sources" className="block px-4 py-3 hover:bg-gray-50 transition-colors"
                     role="menuitem" onClick={() => setShowAboutMenu(false)}>

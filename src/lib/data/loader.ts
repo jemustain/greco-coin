@@ -21,7 +21,7 @@ import basketWeightsData from '../../data/metadata/basket-weights.json'
 import sourcesData from '../../data/metadata/sources.json'
 import exchangeRatesData from '../../data/exchange-rates.json'
 
-// Import all 32 commodity price files
+// Import all 33 commodity price files
 import goldPricesData from '../../data/prices/gold.json'
 import silverPricesData from '../../data/prices/silver.json'
 import ironPricesData from '../../data/prices/iron.json'
@@ -33,6 +33,7 @@ import zincPricesData from '../../data/prices/zinc.json'
 import nickelPricesData from '../../data/prices/nickel.json'
 import platinumPricesData from '../../data/prices/platinum.json'
 import petroleumPricesData from '../../data/prices/petroleum.json'
+import naturalGasPricesData from '../../data/prices/natural-gas.json'
 import cementPricesData from '../../data/prices/cement.json'
 import rubberPricesData from '../../data/prices/rubber.json'
 import sulphurPricesData from '../../data/prices/sulphur.json'
@@ -56,7 +57,7 @@ import copraPricesData from '../../data/prices/copra.json'
 import tallowPricesData from '../../data/prices/tallow.json'
 
 /**
- * Load all 32 commodities
+ * Load all 33 commodities
  */
 export async function loadCommodities(): Promise<Commodity[]> {
   const validated = CommoditiesSchema.parse(commoditiesData)
@@ -143,6 +144,7 @@ export async function loadPrices(commodityId: string) {
     nickel: nickelPricesData,
     platinum: platinumPricesData,
     petroleum: petroleumPricesData,
+    'natural-gas': naturalGasPricesData,
     cement: cementPricesData,
     rubber: rubberPricesData,
     sulphur: sulphurPricesData,
