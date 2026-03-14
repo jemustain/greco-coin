@@ -1,0 +1,268 @@
+[
+  {
+    "year": 2023,
+    "production": 4100,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2022,
+    "production": 4050,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2021,
+    "production": 4010,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2020,
+    "production": 3900,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2019,
+    "production": 3970,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2018,
+    "production": 3870,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2017,
+    "production": 3680,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2016,
+    "production": 3550,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2015,
+    "production": 3530,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2014,
+    "production": 3460,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2013,
+    "production": 3370,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2012,
+    "production": 3340,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2011,
+    "production": 3270,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2010,
+    "production": 3200,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2009,
+    "production": 3000,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2008,
+    "production": 3070,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2007,
+    "production": 2960,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2006,
+    "production": 2870,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2005,
+    "production": 2770,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2004,
+    "production": 2690,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2003,
+    "production": 2620,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2002,
+    "production": 2530,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2001,
+    "production": 2480,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 2000,
+    "production": 2400,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1999,
+    "production": 2350,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1998,
+    "production": 2310,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1997,
+    "production": 2280,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1996,
+    "production": 2250,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1995,
+    "production": 2200,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1994,
+    "production": 2130,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1993,
+    "production": 2100,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1992,
+    "production": 2080,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1991,
+    "production": 2070,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1990,
+    "production": 2000,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "high"
+  },
+  {
+    "year": 1985,
+    "production": 1700,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "medium"
+  },
+  {
+    "year": 1980,
+    "production": 1500,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "medium"
+  },
+  {
+    "year": 1975,
+    "production": 1250,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "medium"
+  },
+  {
+    "year": 1970,
+    "production": 1000,
+    "unit": "billion-cubic-meters",
+    "source": "eia",
+    "quality": "medium"
+  }
+]

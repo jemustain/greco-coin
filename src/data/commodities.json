@@ -226,6 +226,23 @@
     "worldBankIndicator": "POILWTIUSDM"
   },
   {
+    "id": "natural-gas",
+    "name": "Natural Gas",
+    "category": "Energy_Materials",
+    "unit": "MMBtu",
+    "symbol": "MMBtu",
+    "description": "Natural gas used for heating, electricity generation, and industrial processes",
+    "inceptionDate": "1922-01-01",
+    "metadata": {
+      "alternateNames": ["Henry Hub Natural Gas"],
+      "physicalProperties": {}
+    },
+    "primarySource": "fred",
+    "updatePriority": "high",
+    "fredSeriesId": "MHHNGSP",
+    "worldBankIndicator": "PNGASUSUSDM"
+  },
+  {
     "id": "cement",
     "name": "Cement",
     "category": "Energy_Materials",

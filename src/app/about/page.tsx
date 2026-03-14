@@ -43,11 +43,11 @@ export default function AboutPage() {
             </p>
           </section>
 
-          {/* The 32 commodities */}
+          {/* The 33 commodities */}
           <section className="border-t pt-8">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">The 32 Commodities</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-3">The 33 Commodities</h2>
             <p className="text-gray-700 mb-4">
-              Each commodity is equally weighted (1/32 ≈ 3.125%). This keeps it simple, prevents any single commodity
+              Each commodity is equally weighted (1/33 ≈ 3.03%). This keeps it simple, prevents any single commodity
               from dominating, and stays consistent across time periods.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-sm text-gray-700">
@@ -56,8 +56,8 @@ export default function AboutPage() {
                 <p>Gold, Silver, Iron, Copper, Aluminum, Tin, Lead, Zinc, Nickel, Platinum</p>
               </div>
               <div>
-                <p className="font-semibold text-gray-900 mb-1">Energy (1)</p>
-                <p>Petroleum (crude oil)</p>
+                <p className="font-semibold text-gray-900 mb-1">Energy (2)</p>
+                <p>Petroleum (crude oil), Natural Gas</p>
               </div>
               <div>
                 <p className="font-semibold text-gray-900 mb-1">Materials (3)</p>

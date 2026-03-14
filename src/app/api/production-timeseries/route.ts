@@ -20,7 +20,7 @@ interface ProductionPoint {
   quality: string;
 }
 
-// Static imports for all 32 production files
+// Static imports for all 33 production files
 import goldProd from '@/data/production/gold.json';
 import silverProd from '@/data/production/silver.json';
 import ironProd from '@/data/production/iron.json';
@@ -32,6 +32,7 @@ import zincProd from '@/data/production/zinc.json';
 import nickelProd from '@/data/production/nickel.json';
 import platinumProd from '@/data/production/platinum.json';
 import petroleumProd from '@/data/production/petroleum.json';
+import naturalGasProd from '@/data/production/natural-gas.json';
 import cementProd from '@/data/production/cement.json';
 import rubberProd from '@/data/production/rubber.json';
 import sulphurProd from '@/data/production/sulphur.json';
@@ -66,6 +67,7 @@ const productionDataMap: Record<string, ProductionPoint[]> = {
   nickel: nickelProd as ProductionPoint[],
   platinum: platinumProd as ProductionPoint[],
   petroleum: petroleumProd as ProductionPoint[],
+  'natural-gas': naturalGasProd as ProductionPoint[],
   cement: cementProd as ProductionPoint[],
   rubber: rubberProd as ProductionPoint[],
   sulphur: sulphurProd as ProductionPoint[],

@@ -1,6 +1,6 @@
 /**
  * Commodity types for the Greco Historical Currency Tracker
- * 32 commodities organized by category
+ * 33 commodities organized by category
  */
 
 export enum CommodityCategory {

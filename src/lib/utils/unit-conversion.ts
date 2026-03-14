@@ -73,6 +73,14 @@ export function getConversionFactor(
       // price per barrel; production in MT (petroleum)
       return prodMultiplier * BARRELS_PER_MT_PETROLEUM
 
+    case 'mmbtu':
+      // price per MMBtu; natural gas production in billion cubic meters
+      // For natural gas, production unit is billion-cubic-meters, not metric tons
+      // 1 bcm ≈ 35,314,667 MMBtu
+      // But if production is in million-metric-tons, 1 MT ≈ 48.7 MMBtu
+      if (productionUnit === 'billion-cubic-meters') return 35_314_667
+      return prodMultiplier * 48.7
+
     case 'bushel':
       // bushel size varies by commodity
       if (commodityId === 'oats') return prodMultiplier * BUSHELS_PER_MT_OATS

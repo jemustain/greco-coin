@@ -225,6 +225,21 @@ export const COMMODITY_MAPPINGS: Record<string, CommodityMapping> = {
     granularity: 'daily',
   },
   
+  'natural-gas': {
+    id: 'natural-gas',
+    name: 'Natural Gas (Henry Hub)',
+    category: 'energy',
+    unit: 'MMBtu',
+    primarySource: 'fred',
+    fallbackSource: 'worldbank',
+    fredSeriesId: 'MHHNGSP',
+    worldBankIndicatorId: 'PNGASUSUSDM',
+    updatePriority: 'P1-daily',
+    staleness: { warningDays: 3, errorDays: 7 },
+    historicalStart: '1997-01-07',
+    granularity: 'daily',
+  },
+  
   // ============================================================================
   // INDUSTRIAL (P3-monthly)
   // ============================================================================
