@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2025-12-13T07:26:37.890Z",
-  "commodityCount": 32,
-  "totalRecords": 17534,
-  "totalSize": 3557464,
+  "generatedAt": "2026-03-14T17:25:56.399Z",
+  "commodityCount": 33,
+  "totalRecords": 17915,
+  "totalSize": 3632362,
   "commodities": {
     "aluminum": {
       "commodityId": "aluminum",
@@ -587,6 +587,45 @@
       "dateRange": {
         "start": "1900-01-01",
         "end": "2025-12-01"
+      }
+    },
+    "natural-gas": {
+      "commodityId": "natural-gas",
+      "totalRecords": 381,
+      "totalSize": 74898,
+      "shards": [
+        {
+          "file": "natural-gas/1900-1949.json",
+          "startDate": "1940-01-01",
+          "endDate": "1922-01-01",
+          "recordCount": 3,
+          "sizeBytes": 647
+        },
+        {
+          "file": "natural-gas/1950-1999.json",
+          "startDate": "1999-12-01",
+          "endDate": "1950-01-01",
+          "recordCount": 64,
+          "sizeBytes": 13037
+        },
+        {
+          "file": "natural-gas/2000-2019.json",
+          "startDate": "2019-12-01",
+          "endDate": "2000-01-01",
+          "recordCount": 240,
+          "sizeBytes": 46789
+        },
+        {
+          "file": "natural-gas/2020-present.json",
+          "startDate": "2026-02-01",
+          "endDate": "2020-01-01",
+          "recordCount": 74,
+          "sizeBytes": 14425
+        }
+      ],
+      "dateRange": {
+        "start": "1940-01-01",
+        "end": "2020-01-01"
       }
     },
     "nickel": {

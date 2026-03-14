@@ -1,0 +1,668 @@
+[
+  {
+    "date": "2020-01-01",
+    "price": 2.02,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-02-01",
+    "price": 1.91,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-03-01",
+    "price": 1.79,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-04-01",
+    "price": 1.74,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-05-01",
+    "price": 1.75,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-06-01",
+    "price": 1.63,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-07-01",
+    "price": 1.76,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-08-01",
+    "price": 2.3,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-09-01",
+    "price": 1.92,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-10-01",
+    "price": 2.39,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-11-01",
+    "price": 2.61,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2020-12-01",
+    "price": 2.58,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-01-01",
+    "price": 2.71,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-02-01",
+    "price": 5.35,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-03-01",
+    "price": 2.62,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-04-01",
+    "price": 2.66,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-05-01",
+    "price": 2.91,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-06-01",
+    "price": 3.26,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-07-01",
+    "price": 3.84,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-08-01",
+    "price": 4.07,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-09-01",
+    "price": 5.16,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-10-01",
+    "price": 5.51,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-11-01",
+    "price": 5.05,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2021-12-01",
+    "price": 3.76,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-01-01",
+    "price": 4.38,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-02-01",
+    "price": 4.69,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-03-01",
+    "price": 4.9,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-04-01",
+    "price": 6.6,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-05-01",
+    "price": 8.14,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-06-01",
+    "price": 7.7,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-07-01",
+    "price": 7.28,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-08-01",
+    "price": 8.81,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-09-01",
+    "price": 7.88,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-10-01",
+    "price": 5.66,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-11-01",
+    "price": 5.45,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2022-12-01",
+    "price": 5.53,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-01-01",
+    "price": 3.27,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-02-01",
+    "price": 2.38,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-03-01",
+    "price": 2.31,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-04-01",
+    "price": 2.16,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-05-01",
+    "price": 2.15,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-06-01",
+    "price": 2.18,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-07-01",
+    "price": 2.55,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-08-01",
+    "price": 2.58,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-09-01",
+    "price": 2.64,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-10-01",
+    "price": 2.98,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-11-01",
+    "price": 2.71,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2023-12-01",
+    "price": 2.52,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-01-01",
+    "price": 3.18,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-02-01",
+    "price": 1.72,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-03-01",
+    "price": 1.49,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-04-01",
+    "price": 1.6,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-05-01",
+    "price": 2.12,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-06-01",
+    "price": 2.54,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-07-01",
+    "price": 2.07,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-08-01",
+    "price": 1.99,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-09-01",
+    "price": 2.28,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-10-01",
+    "price": 2.2,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-11-01",
+    "price": 2.12,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2024-12-01",
+    "price": 3.01,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-01-01",
+    "price": 4.13,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-02-01",
+    "price": 4.19,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-03-01",
+    "price": 4.12,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-04-01",
+    "price": 3.42,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-05-01",
+    "price": 3.12,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-06-01",
+    "price": 3.02,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-07-01",
+    "price": 3.2,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-08-01",
+    "price": 2.91,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-09-01",
+    "price": 2.97,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-10-01",
+    "price": 3.19,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-11-01",
+    "price": 3.79,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2025-12-01",
+    "price": 4.26,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2026-01-01",
+    "price": 7.72,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "2026-02-01",
+    "price": 3.62,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  }
+]

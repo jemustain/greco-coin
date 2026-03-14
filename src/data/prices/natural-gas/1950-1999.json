@@ -1,0 +1,578 @@
+[
+  {
+    "date": "1950-01-01",
+    "price": 0.07,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1955-01-01",
+    "price": 0.1,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1960-01-01",
+    "price": 0.14,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1965-01-01",
+    "price": 0.16,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1967-01-01",
+    "price": 0.16,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1968-01-01",
+    "price": 0.16,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1969-01-01",
+    "price": 0.17,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1970-01-01",
+    "price": 0.17,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1971-01-01",
+    "price": 0.18,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1972-01-01",
+    "price": 0.19,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1973-01-01",
+    "price": 0.22,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1974-01-01",
+    "price": 0.3,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1975-01-01",
+    "price": 0.44,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1976-01-01",
+    "price": 0.58,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1977-01-01",
+    "price": 0.79,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1978-01-01",
+    "price": 0.91,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1979-01-01",
+    "price": 1.18,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1980-01-01",
+    "price": 1.59,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1981-01-01",
+    "price": 1.98,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1982-01-01",
+    "price": 2.46,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1983-01-01",
+    "price": 2.59,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1984-01-01",
+    "price": 2.66,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1985-01-01",
+    "price": 2.51,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1986-01-01",
+    "price": 1.94,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1987-01-01",
+    "price": 1.67,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1988-01-01",
+    "price": 1.69,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1989-01-01",
+    "price": 1.69,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1990-01-01",
+    "price": 1.71,
+    "unit": "usd/MMBtu",
+    "quality": "medium",
+    "source": "eia-historical",
+    "sourceId": "wellhead-annual",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-01-01",
+    "price": 3.45,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-02-01",
+    "price": 2.15,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-03-01",
+    "price": 1.89,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-04-01",
+    "price": 2.03,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-05-01",
+    "price": 2.25,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-06-01",
+    "price": 2.2,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-07-01",
+    "price": 2.19,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-08-01",
+    "price": 2.49,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-09-01",
+    "price": 2.88,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-10-01",
+    "price": 3.07,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-11-01",
+    "price": 3.01,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1997-12-01",
+    "price": 2.35,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-01-01",
+    "price": 2.09,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-02-01",
+    "price": 2.23,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-03-01",
+    "price": 2.24,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-04-01",
+    "price": 2.43,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-05-01",
+    "price": 2.14,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-06-01",
+    "price": 2.17,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-07-01",
+    "price": 2.17,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-08-01",
+    "price": 1.85,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-09-01",
+    "price": 2.02,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-10-01",
+    "price": 1.91,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-11-01",
+    "price": 2.12,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1998-12-01",
+    "price": 1.72,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-01-01",
+    "price": 1.85,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-02-01",
+    "price": 1.77,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-03-01",
+    "price": 1.79,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-04-01",
+    "price": 2.15,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-05-01",
+    "price": 2.26,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-06-01",
+    "price": 2.3,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-07-01",
+    "price": 2.31,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-08-01",
+    "price": 2.8,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-09-01",
+    "price": 2.55,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-10-01",
+    "price": 2.73,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-11-01",
+    "price": 2.37,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "date": "1999-12-01",
+    "price": 2.36,
+    "unit": "usd/MMBtu",
+    "quality": "high",
+    "source": "fred",
+    "sourceId": "MHHNGSP",
+    "fetchedAt": "2026-03-14T00:00:00.000Z"
+  }
+]
