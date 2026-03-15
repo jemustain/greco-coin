@@ -95,7 +95,7 @@ export default function Header() {
             </Link>
             <Link href="/compare" className={navLinkClass('/compare')}
               aria-current={isActive('/compare') ? 'page' : undefined}>
-              Compare
+              Commodities
             </Link>
             <Link href="/data" className={navLinkClass('/data')}
               aria-current={isActive('/data') ? 'page' : undefined}>
@@ -118,7 +118,7 @@ export default function Header() {
               Home
             </Link>
             <Link href="/compare" className={mobileNavLinkClass('/compare')}>
-              Compare
+              Commodities
             </Link>
             <Link href="/data" className={mobileNavLinkClass('/data')}>
               Data

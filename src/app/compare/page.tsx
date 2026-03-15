@@ -1,446 +1,648 @@
 /**
- * Compare Page - Multi-currency comparison interface
- * Allows side-by-side visualization of up to 9 currencies
+ * Commodities Page - Commodity price trends, production volumes, and market value treemap
  */
 
 'use client'
 
-import React, { useState, useMemo, useEffect, Suspense, useCallback } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
-import MultiCurrencyChart from '@/components/charts/MultiCurrencyChart'
+import { useState, useEffect, useMemo } from 'react'
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend,
+  ReferenceLine,
+  Treemap,
+} from 'recharts'
 import ChartControls from '@/components/charts/ChartControls'
-import ComparisonInsights from '@/components/insights/ComparisonInsights'
-import ErrorBoundary from '@/components/errors/ErrorBoundary'
+import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies } from '@/lib/data/loader'
-import { mergeTimeSeriesData, assignColors } from '@/lib/utils/chart'
-import { GrecoValue } from '@/lib/types/greco'
-import { Currency } from '@/lib/types/currency'
+import { loadCommodities } from '@/lib/data/loader'
+import { normalizePricesToBaseline, getAvailableYears, downsampleTimeSeries } from '@/lib/utils/normalize'
+import { presetRanges, formatDate } from '@/lib/utils/date'
 
-// Force dynamic rendering for this page
-export const dynamic = 'force-dynamic'
+interface CommodityInfo {
+  id: string
+  name: string
+  category: string
+  unit: string
+}
 
-function ComparePageContent() {
-  const searchParams = useSearchParams()
-  const router = useRouter()
-  
-  const [currencies, setCurrencies] = useState<Currency[]>([])
-  const [selectedCurrencies, setSelectedCurrencies] = useState<string[]>([])
-  const [hiddenCurrencies, setHiddenCurrencies] = useState<Set<string>>(new Set())
-  const [startDate, setStartDate] = useState(() => new Date(2000, 0, 1))
-  const [endDate, setEndDate] = useState(() => new Date())
-  const [currencyDataMap, setCurrencyDataMap] = useState<Map<string, GrecoValue[]>>(new Map())
-  const [loading, setLoading] = useState(false)
-  const [isInitialized, setIsInitialized] = useState(false)
+interface CommodityChartPoint {
+  date: string
+  formattedDate: string
+  [key: string]: string | number | undefined
+}
 
-  // Load currencies on mount
-  React.useEffect(() => {
-    loadCurrencies().then(setCurrencies)
+interface ProductionChartPoint {
+  year: number
+  [key: string]: string | number | undefined
+}
+
+const COMMODITY_COLORS = [
+  '#dc2626', '#16a34a', '#ca8a04', '#7c3aed', '#0891b2',
+]
+
+export default function CommoditiesPage() {
+  const [startDate, setStartDate] = useState(presetRanges.modern.start)
+  const [endDate, setEndDate] = useState(presetRanges.modern.end)
+  const [baselineYear, setBaselineYear] = useState(1990)
+
+  // All commodities
+  const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
+  const [loadingCommodities, setLoadingCommodities] = useState(true)
+
+  // Commodity price state
+  const [selectedCommodities, setSelectedCommodities] = useState<string[]>([])
+  const [commodityChartData, setCommodityChartData] = useState<CommodityChartPoint[]>([])
+  const [commodityLoading, setCommodityLoading] = useState(false)
+  const [commodityMetadata, setCommodityMetadata] = useState<Record<string, { name: string }>>({})
+
+  // Production chart state
+  const [selectedProductionCommodities, setSelectedProductionCommodities] = useState<string[]>([])
+  const [productionChartData, setProductionChartData] = useState<ProductionChartPoint[]>([])
+  const [productionLoading, setProductionLoading] = useState(false)
+  const [productionMetadata, setProductionMetadata] = useState<Record<string, { name: string; unit: string }>>({})
+
+  // Market value state
+  const [marketValueData, setMarketValueData] = useState<Array<{ id: string; name: string; value: number }>>([])
+  const [marketValueLoading, setMarketValueLoading] = useState(false)
+  const [marketValueYear, setMarketValueYear] = useState(2023)
+
+  // Available years (derive from a simple range since we don't have the greco chart data here)
+  const availableYears = useMemo(() => {
+    const years: number[] = []
+    const startY = startDate.getFullYear()
+    const endY = endDate.getFullYear()
+    for (let y = startY; y <= endY; y++) years.push(y)
+    return years
+  }, [startDate, endDate])
+
+  // Load commodities on mount
+  useEffect(() => {
+    loadCommodities()
+      .then((commodityData) => {
+        setAllCommodities(
+          commodityData.map((c) => ({
+            id: c.id,
+            name: c.name,
+            category: c.category,
+            unit: c.unit,
+          }))
+        )
+        setLoadingCommodities(false)
+      })
+      .catch(() => setLoadingCommodities(false))
   }, [])
 
-  // Initialize from URL params
+  // Load commodity price data when selection changes
   useEffect(() => {
-    if (currencies.length === 0 || isInitialized) return
-
-    const currenciesParam = searchParams.get('currencies')
-    const startParam = searchParams.get('start')
-    const endParam = searchParams.get('end')
-
-    if (currenciesParam) {
-      const currencyIds = currenciesParam.split(',').filter((id) => 
-        currencies.some((c) => c.id === id)
-      )
-      if (currencyIds.length > 0) {
-        setSelectedCurrencies(currencyIds)
-      }
-    }
-
-    if (startParam) {
-      const date = new Date(startParam)
-      if (!isNaN(date.getTime())) {
-        setStartDate(date)
-      }
-    }
-
-    if (endParam) {
-      const date = new Date(endParam)
-      if (!isNaN(date.getTime())) {
-        setEndDate(date)
-      }
-    }
-
-    setIsInitialized(true)
-  }, [currencies, searchParams, isInitialized])
-
-  // Update URL when state changes
-  useEffect(() => {
-    if (!isInitialized) return
-
-    const params = new URLSearchParams()
-    
-    if (selectedCurrencies.length > 0) {
-      params.set('currencies', selectedCurrencies.join(','))
-    }
-    
-    params.set('start', startDate.toISOString().split('T')[0])
-    params.set('end', endDate.toISOString().split('T')[0])
-
-    const newUrl = params.toString() ? `?${params.toString()}` : '/compare'
-    router.replace(newUrl, { scroll: false })
-  }, [selectedCurrencies, startDate, endDate, isInitialized, router])
-
-  // Calculate Greco values when selections change
-  React.useEffect(() => {
-    if (selectedCurrencies.length === 0) {
-      setCurrencyDataMap(new Map())
+    if (selectedCommodities.length === 0) {
+      setCommodityChartData([])
       return
     }
 
-    setLoading(true)
+    setCommodityLoading(true)
+    const startDateStr = startDate.toISOString().split('T')[0]
+    const endDateStr = endDate.toISOString().split('T')[0]
+    const url = `/api/commodity-timeseries?commodities=${selectedCommodities.join(',')}&startDate=${startDateStr}&endDate=${endDateStr}&interval=monthly`
 
-    Promise.all(
-      selectedCurrencies.map(async (currencyId) => {
-        // Use the optimized API endpoint instead of direct calculation
-        const startDateStr = startDate.toISOString().split('T')[0]
-        const endDateStr = endDate.toISOString().split('T')[0]
-        
-        const response = await fetch(
-          `/api/greco-timeseries?startDate=${startDateStr}&endDate=${endDateStr}&currency=${currencyId}&interval=monthly`
-        )
-        
-        if (!response.ok) {
-          console.error(`Failed to fetch data for ${currencyId}:`, response.statusText)
-          return [currencyId, []] as [string, GrecoValue[]]
-        }
-        
-        const data = await response.json()
-        
-        // Convert ISO date strings back to Date objects
-        const grecoValues: GrecoValue[] = data.values.map((v: GrecoValue & { date: string }) => ({
-          ...v,
-          date: new Date(v.date),
-        }))
-        
-        return [currencyId, grecoValues] as [string, GrecoValue[]]
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.json()
       })
-    ).then((results) => {
-      const dataMap = new Map(results)
-      setCurrencyDataMap(dataMap)
-      setLoading(false)
-    }).catch((error) => {
-      console.error('Error fetching Greco data:', error)
-      setLoading(false)
-    })
-  }, [selectedCurrencies, startDate, endDate])
+      .then((data) => {
+        const metaMap: Record<string, { name: string }> = {}
+        if (data.metadata) {
+          for (const m of data.metadata) {
+            metaMap[m.id] = { name: m.name }
+          }
+        }
+        setCommodityMetadata(metaMap)
 
-  // Merge all currency data into unified timeline
-  const chartData = useMemo(() => {
-    if (currencyDataMap.size === 0) return []
-    return mergeTimeSeriesData(currencyDataMap)
-  }, [currencyDataMap])
+        const allDates = new Set<string>()
+        const normalizedSeries: Record<string, Map<string, number>> = {}
 
-  // Assign colors to each currency
-  const colorMap = useMemo(() => {
-    return assignColors(selectedCurrencies)
-  }, [selectedCurrencies])
+        for (const [commodityId, prices] of Object.entries(data.commodities)) {
+          const priceArray = prices as Array<{ date: string; price: number }>
+          const normalized = normalizePricesToBaseline(priceArray, baselineYear)
+          normalizedSeries[commodityId] = new Map()
+          for (const p of normalized) {
+            allDates.add(p.date)
+            normalizedSeries[commodityId].set(p.date, p.normalizedPrice)
+          }
+        }
 
-  // Toggle currency visibility in legend
-  const handleToggleCurrency = useCallback((currencyId: string) => {
-    setHiddenCurrencies((prev) => {
-      const next = new Set(prev)
-      if (next.has(currencyId)) {
-        next.delete(currencyId)
-      } else {
-        next.add(currencyId)
-      }
-      return next
-    })
-  }, [])
+        const sortedDates = Array.from(allDates).sort()
+        const merged: CommodityChartPoint[] = sortedDates.map((date) => {
+          const point: CommodityChartPoint = {
+            date,
+            formattedDate: formatDate(new Date(date), 'MMM yyyy'),
+          }
+          for (const commodityId of selectedCommodities) {
+            point[commodityId] = normalizedSeries[commodityId]?.get(date) ?? undefined
+          }
+          return point
+        })
 
-  // Date range change handler
-  const handleDateRangeChange = useCallback((start: Date, end: Date) => {
+        setCommodityChartData(merged)
+        setCommodityLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to load commodity data:', err)
+        setCommodityLoading(false)
+      })
+  }, [selectedCommodities, startDate, endDate, baselineYear])
+
+  // Downsample commodity chart data
+  const downsampledCommodityData = useMemo(
+    () => downsampleTimeSeries(commodityChartData, startDate, endDate),
+    [commodityChartData, startDate, endDate]
+  )
+
+  // Load production data when selection changes
+  useEffect(() => {
+    if (selectedProductionCommodities.length === 0) {
+      setProductionChartData([])
+      return
+    }
+
+    setProductionLoading(true)
+    const url = `/api/production-timeseries?commodities=${selectedProductionCommodities.join(',')}&startYear=1970&endYear=2023`
+
+    fetch(url)
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`)
+        return res.json()
+      })
+      .then((data) => {
+        const metaMap: Record<string, { name: string; unit: string }> = {}
+        if (data.metadata) {
+          for (const m of data.metadata) {
+            metaMap[m.id] = { name: m.name, unit: m.unit }
+          }
+        }
+        setProductionMetadata(metaMap)
+
+        const allYears = new Set<number>()
+        const normalizedSeries: Record<string, Map<number, number>> = {}
+
+        for (const [commodityId, points] of Object.entries(data.commodities)) {
+          const prodArray = points as Array<{ year: number; production: number }>
+          const baseline1990 = prodArray.find(p => p.year === baselineYear)
+          let baselineVal = baseline1990?.production
+          if (!baselineVal) {
+            const sorted = [...prodArray].sort((a, b) => Math.abs(a.year - baselineYear) - Math.abs(b.year - baselineYear))
+            baselineVal = sorted[0]?.production || 1
+          }
+
+          normalizedSeries[commodityId] = new Map()
+          for (const p of prodArray) {
+            allYears.add(p.year)
+            normalizedSeries[commodityId].set(p.year, p.production / baselineVal)
+          }
+        }
+
+        const sortedYears = Array.from(allYears).sort((a, b) => a - b)
+        const merged: ProductionChartPoint[] = sortedYears.map((year) => {
+          const point: ProductionChartPoint = { year }
+          for (const commodityId of selectedProductionCommodities) {
+            point[commodityId] = normalizedSeries[commodityId]?.get(year) ?? undefined
+          }
+          return point
+        })
+
+        setProductionChartData(merged)
+        setProductionLoading(false)
+      })
+      .catch((err) => {
+        console.error('Failed to load production data:', err)
+        setProductionLoading(false)
+      })
+  }, [selectedProductionCommodities, baselineYear])
+
+  // Load market value data
+  useEffect(() => {
+    setMarketValueLoading(true)
+    fetch(`/api/market-value?startYear=${marketValueYear}&endYear=${marketValueYear}`)
+      .then(res => res.json())
+      .then(data => {
+        const entries: Array<{ id: string; name: string; value: number }> = []
+        for (const [id, series] of Object.entries(data.commodities || {})) {
+          const points = series as Array<{ year: number; marketValueMillionUSD: number }>
+          const point = points.find(p => p.year === marketValueYear)
+          if (point) {
+            const commodity = allCommodities.find(c => c.id === id)
+            entries.push({
+              id,
+              name: commodity?.name || id,
+              value: point.marketValueMillionUSD,
+            })
+          }
+        }
+        entries.sort((a, b) => b.value - a.value)
+        setMarketValueData(entries)
+        setMarketValueLoading(false)
+      })
+      .catch(err => {
+        console.error('Failed to load market value data:', err)
+        setMarketValueLoading(false)
+      })
+  }, [marketValueYear, allCommodities])
+
+  const handleDateRangeChange = (start: Date, end: Date) => {
     setStartDate(start)
     setEndDate(end)
-  }, [])
+  }
 
-  // Export to CSV handler
-  const handleExportCSV = () => {
-    if (chartData.length === 0) return
+  const formatNormalizedYAxis = (value: number) => value.toFixed(1)
 
-    // Create CSV headers
-    const headers = ['Date', ...selectedCurrencies.map((id) => {
-      const currency = currencies.find((c) => c.id === id)
-      return currency?.name || id
-    })]
-
-    // Create CSV rows
-    const rows = chartData.map((point) => {
-      const row = [point.formattedDate]
-      selectedCurrencies.forEach((id) => {
-        const value = (point as Record<string, unknown>)[id]
-        row.push(value !== null && value !== undefined ? value.toString() : '')
-      })
-      return row
-    })
-
-    // Combine headers and rows
-    const csvContent = [
-      headers.join(','),
-      ...rows.map((row) => row.join(','))
-    ].join('\n')
-
-    // Create blob and download
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' })
-    const link = document.createElement('a')
-    const url = URL.createObjectURL(blob)
-    link.setAttribute('href', url)
-    link.setAttribute('download', `greco-comparison-${new Date().toISOString().split('T')[0]}.csv`)
-    link.style.visibility = 'hidden'
-    document.body.appendChild(link)
-    link.click()
-    document.body.removeChild(link)
+  if (loadingCommodities) {
+    return (
+      <div className="container-page">
+        <div className="max-w-6xl mx-auto flex items-center justify-center min-h-[50vh]">
+          <Loading size="lg" text="Loading commodities..." />
+        </div>
+      </div>
+    )
   }
 
   return (
-    <main className="container mx-auto px-4 py-6 sm:py-8 max-w-7xl">
-      {/* Page Header */}
-      <div className="mb-6 sm:mb-8">
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">
-          Currency Comparison
-        </h1>
-        <p className="text-base sm:text-lg text-gray-600">
-          Compare up to 9 currencies side-by-side to analyze relative purchasing power
-        </p>
-      </div>
+    <div className="container-page">
+      <div className="max-w-6xl mx-auto space-y-6">
+        {/* Header */}
+        <div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            Commodity Explorer
+          </h1>
+          <p className="text-lg text-gray-600">
+            Explore individual commodity price trends, production volumes, and market value
+            weights within the Greco basket.
+          </p>
+        </div>
 
-      {/* Controls */}
-      <div className="mb-6 sm:mb-8">
+        {/* Controls */}
         <ChartControls
-          currencies={currencies}
-          selectedCurrencies={selectedCurrencies}
-          onCurrenciesChange={setSelectedCurrencies}
-          maxSelections={9}
           startDate={startDate}
           endDate={endDate}
           onDateRangeChange={handleDateRangeChange}
         />
-      </div>
 
-      {/* Chart */}
-      {selectedCurrencies.length > 0 ? (
-        <>
-          <ErrorBoundary
-            fallback={
-              <div className="bg-red-50 rounded-lg p-8 border border-red-200 text-center">
-                <svg
-                  className="mx-auto h-12 w-12 text-red-600 mb-4"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-                  />
-                </svg>
-                <h3 className="text-lg font-semibold text-red-900 mb-2">
-                  Chart Error
-                </h3>
-                <p className="text-red-800 mb-4">
-                  Unable to display the comparison chart. Please try selecting different currencies or adjusting the date range.
-                </p>
-                <button
-                  onClick={() => window.location.reload()}
-                  className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
-                >
-                  Reload Page
-                </button>
+        {/* Baseline Year Selector */}
+        {availableYears.length > 0 && (
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 flex items-center gap-3">
+            <label htmlFor="baseline-year" className="text-sm font-medium text-gray-700 whitespace-nowrap">
+              Baseline Year (= 1.0)
+            </label>
+            <select
+              id="baseline-year"
+              value={baselineYear}
+              onChange={(e) => setBaselineYear(Number(e.target.value))}
+              className="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+            >
+              {availableYears.map((year) => (
+                <option key={year} value={year}>{year}</option>
+              ))}
+            </select>
+          </div>
+        )}
+
+        {/* Commodity Price Trends */}
+        <CommoditySelector
+          commodities={allCommodities}
+          selectedCommodities={selectedCommodities}
+          onSelectionChange={setSelectedCommodities}
+          maxSelections={5}
+        />
+
+        {selectedCommodities.length > 0 && (
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <h2 className="text-xl font-semibold text-gray-900 mb-4">
+              Commodity Price Trends — Normalized to {baselineYear}
+            </h2>
+            <p className="text-sm text-gray-500 mb-4">
+              Individual commodity prices normalized so {baselineYear} = 1.0. Compare how
+              different commodities have moved relative to the baseline.
+            </p>
+
+            {commodityLoading && (
+              <div className="flex items-center justify-center" style={{ height: 350 }}>
+                <Loading size="lg" text="Loading commodity data..." />
               </div>
-            }
-          >
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-                <h2 className="text-xl font-semibold text-gray-900">
-                  Greco Value Comparison
-                </h2>
-                {!loading && chartData.length > 0 && (
-                  <button
-                    onClick={handleExportCSV}
-                    className="flex items-center justify-center gap-2 px-4 py-2 bg-greco-primary text-white rounded-lg hover:bg-greco-primary/90 transition-colors text-sm font-medium w-full sm:w-auto"
+            )}
+
+            {!commodityLoading && downsampledCommodityData.length > 0 && (
+              <div className="chart-container">
+                <ResponsiveContainer width="100%" height={350}>
+                  <LineChart
+                    data={downsampledCommodityData}
+                    margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
                   >
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
+                    <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                    <XAxis
+                      dataKey="formattedDate"
+                      stroke="#6b7280"
+                      style={{ fontSize: '0.75rem' }}
+                    />
+                    <YAxis
+                      stroke="#6b7280"
+                      style={{ fontSize: '0.75rem' }}
+                      tickFormatter={formatNormalizedYAxis}
+                      label={{
+                        value: 'Value relative to baseline (1.0)',
+                        angle: -90,
+                        position: 'insideLeft',
+                        style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
+                      }}
+                    />
+                    <ReferenceLine
+                      y={1.0}
+                      stroke="#9ca3af"
+                      strokeDasharray="6 4"
+                      strokeWidth={1.5}
+                      label={{
+                        value: `${baselineYear} baseline`,
+                        position: 'right',
+                        fontSize: 11,
+                        fill: '#6b7280',
+                      }}
+                    />
+                    <Tooltip
+                      formatter={(value: number, name: string) => [
+                        value?.toFixed(3) ?? '—',
+                        commodityMetadata[name]?.name || name,
+                      ]}
+                      labelFormatter={(label) => label}
+                    />
+                    <Legend
+                      wrapperStyle={{ fontSize: '0.875rem' }}
+                      iconType="line"
+                      formatter={(value: string) =>
+                        commodityMetadata[value]?.name || value
+                      }
+                    />
+                    {selectedCommodities.map((id, i) => (
+                      <Line
+                        key={id}
+                        type="monotone"
+                        dataKey={id}
+                        name={id}
+                        stroke={COMMODITY_COLORS[i % COMMODITY_COLORS.length]}
                         strokeWidth={2}
-                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                        dot={false}
+                        activeDot={{ r: 5 }}
+                        animationDuration={300}
+                        connectNulls
                       />
-                    </svg>
-                    Export CSV
-                  </button>
-                )}
+                    ))}
+                  </LineChart>
+                </ResponsiveContainer>
               </div>
-              {loading ? (
-                <div className="flex items-center justify-center" style={{ height: 400 }}>
-                  <Loading size="lg" text={`Loading data for ${selectedCurrencies.length} ${selectedCurrencies.length === 1 ? 'currency' : 'currencies'}...`} />
-                </div>
-              ) : (
-                <MultiCurrencyChart
-                  data={chartData}
-                  currencies={currencies}
-                  selectedCurrencyIds={selectedCurrencies}
-                  colorMap={colorMap}
-                  hiddenCurrencies={hiddenCurrencies}
-                  onToggleCurrency={handleToggleCurrency}
-                  showGrid={true}
-                  height={400}
-                />
-              )}
-            </div>
-          </ErrorBoundary>
+            )}
 
-          {/* Insights Panel */}
-          {!loading && (
-            <ErrorBoundary
-              fallback={
-                <div className="bg-yellow-50 rounded-lg p-6 border border-yellow-200">
-                  <p className="text-yellow-800 text-sm">
-                    Unable to calculate comparison insights. The chart is still available above.
-                  </p>
-                </div>
-              }
-            >
-              <div className="mt-8">
-                <ComparisonInsights
-                  currencyDataMap={currencyDataMap}
-                  currencies={currencies}
-                  selectedCurrencyIds={selectedCurrencies}
-                />
+            {!commodityLoading && downsampledCommodityData.length === 0 && (
+              <div className="flex items-center justify-center h-40 text-gray-500">
+                No price data available for selected commodities in this date range.
               </div>
-            </ErrorBoundary>
-          )}
-        </>
-      ) : (
-        <div className="bg-gray-50 rounded-lg border-2 border-dashed border-gray-300 p-8 sm:p-12 text-center">
-          <svg
-            className="mx-auto h-12 w-12 text-gray-400 mb-4"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-            />
-          </svg>
-          <h3 className="text-lg font-medium text-gray-900 mb-2">
-            No Currencies Selected
-          </h3>
-          <p className="text-gray-600">
-            Select one or more currencies above to start comparing their Greco values
+            )}
+          </div>
+        )}
+
+        {/* World Production Volume */}
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
+            World Production Volume
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            Annual production volumes for selected commodities. All values normalized to {baselineYear} = 1.0 for comparison across different units.
           </p>
-        </div>
-      )}
 
-      {/* Info Section */}
-      <div className="mt-8 bg-blue-50 rounded-lg p-6 border border-blue-200">
-        <h3 className="text-lg font-semibold text-blue-900 mb-2">
-          About Multi-Currency Comparison
-        </h3>
-        <ul className="text-sm text-blue-800 space-y-2">
-          <li className="flex items-start">
-            <svg
-              className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              <strong>Select up to 9 currencies</strong> from the checkboxes above to compare their
-              purchasing power over time
-            </span>
-          </li>
-          <li className="flex items-start">
-            <svg
-              className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              <strong>Click legend items</strong> to show/hide individual currencies without
-              removing them from your selection
-            </span>
-          </li>
-          <li className="flex items-start">
-            <svg
-              className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              <strong>Hover over the chart</strong> to see synchronized values for all currencies at
-              any point in time
-            </span>
-          </li>
-          <li className="flex items-start">
-            <svg
-              className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span>
-              <strong>Adjust date ranges</strong> to focus on specific historical periods or compare
-              long-term trends
-            </span>
-          </li>
-        </ul>
-      </div>
-    </main>
-  )
-}
+          <CommoditySelector
+            commodities={allCommodities}
+            selectedCommodities={selectedProductionCommodities}
+            onSelectionChange={setSelectedProductionCommodities}
+            maxSelections={5}
+          />
 
-export default function ComparePage() {
-  return (
-    <Suspense fallback={
-      <div className="container mx-auto px-4 py-6 sm:py-8 max-w-7xl">
-        <div className="flex items-center justify-center min-h-screen">
-          <Loading size="lg" text="Loading comparison page..." />
+          {selectedProductionCommodities.length > 0 && (
+            <>
+              {productionLoading && (
+                <div className="flex items-center justify-center mt-4" style={{ height: 350 }}>
+                  <Loading size="lg" text="Loading production data..." />
+                </div>
+              )}
+
+              {!productionLoading && productionChartData.length > 0 && (
+                <div className="chart-container mt-4">
+                  <ResponsiveContainer width="100%" height={350}>
+                    <LineChart
+                      data={productionChartData}
+                      margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                    >
+                      <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+                      <XAxis
+                        dataKey="year"
+                        stroke="#6b7280"
+                        style={{ fontSize: '0.75rem' }}
+                      />
+                      <YAxis
+                        stroke="#6b7280"
+                        style={{ fontSize: '0.75rem' }}
+                        tickFormatter={formatNormalizedYAxis}
+                        label={{
+                          value: `Production relative to ${baselineYear} (1.0)`,
+                          angle: -90,
+                          position: 'insideLeft',
+                          style: { textAnchor: 'middle', fontSize: '0.75rem', fill: '#6b7280' },
+                        }}
+                      />
+                      <ReferenceLine
+                        y={1.0}
+                        stroke="#9ca3af"
+                        strokeDasharray="6 4"
+                        strokeWidth={1.5}
+                        label={{
+                          value: `${baselineYear} baseline`,
+                          position: 'right',
+                          fontSize: 11,
+                          fill: '#6b7280',
+                        }}
+                      />
+                      <Tooltip
+                        formatter={(value: number, name: string) => [
+                          value?.toFixed(3) ?? '—',
+                          productionMetadata[name]?.name || name,
+                        ]}
+                        labelFormatter={(label) => `${label}`}
+                      />
+                      <Legend
+                        wrapperStyle={{ fontSize: '0.875rem' }}
+                        iconType="line"
+                        formatter={(value: string) =>
+                          productionMetadata[value]?.name || value
+                        }
+                      />
+                      {selectedProductionCommodities.map((id, i) => (
+                        <Line
+                          key={id}
+                          type="monotone"
+                          dataKey={id}
+                          name={id}
+                          stroke={COMMODITY_COLORS[i % COMMODITY_COLORS.length]}
+                          strokeWidth={2}
+                          dot={false}
+                          activeDot={{ r: 5 }}
+                          animationDuration={300}
+                          connectNulls
+                        />
+                      ))}
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+              )}
+
+              {!productionLoading && productionChartData.length === 0 && (
+                <div className="flex items-center justify-center h-40 text-gray-500">
+                  No production data available for selected commodities.
+                </div>
+              )}
+            </>
+          )}
+        </div>
+
+        {/* Market Value Treemap */}
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+            <div>
+              <h2 className="text-xl font-semibold text-gray-900">
+                Commodity Market Values (Price × Production)
+              </h2>
+              <p className="text-sm text-gray-500 mt-1">
+                Share of total basket value — area represents each commodity&apos;s production-based weight.
+              </p>
+            </div>
+            <div className="flex items-center gap-2">
+              <label htmlFor="mv-year" className="text-sm font-medium text-gray-700">Year:</label>
+              <select
+                id="mv-year"
+                value={marketValueYear}
+                onChange={(e) => setMarketValueYear(Number(e.target.value))}
+                className="px-3 py-1.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-greco-primary focus:border-transparent text-sm"
+              >
+                {Array.from({ length: 54 }, (_, i) => 2023 - i).map(y => (
+                  <option key={y} value={y}>{y}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          {marketValueLoading && (
+            <div className="flex items-center justify-center h-40">
+              <Loading />
+            </div>
+          )}
+
+          {!marketValueLoading && marketValueData.length > 0 && (() => {
+            const total = marketValueData.reduce((sum, d) => sum + d.value, 0)
+
+            const TREEMAP_COLORS = [
+              '#dc2626', '#16a34a', '#2563eb', '#ca8a04', '#7c3aed',
+              '#0891b2', '#db2777', '#ea580c', '#4f46e5', '#059669',
+              '#d97706', '#7c2d12', '#4338ca', '#0d9488', '#be123c',
+              '#65a30d', '#0284c7', '#a21caf', '#c2410c', '#1d4ed8',
+              '#15803d', '#b91c1c', '#6d28d9', '#0e7490', '#9f1239',
+              '#4d7c0f', '#0369a1', '#86198f', '#9a3412', '#1e40af',
+              '#166534', '#991b1b', '#7e22ce',
+            ]
+
+            const treemapData = marketValueData.map((d, i) => ({
+              name: d.name,
+              size: d.value,
+              pct: ((d.value / total) * 100),
+              fill: TREEMAP_COLORS[i % TREEMAP_COLORS.length],
+            }))
+
+            const CustomTreemapContent = (props: {
+              x: number; y: number; width: number; height: number;
+              name: string; pct: number; fill: string;
+            }) => {
+              const { x, y, width, height, name, pct, fill } = props
+              if (width < 2 || height < 2) return null
+
+              const showLabel = width > 40 && height > 24
+              const showPct = width > 50 && height > 38
+
+              return (
+                <g>
+                  <rect
+                    x={x} y={y} width={width} height={height}
+                    fill={fill} stroke="#fff" strokeWidth={2} rx={3}
+                  />
+                  {showLabel && (
+                    <text
+                      x={x + width / 2} y={y + height / 2 + (showPct ? -6 : 0)}
+                      textAnchor="middle" dominantBaseline="central"
+                      fill="#fff" fontSize={width < 70 ? 10 : 12} fontWeight="600"
+                    >
+                      {name}
+                    </text>
+                  )}
+                  {showPct && (
+                    <text
+                      x={x + width / 2} y={y + height / 2 + 10}
+                      textAnchor="middle" dominantBaseline="central"
+                      fill="rgba(255,255,255,0.85)" fontSize={width < 70 ? 9 : 11}
+                    >
+                      {pct.toFixed(1)}%
+                    </text>
+                  )}
+                </g>
+              )
+            }
+
+            return (
+              <div className="chart-container">
+                <ResponsiveContainer width="100%" height={500}>
+                  <Treemap
+                    data={treemapData}
+                    dataKey="size"
+                    aspectRatio={4 / 3}
+                    stroke="#fff"
+                    content={<CustomTreemapContent x={0} y={0} width={0} height={0} name="" pct={0} fill="" />}
+                  >
+                    <Tooltip
+                      formatter={(value: number) => {
+                        const pct = ((value / total) * 100).toFixed(2)
+                        const formatted = value >= 1_000_000 ? `$${(value / 1_000_000).toFixed(2)}T` : value >= 1_000 ? `$${(value / 1_000).toFixed(1)}B` : `$${value.toFixed(0)}M`
+                        return [`${formatted} (${pct}%)`, 'Market Value']
+                      }}
+                    />
+                  </Treemap>
+                </ResponsiveContainer>
+
+                <div className="mt-4 p-4 bg-gray-50 rounded-lg text-sm text-gray-700">
+                  <p className="font-medium mb-2">Production-based weight insights ({marketValueYear}):</p>
+                  <ul className="space-y-1">
+                    <li>• Top 5: {marketValueData.slice(0, 5).map(d => `${d.name} (${((d.value / total) * 100).toFixed(1)}%)`).join(', ')}</li>
+                    <li>• Total basket market value: <strong>${total >= 1_000_000 ? `${(total / 1_000_000).toFixed(1)} trillion` : `${(total / 1_000).toFixed(1)} billion`}</strong></li>
+                    <li>• Current basket uses equal weighting (1/33 = 3.0% each). Area shows what production-based weights would be.</li>
+                  </ul>
+                </div>
+              </div>
+            )
+          })()}
+
+          {!marketValueLoading && marketValueData.length === 0 && (
+            <div className="flex items-center justify-center h-40 text-gray-500">
+              No market value data available for {marketValueYear}.
+            </div>
+          )}
         </div>
       </div>
-    }>
-      <ComparePageContent />
-    </Suspense>
+    </div>
   )
 }
