@@ -25,8 +25,18 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
   const [currentPage, setCurrentPage] = useState(1)
   const [rowsPerPage, setRowsPerPage] = useState(50)
   const [filterCurrency, setFilterCurrency] = useState<string>('all')
-  const [filterDateFrom, setFilterDateFrom] = useState<string>('')
-  const [filterDateTo, setFilterDateTo] = useState<string>('')
+  const [filterYearFrom, setFilterYearFrom] = useState<number | ''>('')
+  const [filterYearTo, setFilterYearTo] = useState<number | ''>('')
+
+  // Compute available years from data
+  const dataYears = useMemo(() => {
+    const years = new Set<number>()
+    data.forEach(item => {
+      const d = typeof item.date === 'string' ? new Date(item.date) : item.date
+      years.add(d.getFullYear())
+    })
+    return Array.from(years).sort((a, b) => a - b)
+  }, [data])
 
   // Filter data
   const filteredData = useMemo(() => {
@@ -36,24 +46,19 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
         return false
       }
 
-      // Date range filter
+      // Year range filter
       const itemDate = typeof item.date === 'string' ? new Date(item.date) : item.date
-      if (filterDateFrom) {
-        const fromDate = new Date(filterDateFrom)
-        if (itemDate < fromDate) {
-          return false
-        }
+      const itemYear = itemDate.getFullYear()
+      if (filterYearFrom !== '' && itemYear < filterYearFrom) {
+        return false
       }
-      if (filterDateTo) {
-        const toDate = new Date(filterDateTo)
-        if (itemDate > toDate) {
-          return false
-        }
+      if (filterYearTo !== '' && itemYear > filterYearTo) {
+        return false
       }
 
       return true
     })
-  }, [data, filterCurrency, filterDateFrom, filterDateTo])
+  }, [data, filterCurrency, filterYearFrom, filterYearTo])
 
   // Sort data
   const sortedData = useMemo(() => {
@@ -152,38 +157,46 @@ export default function DataTable({ data, currencies, loading = false }: DataTab
             </select>
           </div>
 
-          {/* Date From Filter */}
+          {/* From Year Filter */}
           <div>
-            <label htmlFor="filter-date-from" className="block text-sm font-medium text-gray-700 mb-2">
-              From Date
+            <label htmlFor="filter-year-from" className="block text-sm font-medium text-gray-700 mb-2">
+              From Year
             </label>
-            <input
-              type="date"
-              id="filter-date-from"
-              value={filterDateFrom}
+            <select
+              id="filter-year-from"
+              value={filterYearFrom}
               onChange={(e) => {
-                setFilterDateFrom(e.target.value)
+                setFilterYearFrom(e.target.value === '' ? '' : Number(e.target.value))
                 setCurrentPage(1)
               }}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
+            >
+              <option value="">All</option>
+              {dataYears.map(y => (
+                <option key={y} value={y} disabled={filterYearTo !== '' && y > filterYearTo}>{y}</option>
+              ))}
+            </select>
           </div>
 
-          {/* Date To Filter */}
+          {/* To Year Filter */}
           <div>
-            <label htmlFor="filter-date-to" className="block text-sm font-medium text-gray-700 mb-2">
-              To Date
+            <label htmlFor="filter-year-to" className="block text-sm font-medium text-gray-700 mb-2">
+              To Year
             </label>
-            <input
-              type="date"
-              id="filter-date-to"
-              value={filterDateTo}
+            <select
+              id="filter-year-to"
+              value={filterYearTo}
               onChange={(e) => {
-                setFilterDateTo(e.target.value)
+                setFilterYearTo(e.target.value === '' ? '' : Number(e.target.value))
                 setCurrentPage(1)
               }}
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-            />
+            >
+              <option value="">All</option>
+              {dataYears.map(y => (
+                <option key={y} value={y} disabled={filterYearFrom !== '' && y < filterYearFrom}>{y}</option>
+              ))}
+            </select>
           </div>
         </div>
 

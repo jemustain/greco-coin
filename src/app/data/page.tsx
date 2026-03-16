@@ -1,6 +1,7 @@
 /**
  * Data Page - Access raw Greco historical currency data
  * Features: date range selection, interval control, sorting, pagination, pivot views, CSV export
+ * Also: commodity price data and production data export
  */
 
 'use client'
@@ -9,13 +10,45 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react'
 import DataTable from '@/components/data/DataTable'
 import PivotControls, { PivotMode, ViewMode } from '@/components/data/PivotControls'
 import ExportButton from '@/components/data/ExportButton'
+import CommoditySelector from '@/components/charts/CommoditySelector'
 import Loading from '@/components/ui/Loading'
-import { loadCurrencies } from '@/lib/data/loader'
+import { loadCurrencies, loadCommodities } from '@/lib/data/loader'
 import { GrecoValue } from '@/lib/types/greco'
 import { Currency } from '@/lib/types/currency'
 import { formatCurrency } from '@/lib/utils/format'
 
 type Interval = 'monthly' | 'quarterly' | 'annual'
+
+interface CommodityDataPoint {
+  date: string
+  price: number
+  unit: string
+  quality: string
+}
+
+interface CommodityInfo {
+  id: string
+  name: string
+  category: string
+}
+
+interface ProductionDataPoint {
+  year: number
+  production: number
+  unit: string
+  source: string
+  quality: string
+}
+
+function downloadCsv(filename: string, csvContent: string) {
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' })
+  const url = URL.createObjectURL(blob)
+  const link = document.createElement('a')
+  link.href = url
+  link.download = filename
+  link.click()
+  URL.revokeObjectURL(url)
+}
 
 export default function DataPage() {
   const [currencies, setCurrencies] = useState<Currency[]>([])
@@ -31,12 +64,73 @@ export default function DataPage() {
   const [endYear, setEndYear] = useState(new Date().getFullYear())
   const [interval, setInterval] = useState<Interval>('annual')
 
+  // Commodity data state
+  const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
+  const [selectedCommodities, setSelectedCommodities] = useState<string[]>([])
+  const [commodityData, setCommodityData] = useState<Record<string, CommodityDataPoint[]>>({})
+  const [commodityLoading, setCommodityLoading] = useState(false)
+  const [commodityError, setCommodityError] = useState<string | null>(null)
+
+  // Production data state
+  const [productionData, setProductionData] = useState<Record<string, ProductionDataPoint[]>>({})
+  const [productionLoading, setProductionLoading] = useState(false)
+  const [productionError, setProductionError] = useState<string | null>(null)
+
   // Load currencies once
   useEffect(() => {
     loadCurrencies().then(all => {
       setCurrencies(all.filter(c => c.id === 'USD'))
     })
   }, [])
+
+  // Load commodity list once
+  useEffect(() => {
+    loadCommodities()
+      .then((data) => {
+        setAllCommodities(
+          data.map((c) => ({
+            id: c.id,
+            name: c.name,
+            category: c.category,
+          }))
+        )
+      })
+      .catch(() => {})
+  }, [])
+
+  // Fetch commodity price data when selection changes
+  useEffect(() => {
+    if (selectedCommodities.length === 0) {
+      setCommodityData({})
+      setProductionData({})
+      return
+    }
+    const ids = selectedCommodities.join(',')
+
+    // Fetch price data
+    setCommodityLoading(true)
+    setCommodityError(null)
+    fetch(`/api/commodity-timeseries?commodities=${ids}&startDate=${startYear}-01-01&endDate=${endYear}-12-31&interval=${interval}`)
+      .then(res => {
+        if (!res.ok) throw new Error(`API error: ${res.status}`)
+        return res.json()
+      })
+      .then((data: Record<string, CommodityDataPoint[]>) => setCommodityData(data))
+      .catch(err => setCommodityError(err.message))
+      .finally(() => setCommodityLoading(false))
+
+    // Fetch production data
+    setProductionLoading(true)
+    setProductionError(null)
+    fetch(`/api/production-timeseries?commodities=${ids}&startYear=${startYear}&endYear=${endYear}`)
+      .then(res => {
+        if (!res.ok) throw new Error(`API error: ${res.status}`)
+        return res.json()
+      })
+      .then((data: Record<string, ProductionDataPoint[]>) => setProductionData(data))
+      .catch(err => setProductionError(err.message))
+      .finally(() => setProductionLoading(false))
+  }, [selectedCommodities, startYear, endYear, interval])
 
   // Fetch data when range/interval changes
   const fetchData = useCallback(async () => {
