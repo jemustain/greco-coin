@@ -218,6 +218,44 @@ export default function DataPage() {
     return opts
   }, [])
 
+  // Flatten commodity data for table display
+  const flatCommodityRows = useMemo(() => {
+    const rows: { date: string; commodity: string; price: number; unit: string }[] = []
+    const nameMap = new Map(allCommodities.map(c => [c.id, c.name]))
+    for (const [id, points] of Object.entries(commodityData)) {
+      for (const p of points) {
+        rows.push({ date: p.date, commodity: nameMap.get(id) || id, price: p.price, unit: p.unit })
+      }
+    }
+    rows.sort((a, b) => a.date.localeCompare(b.date) || a.commodity.localeCompare(b.commodity))
+    return rows
+  }, [commodityData, allCommodities])
+
+  // Flatten production data for table display
+  const flatProductionRows = useMemo(() => {
+    const rows: { year: number; commodity: string; production: number; unit: string; source: string }[] = []
+    const nameMap = new Map(allCommodities.map(c => [c.id, c.name]))
+    for (const [id, points] of Object.entries(productionData)) {
+      for (const p of points) {
+        rows.push({ year: p.year, commodity: nameMap.get(id) || id, production: p.production, unit: p.unit, source: p.source })
+      }
+    }
+    rows.sort((a, b) => a.year - b.year || a.commodity.localeCompare(b.commodity))
+    return rows
+  }, [productionData, allCommodities])
+
+  const handleExportCommodityCsv = useCallback(() => {
+    const header = 'Date,Commodity,Price (USD),Unit'
+    const csvRows = flatCommodityRows.map(r => `${r.date},"${r.commodity}",${r.price},${r.unit}`)
+    downloadCsv('commodity-prices.csv', [header, ...csvRows].join('\n'))
+  }, [flatCommodityRows])
+
+  const handleExportProductionCsv = useCallback(() => {
+    const header = 'Year,Commodity,Production,Unit,Source'
+    const csvRows = flatProductionRows.map(r => `${r.year},"${r.commodity}",${r.production},${r.unit},"${r.source}"`)
+    downloadCsv('production-data.csv', [header, ...csvRows].join('\n'))
+  }, [flatProductionRows])
+
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
@@ -346,6 +384,133 @@ export default function DataPage() {
               />
             )}
           </>
+        )}
+
+        {/* Commodity Price Data Section */}
+        <div className="border-t border-gray-200 pt-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">Commodity Price Data</h2>
+          <p className="text-gray-600 mb-6">
+            Select commodities to view and export their historical price data.
+          </p>
+
+          <CommoditySelector
+            commodities={allCommodities}
+            selectedCommodities={selectedCommodities}
+            onSelectionChange={setSelectedCommodities}
+            maxSelections={10}
+          />
+
+          {commodityLoading && <div className="mt-4"><Loading /></div>}
+          {commodityError && (
+            <div className="mt-4 bg-red-50 border border-red-200 rounded-lg p-4">
+              <p className="text-red-700 text-sm">{commodityError}</p>
+            </div>
+          )}
+
+          {!commodityLoading && selectedCommodities.length > 0 && Object.keys(commodityData).length > 0 && (
+            <div className="mt-6 space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-lg font-semibold text-gray-900">
+                  Price Data ({flatCommodityRows.length.toLocaleString()} records)
+                </h3>
+                <button
+                  onClick={handleExportCommodityCsv}
+                  className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                >
+                  📥 Export CSV
+                </button>
+              </div>
+              <div className="bg-white rounded-lg shadow overflow-hidden">
+                <div className="overflow-x-auto max-h-96">
+                  <table className="w-full border-collapse">
+                    <thead className="bg-gray-50 border-b border-gray-200 sticky top-0">
+                      <tr>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Commodity</th>
+                        <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Price (USD)</th>
+                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Unit</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      {flatCommodityRows.slice(0, 200).map((row, i) => (
+                        <tr key={i} className="hover:bg-gray-50">
+                          <td className="px-6 py-2 text-sm text-gray-900 font-mono">{row.date}</td>
+                          <td className="px-6 py-2 text-sm text-gray-900">{row.commodity}</td>
+                          <td className="px-6 py-2 text-sm text-gray-900 text-right font-mono">{row.price.toFixed(4)}</td>
+                          <td className="px-6 py-2 text-sm text-gray-500">{row.unit}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                {flatCommodityRows.length > 200 && (
+                  <div className="bg-gray-50 border-t border-gray-200 px-6 py-2 text-xs text-gray-500 text-center">
+                    Showing first 200 of {flatCommodityRows.length.toLocaleString()} rows. Export CSV for full data.
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Production Data Section */}
+        {!productionLoading && selectedCommodities.length > 0 && Object.keys(productionData).length > 0 && (
+          <div className="border-t border-gray-200 pt-8">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900">Production Data</h2>
+                <p className="text-gray-600 text-sm">
+                  Annual world production volumes ({flatProductionRows.length.toLocaleString()} records)
+                </p>
+              </div>
+              <button
+                onClick={handleExportProductionCsv}
+                className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+              >
+                📥 Export CSV
+              </button>
+            </div>
+            <div className="bg-white rounded-lg shadow overflow-hidden">
+              <div className="overflow-x-auto max-h-96">
+                <table className="w-full border-collapse">
+                  <thead className="bg-gray-50 border-b border-gray-200 sticky top-0">
+                    <tr>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Year</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Commodity</th>
+                      <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">Production</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Unit</th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Source</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200">
+                    {flatProductionRows.slice(0, 200).map((row, i) => (
+                      <tr key={i} className="hover:bg-gray-50">
+                        <td className="px-6 py-2 text-sm text-gray-900 font-mono">{row.year}</td>
+                        <td className="px-6 py-2 text-sm text-gray-900">{row.commodity}</td>
+                        <td className="px-6 py-2 text-sm text-gray-900 text-right font-mono">{row.production.toLocaleString()}</td>
+                        <td className="px-6 py-2 text-sm text-gray-500">{row.unit}</td>
+                        <td className="px-6 py-2 text-sm text-gray-500">{row.source}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {flatProductionRows.length > 200 && (
+                <div className="bg-gray-50 border-t border-gray-200 px-6 py-2 text-xs text-gray-500 text-center">
+                  Showing first 200 of {flatProductionRows.length.toLocaleString()} rows. Export CSV for full data.
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {productionLoading && selectedCommodities.length > 0 && (
+          <div className="mt-4"><Loading /></div>
+        )}
+        {productionError && (
+          <div className="mt-4 bg-red-50 border border-red-200 rounded-lg p-4">
+            <p className="text-red-700 text-sm">{productionError}</p>
+          </div>
         )}
 
         {/* Help Section */}
