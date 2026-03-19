@@ -251,7 +251,7 @@ export default function DataPage() {
             commodities={allCommodities}
             selectedCommodities={selectedCommodities}
             onSelectionChange={setSelectedCommodities}
-            maxSelections={10}
+            
           />
 
           {commodityLoading && <div className="mt-4"><Loading /></div>}

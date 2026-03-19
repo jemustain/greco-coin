@@ -17,7 +17,6 @@ interface CommoditySelectorProps {
   commodities: CommodityInfo[]
   selectedCommodities: string[]
   onSelectionChange: (commodityIds: string[]) => void
-  maxSelections?: number
 }
 
 const ESTIMATED_COMMODITY_IDS = new Set([
@@ -50,7 +49,6 @@ export default function CommoditySelector({
   commodities,
   selectedCommodities,
   onSelectionChange,
-  maxSelections = 10,
 }: CommoditySelectorProps) {
   const isMobile = useIsMobile()
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set())
@@ -72,12 +70,14 @@ export default function CommoditySelector({
   const handleToggle = (id: string) => {
     if (selectedCommodities.includes(id)) {
       onSelectionChange(selectedCommodities.filter((c) => c !== id))
-    } else if (selectedCommodities.length < maxSelections) {
+    } else {
       onSelectionChange([...selectedCommodities, id])
     }
   }
 
   const handleClearAll = () => onSelectionChange([])
+  const handleSelectAll = () => onSelectionChange(commodities.map(c => c.id))
+  const allSelected = commodities.length > 0 && selectedCommodities.length === commodities.length
 
   const toggleCategory = (category: string) => {
     setExpandedCategories(prev => {
@@ -96,20 +96,16 @@ export default function CommoditySelector({
 
   const renderChip = (commodity: CommodityInfo) => {
     const isSelected = selectedCommodities.includes(commodity.id)
-    const isDisabled = !isSelected && selectedCommodities.length >= maxSelections
 
     return (
       <button
         key={commodity.id}
         onClick={() => handleToggle(commodity.id)}
-        disabled={isDisabled}
         className={`
           text-sm px-3 py-1.5 rounded-full border transition-colors
           ${
             isSelected
               ? 'bg-blue-100 border-blue-400 text-blue-800 font-medium'
-              : isDisabled
-              ? 'bg-gray-50 border-gray-200 text-gray-400 cursor-not-allowed'
               : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400'
           }
         `}
@@ -130,17 +126,28 @@ export default function CommoditySelector({
             Commodity Price Trends
           </h3>
           <p className="text-sm text-gray-500">
-            Select up to {maxSelections} commodities to compare ({selectedCommodities.length}/{maxSelections})
+            {selectedCommodities.length} of {commodities.length} commodities selected
           </p>
         </div>
-        {selectedCommodities.length > 0 && (
-          <button
-            onClick={handleClearAll}
-            className="text-sm text-gray-500 hover:text-gray-700 underline"
-          >
-            Clear all
-          </button>
-        )}
+        <div className="flex items-center gap-3">
+          <label className="flex items-center gap-2 cursor-pointer text-sm text-gray-700">
+            <input
+              type="checkbox"
+              checked={allSelected}
+              onChange={() => allSelected ? handleClearAll() : handleSelectAll()}
+              className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            Select All
+          </label>
+          {selectedCommodities.length > 0 && !allSelected && (
+            <button
+              onClick={handleClearAll}
+              className="text-sm text-gray-500 hover:text-gray-700 underline"
+            >
+              Clear
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Popular Quick Picks */}

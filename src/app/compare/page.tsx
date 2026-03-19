@@ -316,7 +316,7 @@ export default function CommoditiesPage() {
           commodities={allCommodities}
           selectedCommodities={selectedCommodities}
           onSelectionChange={setSelectedCommodities}
-          maxSelections={5}
+          
         />
 
         {selectedCommodities.length > 0 && (
@@ -425,7 +425,7 @@ export default function CommoditiesPage() {
             commodities={allCommodities}
             selectedCommodities={selectedProductionCommodities}
             onSelectionChange={setSelectedProductionCommodities}
-            maxSelections={5}
+            
           />
 
           {selectedProductionCommodities.length > 0 && (
