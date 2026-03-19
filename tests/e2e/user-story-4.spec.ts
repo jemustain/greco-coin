@@ -62,15 +62,18 @@ test.describe('User Story 4: Educational Content', () => {
   test('should have link to explore data', async ({ page }) => {
     await page.goto('/about')
 
-    const dataLink = page.locator('a[href="/data"]')
-    await expect(dataLink.first()).toBeVisible()
+    // Target the in-page "Explore Data" link, not the nav link (which is hidden on mobile)
+    const dataLink = page.locator('a[href="/data"]:has-text("Explore Data")').first()
+    await expect(dataLink).toBeVisible()
   })
 
   test('should be responsive on mobile', async ({ page, isMobile }) => {
     if (isMobile) {
       await page.goto('/about')
       await expect(page.locator('h1')).toContainText('About the Greco Unit')
-      await expect(page.locator('nav')).toBeVisible()
+      // Nav is behind hamburger on mobile
+      const hamburger = page.locator('button[aria-label="Toggle navigation menu"]')
+      await expect(hamburger).toBeVisible()
     }
   })
 

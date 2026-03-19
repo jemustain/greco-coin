@@ -53,17 +53,25 @@ test.describe('User Story 1: MVP Interactive Charts', () => {
 
   test('should be responsive on mobile', async ({ page, isMobile }) => {
     if (isMobile) {
-      const nav = page.locator('nav')
-      await expect(nav).toBeVisible()
+      // On mobile, nav is behind hamburger menu
+      const hamburger = page.locator('button[aria-label="Toggle navigation menu"]')
+      await expect(hamburger).toBeVisible()
 
       const chartContainer = page.locator('.chart-container')
       await expect(chartContainer).toBeVisible({ timeout: 15000 })
     }
   })
 
-  test('should have accessible navigation', async ({ page }) => {
-    await expect(page.locator('nav')).toBeVisible()
-    // Nav links exist (may be in a dropdown on mobile)
+  test('should have accessible navigation', async ({ page, isMobile }) => {
+    if (isMobile) {
+      // Open hamburger menu first
+      const hamburger = page.locator('button[aria-label="Toggle navigation menu"]')
+      await hamburger.click()
+      await expect(page.locator('nav[aria-label="Mobile navigation"]')).toBeVisible()
+    } else {
+      await expect(page.locator('nav[aria-label="Main navigation"]')).toBeVisible()
+    }
+    // Nav links exist
     const compareLink = page.locator('a[href="/compare"]')
     const dataLink = page.locator('a[href="/data"]')
     expect(await compareLink.count() + await dataLink.count()).toBeGreaterThan(0)
