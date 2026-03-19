@@ -115,7 +115,7 @@ export default function DataPage() {
         if (!res.ok) throw new Error(`API error: ${res.status}`)
         return res.json()
       })
-      .then((data: Record<string, CommodityDataPoint[]>) => setCommodityData(data))
+      .then((data: { commodities: Record<string, CommodityDataPoint[]> }) => setCommodityData(data.commodities))
       .catch(err => setCommodityError(err.message))
       .finally(() => setCommodityLoading(false))
 
