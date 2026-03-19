@@ -100,7 +100,7 @@ export async function calculateGrecoValueOptimized(
   }
 
   // Determine quality indicator
-  const qualityIndicator: DataQualityIndicator = completeness >= 95 ? DataQualityIndicator.HIGH : DataQualityIndicator.MEDIUM;
+  const qualityIndicator: DataQualityIndicator = completeness >= 0.95 ? DataQualityIndicator.HIGH : DataQualityIndicator.MEDIUM;
 
   return {
     date,
