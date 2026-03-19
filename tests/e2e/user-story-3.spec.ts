@@ -1,6 +1,6 @@
 /**
  * E2E Tests for User Story 3: Data Access and Export
- * Tests the /data page with tables, filters, and CSV export
+ * Tests the /data page with commodity tables, filters, and CSV export
  */
 
 import { test, expect } from '@playwright/test'
@@ -17,16 +17,15 @@ test.describe('User Story 3: Data Access and Export', () => {
 
   test('should display data table', async ({ page, isMobile }) => {
     if (isMobile) {
-      // On mobile, tables are hidden and card views are shown instead
-      // Wait for data to load by checking for Export Data section
-      const exportSection = page.locator('text=Export Data')
-      await expect(exportSection).toBeVisible({ timeout: 30000 })
+      // Wait for commodity data to load
+      const priceHeading = page.locator('text=Price Data')
+      await expect(priceHeading).toBeVisible({ timeout: 30000 })
       // Mobile card view should be visible
       const mobileCards = page.locator('.md\\:hidden .divide-y, .md\\:hidden')
       const count = await mobileCards.count()
       expect(count).toBeGreaterThan(0)
     } else {
-      // Desktop: tables are visible
+      // Desktop: commodity tables are visible
       const table = page.locator('table').first()
       await expect(table).toBeVisible({ timeout: 30000 })
       const rows = table.locator('tbody tr')
@@ -65,9 +64,9 @@ test.describe('User Story 3: Data Access and Export', () => {
   })
 
   test('should have export section', async ({ page }) => {
-    // Export Data section only renders after loading completes
-    const exportSection = page.locator('text=Export Data')
-    await expect(exportSection).toBeVisible({ timeout: 30000 })
+    // Export CSV buttons render with commodity data
+    const exportButton = page.locator('text=Export CSV').first()
+    await expect(exportButton).toBeVisible({ timeout: 30000 })
   })
 
   test('should have usage instructions', async ({ page }) => {
