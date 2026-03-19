@@ -66,7 +66,7 @@ export default function DataPage() {
 
   // Commodity data state
   const [allCommodities, setAllCommodities] = useState<CommodityInfo[]>([])
-  const [selectedCommodities, setSelectedCommodities] = useState<string[]>([])
+  const [selectedCommodities, setSelectedCommodities] = useState<string[]>(['gold', 'silver', 'petroleum', 'wheat', 'copper'])
   const [commodityData, setCommodityData] = useState<Record<string, CommodityDataPoint[]>>({})
   const [commodityLoading, setCommodityLoading] = useState(false)
   const [commodityError, setCommodityError] = useState<string | null>(null)
@@ -115,7 +115,7 @@ export default function DataPage() {
         if (!res.ok) throw new Error(`API error: ${res.status}`)
         return res.json()
       })
-      .then((data: { commodities: Record<string, CommodityDataPoint[]> }) => setCommodityData(data.commodities))
+      .then((data: Record<string, CommodityDataPoint[]>) => setCommodityData(data))
       .catch(err => setCommodityError(err.message))
       .finally(() => setCommodityLoading(false))
 
@@ -421,7 +421,8 @@ export default function DataPage() {
                 </button>
               </div>
               <div className="bg-white rounded-lg shadow overflow-hidden">
-                <div className="overflow-x-auto max-h-96">
+                {/* Desktop table */}
+                <div className="hidden md:block overflow-x-auto max-h-96">
                   <table className="w-full border-collapse">
                     <thead className="bg-gray-50 border-b border-gray-200 sticky top-0">
                       <tr>
@@ -443,35 +444,8 @@ export default function DataPage() {
                     </tbody>
                   </table>
                 </div>
-                {flatCommodityRows.length > 200 && (
-                  <div className="bg-gray-50 border-t border-gray-200 px-6 py-2 text-xs text-gray-500 text-center">
-                    Showing first 200 of {flatCommodityRows.length.toLocaleString()} rows. Export CSV for full data.
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Production Data Section */}
-        {!productionLoading && selectedCommodities.length > 0 && Object.keys(productionData).length > 0 && (
-          <div className="border-t border-gray-200 pt-8">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900">Production Data</h2>
-                <p className="text-gray-600 text-sm">
-                  Annual world production volumes ({flatProductionRows.length.toLocaleString()} records)
-                </p>
-              </div>
-              <button
-                onClick={handleExportProductionCsv}
-                className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
-              >
-                📥 Export CSV
-              </button>
-            </div>
-            <div className="bg-white rounded-lg shadow overflow-hidden">
-              <div className="overflow-x-auto max-h-96">
+              {/* Desktop table */}
+              <div className="hidden md:block overflow-x-auto max-h-96">
                 <table className="w-full border-collapse">
                   <thead className="bg-gray-50 border-b border-gray-200 sticky top-0">
                     <tr>
@@ -494,6 +468,22 @@ export default function DataPage() {
                     ))}
                   </tbody>
                 </table>
+              </div>
+              {/* Mobile card view */}
+              <div className="md:hidden max-h-96 overflow-y-auto divide-y divide-gray-100">
+                {flatProductionRows.slice(0, 200).map((row, i) => (
+                  <div key={i} className="p-4 hover:bg-gray-50">
+                    <div className="flex justify-between items-start mb-1">
+                      <span className="text-sm font-medium text-gray-900">{row.commodity}</span>
+                      <span className="text-sm font-mono text-gray-900">{row.production.toLocaleString()}</span>
+                    </div>
+                    <div className="flex justify-between text-xs text-gray-500">
+                      <span className="font-mono">{row.year}</span>
+                      <span>{row.unit}</span>
+                    </div>
+                    <div className="text-xs text-gray-400 mt-0.5">{row.source}</div>
+                  </div>
+                ))}
               </div>
               {flatProductionRows.length > 200 && (
                 <div className="bg-gray-50 border-t border-gray-200 px-6 py-2 text-xs text-gray-500 text-center">
