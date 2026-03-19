@@ -1,6 +1,6 @@
 /**
  * E2E Tests for User Story 4: Educational Content
- * Tests the /about pages with methodology and sources
+ * Tests the /about page with methodology, commodities, and sources (all on one page)
  */
 
 import { test, expect } from '@playwright/test'
@@ -24,47 +24,46 @@ test.describe('User Story 4: Educational Content', () => {
     await expect(whatIsGreco).toBeVisible()
   })
 
-  test('should navigate to methodology page', async ({ page }) => {
+  test('should display the 33 commodities', async ({ page }) => {
     await page.goto('/about')
 
-    const methodologyLink = page.locator('a[href*="methodology"]')
-    await expect(methodologyLink.first()).toBeVisible()
-    await methodologyLink.first().click()
+    // Should list "The 33 Commodities" section
+    const commoditiesSection = page.locator('text=The 33 Commodities')
+    await expect(commoditiesSection).toBeVisible()
 
-    await expect(page).toHaveURL(/methodology/)
-    await expect(page.locator('h1')).toBeVisible()
-  })
-
-  test('should display commodities on methodology page', async ({ page }) => {
-    await page.goto('/about/methodology')
-
-    // Should reference commodities
+    // Should reference specific commodities
     const commodityText = page.locator('text=/Gold|Silver|Iron|Copper|Wheat|Corn/i')
     await expect(commodityText.first()).toBeVisible()
-
-    // Should have tables listing commodities
-    const tables = page.locator('table')
-    const tableCount = await tables.count()
-    expect(tableCount).toBeGreaterThan(0)
   })
 
-  test('should navigate to sources page', async ({ page }) => {
+  test('should explain how it works (methodology)', async ({ page }) => {
     await page.goto('/about')
 
-    const sourcesLink = page.locator('a[href*="sources"]')
-    if (await sourcesLink.count() > 0) {
-      await sourcesLink.first().click()
-      await expect(page).toHaveURL(/sources/)
-      await expect(page.locator('h1')).toBeVisible()
-    }
+    const howItWorks = page.locator('text=How It Works')
+    await expect(howItWorks).toBeVisible()
+
+    // Should have numbered steps
+    const steps = page.locator('text=/Collect prices|Normalize to USD|Compute basket|Normalize to baseline/i')
+    await expect(steps.first()).toBeVisible()
   })
 
-  test('should list data sources on sources page', async ({ page }) => {
-    await page.goto('/about/sources')
+  test('should list data sources', async ({ page }) => {
+    await page.goto('/about')
+
+    // Should have Data Sources section
+    const sourcesSection = page.locator('text=Data Sources')
+    await expect(sourcesSection).toBeVisible()
 
     // Should reference known data sources
-    const sourceText = page.locator('text=/USGS|World Bank|FRED/i')
+    const sourceText = page.locator('text=/USGS|FRED|EIA|FAOSTAT/i')
     await expect(sourceText.first()).toBeVisible()
+  })
+
+  test('should have link to explore data', async ({ page }) => {
+    await page.goto('/about')
+
+    const dataLink = page.locator('a[href="/data"]')
+    await expect(dataLink.first()).toBeVisible()
   })
 
   test('should be responsive on mobile', async ({ page, isMobile }) => {

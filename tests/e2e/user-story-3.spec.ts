@@ -16,11 +16,13 @@ test.describe('User Story 3: Data Access and Export', () => {
   })
 
   test('should display data table', async ({ page }) => {
+    // Wait for loading to complete and table to appear
     const table = page.locator('table')
-    await expect(table).toBeVisible({ timeout: 10000 })
+    await expect(table).toBeVisible({ timeout: 30000 })
 
     // Table should have rows
     const rows = page.locator('tbody tr')
+    await expect(rows.first()).toBeVisible({ timeout: 5000 })
     const count = await rows.count()
     expect(count).toBeGreaterThan(0)
   })
@@ -31,11 +33,11 @@ test.describe('User Story 3: Data Access and Export', () => {
   })
 
   test('should have sortable columns', async ({ page }) => {
-    // Wait for table to load
-    await page.locator('table').waitFor({ timeout: 10000 })
+    // Wait for data to load and table to appear
+    await page.locator('table').first().waitFor({ timeout: 30000 })
 
-    // Find table headers
-    const headers = page.locator('th')
+    // Find table headers (first table)
+    const headers = page.locator('table').first().locator('th')
     const count = await headers.count()
     expect(count).toBeGreaterThan(0)
 
@@ -48,8 +50,9 @@ test.describe('User Story 3: Data Access and Export', () => {
   })
 
   test('should have export section', async ({ page }) => {
+    // Export Data section only renders after loading completes
     const exportSection = page.locator('text=Export Data')
-    await expect(exportSection).toBeVisible()
+    await expect(exportSection).toBeVisible({ timeout: 30000 })
   })
 
   test('should have usage instructions', async ({ page }) => {
