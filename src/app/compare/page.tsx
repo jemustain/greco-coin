@@ -56,7 +56,7 @@ export default function CommoditiesPage() {
   const [loadingCommodities, setLoadingCommodities] = useState(true)
 
   // Commodity price state
-  const [selectedCommodities, setSelectedCommodities] = useState<string[]>([])
+  const [selectedCommodities, setSelectedCommodities] = useState<string[]>(['gold', 'silver', 'petroleum', 'wheat', 'copper'])
   const [commodityChartData, setCommodityChartData] = useState<CommodityChartPoint[]>([])
   const [commodityLoading, setCommodityLoading] = useState(false)
   const [commodityMetadata, setCommodityMetadata] = useState<Record<string, { name: string }>>({})
