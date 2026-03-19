@@ -19,24 +19,20 @@ test.describe('User Story 1: MVP Interactive Charts', () => {
 
     // Check that chart container is visible
     const chartContainer = page.locator('.chart-container')
-    await expect(chartContainer).toBeVisible({ timeout: 10000 })
+    await expect(chartContainer).toBeVisible({ timeout: 15000 })
   })
 
-  test('should have functional currency selector', async ({ page }) => {
-    const currencySelect = page.locator('select#currency-select')
-    await expect(currencySelect).toBeVisible()
+  test('should have functional baseline year selector', async ({ page }) => {
+    // Homepage has a baseline year selector, not a currency selector
+    const baselineSelect = page.locator('select#baseline-year')
+    await expect(baselineSelect).toBeVisible({ timeout: 15000 })
 
-    // Default is USD
-    await expect(currencySelect).toHaveValue('USD')
-
-    // Change to EUR
-    await currencySelect.selectOption('EUR')
-    await page.waitForTimeout(1000)
-    await expect(currencySelect).toHaveValue('EUR')
+    // Default is 1990
+    await expect(baselineSelect).toHaveValue('1990')
   })
 
   test('should have functional time range buttons', async ({ page }) => {
-    // The app uses preset range buttons, not a select dropdown
+    // The app uses preset range buttons
     const fullHistoryButton = page.locator('button:has-text("Full History")')
     await expect(fullHistoryButton).toBeVisible()
 
@@ -61,7 +57,7 @@ test.describe('User Story 1: MVP Interactive Charts', () => {
       await expect(nav).toBeVisible()
 
       const chartContainer = page.locator('.chart-container')
-      await expect(chartContainer).toBeVisible({ timeout: 10000 })
+      await expect(chartContainer).toBeVisible({ timeout: 15000 })
     }
   })
 

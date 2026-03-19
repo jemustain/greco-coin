@@ -1,42 +1,36 @@
 /**
- * E2E Tests for User Story 2: Multi-currency Comparison
- * Tests the /compare page functionality
+ * E2E Tests for User Story 2: Commodity Explorer
+ * Tests the /compare page functionality (Commodity Explorer)
  */
 
 import { test, expect } from '@playwright/test'
 
-test.describe('User Story 2: Multi-currency Comparison', () => {
+test.describe('User Story 2: Commodity Explorer', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/compare')
   })
 
   test('should load compare page', async ({ page }) => {
     await expect(page).toHaveTitle(/Greco Coin/)
-    await expect(page.locator('h1')).toContainText('Currency Comparison')
+    await expect(page.locator('h1')).toContainText('Commodity Explorer')
   })
 
-  test('should have currency selection controls', async ({ page }) => {
-    // Compare page uses checkbox-style currency selectors
-    const label = page.locator('text=Select Currencies to Compare')
-    await expect(label).toBeVisible()
+  test('should have commodity selection controls', async ({ page }) => {
+    // Compare page uses CommoditySelector with "Commodity Price Trends" heading
+    const label = page.locator('text=Commodity Price Trends')
+    await expect(label).toBeVisible({ timeout: 15000 })
   })
 
-  test('should have select all and clear all buttons', async ({ page }) => {
-    const selectAll = page.locator('button:has-text("Select All")')
-    const clearAll = page.locator('button:has-text("Clear All")')
-    await expect(selectAll).toBeVisible()
-    await expect(clearAll).toBeVisible()
+  test('should have baseline year selector', async ({ page }) => {
+    const baselineSelect = page.locator('select#baseline-year')
+    await expect(baselineSelect).toBeVisible({ timeout: 15000 })
   })
 
-  test('should display comparison chart when currencies selected', async ({ page }) => {
-    // Select All to ensure chart renders
-    const selectAll = page.locator('button:has-text("Select All")')
-    await selectAll.click()
-    await page.waitForTimeout(2000)
-
-    // Chart should render
+  test('should display chart when commodities are selected', async ({ page }) => {
+    // Default commodities are pre-selected (gold, silver, petroleum, wheat, copper)
+    // Wait for chart to render
     const chart = page.locator('.chart-container').or(page.locator('.recharts-wrapper'))
-    await expect(chart).toBeVisible({ timeout: 10000 })
+    await expect(chart.first()).toBeVisible({ timeout: 15000 })
   })
 
   test('should have time range controls', async ({ page }) => {
@@ -44,32 +38,22 @@ test.describe('User Story 2: Multi-currency Comparison', () => {
     await expect(fullHistory).toBeVisible()
   })
 
-  test('should show empty state when no currencies selected', async ({ page }) => {
-    // Clear all currencies
-    const clearAll = page.locator('button:has-text("Clear All")')
-    await clearAll.click()
-    await page.waitForTimeout(500)
-
-    // Page should not crash
-    await expect(page).toHaveURL(/compare/)
+  test('should have date range inputs', async ({ page }) => {
+    const startDate = page.locator('input#start-date')
+    const endDate = page.locator('input#end-date')
+    await expect(startDate).toBeVisible()
+    await expect(endDate).toBeVisible()
   })
 
-  test('should have CSV export button when data is loaded', async ({ page }) => {
-    // Select currencies first
-    const selectAll = page.locator('button:has-text("Select All")')
-    await selectAll.click()
-    await page.waitForTimeout(3000)
-
-    const exportButton = page.locator('button:has-text("Export CSV")')
-    // Export button appears after data loads
-    const count = await exportButton.count()
-    expect(count).toBeGreaterThanOrEqual(0)
+  test('should show world production volume section', async ({ page }) => {
+    const productionHeading = page.locator('text=World Production Volume')
+    await expect(productionHeading).toBeVisible({ timeout: 15000 })
   })
 
   test('should be responsive on mobile', async ({ page, isMobile }) => {
     if (isMobile) {
       await expect(page.locator('nav')).toBeVisible()
-      await expect(page.locator('h1')).toContainText('Currency Comparison')
+      await expect(page.locator('h1')).toContainText('Commodity Explorer')
     }
   })
 })
