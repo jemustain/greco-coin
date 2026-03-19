@@ -115,7 +115,7 @@ export default function DataPage() {
         if (!res.ok) throw new Error(`API error: ${res.status}`)
         return res.json()
       })
-      .then((data: Record<string, CommodityDataPoint[]>) => setCommodityData(data))
+      .then((data: Record<string, CommodityDataPoint[]> & { commodities?: Record<string, CommodityDataPoint[]> }) => setCommodityData(data.commodities || data))
       .catch(err => setCommodityError(err.message))
       .finally(() => setCommodityLoading(false))
 
@@ -127,7 +127,7 @@ export default function DataPage() {
         if (!res.ok) throw new Error(`API error: ${res.status}`)
         return res.json()
       })
-      .then((data: Record<string, ProductionDataPoint[]>) => setProductionData(data))
+      .then((data: Record<string, ProductionDataPoint[]> & { commodities?: Record<string, ProductionDataPoint[]> }) => setProductionData(data.commodities || data))
       .catch(err => setProductionError(err.message))
       .finally(() => setProductionLoading(false))
   }, [selectedCommodities, startYear, endYear, interval])
