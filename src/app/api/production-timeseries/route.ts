@@ -114,12 +114,7 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    if (commodityIds.length > 10) {
-      return NextResponse.json(
-        { error: 'Maximum 10 commodities per request' },
-        { status: 400 }
-      );
-    }
+    // No limit on number of commodities per request
 
     // Validate commodity IDs
     const allCommodities = await loadCommodities();
