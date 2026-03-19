@@ -1,10 +1,11 @@
 /**
  * CommoditySelector - Multi-select commodity picker grouped by category
+ * Features: collapsible categories on mobile, popular quick-picks, responsive design
  */
 
 'use client'
 
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 interface CommodityInfo {
   id: string
@@ -32,12 +33,28 @@ const CATEGORY_ORDER = [
   'Other',
 ]
 
+const POPULAR_COMMODITIES = ['gold', 'silver', 'copper', 'petroleum', 'wheat']
+
+function useIsMobile() {
+  const [isMobile, setIsMobile] = useState(false)
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
+  return isMobile
+}
+
 export default function CommoditySelector({
   commodities,
   selectedCommodities,
   onSelectionChange,
-  maxSelections = 5,
+  maxSelections = 10,
 }: CommoditySelectorProps) {
+  const isMobile = useIsMobile()
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set())
+
   // Group by category
   const grouped = commodities.reduce<Record<string, CommodityInfo[]>>((acc, c) => {
     const cat = c.category || 'Other'
@@ -62,6 +79,49 @@ export default function CommoditySelector({
 
   const handleClearAll = () => onSelectionChange([])
 
+  const toggleCategory = (category: string) => {
+    setExpandedCategories(prev => {
+      const next = new Set(prev)
+      if (next.has(category)) {
+        next.delete(category)
+      } else {
+        next.add(category)
+      }
+      return next
+    })
+  }
+
+  // Popular commodities that exist in the data
+  const popularItems = commodities.filter(c => POPULAR_COMMODITIES.includes(c.id))
+
+  const renderChip = (commodity: CommodityInfo) => {
+    const isSelected = selectedCommodities.includes(commodity.id)
+    const isDisabled = !isSelected && selectedCommodities.length >= maxSelections
+
+    return (
+      <button
+        key={commodity.id}
+        onClick={() => handleToggle(commodity.id)}
+        disabled={isDisabled}
+        className={`
+          text-sm px-3 py-1.5 rounded-full border transition-colors
+          ${
+            isSelected
+              ? 'bg-blue-100 border-blue-400 text-blue-800 font-medium'
+              : isDisabled
+              ? 'bg-gray-50 border-gray-200 text-gray-400 cursor-not-allowed'
+              : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400'
+          }
+        `}
+      >
+        {commodity.name}
+        {ESTIMATED_COMMODITY_IDS.has(commodity.id) && (
+          <span className="ml-1 text-amber-600" title="Estimated data">⚠️</span>
+        )}
+      </button>
+    )
+  }
+
   return (
     <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
       <div className="flex items-center justify-between mb-4">
@@ -83,44 +143,51 @@ export default function CommoditySelector({
         )}
       </div>
 
-      <div className="space-y-3">
-        {sortedCategories.map((category) => (
-          <div key={category}>
-            <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">
-              {category}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {grouped[category].map((commodity) => {
-                const isSelected = selectedCommodities.includes(commodity.id)
-                const isDisabled =
-                  !isSelected && selectedCommodities.length >= maxSelections
-
-                return (
-                  <button
-                    key={commodity.id}
-                    onClick={() => handleToggle(commodity.id)}
-                    disabled={isDisabled}
-                    className={`
-                      text-sm px-3 py-1.5 rounded-full border transition-colors
-                      ${
-                        isSelected
-                          ? 'bg-blue-100 border-blue-400 text-blue-800 font-medium'
-                          : isDisabled
-                          ? 'bg-gray-50 border-gray-200 text-gray-400 cursor-not-allowed'
-                          : 'bg-white border-gray-300 text-gray-700 hover:bg-gray-50 hover:border-gray-400'
-                      }
-                    `}
-                  >
-                    {commodity.name}
-                    {ESTIMATED_COMMODITY_IDS.has(commodity.id) && (
-                      <span className="ml-1 text-amber-600" title="Estimated data">⚠️</span>
-                    )}
-                  </button>
-                )
-              })}
-            </div>
+      {/* Popular Quick Picks */}
+      {popularItems.length > 0 && (
+        <div className="mb-4 pb-3 border-b border-gray-100">
+          <p className="text-xs font-semibold text-blue-600 uppercase tracking-wider mb-2">
+            ⭐ Popular
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {popularItems.map(renderChip)}
           </div>
-        ))}
+        </div>
+      )}
+
+      <div className="space-y-3">
+        {sortedCategories.map((category) => {
+          const items = grouped[category]
+          const selectedInCategory = items.filter(c => selectedCommodities.includes(c.id)).length
+          const isExpanded = !isMobile || expandedCategories.has(category)
+
+          return (
+            <div key={category}>
+              <button
+                type="button"
+                onClick={() => isMobile && toggleCategory(category)}
+                className={`flex items-center gap-2 text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1 ${
+                  isMobile ? 'cursor-pointer hover:text-gray-700 w-full' : 'cursor-default'
+                }`}
+              >
+                {isMobile && (
+                  <span className="text-gray-400 text-[10px]">
+                    {isExpanded ? '▼' : '▶'}
+                  </span>
+                )}
+                {category}
+                <span className="text-gray-400 font-normal normal-case">
+                  ({items.length}{selectedInCategory > 0 ? `, ${selectedInCategory} selected` : ''})
+                </span>
+              </button>
+              {isExpanded && (
+                <div className="flex flex-wrap gap-2">
+                  {items.map(renderChip)}
+                </div>
+              )}
+            </div>
+          )
+        })}
       </div>
       <p className="text-xs text-gray-500 mt-3">
         ⚠️ = estimated data (no verified source yet)
