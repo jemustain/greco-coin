@@ -18,7 +18,7 @@ test.describe('User Story 3: Data Access and Export', () => {
   test('should display data table', async ({ page, isMobile }) => {
     if (isMobile) {
       // Wait for commodity data to load
-      const priceHeading = page.locator('text=Price Data')
+      const priceHeading = page.getByRole('heading', { name: 'Commodity Price Data' })
       await expect(priceHeading).toBeVisible({ timeout: 30000 })
       // Mobile card view should be visible
       const mobileCards = page.locator('.md\\:hidden .divide-y, .md\\:hidden')
